@@ -34,3 +34,31 @@ def test_render_index_has_archive_links():
     assert 'href="daily/2026-07-05.html"' in html
     assert 'href="daily/2026-07-06.html"' in html
     assert "アーカイブ" in html
+
+def test_render_day_sorts_by_neta_and_sections():
+    day = {
+        "date": "2026-07-06",
+        "items": [
+            {"url": "https://ex.com/b", "title": "B記事", "source": "InfoQ", "lang": "en",
+             "summary": "b", "topics": ["agile"], "neta": "B"},
+            {"url": "https://ex.com/a", "title": "A記事", "source": "Zenn(アジャイル)", "lang": "ja",
+             "summary": "a", "topics": ["agile"], "neta": "A", "hook": "h"},
+            {"url": "https://ex.com/s", "title": "S記事", "source": "Ryuzee.com", "lang": "ja",
+             "summary": "s", "topics": ["scrum"], "neta": "S", "hook": "h"},
+        ],
+        "rejected_count": 0, "capped_count": 0, "failures": [],
+    }
+    html = render_day(day)
+    s_section = html.split("今日のS判定")[1].split("その他の新着")[0]
+    rest_section = html.split("その他の新着")[1].split("店長宛メモ")[0]
+    assert "S記事" in s_section and "S記事" not in rest_section
+    assert "A記事" in rest_section and "B記事" in rest_section
+    assert rest_section.index("A記事") < rest_section.index("B記事")
+
+
+def test_render_index_rewrites_relative_links():
+    latest = render_day(DAY)
+    html = render_index(["2026-07-06"], latest)
+    assert 'href="style.css"' in html
+    assert 'href="index.html"' in html
+    assert 'href="../' not in html
