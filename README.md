@@ -1,5 +1,7 @@
 # himapro radar
 
+公開ページ: https://kaaaichi.github.io/himapro-radar/
+
 ひまプロ Podcast の元ネタ発掘のための日次リサーチループ。
 毎朝 7:00 JST に Claude Code routine が起動し、固定ソース(sources.yaml)の新着を収集・採点して GitHub Pages に公開する。
 
