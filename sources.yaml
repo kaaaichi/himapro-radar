@@ -1,0 +1,66 @@
+# himapro-radar 固定ソースリスト
+# ソースの追加・削除はこのファイルだけを編集する(実在するRSS/Atomフィードのみ)
+# topics は分類のヒント: ai-dev, design, agile, scrum, xp, team, worklife
+sources:
+  # ---- 日本語 ----
+  - name: はてなブックマーク IT人気エントリ
+    feed: https://b.hatena.ne.jp/hotentry/it.rss
+    lang: ja
+    topics: [ai-dev, design, team, worklife]
+  - name: Publickey
+    feed: https://www.publickey1.jp/atom.xml
+    lang: ja
+    topics: [ai-dev, design, agile]
+  - name: Ryuzee.com
+    feed: https://www.ryuzee.com/index.xml
+    lang: ja
+    topics: [scrum, agile, team]
+  - name: Zenn(スクラム)
+    feed: https://zenn.dev/topics/scrum/feed
+    lang: ja
+    topics: [scrum]
+  - name: Zenn(アジャイル)
+    feed: https://zenn.dev/topics/agile/feed
+    lang: ja
+    topics: [agile]
+  - name: Zenn(AI駆動開発)
+    feed: https://zenn.dev/topics/ai%E9%A7%86%E5%8B%95%E9%96%8B%E7%99%BA/feed
+    lang: ja
+    topics: [ai-dev]
+  - name: Qiita(スクラム)
+    feed: https://qiita.com/tags/%E3%82%B9%E3%82%AF%E3%83%A9%E3%83%A0/feed
+    lang: ja
+    topics: [scrum]
+  - name: Qiita(アジャイル)
+    feed: https://qiita.com/tags/%E3%82%A2%E3%82%B8%E3%83%A3%E3%82%A4%E3%83%AB/feed
+    lang: ja
+    topics: [agile]
+  # ---- 英語 ----
+  - name: Martin Fowler
+    feed: https://martinfowler.com/feed.atom
+    lang: en
+    topics: [design, agile]
+  - name: Kent Beck / Tidy First
+    feed: https://tidyfirst.substack.com/feed
+    lang: en
+    topics: [xp, design]
+  - name: The Pragmatic Engineer
+    feed: https://newsletter.pragmaticengineer.com/feed
+    lang: en
+    topics: [team, worklife, ai-dev]
+  - name: Hacker News Front Page
+    feed: https://hnrss.org/frontpage
+    lang: en
+    topics: [ai-dev, design, team]
+  - name: InfoQ
+    feed: https://feed.infoq.com/
+    lang: en
+    topics: [agile, design, ai-dev]
+  - name: Addy Osmani
+    feed: https://addyosmani.com/feed.xml
+    lang: en
+    topics: [ai-dev, team]
+  - name: Simon Willison
+    feed: https://simonwillison.net/atom/everything/
+    lang: en
+    topics: [ai-dev]
