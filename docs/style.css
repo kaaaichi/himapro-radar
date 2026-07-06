@@ -1,0 +1,51 @@
+:root {
+  --bg: #efe4cb; --dark: #1d1814; --red: #b53a2e;
+  --light: #f5ecd6; --gold: #a8864a; --mid: #e3d4ae; --dim: #7a6b54;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--dark); margin: 0;
+  font-family: "Zen Kaku Gothic New", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  line-height: 1.85;
+}
+header {
+  display: flex; align-items: baseline; gap: 20px;
+  padding: 28px 24px 12px; border-bottom: 3px solid var(--dark);
+  max-width: 860px; margin: 0 auto;
+}
+.brand {
+  font-family: "Shippori Mincho", "Hiragino Mincho ProN", serif;
+  font-weight: 800; font-size: 1.1rem; color: var(--red); text-decoration: none;
+}
+h1 { font-family: "Shippori Mincho", serif; font-size: 1.4rem; margin: 0; }
+main { max-width: 860px; margin: 0 auto; padding: 12px 24px 48px; }
+h2 {
+  font-family: "Shippori Mincho", serif; font-size: 1.1rem;
+  border-bottom: 2px solid var(--red); padding-bottom: 6px; margin: 32px 0 12px;
+}
+.item {
+  background: var(--light); border: 1px solid var(--mid);
+  border-radius: 6px; padding: 14px 18px; margin: 10px 0;
+}
+.item.neta-S { border-left: 5px solid var(--red); }
+.item.neta-A { border-left: 5px solid var(--gold); }
+.item-head { display: flex; gap: 8px; align-items: center; font-size: 0.75rem; }
+.neta {
+  font-family: "Shippori Mincho", serif; font-weight: 800;
+  background: var(--dark); color: var(--light); padding: 1px 9px; border-radius: 3px;
+}
+.item.neta-S .neta { background: var(--red); }
+.topic { border: 1px solid var(--dim); color: var(--dim); padding: 0 8px; border-radius: 3px; }
+.src { margin-left: auto; color: var(--dim); }
+.item h3 { margin: 6px 0 4px; font-size: 1rem; }
+.item a { color: var(--dark); }
+.summary { margin: 0; font-size: 0.9rem; }
+.hook { margin: 6px 0 0; font-size: 0.85rem; color: var(--red); font-weight: 700; }
+.memo ul { font-size: 0.85rem; color: var(--dim); }
+.empty { color: var(--dim); font-size: 0.9rem; }
+.archive { columns: 3; font-size: 0.9rem; }
+footer {
+  max-width: 860px; margin: 0 auto; padding: 16px 24px 40px;
+  color: var(--dim); font-size: 0.75rem; border-top: 1px solid var(--mid);
+}
+@media (max-width: 600px) { .archive { columns: 1; } header { flex-direction: column; gap: 4px; } }
