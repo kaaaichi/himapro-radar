@@ -29,6 +29,7 @@ def test_diff_new_skips_seen_duplicates_and_empty_urls():
         {"url": "https://b", "title": "新規"},
         {"url": "https://b", "title": "同一URLの重複"},
         {"url": "", "title": "URLなし"},
+        {"url": "javascript:alert(1)", "title": "危険URI"},
     ]
     out = diff_new(items, {"https://a": "2026-07-05"})
     assert [i["title"] for i in out] == ["新規"]

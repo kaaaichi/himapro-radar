@@ -1,3 +1,5 @@
+import json
+
 from scripts.build import render_day, render_index
 
 DAY = {
@@ -62,3 +64,27 @@ def test_render_index_rewrites_relative_links():
     assert 'href="style.css"' in html
     assert 'href="index.html"' in html
     assert 'href="../' not in html
+
+
+def test_main_skips_broken_json(tmp_path, monkeypatch, capsys):
+    import scripts.build as build
+    data = tmp_path / "data"
+    docs = tmp_path / "docs"
+    data.mkdir()
+    (data / "2026-07-06.json").write_text(json.dumps(DAY), encoding="utf-8")
+    (data / "2026-07-05.json").write_text("{broken", encoding="utf-8")
+    monkeypatch.setattr(build, "DATA_DIR", data)
+    monkeypatch.setattr(build, "DOCS_DIR", docs)
+    build.main()
+    assert (docs / "daily" / "2026-07-06.html").exists()
+    assert not (docs / "daily" / "2026-07-05.html").exists()
+    assert (docs / "index.html").exists()
+    assert "skip 2026-07-05" in capsys.readouterr().out
+
+
+def test_render_item_blocks_dangerous_uri_schemes():
+    day = dict(DAY)
+    day["items"] = [{"url": "javascript:alert(1)", "title": "危険", "source": "X", "lang": "ja",
+                     "summary": "s", "topics": ["design"], "neta": "B"}]
+    html = render_day(day)
+    assert "javascript:" not in html

@@ -25,6 +25,9 @@ def esc(s):
 
 
 def render_item(it):
+    url = it.get("url", "")
+    if not url.startswith(("http://", "https://")):
+        url = ""
     topics = "".join(
         f'<span class="topic">{esc(TOPIC_LABELS.get(t, t))}</span>'
         for t in it.get("topics", [])
@@ -34,7 +37,7 @@ def render_item(it):
         hook = f'<p class="hook">フック候補: {esc(it["hook"])}</p>'
     return f'''<article class="item neta-{esc(it.get("neta", "B"))}">
   <div class="item-head"><span class="neta">{esc(it.get("neta", "B"))}</span>{topics}<span class="src">{esc(it.get("source", ""))}</span></div>
-  <h3><a href="{esc(it.get("url", ""))}">{esc(it.get("title", ""))}</a></h3>
+  <h3><a href="{esc(url)}">{esc(it.get("title", ""))}</a></h3>
   <p class="summary">{esc(it.get("summary", ""))}</p>
   {hook}
 </article>'''
@@ -47,9 +50,9 @@ def render_day(day):
 
     memo_lines = [f'{esc(f["name"])}: {esc(f["error"])}' for f in day.get("failures", [])]
     if day.get("capped_count"):
-        memo_lines.append(f'新着が多すぎたため {day["capped_count"]} 件を未判定でスキップ(翌日再登場)')
+        memo_lines.append(f'新着が多すぎたため {esc(str(day["capped_count"]))} 件を未判定でスキップ(翌日再登場)')
     if day.get("rejected_count"):
-        memo_lines.append(f'トピック対象外として {day["rejected_count"]} 件をボツ')
+        memo_lines.append(f'トピック対象外として {esc(str(day["rejected_count"]))} 件をボツ')
     if not items:
         memo_lines.append("本日の新着なし(ループは正常稼働)")
     memo = "".join(f"<li>{line}</li>" for line in memo_lines) or "<li>特になし</li>"
@@ -90,16 +93,22 @@ def main():
     DOCS_DIR.mkdir(exist_ok=True)
     (DOCS_DIR / "daily").mkdir(exist_ok=True)
     days = sorted((p.stem for p in DATA_DIR.glob("*.json")), reverse=True)
+    built = []
     latest_html = ""
     for d in days:
-        day = json.loads((DATA_DIR / f"{d}.json").read_text(encoding="utf-8"))
-        page = render_day(day)
+        try:
+            day = json.loads((DATA_DIR / f"{d}.json").read_text(encoding="utf-8"))
+            page = render_day(day)
+        except Exception as exc:  # 壊れた日次ファイルはスキップし、他の日のビルドは続行する
+            print(f"skip {d}: {exc}")
+            continue
         (DOCS_DIR / "daily" / f"{d}.html").write_text(page, encoding="utf-8")
+        built.append(d)
         if not latest_html:
             latest_html = page
-    if days:
-        (DOCS_DIR / "index.html").write_text(render_index(list(days), latest_html), encoding="utf-8")
-    print(f"built {len(days)} day(s)")
+    if built:
+        (DOCS_DIR / "index.html").write_text(render_index(built, latest_html), encoding="utf-8")
+    print(f"built {len(built)} day(s)")
 
 
 if __name__ == "__main__":

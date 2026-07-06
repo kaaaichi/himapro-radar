@@ -6,7 +6,7 @@
 import json
 import socket
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import feedparser
@@ -16,6 +16,8 @@ ROOT = Path(__file__).resolve().parent.parent
 SOURCES_PATH = ROOT / "sources.yaml"
 SEEN_PATH = ROOT / "state" / "seen.json"
 INBOX_PATH = ROOT / "state" / "inbox.json"
+
+JST = timezone(timedelta(hours=9))
 
 socket.setdefaulttimeout(10)
 
@@ -55,7 +57,7 @@ def diff_new(items, seen):
     picked = set()
     for it in items:
         url = it["url"]
-        if not url or url in seen or url in picked:
+        if not url.startswith(("http://", "https://")) or url in seen or url in picked:
             continue
         picked.add(url)
         out.append(it)
@@ -78,7 +80,7 @@ def main():
             failures.append({"name": src["name"], "error": str(exc)[:200]})
     new_items = diff_new(items, seen)
     inbox = {
-        "date": datetime.now().strftime("%Y-%m-%d"),
+        "date": datetime.now(JST).strftime("%Y-%m-%d"),
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "total_feeds": len(sources),
         "new_items": new_items,
