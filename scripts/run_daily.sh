@@ -19,7 +19,12 @@ cd "$REPO_DIR"
   # 冪等性チェック: 今日の radar コミットが origin/main の履歴中に「存在する」かどうかで判定する。
   # HEAD だけを見ると、radar コミットの後に他の(機能追加などの)コミットが積まれた瞬間に
   # 二重実行・当日データの上書きを招くため、履歴全体を対象にする。
-  if git log origin/main --format=%s | grep -q "^radar: $TODAY "; then
+  # 注意: `git log | grep -q` は避ける。set -o pipefail 下では grep -q が最初のマッチで
+  # パイプを閉じるため git log 側が SIGPIPE(141)を受け、grep がマッチを見つけていても
+  # パイプ全体の終了ステータスが失敗扱いになり、if が常に false になってしまう
+  # (実機検証で確認済みの不具合)。変数に一旦キャプチャしてから grep することで回避する。
+  RADAR_HISTORY=$(git log origin/main --format=%s)
+  if grep -q "^radar: $TODAY " <<< "$RADAR_HISTORY"; then
     echo "already completed today ($TODAY), skipping"
     exit 0
   fi
