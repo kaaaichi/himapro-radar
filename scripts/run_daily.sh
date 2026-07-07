@@ -1,6 +1,13 @@
 #!/bin/bash
 set -euo pipefail
 
+# flock-based lock to prevent concurrent runs
+if command -v flock &> /dev/null; then
+  LOCK_FILE="/tmp/himapro-radar-run-daily.lock"
+  exec 200>"$LOCK_FILE"
+  flock -n 200 || { echo "another run_daily.sh instance is already running, exiting"; exit 0; }
+fi
+
 REPO_DIR="/Users/iidakaichiro/develop/himapro-radar"
 LOG_DIR="$REPO_DIR/logs"
 TODAY=$(TZ=Asia/Tokyo date +%Y-%m-%d)

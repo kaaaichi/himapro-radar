@@ -21,9 +21,11 @@ def parse_and_validate(raw_text, known_urls):
         if not isinstance(entry, dict):
             continue
         url = entry.get("url")
+        if not isinstance(url, str):
+            continue
         if url not in known_urls:
             continue
-        if not entry.get("keep"):
+        if entry.get("keep") is not True:
             continue
         neta = entry.get("neta")
         if neta not in VALID_NETA:

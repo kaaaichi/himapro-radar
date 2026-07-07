@@ -31,6 +31,16 @@ def test_parse_and_validate_raises_on_malformed_json():
     with pytest.raises(ValueError):
         parse_and_validate("not json{{{", {"https://a"})
 
+def test_parse_and_validate_rejects_non_boolean_keep():
+    raw = json.dumps([{"url": "https://a", "keep": "false", "summary": "s", "topics": ["scrum"], "neta": "S", "hook": "h"}])
+    judged = parse_and_validate(raw, {"https://a"})
+    assert "https://a" not in judged
+
+def test_parse_and_validate_ignores_non_string_url():
+    raw = json.dumps([{"url": ["https://a"], "keep": True, "summary": "s", "topics": ["scrum"], "neta": "S", "hook": "h"}])
+    judged = parse_and_validate(raw, {"https://a"})
+    assert judged == {}
+
 def test_build_data_record_uses_canonical_fields_and_own_date_and_failures():
     judged = {"https://a": {"keep": True, "summary": "要約A", "topics": ["scrum"], "neta": "S", "hook": "h"}}
     record = build_data_record(
