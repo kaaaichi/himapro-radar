@@ -19,6 +19,28 @@ sources.yaml(固定リスト) → scripts/collect.py(巡回・既読差分) → 
 - ソースの追加・削除は sources.yaml の編集のみ
 - ネタ度: S=エピソード化候補 / A=ストック / B=参考
 
+## 実行基盤(ローカル launchd)
+
+クラウドの Claude Code routine は `claude/` ブランチ制限と egress 制限のため、このプロジェクトの用途(main への直接 push、外部フィード取得)と相性が悪く不採用とした(検証記録: `.superpowers/sdd/progress.md`)。代わりに、このMacBookの launchd で日次実行する。
+
+**セキュリティ設計**: 信頼できない記事本文を読む判定ステップ(`claude -p`)には `WebFetch` 以外のツールを一切与えない。Bash実行・ファイル書き込み・git操作はすべて `run_daily.sh`(決定的シェルスクリプト)側が行うため、記事内容にプロンプトインジェクションが仕込まれていても、判定LLMがコマンド実行やpushをすることはできない。判定LLMの生出力は必ずファイル経由(`state/judge_output.txt`)で `scripts/apply_judgment.py` に渡され、`json.loads` でデータとしてのみ解釈される(シェルやPythonのソースコードに組み立てることは一切しない)。既知URL集合・スキーマとの照合で不正な出力は破棄する(fail-closed)。
+
+- 定義ファイル: `~/Library/LaunchAgents/com.himapro.radar.daily.plist`(このMac固有、git管理外)
+- 実行スクリプト: `scripts/run_daily.sh`
+- トリガー: 毎日7:00 + 30分ごとのポーリング。**Macがスリープ中は動かない** — その日最初にMacを開いた(起きた)タイミングの30分以内に、まだ未完了なら自動実行される(冪等性チェックにより1日1回のみ実際に実行)
+- ログ: `logs/YYYY-MM-DD.log`(git管理外)
+
+### 停止手順(このMac固有)
+
+```bash
+launchctl unload ~/Library/LaunchAgents/com.himapro.radar.daily.plist
+```
+
+再開:
+```bash
+launchctl load ~/Library/LaunchAgents/com.himapro.radar.daily.plist
+```
+
 ## ガードレール
 
 - routine は日次1回・1本のみ。テスト用の高頻度 routine は作らない

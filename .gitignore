@@ -2,3 +2,6 @@
 __pycache__/
 state/inbox.json
 .DS_Store
+logs/
+state/judgment_input.json
+state/judge_output.txt
