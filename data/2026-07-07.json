@@ -1,0 +1,304 @@
+{
+  "date": "2026-07-07",
+  "items": [
+    {
+      "url": "https://scrapbox.io/kawasima/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E3%81%AE%E8%A6%8B%E7%A9%8D%E3%82%82%E3%82%8A?__readwiseLocation=",
+      "title": "ソフトウェアの見積もり - kawasima",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "ソフトウェア開発の見積もりについて論じたメモ。本文の詳細確認はアクセス制限によりできなかったが、タイトルから見積もりの難しさや不確実性との向き合い方がテーマと推測される。",
+      "topics": ["agile", "design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://note.com/yufukage/n/n652207e2e9f9",
+      "title": "技術を追うのがしんどくなった40代エンジニアは、何を学べばいいのか｜ゆふかげ | 40代フリーランスITエンジニア",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "40代のフリーランスエンジニアが、技術のキャッチアップに疲れを感じた経験を振り返り、この年代でどう学び方を切り替えるべきかを考察する記事。技術の広さを追うことから、経験を活かした学び方への転換を提案している。",
+      "topics": ["worklife"],
+      "neta": "S",
+      "hook": "「技術を追う体力の衰え」を「経験の複利」に変える学び方の転換"
+    },
+    {
+      "url": "https://blog.flatt.tech/entry/2026-github-actions-security-part4",
+      "title": "GitHub Actionsの脆弱な構成の検知ツール、任せられる範囲と人が見極めるべきリスク - GMO Flatt Security Blog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "GitHub Actionsの脆弱な設定を自動検知するツールについて、どこまでをツールに任せてよく、どこからは人間が見極めるべきリスクなのかを整理した記事。自動化と人間の判断の境界線を実務目線で論じている。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "自動化に任せていい判断と、人にしか下せない判断の境界線"
+    },
+    {
+      "url": "https://www.ryuzee.com/contents/blog/14621",
+      "title": "プロダクト開発で「意見」と「事実」を行き来する",
+      "source": "Ryuzee.com",
+      "lang": "ja",
+      "summary": "プロダクト開発の意思決定では「意見」と「事実」を混同しがちだが、両者を明確に区別し行き来しながら検証することが重要だとRyuzee氏が説く記事。",
+      "topics": ["agile", "team"],
+      "neta": "A",
+      "hook": "「意見」と「事実」を往復する思考の型"
+    },
+    {
+      "url": "https://www.ryuzee.com/contents/blog/14619",
+      "title": "Agile is dead なわけがない",
+      "source": "Ryuzee.com",
+      "lang": "ja",
+      "summary": "「アジャイルは死んだ」という言説に対する反論記事。アジャイルの本質は廃れておらず、実践の形が変化しているだけだとRyuzee氏が論じている。",
+      "topics": ["agile"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.ryuzee.com/contents/blog/14618",
+      "title": "ベストプラクティスもアンチパターンも、それ自体は何も解決しない（かも）",
+      "source": "Ryuzee.com",
+      "lang": "ja",
+      "summary": "ベストプラクティスやアンチパターンというラベルを貼るだけでは問題は解決せず、文脈に応じた個別の判断が必要だと説くRyuzee氏の記事。",
+      "topics": ["agile", "team"],
+      "neta": "A",
+      "hook": "「正解のラベル」を鵜呑みにする危うさ"
+    },
+    {
+      "url": "https://www.ryuzee.com/contents/blog/14616",
+      "title": "機能追加と機能削除の非対称性",
+      "source": "Ryuzee.com",
+      "lang": "ja",
+      "summary": "ソフトウェアにおいて機能を追加するコストと削除するコストは対称ではなく、削除の方がはるかに難しく軽視されがちだという非対称性を論じるRyuzee氏の記事。",
+      "topics": ["design", "agile"],
+      "neta": "S",
+      "hook": "「足すより引く方が難しい」を機能設計と身の回りの整理の両方で語る"
+    },
+    {
+      "url": "https://www.ryuzee.com/contents/blog/14610",
+      "title": "プロダクトの話をしているか、プロセスの話をしているか",
+      "source": "Ryuzee.com",
+      "lang": "ja",
+      "summary": "議論が噛み合わない時、実は「プロダクト(何を作るか)」の話と「プロセス(どう作るか)」の話を混同していることが多い、という視点を提示するRyuzee氏の記事。",
+      "topics": ["agile", "team"],
+      "neta": "A",
+      "hook": "会議がかみ合わない時の「プロダクトかプロセスか」チェック"
+    },
+    {
+      "url": "https://zenn.dev/hansodeeeeee/articles/4b69701d768cba",
+      "title": "「いつ終わるんだ？」先が見えない開発チームが、先を見据える土台を手に入れるまでの試行錯誤（トナリノ）",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "終わりが見えない開発案件に悩んでいたチームが、先の見通しを立てる仕組みを整えるまでの試行錯誤を綴った体験記(トナリノ)。",
+      "topics": ["scrum", "team"],
+      "neta": "A",
+      "hook": "「終わりが見えない」不安とどう付き合うか"
+    },
+    {
+      "url": "https://zenn.dev/zunami/articles/9af3021e5e5fe9",
+      "title": "スクラムにおいて\"スウォーミング\"や\"集中\"が『良い』とされる理由",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "スクラムにおいて、チーム全員が一つの作業に集中する「スウォーミング」がなぜ良いとされるのか、その理由を掘り下げた記事。",
+      "topics": ["scrum"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/okamyuji/articles/ai-era-software-engineer-qualities-and-practice",
+      "title": "AI時代のソフトウェアエンジニアに求められる資質と実践",
+      "source": "Zenn(アジャイル)",
+      "lang": "ja",
+      "summary": "AIが台頭する時代に、ソフトウェアエンジニアにはどのような資質と実践が求められるかを総論的にまとめた記事。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/kooooohe/articles/b51bb8db473bc6",
+      "title": "AI時代のアジャイル：ソフトウェアは「変更に強い」から「構造を作り替えられる」へ",
+      "source": "Zenn(アジャイル)",
+      "lang": "ja",
+      "summary": "AI時代のアジャイルでは、ソフトウェアの価値が「変更に強いこと」だけでなく、AIと共に構造そのものを作り替えられる力へとシフトしていると論じる記事。",
+      "topics": ["agile", "ai-dev"],
+      "neta": "A",
+      "hook": "「変化に強い」から「作り替える力」へのアジャイル観の転換"
+    },
+    {
+      "url": "https://zenn.dev/norihashimo/articles/55ff82694cd4ab",
+      "title": "ベテランさんが教えてくれない「BDD(振る舞い駆動開発)」〜AIと非エンジニアを味方にする仕様の書き方〜",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "振る舞い駆動開発(BDD)の考え方を使い、AIや非エンジニアも巻き込みながら仕様を書く方法を紹介する記事。ベテランがあまり教えてくれない実践的なノウハウとして紹介されている。",
+      "topics": ["ai-dev", "xp"],
+      "neta": "A",
+      "hook": "非エンジニアとAIを味方につける仕様の書き方"
+    },
+    {
+      "url": "https://zenn.dev/yoshihiko555/articles/ca0f4b04326f5d",
+      "title": "AI駆動開発でドキュメントが腐る問題を、整合性駆動開発（CODD）で構造的に解く ― 自作基盤への実装記録",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AI駆動開発ではドキュメントとコードの整合性が崩れがちという課題に対し、著者が独自に考案した「整合性駆動開発(CODD)」という手法で構造的に解決を試みた実装記録。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "ドキュメントの「腐敗」を防ぐ仕組み化"
+    },
+    {
+      "url": "https://zenn.dev/explaza/articles/f9db1be2dc5a4c",
+      "title": "ユーザーストーリーを書けばAIが勝手に動くアプリを作ってくれる、そう思ってた時期が僕にもありました",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "ユーザーストーリーさえ書けばAIが自動でアプリを作ってくれるはずだと期待していたが、実際にはそれほど単純ではなかったという経験を振り返る記事。",
+      "topics": ["ai-dev", "agile"],
+      "neta": "S",
+      "hook": "「AIに丸投げ」の幻想が崩れた瞬間から学ぶ発注の作法"
+    },
+    {
+      "url": "https://zenn.dev/ruffnote/articles/revoid-story",
+      "title": "$10/月でぶん回せる、コードレビューツールを作って、使うのをやめた",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Gemini Code Assistの終了を機に、月10ドルで動く自作コードレビューツール「revoid」を開発した著者が、自分のPRをレビューさせたところ4時間20分で30件以上の修正指摘を受け続け、レビューを終わらせる設計が欠けていたことに気づき、結局既製品に戻したという顛末記。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "「安く自作」の罠 ― コードレビューを終わらせる設計の難しさ"
+    },
+    {
+      "url": "https://zenn.dev/tmasuyama1114/articles/ai_driven_dev_human_ownership",
+      "title": "未知のレガシーシステムをClaude Codeで開発して学んだこと",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "未知のレガシーシステムの改修にClaude Codeを使って取り組んだ経験から得られた学びをまとめた記事。AIに頼りつつも人間がシステムへの当事者意識を持ち続けることの重要性が語られている。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "AI駆動開発でも手放してはいけない「当事者意識」"
+    },
+    {
+      "url": "https://qiita.com/kazuky0307/items/00c37c116710e14f07f6",
+      "title": "アジリティが高い事とアジリティが暴走している事の違いについて",
+      "source": "Qiita(スクラム)",
+      "lang": "ja",
+      "summary": "チームの「アジリティが高い」状態と「アジリティが暴走している」状態は紙一重であり、その違いをどう見分けるかを論じた記事。",
+      "topics": ["agile"],
+      "neta": "S",
+      "hook": "「アジリティ」と「暴走」を見分ける紙一重の境界線"
+    },
+    {
+      "url": "https://qiita.com/alwaysdwysd/items/e1f775d936a7832a5dbf",
+      "title": "アジャイル開発では日報が不要とされているのはなぜ",
+      "source": "Qiita(アジャイル)",
+      "lang": "ja",
+      "summary": "アジャイル開発ではなぜ日報が不要とされるのか、その理由を論じた記事。日報に代わる進捗の可視化の考え方が示唆されている。",
+      "topics": ["agile", "worklife"],
+      "neta": "A",
+      "hook": "日報を手放す代わりに何を可視化するか"
+    },
+    {
+      "url": "https://qiita.com/nakanyewest/items/249bb1fa9ad4d561a449",
+      "title": "「品質＝バグゼロ」という神話を、そろそろ捨てろ",
+      "source": "Qiita(アジャイル)",
+      "lang": "ja",
+      "summary": "「品質＝バグゼロ」という思い込みを捨てるべきだと主張する記事。バグゼロを目指すことの弊害と、より実践的な品質の捉え方を論じている。",
+      "topics": ["agile", "design"],
+      "neta": "S",
+      "hook": "「バグゼロ」という神話を捨てた先にある品質の定義"
+    },
+    {
+      "url": "https://martinfowler.com/articles/vibesec-reckoning.html",
+      "title": "The VibeSec Reckoning",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "summary": "生成AIによる高速なアプリ開発(いわゆるvibe coding)がセキュリティ上の問題を生みやすいという課題を論じたMartin Fowlerの記事。AIは「最小抵抗の道」を選びがちなため、プロンプトだけに頼らず、セキュリティルールの明文化や自動検証の仕組みという決定論的な統制が必要だと主張している。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "「スピード優先のAIコーディング」の先にあるセキュリティの精算"
+    },
+    {
+      "url": "https://martinfowler.com/articles/sensors-for-coding-agents.html",
+      "title": "Maintainability sensors for coding agents",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "summary": "AIコーディングエージェントが生成するコードの保守性を、人手のレビューだけでなく機械的な「センサー」で測るべきだと論じるMartin Fowlerの記事。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "コードの保守性を「人が読む」から「センサーで測る」へ"
+    },
+    {
+      "url": "https://martinfowler.com/articles/structured-prompt-driven/",
+      "title": "Structured-Prompt-Driven Development (SPDD)",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "summary": "AIへの指示を「雰囲気(vibe)」で出すのではなく、構造化されたプロンプトによって開発を進める「Structured-Prompt-Driven Development(SPDD)」という考え方を論じるMartin Fowlerの記事。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "「雰囲気で書く」から「構造化された指示」への転換"
+    },
+    {
+      "url": "https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html",
+      "title": "Feedback Flywheel",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "summary": "AIを活用した開発における摩擦を減らすため、フィードバックを高速に回し続ける仕組み「フィードバック・フライホイール」について論じるMartin Fowlerの記事。",
+      "topics": ["team", "agile"],
+      "neta": "A",
+      "hook": "フィードバックを高速で回し続ける仕組みづくり"
+    },
+    {
+      "url": "https://newsletter.kentbeck.com/p/air-traffic-control",
+      "title": "Air Traffic Control",
+      "source": "Kent Beck / Tidy First",
+      "lang": "en",
+      "summary": "システム層の開発に長年携わってきたKeith Adamsとの対話を通じ、AIの台頭でプログラマーが慣れ親しんできた「フロー状態」での開発が、複数のことを同時に監督する「航空管制官」のような状態へ移行しつつあると論じるKent Beckの記事。",
+      "topics": ["team", "xp"],
+      "neta": "S",
+      "hook": "「フロー状態」から「航空管制官のマルチタスク」への働き方シフト"
+    },
+    {
+      "url": "https://newsletter.kentbeck.com/p/the-cost-yagni-was-never-about",
+      "title": "The Cost YAGNI Was Never About",
+      "source": "Kent Beck / Tidy First",
+      "lang": "en",
+      "summary": "YAGNI(You Aren't Gonna Need It)原則が本来問題にしていたコストとは何だったのかを問い直すKent Beckの記事。",
+      "topics": ["xp"],
+      "neta": "A",
+      "hook": "YAGNIが本当に警告していたコストの正体"
+    },
+    {
+      "url": "https://newsletter.kentbeck.com/p/trust-factory",
+      "title": "Trust Factory",
+      "source": "Kent Beck / Tidy First",
+      "lang": "en",
+      "summary": "チーム内の信頼をどう「作り出す仕組み」として捉えるかを論じるKent Beckの記事。",
+      "topics": ["team"],
+      "neta": "A",
+      "hook": "信頼を「工場」のように仕組みで作るという発想"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/ideas-slow-down-to-speed-up-when",
+      "title": "Ideas: slow down to speed up when working with AI agents",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "AIエージェントと働く際は、急いで進めるよりもあえて立ち止まって考えることが、結果的に速く進むことにつながるという逆説的な視点を論じるThe Pragmatic Engineerの記事。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "AIエージェントと働く時代の「急がば回れ」"
+    },
+    {
+      "url": "https://addyosmani.com/blog/intent-debt/",
+      "title": "The Intent Debt",
+      "source": "Addy Osmani",
+      "lang": "en",
+      "summary": "「Intent Debt(意図の負債)」とは、システムが今の形になっている理由や制約といった意思決定の背景が外部化されずに失われている状態を指すという、Addy Osmaniによる新しい負債概念の提唱記事。技術的負債と異なり、この負債はAIエージェントが肩代わりして返済することができず、人間が意思決定の理由を残さない限り増え続けると警告している。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "「技術的負債」の裏に隠れた\"意図の負債\"という新概念"
+    },
+    {
+      "url": "https://addyosmani.com/blog/cognitive-surrender/",
+      "title": "Cognitive Surrender",
+      "source": "Addy Osmani",
+      "lang": "en",
+      "summary": "AIツールを使う際の危険な心理状態として、「認知的オフロード(AIに計算を任せつつ自分でも判断する)」と「認知的降伏(AIの出力をそのまま受け入れ、検証を放棄する)」を区別するAddy Osmaniの記事。生成コードは表面的に正しく見えるためエンジニアが特にこの罠に陥りやすく、結果として深い理解が失われていくと警告している。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "AIに「頭を明け渡す」心理をどう防ぐか"
+    }
+  ],
+  "rejected_count": 0,
+  "capped_count": 209,
+  "failures": []
+}
