@@ -1,4 +1,6 @@
-from scripts.collect import normalize_entry, diff_new
+import io
+
+from scripts.collect import normalize_entry, diff_new, read_limited, MAX_FEED_BYTES
 
 SRC = {"name": "テストソース", "feed": "https://x", "lang": "ja", "topics": ["design"]}
 
@@ -33,3 +35,11 @@ def test_diff_new_skips_seen_duplicates_and_empty_urls():
     ]
     out = diff_new(items, {"https://a": "2026-07-05"})
     assert [i["title"] for i in out] == ["新規"]
+
+def test_read_limited_allows_under_cap():
+    assert read_limited(io.BytesIO(b"hello"), limit=10) == b"hello"
+
+def test_read_limited_rejects_over_cap():
+    import pytest
+    with pytest.raises(RuntimeError):
+        read_limited(io.BytesIO(b"x" * 20), limit=10)

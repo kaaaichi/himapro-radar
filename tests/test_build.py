@@ -82,6 +82,26 @@ def test_main_skips_broken_json(tmp_path, monkeypatch, capsys):
     assert "skip 2026-07-05" in capsys.readouterr().out
 
 
+def test_main_skips_data_with_secret(tmp_path, monkeypatch, capsys):
+    import scripts.build as build
+    data = tmp_path / "data"; docs = tmp_path / "docs"; data.mkdir()
+    poisoned = dict(DAY)
+    poisoned["items"] = [dict(DAY["items"][0], summary="leak ghp_" + "a"*30)]
+    (data / "2026-07-06.json").write_text(json.dumps(poisoned), encoding="utf-8")
+    monkeypatch.setattr(build, "DATA_DIR", data)
+    monkeypatch.setattr(build, "DOCS_DIR", docs)
+    build.main()
+    assert not (docs / "daily" / "2026-07-06.html").exists()
+    assert "secret-like string detected" in capsys.readouterr().out
+
+
+def test_render_index_escapes_day_stem():
+    latest = render_day(DAY)
+    html = render_index(['2026-07-06"><img src=x onerror=alert(1)>'], latest)
+    assert "<img src=x" not in html
+    assert "&lt;img src=x" in html
+
+
 def test_render_item_blocks_dangerous_uri_schemes():
     day = dict(DAY)
     day["items"] = [{"url": "javascript:alert(1)", "title": "危険", "source": "X", "lang": "ja",

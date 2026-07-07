@@ -2,11 +2,26 @@
 """data/*.json から docs/ の静的HTMLを再生成する(決定的)。LLMは使わない。"""
 import html as html_mod
 import json
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 DOCS_DIR = ROOT / "docs"
+
+SECRET_PATTERNS = [
+    re.compile(r"ghp_[A-Za-z0-9]{20,}"),
+    re.compile(r"gho_[A-Za-z0-9]{20,}"),
+    re.compile(r"github_pat_[A-Za-z0-9_]{20,}"),
+    re.compile(r"sk-ant-[A-Za-z0-9\-]{20,}"),
+    re.compile(r"AKIA[0-9A-Z]{16}"),
+    re.compile(r"xox[baprs]-[A-Za-z0-9\-]{10,}"),
+    re.compile(r"-----BEGIN [A-Z ]*PRIVATE KEY-----"),
+]
+
+
+def contains_secret(text):
+    return any(p.search(text) for p in SECRET_PATTERNS)
 
 TOPIC_LABELS = {
     "ai-dev": "AI駆動開発",
@@ -81,7 +96,7 @@ def render_day(day):
 
 
 def render_index(days, latest_html):
-    archive = "".join(f'<li><a href="daily/{d}.html">{d}</a></li>' for d in days)
+    archive = "".join(f'<li><a href="daily/{esc(d)}.html">{esc(d)}</a></li>' for d in days)
     body = latest_html.replace('href="../', 'href="')
     return body.replace(
         "</main>",
@@ -97,9 +112,12 @@ def main():
     latest_html = ""
     for d in days:
         try:
-            day = json.loads((DATA_DIR / f"{d}.json").read_text(encoding="utf-8"))
+            raw = (DATA_DIR / f"{d}.json").read_text(encoding="utf-8")
+            if contains_secret(raw):
+                raise RuntimeError("secret-like string detected in data; refusing to publish")
+            day = json.loads(raw)
             page = render_day(day)
-        except Exception as exc:  # 壊れた日次ファイルはスキップし、他の日のビルドは続行する
+        except Exception as exc:  # 壊れた日次ファイル・シークレット混入はスキップし、他の日のビルドは続行する
             print(f"skip {d}: {exc}")
             continue
         (DOCS_DIR / "daily" / f"{d}.html").write_text(page, encoding="utf-8")

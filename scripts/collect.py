@@ -6,6 +6,7 @@
 import json
 import socket
 import time
+import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -20,6 +21,7 @@ INBOX_PATH = ROOT / "state" / "inbox.json"
 JST = timezone(timedelta(hours=9))
 
 socket.setdefaulttimeout(10)
+MAX_FEED_BYTES = 5_000_000
 
 
 def load_sources(path=SOURCES_PATH):
@@ -32,6 +34,22 @@ def load_seen(path=SEEN_PATH):
     if not p.exists():
         return {}
     return json.loads(p.read_text(encoding="utf-8"))
+
+
+def read_limited(fp, limit=MAX_FEED_BYTES):
+    """ファイルライクオブジェクトから最大 limit バイトまで読む。超過は RuntimeError。"""
+    data = fp.read(limit + 1)
+    if len(data) > limit:
+        raise RuntimeError(f"feed exceeds {limit} bytes")
+    return data
+
+
+def fetch_feed(url):
+    """URL を取得して feedparser でパースする(サイズ上限付き)。"""
+    req = urllib.request.Request(url, headers={"User-Agent": "himapro-radar/1.0"})
+    with urllib.request.urlopen(req, timeout=10) as resp:
+        raw = read_limited(resp)
+    return feedparser.parse(raw)
 
 
 def normalize_entry(entry, source):
@@ -71,7 +89,7 @@ def main():
     failures = []
     for src in sources:
         try:
-            parsed = feedparser.parse(src["feed"])
+            parsed = fetch_feed(src["feed"])
             if parsed.bozo and not parsed.entries:
                 raise RuntimeError(str(parsed.bozo_exception))
             for entry in parsed.entries:
