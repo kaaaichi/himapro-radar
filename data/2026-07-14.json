@@ -1,0 +1,369 @@
+{
+  "date": "2026-07-14",
+  "items": [
+    {
+      "url": "https://levtech.jp/media/detail_893/",
+      "title": "AI SLOPは「AIの問題」ではない。OSSコミュニティーに足りないのは“組織マネジメントの教科書”【中央大学・飯尾教授】 - レバテックLAB",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AI生成コードの品質低下(AI Slop)はAIそのものの問題ではなく、OSSコミュニティにレビューや意思決定を支える組織マネジメントの仕組みが欠けていることが原因だと指摘する記事。中央大学・飯尾教授へのインタビューを通じ、技術的対策よりも人間側の運営体制の再構築が急務だと論じている。",
+      "topics": [
+        "team",
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "AI Slopの真犯人はAIではなく組織マネジメント不在"
+    },
+    {
+      "url": "https://zenn.dev/coji/articles/natural-japanese-ai-smell-lint",
+      "title": "AI臭は語彙よりリズムに出る - 自然な日本語を書くAgent Skillと7モデル×406本の実測",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIが書いた日本語文章特有の「AI臭」は、使われる語彙よりも文のリズムに強く現れるという分析記事。7つのLLMで生成した406本の文章を実測し、自然な日本語を書くためのAgent Skillを開発した過程を紹介している。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "AI臭は語彙ではなくリズムに出るという実測結果"
+    },
+    {
+      "url": "https://zenn.dev/appleworld/articles/improve-agile-retro",
+      "title": "「ただやって終わり」のスプリントレトロスペクティブを、チームのPDCAが回る場に構築し直した",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "「やって終わり」になりがちだったスプリントレトロスペクティブを、チームのPDCAが実際に回る場へ作り直した実践記録。形骸化した儀式から、改善アクションが継続的に検証される仕組みへの再設計プロセスを具体的に紹介している。",
+      "topics": [
+        "agile",
+        "scrum"
+      ],
+      "neta": "A",
+      "hook": "レトロを儀式からPDCAが回る場に作り直した具体策"
+    },
+    {
+      "url": "https://zenn.dev/makkyemmanuel/articles/zenn-article-scrum-owl-discord-bot",
+      "title": "スクラムチームのためのDiscord Botを作った",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "スクラムチームの運用を支援するDiscord Botを自作した開発記録。スタンドアップのリマインドやスプリント管理などをBotに任せることで、チームのコミュニケーションをどう効率化したかを紹介している。",
+      "topics": [
+        "scrum"
+      ],
+      "neta": "A",
+      "hook": "スクラム運用の一部をBotに任せて見えてきたこと"
+    },
+    {
+      "url": "https://zenn.dev/pdfractal/articles/12c3f91a724a3d",
+      "title": "なぜ、AIのせいで既存のアジャイル本の価値が喪失したのか？",
+      "source": "Zenn(アジャイル)",
+      "lang": "ja",
+      "summary": "AIの台頭によって、これまで積み上げられてきたアジャイル関連書籍の知見が急速に陳腐化しているという挑発的な主張の記事。AI時代に合わせてアジャイルの前提や実践知をどう更新すべきかを論じている。",
+      "topics": [
+        "agile"
+      ],
+      "neta": "S",
+      "hook": "名著アジャイル本がAIで一気に色褪せた理由"
+    },
+    {
+      "url": "https://zenn.dev/edash_tech_blog/articles/773a74bf923eff",
+      "title": "AI駆動開発を3か月続けたら、フロントエンドエンジニアの仕事が変わった",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "フロントエンドエンジニアがAI駆動開発を3か月間継続した結果、日々の仕事の進め方がどう変わったかを振り返る記事。コーディングよりも設計判断やレビューに時間を割くようになった変化を具体的に描いている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "AIが書くほど人間の仕事は設計とレビューに寄っていく"
+    },
+    {
+      "url": "https://zenn.dev/urario/articles/design-ai-impl-ai-human",
+      "title": "設計AI・実装AI・レビューAI。何体並べても、最後に判断する人間は消えなかった",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "設計AI・実装AI・レビューAIと複数のAIを並べて開発フローを組んでも、最終的な意思決定は人間に残り続けたという実践記録。AIエージェントを何体組み合わせても代替できない「人間の判断」の役割を論じている。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "S",
+      "hook": "AIを何体並べても最後の判断は人間に残った"
+    },
+    {
+      "url": "https://zenn.dev/tetetratra/articles/b039fd54c413e4",
+      "title": "「不確実性への対処」「認知コストの最小化」に向き合うAI駆動開発フローの紹介",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AI駆動開発において「不確実性への対処」と「認知コストの最小化」をどう両立させるかを整理した開発フロー紹介記事。AIに任せる範囲と人間が把握すべき範囲を意識的に設計する考え方を提示している。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "認知コストを減らすAI駆動開発フローの設計思想"
+    },
+    {
+      "url": "https://zenn.dev/urario/articles/architecture-tests",
+      "title": "コンパイルもテストも通るのに、レイヤ境界は壊れていた — 設計判断をアーキテクチャテストに落とす",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "コンパイルもテストも通過しているのに、実際にはレイヤ境界が壊れていたという事例から、設計判断をアーキテクチャテストとしてコード化する手法を紹介する記事。目に見えにくい設計の劣化をどう検知・防止するかを具体的に解説している。",
+      "topics": [
+        "design"
+      ],
+      "neta": "S",
+      "hook": "テストが全部緑でも設計は壊れているという話"
+    },
+    {
+      "url": "https://zenn.dev/syoshida07/articles/e4a5f445679148",
+      "title": "科学技術振興機構(JST) AI for Science動向2026 に見る科学研究の第5パラダイム化とAI駆動開発への示唆",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "JSTのレポート「AI for Science動向2026」をもとに、科学研究における第5パラダイム化とAI駆動開発への示唆を整理した記事。研究領域の変化がソフトウェア開発の現場にどう波及しうるかを俯瞰している。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://qiita.com/yitaya/items/485b711affe9640f15e2",
+      "title": "スクラムイベントを全部やめた。GitHub Actions + Claude skill で回す「イベントレス・スクラム」の作り方",
+      "source": "Qiita(スクラム)",
+      "lang": "ja",
+      "summary": "デイリースクラムやレトロなど、スクラムイベントを全て廃止し、GitHub ActionsとClaude Skillで運用を回す「イベントレス・スクラム」の実装記事。儀式をやめても機能する仕組みをどう作ったかを具体的に解説している。",
+      "topics": [
+        "scrum",
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "スクラムイベントを全部やめても回る理由"
+    },
+    {
+      "url": "https://www.infoq.com/articles/ai-speed-context-store-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Article: Comprehension at AI Speed: Building a Context Store for Evolutionary Architecture",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "AIが高速にコードを理解・変更できるようにするための「コンテキストストア」を構築し、進化的アーキテクチャを実現する手法を解説する記事。AI時代のコード理解速度に合わせたアーキテクチャ設計の考え方を紹介している。",
+      "topics": [
+        "design",
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "AIの理解速度に合わせて進化するアーキテクチャ設計"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/07/doordash-ai-ask-assistant/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "How DoorDash Built an AI Shopping Assistant That Doesn’t Rely on the LLM Alone",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "DoorDashがLLM単体に頼らず構築したAIショッピングアシスタントの設計事例を紹介する記事。LLMの弱点を補うアーキテクチャ上の工夫について具体的に解説している。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "A",
+      "hook": "LLM任せにしないAIアシスタント設計の工夫"
+    },
+    {
+      "url": "https://pc.watch.impress.co.jp/docs/news/2124919.html",
+      "title": "Claudeの“性格”は言語で変わる。英語は厳しくアラビア語は温かい",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Claudeに話しかける言語によって、応答の「性格」(厳しさや温かさなど)が変わるという調査結果を紹介する記事。英語では厳格、アラビア語では温かい応答傾向になるなど、言語文化がAIの振る舞いに影響することを報告している。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "言語が変わるとAIの性格も変わるなら人間のチームは？"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/google_cloudaicloud_run.html",
+      "title": "Google Cloud、生成AIのコードを瞬時に隔離して安全に実行できる「Cloud Runサンドボックス」パブリックプレビュー",
+      "source": "Publickey",
+      "lang": "ja",
+      "summary": "Google Cloudが、生成AIが書いたコードを瞬時に隔離して安全に実行できる「Cloud Runサンドボックス」のパブリックプレビューを発表した記事。AIが生成したコードを安全に検証・実行するための基盤整備の動きを紹介している。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "AIが書いたコードを安全に隔離実行する仕組み"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/it_2026_si.html",
+      "title": "IT系上場企業の平均年収を業種別にみてみた 2026年版［後編］ ～ ソフトウェア／サービス系、SI／システム開発系、クラウド／通信キャリア系企業",
+      "source": "Publickey",
+      "lang": "ja",
+      "summary": "IT系上場企業の平均年収を業種別に比較した記事。ソフトウェア/サービス系、SI/システム開発系、クラウド/通信キャリア系で年収水準にどれほど差があるかを具体的なデータで示している。",
+      "topics": [
+        "worklife"
+      ],
+      "neta": "A",
+      "hook": "SIとクラウド企業、年収はこれだけ違う"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/javascriptbunclaude_fable_511zigrustclaude.html",
+      "title": "JavaScriptランタイムのBun、Claude Fable 5を11日間稼働させてZigからRustへの移植を実現。Claudeをどう使ったのか？",
+      "source": "Publickey",
+      "lang": "ja",
+      "summary": "JavaScriptランタイムBunの開発チームが、Claude Fable 5を11日間動かし続けてZigからRustへの大規模移植を実現した事例を紹介する記事。AIエージェントに長期間コードベースの移植作業を任せた際の使い方や工夫を具体的に解説している。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "AIエージェントに11日間コードを任せ続けた結果"
+    },
+    {
+      "url": "https://www.ryuzee.com/contents/blog/14612",
+      "title": "【資料公開】スプリントプランニング Deep Dive 2026年版",
+      "source": "Ryuzee.com",
+      "lang": "ja",
+      "summary": "スプリントプランニングの目的や進め方を深掘りする2026年版の資料を公開した記事。スプリントプランニングでありがちな形骸化や誤解を整理し、本来あるべき進め方を解説している。",
+      "topics": [
+        "scrum"
+      ],
+      "neta": "A",
+      "hook": "スプリントプランニングを本来の目的に立ち戻らせる資料"
+    },
+    {
+      "url": "https://www.ryuzee.com/contents/blog/14611",
+      "title": "PdMなりPOが詳細な仕様まで全部書いて、チームに渡すなんて止めろ",
+      "source": "Ryuzee.com",
+      "lang": "ja",
+      "summary": "プロダクトマネージャーやプロダクトオーナーが詳細な仕様まですべて書いてチームに渡すやり方を強く批判する記事。詳細仕様の丸投げがチームの自律性や創造性を奪う理由と、本来あるべき協働の形を論じている。",
+      "topics": [
+        "scrum",
+        "agile"
+      ],
+      "neta": "S",
+      "hook": "仕様を全部書くPOをやめさせるべき理由"
+    },
+    {
+      "url": "https://www.ryuzee.com/contents/blog/14608",
+      "title": "【資料公開】デイリースクラム Deep Dive",
+      "source": "Ryuzee.com",
+      "lang": "ja",
+      "summary": "デイリースクラムの本来の目的と進め方を深掘りする資料を公開した記事。形骸化しがちな進捗報告会になっていないか、本来のねらいに立ち戻るための視点を整理している。",
+      "topics": [
+        "scrum"
+      ],
+      "neta": "A",
+      "hook": "デイリースクラムを進捗報告会から本来の目的に戻す視点"
+    },
+    {
+      "url": "https://zenn.dev/nexta_/articles/4319a84dece1ba",
+      "title": "【スクフェス仙台2026】初参加の初登壇でQAが「AIにやらせないこと」を話してきた",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "スクラムフェス仙台2026に初参加・初登壇したQAエンジニアが、「AIにやらせないこと」というテーマで発表した内容を振り返る記事。何でもAIに任せる風潮の中で、あえて人間が担うべきQA領域を論じている。",
+      "topics": [
+        "team",
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "QAがAIに絶対渡さない仕事とは"
+    },
+    {
+      "url": "https://zenn.dev/kenjiigarashi/articles/e45838e814f2b5",
+      "title": "なぜ大規模アジャイル（SAFe）は現場を疲弊させるのか：構造的欠陥と「形骸化アジャイル」の境界線",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "大規模アジャイルフレームワークSAFeがなぜ現場を疲弊させてしまうのかを、構造的な欠陥の観点から分析する記事。「形骸化アジャイル」とそうでないアジャイルの境界線をどこに引くべきかを論じている。",
+      "topics": [
+        "agile"
+      ],
+      "neta": "S",
+      "hook": "SAFeが現場を疲弊させる構造的な理由"
+    },
+    {
+      "url": "https://zenn.dev/sompojapan_dx/articles/bc3931a2e58ab5",
+      "title": "スクフェス金沢に「初参加でいきなり登壇」という無茶をした結果、想像以上に世界が広がった【スクラムフェス金沢2026】",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "スクラムフェス金沢2026に初参加でいきなり登壇するという挑戦をした体験記。準備の過程や登壇を通じて視野がどう広がったかを、率直な感想とともに振り返っている。",
+      "topics": [
+        "team",
+        "worklife"
+      ],
+      "neta": "A",
+      "hook": "初参加でいきなり登壇して世界が広がった体験"
+    },
+    {
+      "url": "https://zenn.dev/lincwell_inc/articles/7d50ff57ccafb5",
+      "title": "リリースして終わりにしない ― アウトカム計測を開発フローに組み込んで、チームの価値探索サイクルを速くした話",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "リリースして終わりにせず、アウトカム(成果)計測を開発フローに組み込むことで、チームの価値探索サイクルを速めた事例を紹介する記事。アウトプット中心からアウトカム中心への意識の転換プロセスを具体的に描いている。",
+      "topics": [
+        "agile",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "リリースして終わりから、アウトカムを追う開発への転換"
+    },
+    {
+      "url": "https://zenn.dev/hansodeeeeee/articles/412151b02e15d5",
+      "title": "「ふりかえり、ただやってるだけになってない？」形骸化に気づいたチームが、ふりかえりを自分たちで育てるまでの試行錯誤（トナリノ）",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "「ふりかえり、ただやってるだけになってない？」という問題意識から、形骸化したふりかえりをチーム自らの手で育て直した試行錯誤を紹介する記事。具体的な改善プロセスを描いている。",
+      "topics": [
+        "agile",
+        "scrum"
+      ],
+      "neta": "A",
+      "hook": "形骸化したふりかえりをチーム自身で育て直す"
+    },
+    {
+      "url": "https://zenn.dev/kazyumaru_purin/articles/4d5d86142881b0",
+      "title": "スクラム開発におけるプロダクトオーナー業務",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "スクラム開発におけるプロダクトオーナーの業務内容を整理して紹介する記事。POが担う役割や日々の業務範囲を具体的に解説している。",
+      "topics": [
+        "scrum"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/nttdata_tech/articles/f4a12e031d5d63",
+      "title": "プロダクトマネジメント研修を受講して振り返る過去案件の失敗事例",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "プロダクトマネジメント研修を受講したことをきっかけに、過去に携わった案件の失敗事例を振り返る記事。研修で得た視点から、当時の失敗パターンをどう捉え直したかを紹介している。",
+      "topics": [
+        "scrum",
+        "worklife"
+      ],
+      "neta": "A",
+      "hook": "研修を受けて気づいた過去プロジェクトの失敗パターン"
+    },
+    {
+      "url": "https://zenn.dev/tetoteto/articles/story-critical-perspective",
+      "title": "ドメイン知識という自己組織化の結晶",
+      "source": "Zenn(アジャイル)",
+      "lang": "ja",
+      "summary": "ドメイン知識は個人が作るものではなく、チームの自己組織化から生まれる「結晶」であるという視点を論じる記事。設計とチームダイナミクスの関係を批評的な視点から考察している。",
+      "topics": [
+        "design",
+        "agile"
+      ],
+      "neta": "S",
+      "hook": "ドメイン知識はチームの自己組織化が生む結晶"
+    },
+    {
+      "url": "https://zenn.dev/garasubo/articles/9b9548ebab5a67",
+      "title": "AIコーディング時代の生き抜き方",
+      "source": "Zenn(アジャイル)",
+      "lang": "ja",
+      "summary": "AIがコードを書くことが当たり前になった時代に、エンジニアがどう生き抜いていくかを論じる記事。AIに代替されにくい人間ならではのスキルや働き方について具体的な考えを示している。",
+      "topics": [
+        "ai-dev",
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "AIコーディング時代にエンジニアが磨くべき人間力"
+    }
+  ],
+  "rejected_count": 11,
+  "capped_count": 191,
+  "failures": []
+}
