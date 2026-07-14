@@ -61,7 +61,8 @@ cd "$REPO_DIR"
 候補記事:
 $CANDIDATES_JSON"
 
-  claude -p "$PROMPT" --allowedTools "WebFetch" > "$JUDGE_OUTPUT_FILE" 2>>"$LOG_FILE"
+  CLAUDE_BIN="$(command -v claude || echo "$HOME/.n/bin/claude")"
+  "$CLAUDE_BIN" -p "$PROMPT" --allowedTools "WebFetch" > "$JUDGE_OUTPUT_FILE" 2>>"$LOG_FILE"
 
   python3 scripts/apply_judgment.py \
     --today "$TODAY" \
