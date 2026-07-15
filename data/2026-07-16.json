@@ -1,0 +1,256 @@
+{
+  "date": "2026-07-16",
+  "items": [
+    {
+      "url": "https://speakerdeck.com/wxyzzz/2026-07-15-ai-ready-nahasutatutaakitekutiyato-jian-etekitake-ti-ci-nimu-zhi-suzhuang-tai",
+      "title": "[2026-07-15] AI Ready なはずだったアーキテクチャと、見えてきた課題・次に目指す状態",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AI駆動開発を前提に設計したはずのアーキテクチャが、運用を重ねる中で新たな課題を露呈させたという実践報告。理想と現実のギャップから、次に目指すべきアーキテクチャの姿を模索している。設計判断の見直しプロセスが具体的に語られている点が参考になる。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "A",
+      "hook": "AI Ready設計の理想と現実のギャップ"
+    },
+    {
+      "url": "https://zenn.dev/yoshihiko555/articles/3162f97677f0b9",
+      "title": "MacのSSD 150GBがいつの間にか消えていた — AIエージェントにDockerとテストを任せた代償と復旧の全記録",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AIエージェントにDockerとテストの実行を任せた結果、MacのSSD容量が150GBも知らぬ間に消費されていたという体験談。原因究明と復旧の過程を詳細に記録しており、AIエージェントに作業を委任する際の監視の重要性を教えてくれる。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "AIエージェント任せの代償、150GB消失"
+    },
+    {
+      "url": "https://zenn.dev/manase/articles/claude-code-sdd-workflow-guide",
+      "title": "【Claude Code×SDD】requirements→design→tasks→dev-report→QAの開発ワークフロー全公開",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Claude Codeを使い、要件定義からタスク分解、開発、QAまでを一気通貫で回すSDD(仕様駆動開発)ワークフローを公開した記事。各フェーズでのプロンプト設計やドキュメント運用の工夫が具体的に紹介されている。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "A",
+      "hook": "仕様駆動開発ワークフローの全公開"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/07/stripe-ai-agents-benchmark/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Stripe Benchmark Shows AI Agents Build Integrations but Struggle with Validation",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "StripeによるベンチマークでAIエージェントは外部サービスとの統合コードを組み立てられる一方、その正しさを検証する能力には課題が残ることが示された。AIが「作る」ことと「検証する」ことの間にあるギャップを浮き彫りにしている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "AIは作れても検証はできない"
+    },
+    {
+      "url": "https://www.infoq.com/presentations/postgres-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Presentation: Postgres for Production Agents: Your Relational Foundation for Enterprise AI",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "本番運用されるAIエージェントの基盤としてPostgreSQLを活用する方法を解説したカンファレンス発表。エンタープライズ向けにエージェントの状態管理やデータ永続化をリレーショナルDBで支える設計思想が語られている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/neet/articles/11bafab8645995",
+      "title": "ローカル LLM を構築した",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "手元の環境でローカルLLMを一から構築した過程を記録した記事。セットアップやチューニングでの試行錯誤が具体的に共有されている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "ローカルLLMを自分の手で構築する"
+    },
+    {
+      "url": "https://speakerdeck.com/tonkotsuboy_com/claude-code-parallel-2026-07-15",
+      "title": "【Claude Code】鹿野さんに聞く 私の推しの並行開発環境 大公開 / claude-code-parallel-2026-07-15",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "複数のClaude Codeセッションを並行して走らせる開発環境の構築事例を、実践者へのインタビュー形式で紹介するスライド。ターミナルやworktreeの使い分けなど、具体的な工夫が語られている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "並行Claude Code開発環境の作り方"
+    },
+    {
+      "url": "https://yatta47.hateblo.jp/entry/2026/03/20/221447",
+      "title": "手離れするインフラ設計を考える - /var/www/yatta47.log",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "運用担当者がいなくても回り続けるような「手離れの良い」インフラ設計について考察した記事。監視や自動化をどこまで作り込むか、人が関与しなくても機能する仕組みづくりの勘所がまとめられている。",
+      "topics": [
+        "design"
+      ],
+      "neta": "S",
+      "hook": "「手放す設計」という発想の逆転"
+    },
+    {
+      "url": "https://forest.watch.impress.co.jp/docs/serial/aistream/2125391.html",
+      "title": "AI時代の「無知の知」──「青信号で止まるAI」を作らないために【生成AIストリーム】",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AI時代における「無知の知」の重要性を論じ、状況を判断せず機械的に振る舞う「青信号で止まるAI」を作らないための視点を提示する記事。人間側がAIの限界を自覚し補う姿勢の大切さを説いている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "AIに『無知の知』は持てるか"
+    },
+    {
+      "url": "https://togetter.com/li/2720718",
+      "title": "Teamsの会議で偉い人だけ残ってって言われるパターンがあるけど、終わった後にスクリプトをCopilotに要約させてみたら人事評価や異動に関する話が出てきた",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Teamsの会議で「偉い人だけ残って」と言われた後の録画をCopilotに要約させたところ、人事評価や異動に関する話まで抽出されてしまったという体験談。AI要約ツールの便利さと情報漏洩リスクの両面を浮き彫りにしている。",
+      "topics": [
+        "worklife",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "AI要約が暴いた会議の裏側"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/07/claude-apps-gateway-aws/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "AWS Ships Claude Apps Gateway as Self-Hosted Control Plane for Claude Code and Claude Desktop",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "AWSがClaude CodeやClaude Desktop向けに、自社インフラ内でホストできるコントロールプレーン「Claude Apps Gateway」を発表。企業がエージェント利用を統制・可視化するための基盤として位置づけられている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/07/genkit-agents-api-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Google's Genkit Ships Agents API with Detached Turns and Human-in-the-Loop for TypeScript and Go",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "GoogleのGenkitがTypeScript/Go向けにAgents APIを発表。人間の判断を挟む「Human-in-the-Loop」や処理を分離して実行する「Detached Turns」など、実運用を意識した機能が紹介されている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "Human-in-the-Loopを組み込むエージェント設計"
+    },
+    {
+      "url": "https://addyosmani.com/blog/career-advice-age-of-agents/",
+      "title": "The Agent-Era Career",
+      "source": "Addy Osmani",
+      "lang": "en",
+      "summary": "AIエージェントが当たり前になる時代におけるエンジニアのキャリア形成について論じた記事。技術力だけでなく、エージェントを使いこなす判断力や人間的なスキルの重要性が増すと指摘している。",
+      "topics": [
+        "worklife",
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "エージェント時代のキャリア戦略"
+    },
+    {
+      "url": "https://addyosmani.com/blog/agentic-autonomy-levels/",
+      "title": "Agentic Autonomy Levels",
+      "source": "Addy Osmani",
+      "lang": "en",
+      "summary": "AIエージェントの自律性を段階的に整理したフレームワークを提示する記事。どこまで人間が介入し、どこから任せるべきかを設計する際の指針として紹介されている。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "A",
+      "hook": "エージェントの自律性レベルという物差し"
+    },
+    {
+      "url": "https://addyosmani.com/blog/agentic-code-review/",
+      "title": "Agentic Code Review",
+      "source": "Addy Osmani",
+      "lang": "en",
+      "summary": "AIエージェントによるコードレビューの現状と活用法を論じた記事。人間のレビュアーとどう役割分担するかという観点から、チーム開発におけるレビュープロセスの再設計を提案している。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "A",
+      "hook": "AIレビュアーとどう役割分担するか"
+    },
+    {
+      "url": "https://addyosmani.com/blog/agent-skills/",
+      "title": "Agent Skills",
+      "source": "Addy Osmani",
+      "lang": "en",
+      "summary": "Claudeの「Skills」機能について解説した記事。再利用可能な手順をエージェントに与えることで、特定タスクの遂行能力を高める仕組みが紹介されている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "再利用可能な『スキル』をAIに渡す"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything",
+      "title": "How I tricked Claude into leaking your deepest, darkest secrets",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "researcherがClaudeにWebFetch機能を悪用させ、ユーザーの機密情報を外部に漏洩させる手口を実演した記事。プロンプトインジェクションのリスクと、AIツールを扱う際の警戒心の必要性を具体的に示している。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "AIに秘密を喋らせる新手口"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Jul/9/llm/#atom-everything",
+      "title": "llm 0.31.1",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "Simon WillisonのCLIツール「llm」のマイナーアップデートに関するリリースノート。新機能や修正点が簡潔にまとめられている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://note.com/uchita_success/n/n030ad63765d3",
+      "title": "デロイトが国に納品したスライド351枚、全部数えたらパターンは7つだけだった｜うちた",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "デロイトが国に納品した351枚のスライドを全て数えた結果、実はわずか7パターンの型に集約されることが分かったという分析記事。大量の資料作成も型化できるという仕事術の観点で示唆に富む。",
+      "topics": [
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "351枚のスライドはたった7パターン"
+    },
+    {
+      "url": "https://anond.hatelabo.jp/20260715103512",
+      "title": "日本のエンジニアっていつからこんなに働かなくなったの？",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "日本のエンジニアが以前と比べて「働かなくなった」のではないかという問題提起から始まる考察記事。労働観や働き方の変化を巡る議論を呼んでいる。",
+      "topics": [
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "エンジニアは働かなくなったのか論争"
+    }
+  ],
+  "rejected_count": 20,
+  "capped_count": 119,
+  "failures": [
+    {
+      "name": "Hacker News Front Page",
+      "error": "<urlopen error [Errno 54] Connection reset by peer>"
+    }
+  ]
+}
