@@ -1,0 +1,172 @@
+{
+  "date": "2026-07-17",
+  "items": [
+    {
+      "url": "https://tech-blog.rakus.co.jp/entry/20260716/claude",
+      "title": "Claude Codeのスキル設計で効く4つのポイント —— 「AIへの仕事の任せ方」を意識した設計 - RAKUS Developers Blog | ラクス エンジニアブログ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Claude Codeのスキル設計について、AIへの仕事の任せ方を意識した4つのポイントを解説する記事。新人育成のように業務範囲や権限を明確に定義することがAIエージェント活用の鍵になるという内容。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "S",
+      "hook": "AIへの指示設計は新人への仕事の任せ方と同じという逆転の視点"
+    },
+    {
+      "url": "https://aws.amazon.com/jp/blogs/news/kiro-how-tdd-should-feel/",
+      "title": "Kiro でテスト駆動開発（TDD）：こうあるべき体験 | Amazon Web Services",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AWSのAIコーディングエージェント「Kiro」を使ったTDDのあるべき体験について解説する記事。AIがテストを書く時代でも、Red-Green-Refactorのリズムや人間の設計判断が重要であることを示している。",
+      "topics": [
+        "ai-dev",
+        "xp"
+      ],
+      "neta": "S",
+      "hook": "AIがテストを書く時代でも変わらないTDDの人間的規律"
+    },
+    {
+      "url": "https://zenn.dev/m16_llc/articles/claude-code-claudemd-guardrails",
+      "title": "【Claude Code】CLAUDE.mdのルールはClaude自身に書かせる 〜ガードレール&自動化Rule設計〜",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "CLAUDE.mdのガードレールルールを、人間が手書きするのではなくClaude自身に書かせて自動化する設計手法を紹介する記事。ルール設計をAIに委ねる自己言及的なアプローチが特徴。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "S",
+      "hook": "AIに自分の行動ルールを書かせるという自己言及的な発想"
+    },
+    {
+      "url": "https://zenn.dev/emuni/articles/claude-code-sdd-workflow-guide",
+      "title": "【Claude Code×SDD】requirements→design→tasks→dev-report→QAの開発ワークフロー全公開",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "requirements→design→tasks→dev-report→QAという一連の開発ワークフローをClaude Codeで実現する方法を実例とともに公開した記事。AI駆動開発の工程を体系化している点が特徴。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "A",
+      "hook": "要件定義からQAまでAIと伴走する開発フローの型化"
+    },
+    {
+      "url": "https://qiita.com/koki-bit/items/d3ea191e46fc3a0fb375",
+      "title": "【アジャイル開発・スクラム】の概要",
+      "source": "Qiita(スクラム)",
+      "lang": "ja",
+      "summary": "アジャイル開発とスクラムの基本概念を整理した入門記事。両者の違いや関係性を初学者向けに解説している。",
+      "topics": [
+        "agile",
+        "scrum"
+      ],
+      "neta": "A",
+      "hook": "アジャイルとスクラムの違いを一言で整理する切り口"
+    },
+    {
+      "url": "https://github.com/xhluca/agent-talk",
+      "title": "Agent-talk: Enabling coding agents to work together",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "複数のコーディングエージェントが協調して作業できるようにするオープンソースプロジェクト「Agent-talk」の紹介。AI同士のチームプレーという発想が人間のチーム連携のあり方を逆照射する内容になっている。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "AIエージェント同士のチームプレーから人間のチーム連携を逆照射"
+    },
+    {
+      "url": "https://zenn.dev/sonicmoov/articles/8712598f532b18",
+      "title": "Claude Codeが化けた。今使っている3つのプラグイン+標準機能の活用法",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "3つのプラグインと標準機能を組み合わせてClaude Codeの活用度を大幅に高めた実践レポート。日々の開発フローに組み込むための具体的な使い方を紹介している。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "プラグイン活用でClaude Codeを化けさせる実践知"
+    },
+    {
+      "url": "https://zenn.dev/pepabo/articles/74653f4d78eb7b",
+      "title": "AIにUIを作らせる前に、デザインの土台を自分で決めるツールを作った",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIにUIデザインを丸投げする前に、人間がデザインの土台となる原則やルールを自分で決めるためのツールを開発した記事。AI時代こそ人間の設計判断が重要になるという逆転の視点を提示している。",
+      "topics": [
+        "design",
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "AI時代こそ人間がデザインの土台を決める重要性が増すという逆転"
+    },
+    {
+      "url": "https://note.com/uchita_success/n/n5db702b25061",
+      "title": "AIで資料作成を終わらす、プロンプト＋パワポ420点｜うちた",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "プロンプトを活用してパワーポイント資料作成を効率化した実践記録。420点という具体的な成果物数を示しながら、AIによる資料作成の仕事術を紹介している。",
+      "topics": [
+        "worklife"
+      ],
+      "neta": "A",
+      "hook": "プロンプト×パワポで資料作成を終わらせる仕事術"
+    },
+    {
+      "url": "https://www.infoq.com/presentations/rust-tps-service/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Presentation: The Rust High Performance Talk You Did Not Expect",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "KotlinからRustへの移行を通じて、型安全性や借用チェッカーがチームの開発速度や設計品質を高めることを論じたプレゼンテーション。パフォーマンス向上はむしろ副次的な効果に過ぎないという意外な視点が特徴。",
+      "topics": [
+        "design"
+      ],
+      "neta": "S",
+      "hook": "パフォーマンスより開発者体験こそがRust移行の本質という逆転"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything",
+      "title": "Mermaid to Unicode box art (grok-mermaid)",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "MermaidダイアグラムをUnicodeのボックスアートに変換する「grok-mermaid」という遊び心あるLLM活用ツールの紹介。ちょっとした発想でLLMを実務ツールに変える面白さがある内容。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "MermaidをUnicodeアートに変換するLLMの意外な使い道"
+    },
+    {
+      "url": "https://shun-pi.hatenablog.com/entry/2026/07/16/195647",
+      "title": "競技プログラミング（ヒューリスティック部門）世界大会で優勝した私が人生を振り返る - Shun_PI’s blog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "ヒューリスティック部門の競技プログラミング世界大会で優勝したエンジニアが、自身の人生を振り返るブログ記事。技術力だけでなく、継続や挫折との向き合い方など人間的な要素が語られている。",
+      "topics": [
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "世界チャンピオンが語る技術力より大事な人間的な継続力"
+    },
+    {
+      "url": "https://zenn.dev/rejasupotaro/articles/c55722ca8aa2ca",
+      "title": "検索の5年前と、今と、これから考えること",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "検索エンジニアが2018年から2026年までの検索技術の変化（埋め込み技術の普及、ハイブリッド検索、リランキングの進化）を個人的な経験とともに振り返る記事。今後は「エンジニアでなくなっている可能性」にも触れ、AI時代のキャリア観を考えさせる内容。",
+      "topics": [
+        "design",
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "5年後には『エンジニアでなくなっている』かもしれないという逆説"
+    }
+  ],
+  "rejected_count": 27,
+  "capped_count": 129,
+  "failures": []
+}
