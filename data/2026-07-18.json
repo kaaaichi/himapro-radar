@@ -1,0 +1,205 @@
+{
+  "date": "2026-07-18",
+  "items": [
+    {
+      "url": "https://pc.watch.impress.co.jp/docs/news/2125939.html",
+      "title": "ローカルLLMが資料を自動作成「LM Studio Bionic」、無料のAIエージェント",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "LM Studioが新機能「Bionic」を発表し、ローカルで動作する無料のAIエージェントが資料作成を自動代行できるようになった。クラウド送信せずプライバシーを保ちながら文書作業を効率化できる点が特徴。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "ローカル完結の無料AIエージェントが資料作成を代行、業務のどこまで任せられるか"
+    },
+    {
+      "url": "https://zenn.dev/arufian/articles/4676070054c347",
+      "title": "Claude Codeのスキル×サブエージェントで開発ワークフローを丸ごと自動化したらデリバリー速度が3倍になった",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Claude Codeのスキル機能とサブエージェントを組み合わせ、開発ワークフロー全体を自動化した結果、デリバリー速度が3倍になったという実践報告。具体的な構成や運用ノウハウが紹介されている。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "デリバリー速度3倍化の裏で、人間エンジニアに残る仕事は何か"
+    },
+    {
+      "url": "https://qiita.com/udowanllc/items/b1e483514c6420028614",
+      "title": "AI駆動開発の効果測定、その指標で本当に合っていますか？ ― 保守開発で測るべきもの",
+      "source": "Qiita(アジャイル)",
+      "lang": "ja",
+      "summary": "AI駆動開発の効果測定において、コード行数やPR数といった従来指標では保守開発の実態を正しく捉えられないと指摘する記事。保守フェーズで本当に見るべき指標について論じている。",
+      "topics": [
+        "ai-dev",
+        "agile"
+      ],
+      "neta": "S",
+      "hook": "AI駆動開発の『効果』をPR数やコード量で測るのは危険?保守開発視点の落とし穴"
+    },
+    {
+      "url": "https://lmstudio.ai/blog/introducing-lm-studio-bionic",
+      "title": "LM Studio Bionic: the AI agent for open models",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "LM Studio公式ブログによる「Bionic」機能の発表。オープンモデルを使いこなすAIエージェントとして、ローカル環境での自律的なタスク遂行を目指すとしている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "オープンモデルを操るAIエージェント、実務導入のハードルはどこにあるか"
+    },
+    {
+      "url": "https://zenn.dev/loglass/articles/6aa18c80496ec6",
+      "title": "AIに「レビューして」はもう古い？「敵対的検証」のすすめ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIに単に「レビューして」と依頼するだけでは不十分だとし、あえて欠陥を見つけにいく「敵対的検証」という新しいAI活用法を提案する記事。AIレビューの限界と人間の批判的思考の重要性に触れている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "AIに『レビューして』はもう古い?あえて壊しにいく『敵対的検証』という付き合い方"
+    },
+    {
+      "url": "https://sizu.me/laiso/posts/mcerekex7091",
+      "title": "なぜAI臭さを消したいのか？｜laiso",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIが生成した文章やコードに漂う「AI臭さ」をなぜ人は消したがるのか、その心理的背景を掘り下げるエッセイ。AI活用が当たり前になる中での人間らしさや信頼への向き合い方を考察している。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "AI生成物の『AI臭さ』を消したくなる心理、その正体とは"
+    },
+    {
+      "url": "https://gigazine.net/news/20260717-linux-linus-torvalds-ai/",
+      "title": "リーナス・トーバルズが「LinuxはアンチAIではない」「気に入らないならフォークすればいい」などLinuxカーネル開発におけるAI利用について意見を述べる",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "リーナス・トーバルズがLinuxカーネル開発におけるAI活用について、「LinuxはアンチAIではない」「気に入らないならフォークすればいい」と発言したという記事。OSSコミュニティにおけるAI受容の姿勢が示されている。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "『気に入らないならフォークすればいい』にみるOSSチームのAI受容と対立解消"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/articles/2607/17/news088.html",
+      "title": "1Password、Claudeに「パスワードを見せず」目的のサイトにログインする新機能 生体認証→アクセス権限付与",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "1Passwordが、パスワードそのものをAIに見せずに目的のサイトへログインできる新機能を発表した。生体認証を経てAIエージェントにアクセス権限だけを付与する仕組みが特徴。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "S",
+      "hook": "AIエージェントに『見せずに使わせる』権限設計、信頼をどう設計するか"
+    },
+    {
+      "url": "https://zenn.dev/akkodis_jp/articles/10ea51ad739b5f",
+      "title": "DifyをAI駆動化したら半日でリリースできた話（MCP×Kiro）",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "ノーコードツールDifyの開発をMCPとKiroでAI駆動化し、半日でリリースまでこぎつけたという事例記事。スピード重視の開発で得られたものと引き換えに何を犠牲にしたかにも触れている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "MCP×Kiroで半日リリース、スピードと品質のトレードオフをどう判断するか"
+    },
+    {
+      "url": "https://qiita.com/m-saito_nes/items/69f7389f70dc05f4706f",
+      "title": "銀の弾は無いのだ。チームは愚直にコツコツ学ぶことで成果が出せるようになっていく",
+      "source": "Qiita(スクラム)",
+      "lang": "ja",
+      "summary": "「銀の弾はない」というブルックスの古典的命題を引きつつ、AI時代であってもチームは地道な学習の積み重ねでしか成果を出せないと説く記事。派手な技術導入よりも愚直な習慣化の重要性を訴えている。",
+      "topics": [
+        "team",
+        "scrum"
+      ],
+      "neta": "S",
+      "hook": "『銀の弾はない』をAI時代のチーム開発に当てはめると?"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/07/uber-opensearch-zone-failure/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "How Uber Builds Zone-Failure-Resilient OpenSearch Clusters",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "Uberが大規模なOpenSearchクラスタで、単一ゾーン障害が発生してもサービスを継続できるようにした設計事例を紹介する記事。「壊れる前提」でのアーキテクチャ設計の考え方が具体的に語られている。",
+      "topics": [
+        "design"
+      ],
+      "neta": "S",
+      "hook": "Uberのゾーン障害耐性設計にみる、『壊れる前提』のアーキテクチャ思考"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/07/production-ai-platforms-evals/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "QCon AI Boston: Production AI Moves Beyond Prompts to Platforms, Harnesses, and Evals",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "QCon AI Bostonのセッションをもとに、AI活用が単発のプロンプト工夫から、プラットフォーム・ハーネス・評価(evals)を伴う本格運用へ移行しつつあると報告する記事。プロダクションAIに求められる新しいスキルセットが議論されている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "プロンプトエンジニアリングは卒業?『評価(evals)』で鍛える次のAI開発スキル"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Jul/16/mermaid-ascii/#atom-everything",
+      "title": "Mermaid to ASCII art (mermaid-ascii)",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "MermaidダイアグラムをASCIIアートに変換するツール「mermaid-ascii」を紹介する記事。テキストベースの環境でも手軽に設計図やフローを共有できる工夫が紹介されている。",
+      "topics": [
+        "design"
+      ],
+      "neta": "A",
+      "hook": "Mermaid図をASCIIアートに変換、テキストだけで設計を伝える工夫"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/2607-obsidian-plugins-visualize-notes/",
+      "title": "Obsidianをよりわかりやすく。視覚化プラグイン活用術 | ライフハッカー・ジャパン",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "メモアプリObsidianで、ノート同士のつながりを視覚化するプラグインの活用法を紹介する記事。情報を可視化することで思考整理や知識の再発見につなげる工夫が解説されている。",
+      "topics": [
+        "worklife"
+      ],
+      "neta": "A",
+      "hook": "メモを可視化すると仕事の生産性はどう変わるか"
+    },
+    {
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2607/17/news049.html",
+      "title": "GETでもPOSTでもない HTTP新メソッド「QUERY」が標準化へ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "HTTPの新メソッド「QUERY」がGETでもPOSTでもない存在として標準化に向けて動いているという記事。既存メソッドでは表現しづらかったAPI設計上の課題を解決する狙いがあるとされる。",
+      "topics": [
+        "design"
+      ],
+      "neta": "S",
+      "hook": "GETでもPOSTでもない新メソッドQUERYが解決するAPI設計上のジレンマ"
+    },
+    {
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/07/17/142812",
+      "title": "Amazon CloudFrontの障害についてまとめてみた - piyolog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Amazon CloudFrontで発生した大規模障害の経緯や影響範囲を時系列でまとめた記事。技術的な原因分析だけでなく、情報公開のタイミングなど組織的な対応にも触れられている。",
+      "topics": [
+        "team"
+      ],
+      "neta": "S",
+      "hook": "大規模障害から学ぶ、技術対応と人間のコミュニケーションの両輪"
+    }
+  ],
+  "rejected_count": 24,
+  "capped_count": 125,
+  "failures": []
+}
