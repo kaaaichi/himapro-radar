@@ -1,0 +1,235 @@
+{
+  "date": "2026-07-19",
+  "items": [
+    {
+      "url": "https://speakerdeck.com/moongift/aishi-dai-nokai-fa-sheng-chan-xing-ha-ge-ren-ji-karatimushe-ji-he",
+      "title": "AI時代の開発生産性は、個人技からチーム設計へ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AI駆動開発の時代において、個人の技量よりもチーム全体の設計・仕組みが生産性を左右するという主張のスライド。属人的な「デキる人」への依存から脱却し、誰が使っても成果が出る開発プロセスやレビュー体制を設計することの重要性を説いている。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "「上手い人がいるから速い」から「仕組みが速い」への転換"
+    },
+    {
+      "url": "https://zenn.dev/discus0434/articles/customizable-agent-teams",
+      "title": "役割ごとにFableとGPT-5.6を使い分けるAgent Teamの設計",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "役割ごとにClaude Fable 5とGPT-5.6を使い分ける「Agent Team」テンプレートを紹介する記事。Lead役はFable 5が人間対応を、実装調査はGPT-5.6 Luna、レビューはGPT-5.6 Solが担うなど責務を11の役割に分散し、「1体に全部任せると見落としが増える」という課題への解決策を提示している。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "AIに全部任せるほど見落としが増える、というパラドックスへの対処"
+    },
+    {
+      "url": "https://zenn.dev/yun_bow/articles/fe524a20c32d26",
+      "title": "チームのAI駆動開発“準備度”を2分で診断する無料Webツール「AI駆動開発導入診断」をつくった",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "チームのAI駆動開発への準備度合いを2分程度で診断できる無料Webツールを開発したという記事。闇雲にAI導入を進める前に、自分たちの現在地を客観的に把握できる点が特徴。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "A",
+      "hook": "『何となく始める』チームへの健康診断"
+    },
+    {
+      "url": "https://azukiazusa.dev/blog/recent-ai-coding-development-process-centered-on-design/",
+      "title": "最近の AI コーディングで実践している、設計を中心とした開発の進め方",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "最近のAIコーディングにおいて、仕様を丸投げするのではなく設計を中心に据えた開発の進め方を実践例とともに紹介する記事。AIに任せる範囲が広がるほど、人間が担う設計の質がアウトプットを左右するという逆説を扱っている。",
+      "topics": [
+        "design",
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "AIに丸投げするほど、人間の設計力が問われる逆説"
+    },
+    {
+      "url": "https://qiita.com/minamijoyo/items/854ce04da1490b43a848",
+      "title": "AIエージェントのためのDocker Sandboxes実践入門 - Qiita",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIエージェントを安全に動かすためのDocker Sandboxes活用を解説する実践入門記事。エージェントを無条件に信用せず、隔離された環境で実行するという前提で開発環境を設計することの重要性を説いている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "AIエージェントを信用しない、という前提で環境を作る"
+    },
+    {
+      "url": "https://qiita.com/zucky-quest/items/8821d6c749b1a419ab71",
+      "title": "「以後気をつけます」をレトロで終わらせない —— 失敗学 × スクラム × AIレビューでミスを仕組み化する",
+      "source": "Qiita(スクラム)",
+      "lang": "ja",
+      "summary": "「以後気をつけます」という精神論で終わらせず、失敗学のダブルチェック三原則をPRレビューに組み込み、AIレビューとCODEOWNERSで仕組み化した事例。レトロスペクティブでミスを4分類して原因を特定し改善をCIやテンプレートに昇格させた結果、チームのベロシティが約75SPから約150SPへ向上したという。",
+      "topics": [
+        "scrum",
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "『以後気をつけます』禁止、仕組み化でベロシティ2倍に"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything",
+      "title": "SQLite Query Explainer",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "ブラウザ上でSQLiteのクエリ実行計画（EXPLAIN QUERY PLAN）と低レベルのバイトコード出力を平易な言葉で解説してくれるツール。開発者Julia Evansの「クエリプランの読み方を学びたい」という声をきっかけに、Simon WillisonがFableの協力を得て作成した。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "実行計画を『翻訳』して読めるようにするAI活用"
+    },
+    {
+      "url": "https://togetter.com/li/2721800",
+      "title": "最近はAIで参考を作ってデザイナーに渡すが、デザイナーが「ここからどうデザインしろと？」となってしまい、結果的に相当細かく指示してあげないといけなくなる→デザイナー側の引っ掛かりポイントはどこにあるのか",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIで作った参考資料をデザイナーに渡すと「ここからどうデザインしろと」と困惑され、結局細かい指示を出さないといけなくなるという現場の声をまとめたまとめ記事。AIが効率化したはずの工程が、逆にデザイナーとのコミュニケーションコストを増やしてしまう構造を浮き彫りにしている。",
+      "topics": [
+        "design",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "AIが楽にしたはずが、指示コストは逆に増えた"
+    },
+    {
+      "url": "https://www.techno-edge.net/article/2026/07/18/5311.html",
+      "title": "キース・エマーソンみたいに弾けないので、無限にシンセソロを弾き続けるアプリをClaude Fable 5に作ってもらった。（CloseBox） | テクノエッジ TechnoEdge",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "シンセソロを自分では弾けない筆者が、無限にシンセソロを弾き続けるアプリをClaude Fable 5に作ってもらったという体験記。「弾けないなら作ればいい」という気軽なvibe codingの実例として読める。",
+      "topics": [
+        "ai-dev",
+        "worklife"
+      ],
+      "neta": "A",
+      "hook": "弾けないなら、作ればいい"
+    },
+    {
+      "url": "https://qiita.com/archeleeds/items/2efad73069b54288deb4",
+      "title": "ComfyUI × 動画生成AI × Codex で、ゲーム用スプライトアニメを量産するパイプラインを作った話 - Qiita",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "ComfyUIによる画像・動画生成AIとCodexを組み合わせ、ゲーム用スプライトアニメーションを量産するパイプラインを構築した事例記事。複数のAIツールを連携させ、個人開発でもアセット制作を効率化する具体的な手法を紹介している。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "AIパイプラインで一人ゲーム会社ごっこ"
+    },
+    {
+      "url": "https://zenn.dev/uma002/articles/spec-driven-development-graybox-review",
+      "title": "「仕様を決めてしまえば、あとは全自動でAIが開発してくれる」という考え方への違和感を言語化してみる",
+      "source": "Zenn(アジャイル)",
+      "lang": "ja",
+      "summary": "「仕様さえ決めればあとは全自動でAIが開発してくれる」という仕様駆動開発の楽観論に対し、実際にはグレーボックスレビューなど人間の関与が不可欠であるという違和感を言語化した記事。AI駆動開発時代のアジャイルなプロセス設計を考える上での問題提起になっている。",
+      "topics": [
+        "agile",
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "仕様さえ決めれば全自動、という夢への冷や水"
+    },
+    {
+      "url": "https://qiita.com/tamurahdn/items/1592580c638e1857f07d",
+      "title": "ウォーターフォールとアジャイルの正しい扱い方について",
+      "source": "Qiita(アジャイル)",
+      "lang": "ja",
+      "summary": "ウォーターフォールとアジャイルを対立構造で語るのではなく、それぞれの正しい適用場面と扱い方を整理した記事。手法論の二項対立に陥りがちな現場に向けた実践的な整理を提供している。",
+      "topics": [
+        "agile"
+      ],
+      "neta": "A",
+      "hook": "二項対立で語られがちな手法論に決着をつける"
+    },
+    {
+      "url": "https://ykdojo.github.io/claude-controls-mac/",
+      "title": "Setting up your spare Mac for Claude Code to control, a step-by-step guide",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "余っているMacをClaude Codeに操作させるためのセットアップ手順を解説したステップバイステップガイド。眠っているハードウェアをAIエージェントの実行環境として再活用する具体的な方法を示している。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "余ったMacをAIの手足にする"
+    },
+    {
+      "url": "https://data.stackexchange.com/stackoverflow/query/1953768#graph",
+      "title": "What AI did to stackoverflow in a graph",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "AIの普及がStack Overflowの利用状況にどう影響したかをデータで可視化したグラフ。かつて開発者の知識共有の中心地だった場が、AIチャットの台頭とともに急速に縮小していく様子が示されている。",
+      "topics": [
+        "ai-dev",
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "かつての『ぐぐれ』の聖地が静かに閉店していくグラフ"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter/#atom-everything",
+      "title": "LLM cliché highlighter",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "LLMが生成した文章にありがちな「no X, no Y」構文や「sit with that」などの決まり文句を検出・ハイライトするツール。作者はLLM生成の紋切り型表現に満ちた文章にうんざりしたことがきっかけで開発したと語っており、自分の文章がAIっぽくなっていないかのチェックにも使える。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "自分の文章もAIっぽいクリシェだらけかもしれない恐怖"
+    },
+    {
+      "url": "https://endform.dev/blog/playwright-github-actions",
+      "title": "Playwright on GitHub Actions: The setup that actually runs fast",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "GitHub Actions上でPlaywrightのE2Eテストを高速に実行するための実践的なセットアップ方法を解説した記事。よくある遅いCI設定を見直し、実測ベースで速くする具体的な工夫を紹介している。",
+      "topics": [
+        "team"
+      ],
+      "neta": "A",
+      "hook": "『速い』を名乗るCI設定の実測比較"
+    },
+    {
+      "url": "https://findy-code.io/media/articles/interview-tatsuo-ishii",
+      "title": "70歳を超えてなお、OSS活動に情熱を注ぐ。「生涯現役」でコードを書き続ける意義とは？ - Findy Media",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "70歳を超えてなお現役でOSS活動を続けるエンジニア、石井達夫氏へのインタビュー記事。年齢に関わらずコードを書き続けるキャリアの在り方から、長く技術者を続けるためのヒントを読み取れる。",
+      "topics": [
+        "worklife",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "70代でも現役、というキャリアの逆転メッセージ"
+    },
+    {
+      "url": "https://levtech.jp/media/detail_885/",
+      "title": "28年続くゲームサイト「シフトアップネット」はFlash Player終了時もやめる理由がなかった【フォーカス】 - レバテックLAB",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "28年続くゲームサイト「シフトアップネット」が、Flash Player終了という節目でもサービスをやめなかった理由を追った記事。多くのサービスが畳まれていく中、なぜ続ける決断をしたのかという視点から長期運営の哲学を描いている。",
+      "topics": [
+        "worklife",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "みんなが畳む時に、なぜ畳まなかったのか"
+    }
+  ],
+  "rejected_count": 22,
+  "capped_count": 123,
+  "failures": []
+}
