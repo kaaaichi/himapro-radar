@@ -1,0 +1,305 @@
+{
+  "date": "2026-07-20",
+  "items": [
+    {
+      "url": "https://zenn.dev/yun_bow/articles/579edaec1a32cf",
+      "title": "なぜAI駆動開発の準備度は「加点式」で測ってはいけないのか ― ボトルネック方式という採点設計",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AI駆動開発の「準備度」を測る際、できていることを積み上げる加点式ではなく、最も足を引っ張っている工程を特定するボトルネック方式で採点すべきだと論じる記事。加点式だと弱点が薄まってしまう問題を指摘し、採点設計そのものを見直す視点を提示している。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "「加点式評価はなぜ危険か」から仕事の評価法全般に広げるフック"
+    },
+    {
+      "url": "https://speakerdeck.com/recruitengineers/developerssummit2026summer_kuroda",
+      "title": "開発が速く安くなった後の話 AI時代のソフトウェアエンジニアリング組織論 #devsumi",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIによって開発が速く安くなった後、エンジニアリング組織はどう変わるべきかを論じたDevelopers Summit 2026 Summerの登壇資料。技術力そのものより、組織設計や意思決定のあり方が競争力の分かれ目になると指摘している。",
+      "topics": [
+        "team",
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "「開発が速くなった後、人間に残る仕事は何か」という逆転フック"
+    },
+    {
+      "url": "https://speakerdeck.com/naonana777/aiqu-dong-kai-fa-shi-dai-pin-zhi-bao-zheng?slide=33",
+      "title": "AI駆動開発時代の品質保証",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIがコードを大量に生成する時代における品質保証のあり方を整理した登壇資料。テストやレビューの役割がAI時代にどう変化するかを具体的に解説している。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "「AIが書くコードの品質は誰が保証するか」という当事者意識フック"
+    },
+    {
+      "url": "https://github.com/emilkowalski/skills/blob/main/skills/apple-design/SKILL.md",
+      "title": "skills/skills/apple-design/SKILL.md at main · emilkowalski/skills",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Appleのデザイン原則をClaudeなどのAIエージェントに教え込むためのスキルファイル。色使いやタイポグラフィ、余白といった具体的なデザインガイドラインをAIに実践させる試みを紹介している。",
+      "topics": [
+        "design",
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "「AIに“美的センス”を教える」というデザイン×AIの逆転フック"
+    },
+    {
+      "url": "https://www.watch.impress.co.jp/docs/topic/2125914.html",
+      "title": "ChatGPT Workとはなにか AIエージェントが変える“仕事”のあり方",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "OpenAIの「ChatGPT Work」がもたらす仕事の変化を解説した記事。AIエージェントが業務プロセスに組み込まれることで、エンジニアや事務職の働き方がどう変わるかを論じている。",
+      "topics": [
+        "worklife",
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "「AIエージェント時代に人間に求められるスキルは何か」という逆転フック"
+    },
+    {
+      "url": "https://github.com/emilkowalski/skills/tree/main/skills/apple-design",
+      "title": "skills/skills/apple-design at main · emilkowalski/skills",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "ClaudeなどのAIエージェントにAppleのデザイン原則を実践させるためのスキル一式を公開しているリポジトリページ。色・タイポグラフィ・余白などの具体ガイドラインをAIに組み込む試み。",
+      "topics": [
+        "design",
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "「AIに“美的センス”を教える」というデザイン×AIの逆転フック"
+    },
+    {
+      "url": "https://zenn.dev/syommy_program/articles/settlebase-launch-devlog",
+      "title": "AI駆動開発で社内精算デモ基盤を1日で公開するまでの実録",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AI駆動開発で社内精算のデモ基盤をわずか1日で公開するまでの実録記事。要件定義からデプロイまでAIとどう協働したかを具体的に振り返っている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "「1日でプロダクトを作る」という初級〜中級エンジニアが真似したくなるフック"
+    },
+    {
+      "url": "https://qiita.com/Koukyosyumei/items/e9ee8e26cfdc40a8c2f9",
+      "title": "マルチエージェントに関する論文を40本再実装してみて分かったこと - Qiita",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "マルチエージェントに関する論文40本を実際に再実装して得られた知見をまとめたQiita記事。理論と実装のギャップや、うまく機能するアーキテクチャの共通点を具体的に紹介している。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "「論文を40本読むより実装した方が分かること」という実践重視フック"
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOUC115KO0R10C26A6000000/",
+      "title": "ITエンジニアの賃金二極化 「AI代替」の仕事5割安、日本も雇用縮小 - 日本経済新聞",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIによる代替が進む職種とそうでない職種でITエンジニアの賃金格差が拡大しているという日経の報道。日本でもAIに代替されやすい業務の給与水準が下がり、雇用縮小が進んでいる実態を伝えている。",
+      "topics": [
+        "worklife",
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "「どんなスキルがAIに代替されにくいか」というキャリア防衛フック"
+    },
+    {
+      "url": "https://blog.cybozu.io/entry/2026/07/16/113000",
+      "title": "「間に合いませんでした」をスプリント最終日に言わないために - Cybozu Inside Out | サイボウズエンジニアのブログ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "スプリント最終日になって「間に合いませんでした」と言わないために、サイボウズのエンジニアが実践しているスクラム運用の工夫を紹介する記事。進捗の可視化や早期のリスク共有など、具体的なプラクティスを解説している。",
+      "topics": [
+        "scrum"
+      ],
+      "neta": "S",
+      "hook": "「土壇場で詰む前にやるべきこと」という初級エンジニア向け実践フック"
+    },
+    {
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "title": "GitHub - ayghri/i-have-adhd: Claude Code skill to stop it from burying the answer. ADHD-friendly output.",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "回答の要点を埋もれさせずに提示する、ADHDに配慮したClaude Code向けの出力スキルを紹介するGitHubリポジトリ。AIツールを自分の認知特性に合わせてカスタマイズするという発想が特徴的。",
+      "topics": [
+        "worklife",
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "「AIツールは自分の働き方に合わせてカスタマイズできる」という仕事術フック"
+    },
+    {
+      "url": "https://aws.amazon.com/jp/blogs/news/aws-well-architected-review-with-ai-awssummit2026/",
+      "title": "AI と一緒に進める AWS Well-Architected Framework レビュー のすすめ | Amazon Web Services",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AWS Well-Architected FrameworkのレビューをAIと一緒に進める方法を紹介するAWS公式ブログ。設計上の弱点をAIに指摘させることで、レビューの質とスピードを両立させる手法を解説している。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "A",
+      "hook": "「設計レビューをAIに手伝わせる」という実務直結フック"
+    },
+    {
+      "url": "https://zenn.dev/seekseep/articles/git-with-coding-agents-patterns",
+      "title": "コーディングエージェントとGitを組み合わせる — Simon Willison のパターン集を読む",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Simon Willisonがまとめたコーディングエージェントとgitを組み合わせる際のパターン集を読み解いたZenn記事。ブランチ運用やコミットの粒度など、AIエージェントと安全に協働するための具体的な工夫を紹介している。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "「AIエージェントにどこまでgit操作を任せるか」という実践フック"
+    },
+    {
+      "url": "https://zenn.dev/syommy_program/articles/settlebase-tenant-boundary",
+      "title": "AIにコードを書かせる時代のSupabase RLS——マルチテナント境界をpgTAPとCIで守る実録",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AIにコードを書かせる時代のSupabase RLS運用について、マルチテナントの境界をpgTAPとCIでどう守るかを実録形式で解説した記事。AI生成コードのセキュリティ担保という現場感のある課題を扱っている。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "S",
+      "hook": "「AIが書いたコードのセキュリティ境界は誰が守るか」という当事者意識フック"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
+      "title": "Claude Code uses Bun written in Rust now",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "Claude CodeがBunをRustで書き直したランタイムを採用したというSimon Willisonの記事。開発ツールの内部実装がどのように進化しているかを技術的に解説している。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "「開発ツール自体もAI時代に作り変えられている」という舞台裏フック"
+    },
+    {
+      "url": "https://github.com/openai/codex/pull/33972/files",
+      "title": "OpenAI reduces Codex Model Context Size from 372k to 272k",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "OpenAIがCodexのモデルコンテキストサイズを372kから272kへ縮小したという変更を伝えるプルリクエスト。AI開発ツールのコンテキスト管理がユーザー体験に直結する具体例として紹介できる。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/07/alphaevolve-generally-available/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Google's AlphaEvolve Reaches General Availability with Evolutionary Code Optimization as a Service",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "GoogleのAlphaEvolveが進化的アルゴリズムによるコード最適化サービスとして正式提供開始されたというInfoQの記事。AIが自らコードを改良し続ける仕組みが実用段階に入ったことを伝えている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "「AIが自分でコードを進化させる」というSF的だが実務に効くフック"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything",
+      "title": "AI Mania Is Eviscerating Global Decision-Making",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "AIブームが世界の意思決定を歪めているという警鐘を鳴らす記事。過度な期待や投資判断がAIの実態を無視して進んでいる現状を批判的に論じている。",
+      "topics": [
+        "worklife",
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "「AI熱狂の中で冷静な判断力をどう保つか」という人間力フック"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything",
+      "title": "Claude Code uses Bun written in Rust now",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "Claude CodeがBunをRustで書き直したランタイムに切り替えたことを伝えるSimon Willison本人のブログ記事。開発ツールの裏側で起きている技術選定の変化を紹介している。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "「開発ツール自体もAI時代に作り変えられている」という舞台裏フック"
+    },
+    {
+      "url": "https://speakerdeck.com/watany/questionable-technical-choices",
+      "title": "穢れた技術選定について",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "技術選定が必ずしも技術的合理性だけで決まらない現実を「穢れた」という言葉で表現した登壇資料。政治力学や組織事情が絡む技術選定のリアルを、初級〜中級エンジニア向けに率直に語っている。",
+      "topics": [
+        "design"
+      ],
+      "neta": "S",
+      "hook": "「技術選定はきれいごとでは進まない」という本音フック"
+    },
+    {
+      "url": "https://speakerdeck.com/yug1224/2026-07-18",
+      "title": "ルールを書いて終わらせないハーネスエンジニアリング",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIエージェントにルールを書くだけでは開発は終わらないという前提から、継続的にハーネス(実行基盤)を整備していく「ハーネスエンジニアリング」という考え方を提案する登壇資料。AI駆動開発運用の実践知を扱っている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "「ルールを書いて終わり、ではなく育て続ける」という運用フック"
+    },
+    {
+      "url": "https://zenn.dev/berry_blog/articles/39392e1da7ca71",
+      "title": "E2Eテストをユニットテスト並みの実行時間に — Playwright並列化とGitHub Actionsチューニングの実践",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "PlaywrightのE2EテストをGitHub Actions上で並列化し、ユニットテスト並みの実行時間まで短縮した実践記事。テストの実行速度を改善する具体的なチューニング手法を解説している。",
+      "topics": [
+        "xp"
+      ],
+      "neta": "A",
+      "hook": "「テストが遅いと開発サイクルが死ぬ」というXP実践フック"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/articles/2607/19/news010.html",
+      "title": "AWS“兆ドル”誤見積は「ちょっとした計算ミス」 ジョークのつもり？ で大炎上→日本のAWS社員「あり得ない」と批判→対応",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AWSの兆ドル規模の誤見積もりが「ジョークのつもり」だったことが波紋を呼び、日本のAWS社員からも批判を浴びて対応に追われたという炎上騒動を伝える記事。社内外へのコミュニケーションの取り方を考えさせる事例。",
+      "topics": [
+        "team",
+        "worklife"
+      ],
+      "neta": "A",
+      "hook": "「軽い冗談のつもりが大炎上」というコミュニケーション教訓フック"
+    },
+    {
+      "url": "https://www.cnn.co.jp/tech/35250509.html",
+      "title": "スマホへのアクセスを制限する「Brick」を使ったら本当に依存が激減した話",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "スマートフォンの機能を物理的に制限するデバイス「Brick」を実際に使ってみたところ、スマホ依存が大きく減ったという体験記。仕事術としてのデジタルデトックスを具体的な体験ベースで語っている。",
+      "topics": [
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "「スマホを物理的に縛ると集中力が戻る」という仕事術フック"
+    }
+  ],
+  "rejected_count": 16,
+  "capped_count": 119,
+  "failures": []
+}
