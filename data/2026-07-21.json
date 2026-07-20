@@ -1,0 +1,267 @@
+{
+  "date": "2026-07-21",
+  "items": [
+    {
+      "url": "https://www.publickey1.jp/blog/26/claude_codeclaude_apps_gateway_for_awsgoogle_cloud.html",
+      "title": "Claude Codeを組織一括でシングルサインオン、チームや個人の費用上限設定、デフォルト設定など可能に、「Claude apps gateway for AWS/Google Cloud」登場",
+      "source": "Publickey",
+      "lang": "ja",
+      "summary": "AnthropicがAWSとGoogle Cloud向けに「Claude apps gateway」を発表し、組織単位でのシングルサインオン、チームや個人ごとの利用費用上限、デフォルト設定などを一括管理できるようになった。企業がClaude Codeを組織展開する際のガバナンス機能が強化された形。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/sohei56/articles/c8d8b1b66de8ce",
+      "title": "AIスクラムチームを1画面で管理・利用できるMac Appを作った",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "複数のAIエージェントを「スクラムチーム」に見立て、1つのMacアプリ画面から管理・利用できるツールを個人開発した記事。人間のチーム運営の概念をAIエージェント群のオーケストレーションに応用している点がユニーク。",
+      "topics": [
+        "scrum",
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "AIエージェントの集団を人間のスクラムチームのように運営するとどうなるか"
+    },
+    {
+      "url": "https://zenn.dev/m16_llc/articles/claude-code-infinite-subordinates",
+      "title": "【Claude Code】“無限にいる超優秀な部下”のマネジメント論 〜AIの力を100%引き出す3つの観点〜",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Claude Codeを『無限にいる超優秀な部下』に見立て、AIの力を最大限引き出すための3つのマネジメント観点を紹介する記事。指示の出し方や権限委譲など、人間の部下マネジメントのノウハウがAI活用にそのまま応用できると説く。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "AIを『部下』として捉えると、人間のマネジメントスキルがそのまま活きる"
+    },
+    {
+      "url": "https://forbesjapan.com/articles/detail/101067",
+      "title": "「自分の分身」をAIで作れ、アンソロピック社員が教えるClaude活用術5選 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Anthropic社員が実践する、自分の分身のようにClaudeを使いこなすための活用術5選を紹介する記事。日々の業務をAIに委任し自分の生産性を拡張する仕事術としてまとめられている。",
+      "topics": [
+        "ai-dev",
+        "worklife"
+      ],
+      "neta": "A",
+      "hook": "『自分の分身』を作るという発想でAI活用術を語る"
+    },
+    {
+      "url": "https://qiita.com/Asahi_tech_dev/items/5a3c6420cb0b2fa0e823",
+      "title": "AI時代のドキュメント駆動開発のすすめ - Qiita",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIにコードを書かせる時代だからこそ、仕様や意図を明文化する『ドキュメント駆動開発』が重要になるという主張の記事。AIへの指示精度を上げるための設計文書の書き方を提案している。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "A",
+      "hook": "AIが書く時代だからこそ、人間はドキュメントに回帰する"
+    },
+    {
+      "url": "https://developers.google.com/maps/architecture/grounding-with-maps-mcp?hl=ja",
+      "title": "Maps Grounding Lite MCP を使用して、現実世界の地理空間コンテキストで AI エージェントをグラウンディングする | Google Maps Platform | Google for Developers",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Google Maps PlatformがMCP経由でAIエージェントに実世界の地理空間情報を与える『Maps Grounding Lite MCP』を公開したという公式ドキュメント。AIエージェント開発者向けの新機能紹介。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://github.com/loopgain-ai/loopgain",
+      "title": "GitHub - loopgain-ai/loopgain: An open-source cost controller for AI agent loops — stops a loop when it's actually converged and rolls back before it degrades, instead of running to a fixed max_iterations cap. Real-time loop-gain (Aβ) bands + best-so-far",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIエージェントのループ処理が『収束したかどうか』を制御理論的な指標(loop-gain)で判定し、固定回数の上限に頼らず自動停止・巻き戻しを行うOSSツール。エージェントの暴走コストを抑える仕組みとして紹介されている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "AIエージェントの『いつ止めるか』を制御工学の発想で判断する"
+    },
+    {
+      "url": "https://speakerdeck.com/recruitengineers/developerssummit2026summer_kuroda?slide=49",
+      "title": "開発が速く安くなった後の話 AI時代のソフトウェアエンジニアリング組織論 #devsumi",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIによって開発が速く安くなった後、ソフトウェアエンジニアリング組織はどう変わるべきかを論じたDevelopers Summit 2026の講演資料。開発速度が上がった先にある組織設計・チーム編成の課題を扱う。",
+      "topics": [
+        "team",
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "『速く安くなった後』に組織はどう作り直すべきか"
+    },
+    {
+      "url": "https://zenn.dev/minewo/articles/ai-agent-self-improvement-loop-design",
+      "title": "AIエージェントを勝手に成長させない — 記録・棚卸し・機械化・剪定の自己改善ループ",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AIエージェントを野放しに『成長』させず、記録・棚卸し・機械化・剪定という4つのステップで自己改善ループを設計する手法を紹介する記事。庭木の手入れのような比喩でAIエージェント運用を語っている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "AIエージェントの自己改善を『剪定』というメタファーで制御する"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/07/loom-aws-agent-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "AWS Releases Loom, an Open-Source Reference Platform for Governing AI Agents at Enterprise Scale",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "AWSがエンタープライズ規模でAIエージェントを統治するためのオープンソース参照プラットフォーム『Loom』を公開したというニュース。組織内で多数のAIエージェントを安全に運用するためのガバナンス基盤という位置づけ。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "AIエージェントが増えすぎた組織に必要な『統治』の話"
+    },
+    {
+      "url": "https://araen.hatenablog.com/entry/2026/07/18/175747",
+      "title": "AIのせいでOSSは消えるのか? - araen blog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIによるコード生成の普及がOSSエコシステムの持続可能性を脅かしているのではないかという懸念を論じたブログ記事。メンテナーの負担増やコントリビューション文化の変化について考察している。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "AIが普及するほどOSSが消えていくという逆説"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/rustbunclaude_code.html",
+      "title": "Rustで書き直されたBun、早くもClaude Codeアプリに本番投入された模様",
+      "source": "Publickey",
+      "lang": "ja",
+      "summary": "Rustで書き直されたJavaScriptランタイム『Bun』が、早くもClaude Codeアプリの本番環境に投入されたというニュース。大規模な書き換えを迅速に本番投入する事例として紹介されている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "書き直したばかりのランタイムをすぐ本番投入する判断"
+    },
+    {
+      "url": "https://zenn.dev/syommy_program/articles/beadmap-beads-viewer",
+      "title": "AI開発でタスクは増える、全体は見えない——beads俯瞰ビューア自作の実録",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AI駆動開発でタスクが増え続け全体像が見えなくなった課題感から、タスク管理ツール『beads』向けの俯瞰ビューアを自作した実録記事。AIによる開発速度向上が生む新たな管理コストを描いている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "AIで開発が速くなるほど、逆にタスクの全体像が見えなくなる"
+    },
+    {
+      "url": "https://zenn.dev/shoutaro/articles/7935938472262e",
+      "title": "初めてのOSSとして、AIコーディング時代にDBスキーマをER図で読み解く「shirube」を作りました",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AIコーディング時代にDBスキーマをER図で読み解くための初めてのOSSツール『shirube』を作った記事。AIが生成したスキーマを人間が理解し直すための可視化を目的としている。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "A",
+      "hook": "AIが書いたスキーマを人間が読み解くための道具"
+    },
+    {
+      "url": "https://zenn.dev/sher/articles/7872b82aec7f3a",
+      "title": "Claude Codeで完璧に作った収益サイトが、1円も稼げなかった原因の解剖【実数公開】",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Claude Codeで技術的には完璧に作り込んだ収益サイトが、結果的に1円も稼げなかった原因を実数公開で分析した記事。技術力とビジネス視点のギャップを赤裸々に振り返っている。",
+      "topics": [
+        "ai-dev",
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "『完璧に作った』のに1円も稼げなかった、技術と事業視点のギャップ"
+    },
+    {
+      "url": "https://cursor.com/blog/agent-swarm-model-economics",
+      "title": "Agent swarms and the new model economics",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "複数のAIエージェントを並列稼働させる『エージェントスワーム』が、AIモデルのコスト構造や経済性をどう変えつつあるかを論じたCursorのブログ記事。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "AIエージェントを並列で使う時代の新しい経済学"
+    },
+    {
+      "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
+      "title": "Controlling Reasoning Effort in LLMs",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "LLMの『推論にどれだけ計算を割くか(reasoning effort)』を制御する仕組みと、その精度・コスト・速度のトレードオフを解説した記事。Claude CodeなどAIコーディングツールの設定判断にも直結する内容。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "AIの『考える時間』を減らすとどこまで精度が落ちるのか"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/07/doordash-entity-cache-proxy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "DoorDash Uses Envoy and Valkey for a 1.5M RPS Proxy Cache with 99.99999% Availability",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "DoorDashがEnvoyとValkeyを使い、150万RPS・可用性99.99999%を実現するプロキシキャッシュ基盤を構築した事例記事。大規模トラフィックを支える設計判断が具体的に紹介されている。",
+      "topics": [
+        "design"
+      ],
+      "neta": "A",
+      "hook": "150万RPSを支えるキャッシュ設計の勘所"
+    },
+    {
+      "url": "https://www.infoq.com/podcasts/strands-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Podcast: Strands Agents with Clare Liguori",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "AWSのAIエージェントフレームワーク『Strands Agents』について、開発者Clare Liguoriに聞いたInfoQのポッドキャスト。エージェント開発の設計思想が語られている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "AWSのエージェントフレームワーク開発者が語る設計思想"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/07/netflix-llm-homepage-generation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "How Netflix Built GenPage: a Single GenAI Model to Build Personalized Homepages",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "Netflixが単一の生成AIモデルでパーソナライズされたホーム画面を生成する仕組み『GenPage』を構築した事例記事。大規模プロダクトへの生成AI組み込みの設計を扱っている。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "A",
+      "hook": "Netflixが生成AIでホーム画面を個人最適化する仕組み"
+    },
+    {
+      "url": "https://speakerdeck.com/ozakikota/phpdezuo-raretada-gui-mo-ecsaitokaraxue-bufu-he-dui-ce-ru-men-in-php-conference-2026",
+      "title": "PHPで作られた大規模ECサイトから学ぶ負荷対策入門 in PHP Conference 2026",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "PHPで作られた大規模ECサイトの事例から、負荷対策の基本的な考え方を学ぶ入門資料。特定言語に限らず一般化できる設計判断のポイントが紹介されている。",
+      "topics": [
+        "design"
+      ],
+      "neta": "A",
+      "hook": "大規模ECサイトの負荷対策から学ぶ設計判断の基本"
+    }
+  ],
+  "rejected_count": 19,
+  "capped_count": 124,
+  "failures": []
+}
