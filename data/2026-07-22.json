@@ -1,0 +1,237 @@
+{
+  "date": "2026-07-22",
+  "items": [
+    {
+      "url": "https://qiita.com/yukisnow0704/items/177ec23c506bd20ad223",
+      "title": "AI駆動開発でアジャイル×フルリモートの課題を解決する、小規模チーム向けプラットフォーム（円居-Madoi-）を作っている話",
+      "source": "Qiita(アジャイル)",
+      "lang": "ja",
+      "summary": "個人開発者がAI駆動開発とアジャイル開発を組み合わせ、フルリモートの小規模チーム向けプラットフォーム「円居(Madoi)」を開発している取り組みを紹介する記事。アジャイル×フルリモートで生じる課題をAIの力で解決しようとする試みが語られている。",
+      "topics": [
+        "ai-dev",
+        "agile"
+      ],
+      "neta": "A",
+      "hook": "AIとアジャイルを組み合わせた個人発の小規模チーム向けプラットフォーム開発"
+    },
+    {
+      "url": "https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git",
+      "title": "Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "TwitterやSquareの創業者Jack Dorseyが、チームチャット・AIエージェント・Gitホスティングを一体化した新プロダクト「Buzz」を発表したというニュース。チーム開発ツールにAIエージェントを組み込む新しい形として注目されている。",
+      "topics": [
+        "team",
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "Jack Dorseyがチャット・Git・AIエージェントを統合した新プロダクトを発表"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/07/android-studio-quail-2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Android Studio Quail 2 Redesigns Agent Mode, Streamlines AI-Assisted Coding",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "Android StudioのAIコーディング支援機能「Agent Mode」が大幅に刷新されたことを伝える記事。AIを使ったコーディング体験の改善点がまとめられている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "Android StudioのAIエージェントモードが大幅刷新"
+    },
+    {
+      "url": "https://zenn.dev/ren_i24/articles/4678efd14a2803",
+      "title": "個人×AI駆動開発で20万行を支える技術選定 — 機能とUXから逆算し、「AIが正しく書けるか」で選ぶ",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "個人開発者がAI駆動開発で20万行規模のプロダクトを支えるための技術選定について書いた記事。機能・UXから逆算しつつ「AIが正しく書けるか」という観点を技術選定の軸に据えている点が特徴。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "S",
+      "hook": "「AIが正しく書けるか」を軸にした技術選定という新視点"
+    },
+    {
+      "url": "https://zenn.dev/atrae/articles/6337ec87cd0532",
+      "title": "Claude CodeのSkill × Four Keys分析ダッシュボードを自作し、「AI入れてPRの質は上がった？」にデータで答える",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Claude CodeのSkill機能とFour Keys指標を組み合わせた分析ダッシュボードを自作し、「AIを導入してPRの質は上がったのか」という問いにデータで答えようとした事例を紹介する記事。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "AI導入の効果を感覚でなくFour Keysのデータで語る"
+    },
+    {
+      "url": "https://zenn.dev/aiforall/articles/91666a58e4c8e9",
+      "title": "誰でも「Cursor」で安全なWeb運用を。レガシーな現場でAI駆動開発の民主化を目指したPoCの記録（第2回／全3回）",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "レガシーなWeb運用現場でも安全にAI駆動開発を使えるようにすることを目指し、「Cursor」を使ったPoCの記録をまとめた連載記事(全3回中の第2回)。AI駆動開発の民主化がテーマ。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "レガシー現場にAI駆動開発を持ち込む民主化PoC"
+    },
+    {
+      "url": "https://zenn.dev/edash_tech_blog/articles/d69794d1ca8c01",
+      "title": "週30分の「AIについて話す会」を2ヶ月続けたら、チームのAIスキルが底上げされた話",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "週30分の「AIについて話す会」を2ヶ月間続けた結果、チーム全体のAIスキルが底上げされたという実践事例を紹介する記事。継続的な小さな取り組みがチーム学習に効果を上げた話。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "週30分の「AIについて話す会」だけでチームのAIスキルが底上げ"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/07/gitlab-19-2-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "GitLab 19.2 Puts AI Agents to Work on the Security Backlog",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "GitLab 19.2で、セキュリティ関連の未対応タスク(バックログ)をAIエージェントに処理させる機能が強化されたことを伝えるニュース。AIエージェントをチーム開発のセキュリティ対応に活用する動きの一例。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "A",
+      "hook": "GitLabがAIエージェントにセキュリティバックログを任せる"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-everything",
+      "title": "A Fireside Chat with Cat and Thariq from the Claude Code team",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "著名ブロガーSimon WillisonがClaude Codeチームのメンバー(Cat, Thariq)と対談した記事。Claude Codeの開発チームがどのように働き、プロダクトを作っているかが語られている。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "Claude Codeチームの裏側、開発文化とチームの働き方"
+    },
+    {
+      "url": "https://www.techno-edge.net/article/2026/07/22/5317.html",
+      "title": "Claudeが目で仕事を覚える「スキルを記録」機能 PC作業を録画して分析、Claude Coworkが再現できるスキル化 | テクノエッジ TechnoEdge",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "ClaudeがPC上の作業を録画・分析することで、人間の作業スキルを「記録」して再現できるようにする新機能を紹介する記事。AIが人の仕事のやり方を学習して自動化する仕組みが特徴。",
+      "topics": [
+        "ai-dev",
+        "worklife"
+      ],
+      "neta": "A",
+      "hook": "PC作業を録画するだけでAIがスキルを学習する新機能"
+    },
+    {
+      "url": "https://zenn.dev/hansodeeeeee/articles/d15754d4495071",
+      "title": "「実装は終わっているのに、タスクが完了にならない」プルリクエストが溜まり続けたチームが、仕組みを重ねるまでの試行錯誤（トナリノ）",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "「実装は終わっているのにタスクが完了にならない」という問題を抱えていたチームが、運用の仕組みを重ねることで解決していった試行錯誤を綴った記事。チーム開発におけるタスク管理・ワークフロー改善の実例。",
+      "topics": [
+        "scrum",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "「実装は終わっているのにタスクが完了にならない」現象を仕組みで解決"
+    },
+    {
+      "url": "https://zenn.dev/simplex/articles/56dd62736e7337",
+      "title": "チームで正しいものを作るためのユーザーストーリーマッピング",
+      "source": "Zenn(アジャイル)",
+      "lang": "ja",
+      "summary": "チームで「正しいもの」を作るための手法としてユーザーストーリーマッピングを紹介する記事。アジャイル開発におけるチームの認識合わせの手法について解説している。",
+      "topics": [
+        "agile"
+      ],
+      "neta": "A",
+      "hook": "ユーザーストーリーマッピングでチームの認識を揃える"
+    },
+    {
+      "url": "https://zenn.dev/serio/articles/c7cbdad5fc1dd1",
+      "title": "成果物よりも「過程」を競う。生成AI Procthon 2026を開催して分かったこと",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "成果物ではなく開発の「過程」を競う生成AIハッカソン「Procthon 2026」を開催した結果や気づきをまとめた記事。AI駆動開発における新しいイベント形式の試みを紹介している。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "成果物ではなく「過程」を競うAIハッカソンという新形式"
+    },
+    {
+      "url": "https://zenn.dev/m16_llc/articles/claude-code-playwright-qa",
+      "title": "【Claude Code】QA・スクショ・デモ動画までブラウザ操作を丸投げする(Playwright MCP / CLI)",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Claude CodeとPlaywright MCP/CLIを使い、QAやスクリーンショット、デモ動画作成までブラウザ操作を丸ごとAIに任せる方法を紹介する記事。AI駆動開発における実践的なテスト自動化の手法。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "Claude CodeにQA・スクショ・デモ動画作成まで丸投げする実践"
+    },
+    {
+      "url": "https://zenn.dev/itamachi/articles/cfd6f3965a65d0",
+      "title": "Swift未経験のままClaude Codeに丸投げしてアプリを作ったら、\"個人開発\"の意味が分からなくなった話",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Swift未経験のままClaude Codeにコーディングを丸投げしてアプリを開発した結果、「個人開発とは何か」という意味を問い直すことになったという体験談。AIによる開発の在り方について考えさせられる内容。",
+      "topics": [
+        "ai-dev",
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "未経験からAIに丸投げで個人開発、「作る」の意味を問い直す"
+    },
+    {
+      "url": "https://qiita.com/zucky-quest/items/5a1b4a7fbeaa83c4ede8",
+      "title": "【心理的安全性】『人は話し方が9割』に学ぶ、スクラム開発とPRレビューの「伝え方」スキル化",
+      "source": "Qiita(スクラム)",
+      "lang": "ja",
+      "summary": "書籍『人は話し方が9割』の知見を、スクラム開発におけるPRレビューの「伝え方」スキルに応用しようとする記事。心理的安全性とコミュニケーションの技術をエンジニアリングの文脈で語っている。",
+      "topics": [
+        "scrum",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "『人は話し方が9割』をPRレビューの伝え方に応用"
+    },
+    {
+      "url": "https://qiita.com/h-yamakawa/items/6577add9e6a0b3f5cedd",
+      "title": "「実装は終わっているのに、タスクが完了にならない」プルリクエストが溜まり続けたチームが、仕組みを重ねるまでの試行錯誤（トナリノ）",
+      "source": "Qiita(スクラム)",
+      "lang": "ja",
+      "summary": "「実装は終わっているのにタスクが完了にならない」という問題を抱えていたチームが、運用の仕組みを重ねることで解決していった試行錯誤を綴った記事。チーム開発におけるタスク管理・ワークフロー改善の実例。",
+      "topics": [
+        "scrum",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "「実装は終わっているのにタスクが完了にならない」現象を仕組みで解決"
+    },
+    {
+      "url": "https://zenn.dev/awesome_kou/articles/engineer-performance-metrics",
+      "title": "エンジニアの成果、結局どう測ればいいのか",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "エンジニアの成果を結局どのように測定すればよいのかを論じた記事。個々の技術力だけでなくチームや仕事の進め方まで含めて評価のあり方を考察している。",
+      "topics": [
+        "worklife",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "エンジニアの成果、結局どう測ればいいのか"
+    }
+  ],
+  "rejected_count": 22,
+  "capped_count": 127,
+  "failures": []
+}
