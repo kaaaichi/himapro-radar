@@ -1,0 +1,207 @@
+{
+  "date": "2026-07-23",
+  "items": [
+    {
+      "url": "https://www.publickey1.jp/blog/26/jiraaiclaudecopilotai.html",
+      "title": "アトラシアン、JiraがAIによる要件定義の自動作成、コンテキストを保持しつつタスクをClaudeやCopilotなどのAIエージェントへアサインなど新機能",
+      "source": "Publickey",
+      "lang": "ja",
+      "summary": "アトラシアンがJiraに、要件定義をAIが自動作成し、コンテキストを保持したままタスクをClaudeやGitHub CopilotなどのAIエージェントへアサインできる新機能を追加した。人間のPMやエンジニアは要件の大枠と優先順位づけに集中し、実装をエージェントに橋渡しする形になる。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "AIがタスク実行を担う時代、人間に残るのは『何を作るか』を決める要件定義力"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/07/anthropic-claude-containment/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Anthropic Details How It Contains Claude Across Web, Code, and Cowork",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "Anthropicは、Claudeをウェブ・コード実行・共同作業環境の各面で「封じ込める」ためのセキュリティアーキテクチャの詳細を公開した。権限分離やサンドボックス化など、AIエージェントを安全に運用するための設計思想が示されている。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "S",
+      "hook": "AIエージェントの安全設計は、結局『権限を絞る』というチームの権限管理と同じ発想"
+    },
+    {
+      "url": "https://pc.watch.impress.co.jp/docs/news/2126861.html",
+      "title": "Claude CodeにiOSシミュレータ連携機能追加。画面録画からスキルを作れる機能も",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Claude CodeにiOSシミュレータとの連携機能が追加され、画面録画からAIが再利用可能なスキル(手順)を自動生成できるようになった。実際の操作を録画するだけでAIに手順を学習させられる点が特徴。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "画面録画は最強のドキュメント、をAIエージェントが体現している"
+    },
+    {
+      "url": "https://forest.watch.impress.co.jp/docs/serial/yajiuma/2125538.html",
+      "title": "［Enter］キーで“うっかり送信”……を防止するブラウザー拡張機能「Kanary Enter Guard」、SNSやAIチャットを便利に／［Enter］で改行、送信は［Ctrl］＋［Enter］で【やじうまの杜】",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Enterキーでの「うっかり送信」を防ぐブラウザー拡張機能「Kanary Enter Guard」が公開された。Enterで改行、Ctrl+Enterで送信という挙動に変更でき、SNSやAIチャットでの誤送信を防げる。",
+      "topics": [
+        "worklife"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://qiita.com/nakanyewest/items/d825a2bb15b650443b71",
+      "title": "【一気に理解】大企業で、スクラムを始めるための作法",
+      "source": "Qiita(スクラム)",
+      "lang": "ja",
+      "summary": "大企業でスクラムを導入する際の勘所をまとめた記事。既存の組織構造や意思決定プロセスとの摩擦にどう向き合うかなど、実務上の作法が解説されている。",
+      "topics": [
+        "scrum",
+        "agile"
+      ],
+      "neta": "A",
+      "hook": "大企業のスクラム導入は技術より社内政治の調整が9割"
+    },
+    {
+      "url": "https://twitter.com/nikitabier/status/2079787406300266743",
+      "title": "Passkeys were invented by engineers with zero understanding of consumer brain",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "パスキーは技術的には優れた認証方式だが、一般消費者の心理や行動様式を理解しないまま設計・普及が進められてきたのではないか、という指摘。エンジニア視点の「正しさ」とユーザー視点の「使いやすさ」のギャップが議論されている。",
+      "topics": [
+        "design",
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "技術的に正しいのに普及しないパスキー、原因は消費者心理を無視した設計"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/07/github-issues-navigation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "GitHub Increased Instant Navigation from 4% to 22% by Rethinking Client Side Architecture",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "GitHubはクライアントサイドのアーキテクチャを見直すことで、ページ遷移の瞬間ナビゲーション率を4%から22%まで引き上げた。フロントエンドの設計変更が具体的な数値改善にどうつながったかが解説されている。",
+      "topics": [
+        "design"
+      ],
+      "neta": "S",
+      "hook": "たった数点の設計変更でクライアント遷移率が4%→22%に、その中身"
+    },
+    {
+      "url": "https://www.infoq.com/presentations/agent-software-engineering/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Presentation: From Copy-Paste to Composition: Building Agents Like Real Software",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "AIエージェントを場当たり的なコピー&ペーストではなく、ソフトウェア工学の原則に基づいて「合成」的に構築していくアプローチを紹介する講演。エージェント開発を通常のソフトウェア開発と同じ設計規律で捉え直す内容。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "S",
+      "hook": "エージェントも結局『普通のソフトウェア』、コピペ卒業のための設計原則"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/07/aws-billing-estimates-incident/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "AWS Billing Bug Shows Customers Trillion-Dollar Estimates While Its Own Cost Alarms Fail to Act",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "AWSの請求システムのバグにより、一部顧客に兆ドル単位の見積もり額が表示される事態が発生した。さらに自社のコストアラームがこの異常に反応しなかったことも明らかになり、監視設計の甘さが露呈した。",
+      "topics": [
+        "design",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "自社のコスト警告すら動かなかった、『監視を監視する』設計の欠如"
+    },
+    {
+      "url": "https://anond.hatelabo.jp/20260722172402",
+      "title": "「第二の脳」とやらについて",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "巷で話題の「第二の脳」的メモ・ナレッジ管理術について、その効果や限界を私見でつづったブログ記事。ツール導入そのものより、情報をどう扱うかという本人の姿勢が重要だと論じている。",
+      "topics": [
+        "worklife"
+      ],
+      "neta": "A",
+      "hook": "『第二の脳』ツールを入れても、結局大事なのは頭の使い方"
+    },
+    {
+      "url": "https://www.techno-edge.net/article/2026/07/22/5318.html",
+      "title": "音楽理論がわからない？ ならば自分で教材を作ってしまおう。ChatGPTとGeminiによる自分専用教科書構築メソッド（CloseBox） | テクノエッジ TechnoEdge",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "音楽理論がわからない筆者が、ChatGPTとGeminiを使って自分専用の教科書を作り上げた学習法を紹介する記事。既存の教材に頼らず、AIとの対話を通じて自分の理解度に合わせた教材を組み立てるアプローチ。",
+      "topics": [
+        "ai-dev",
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "ChatGPTで『自分専用教科書』を作る学習法、新しい技術のキャッチアップにも応用できる"
+    },
+    {
+      "url": "https://d.nekoruri.jp/entry/2026/07/21/ontology",
+      "title": "オントロジー：セマンティックWebからFDEのその先まで - めもおきば",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "セマンティックWebの時代から現在の技術文脈まで、オントロジー(概念体系の設計)の変遷を振り返る記事。データやドメインをどうモデリングするかという設計論として読める内容。",
+      "topics": [
+        "design"
+      ],
+      "neta": "A",
+      "hook": "セマンティックWebは死んでいない、LLM時代にオントロジー設計が再注目される理由"
+    },
+    {
+      "url": "https://japan.zdnet.com/article/35250649/",
+      "title": "「Rust」はコーディングを楽しくする--「Linux」がC言語から離れつつある理由",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Linuxカーネル開発においてC言語からRustへのシフトが進みつつある背景を解説する記事。安全性だけでなく「コーディングの楽しさ」が言語選定を左右しているという視点が示されている。",
+      "topics": [
+        "design"
+      ],
+      "neta": "A",
+      "hook": "『書いていて楽しいか』が長寿命プロジェクトの言語選定を左右する"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/it_2026_1.html",
+      "title": "IT系上場企業の平均年収を業種別にみてみた 2026年版［前編］ ～ ネットベンチャー、ゲーム、メディア系",
+      "source": "Publickey",
+      "lang": "ja",
+      "summary": "IT系上場企業の平均年収を業種別(ネットベンチャー、ゲーム、メディア系など)に比較した記事の前編。業種によって年収水準にどの程度差があるのかを具体的な数字で示している。",
+      "topics": [
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "ネット系とゲーム系、エンジニアの年収が本当に高いのはどっちか"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/postgresqldbmultigres_v01.html",
+      "title": "PostgreSQLをクラスタ化した分散DBでスケーリングと高可用性を実現する「Multigres v0.1」アルファ版が登場",
+      "source": "Publickey",
+      "lang": "ja",
+      "summary": "PostgreSQLをベースに、クラスタ化による水平スケーリングと高可用性を実現する分散DBプロジェクト「Multigres」のアルファ版が公開された。MySQL向けのVitessに相当する仕組みをPostgreSQLで実現しようとする試み。",
+      "topics": [
+        "design"
+      ],
+      "neta": "A",
+      "hook": "MySQLのVitessに続き、PostgreSQLにも本格的な分散化の波"
+    },
+    {
+      "url": "https://www.ryuzee.com/contents/blog/14622",
+      "title": "【資料公開】プロダクトバックログリファインメント Deep Dive",
+      "source": "Ryuzee.com",
+      "lang": "ja",
+      "summary": "アジャイルコーチのRyuzee氏による、プロダクトバックログリファインメントを深掘りする資料が公開された。バックログの磨き込み方について実務的な観点から詳しく解説されている。",
+      "topics": [
+        "scrum",
+        "agile"
+      ],
+      "neta": "A",
+      "hook": "バックログリファインメントを『ちゃんとやる』とはどういうことか"
+    }
+  ],
+  "rejected_count": 24,
+  "capped_count": 101,
+  "failures": []
+}
