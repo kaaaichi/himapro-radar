@@ -1,0 +1,288 @@
+{
+  "date": "2026-07-25",
+  "items": [
+    {
+      "url": "https://www.infoq.com/articles/self-building-agent-langchain4j/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Article: The Self-Building Agent: A LangChain4j Experiment",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "LangChain4jを使い、AIエージェント自身がコードを書いて自己拡張していく実験を紹介する記事。エージェントが自律的に自分の機能を追加・改善していくアーキテクチャを解説している。AI駆動開発の自律性がどこまで実用化できるかを示す事例。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "AIエージェントが自分自身を作り変えていく自己拡張ネタ"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/07/gitlost-github-prompt-injection/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Indirect Prompt Injection Exploits GitHub's AI Agent to Leak Private Repository Data",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "GitHubのAIエージェントが間接的なプロンプトインジェクション攻撃によって、プライベートリポジトリの情報を漏洩させられる脆弱性が報告された。外部コンテンツにプロンプトを仕込むことで攻撃者がエージェントの挙動を乗っ取れる。AIエージェントを業務に組み込む際のセキュリティリスクを考えさせる事例。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "自分たちも対策しているプロンプトインジェクションが実際に悪用された事例ネタ"
+    },
+    {
+      "url": "https://lp.ai-plus.findy.io/articles/claude-code-skills-top5/",
+      "title": "【Claude Code活用特集】あの会社で一番使われてるSkillsは？Claude Codeの利用Skills Top5を大公開！ | Findy AI+",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Findyが企業で実際によく使われているClaude CodeのSkills活用事例トップ5を紹介する記事。定型作業の自動化やレビュー支援など、現場でどうSkillsが使われているかの実例がわかる。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "現場で本当に使われているSkillsは何かという実態ネタ"
+    },
+    {
+      "url": "https://pc.watch.impress.co.jp/docs/news/2127493.html",
+      "title": "ChatGPT、会話しつつPC操作や複数AIエージェント同時指揮が可能に",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "ChatGPTが会話しながらPC操作を代行したり、複数のAIエージェントを同時に指揮できる新機能を発表。ユーザーは対話ベースで複数タスクを並行して進められるようになる。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "AIエージェントを何体も同時に使いこなす仕事術ネタ"
+    },
+    {
+      "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md",
+      "title": "advanced-context-engineering-for-coding-agents/wsff.md at main · humanlayer/advanced-context-engineering-for-coding-agents",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "コーディングエージェント向けの高度なコンテキストエンジニアリング手法をまとめたドキュメント。エージェントに何を・いつ・どう与えるかという設計指針を提示している。AIエージェント開発では文脈設計が品質を左右するという議論。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "S",
+      "hook": "コンテキストの設計がエージェントの性能を決めるという設計ネタ"
+    },
+    {
+      "url": "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker",
+      "title": "Be skeptical of OpenAI's rogue hacker agent story",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "OpenAIの「AIエージェントが自律的にハッカーを見つけた」という話題のニュースに懐疑的な視点を投げかける記事。誇張された物語がAIの実力を過大評価させる危険性を指摘している。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "AI礼賛の裏で必要な批判的思考という人間力の逆転ネタ"
+    },
+    {
+      "url": "https://www.infoq.com/presentations/ai-framework-data-infrastructure/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Presentation: Autonomous Data Products for the Autonomous Era: Rethinking Data Architecture for GenAI",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "生成AI時代に向けてデータアーキテクチャをどう再設計すべきかを論じたプレゼンテーション。自律的に稼働する「データプロダクト」という概念を軸に、GenAI時代のデータ基盤設計を提案している。",
+      "topics": [
+        "design",
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "GenAI時代のデータ基盤設計という切り口"
+    },
+    {
+      "url": "https://speakerdeck.com/mineo_matsuya/rethinking-the-fundamentals-of-testing-in-the-ai-era",
+      "title": "AI時代におけるテストの基礎の再定義 / Rethinking the Fundamentals of Testing in the AI Era",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AI時代におけるテストの基礎を再定義するスライド。AIがコードを生成する時代でも変わらないテストの本質的な考え方を軸に、基礎に立ち返る重要性を説いている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "AIがコードを書く時代こそテストの基礎という人間力が問われるネタ"
+    },
+    {
+      "url": "https://zenn.dev/gangy/articles/0c6c2153784bd8",
+      "title": "『生成AIガイドライン、誰か作って』と言われたときに読む実務メモ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "「生成AIガイドラインを誰か作って」と急に頼まれた時に読む実務メモ。何を盛り込むべきか、どう合意形成するかという実践的な手順をまとめている。",
+      "topics": [
+        "ai-dev",
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "急に降ってくる『誰か作って』案件をどう捌くかという仕事術ネタ"
+    },
+    {
+      "url": "https://zenn.dev/beeeegle/articles/81372cf577d805",
+      "title": "【Playwright 】Claude Code × Playwright MCPでPageObjectの自動生成を試してみた",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Claude CodeとPlaywright MCPを組み合わせて、PageObjectパターンのコードを自動生成する試み。AIにテスト設計パターンをどこまで任せられるかを検証している。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "A",
+      "hook": "テスト設計パターンをAIに任せてみた実験ネタ"
+    },
+    {
+      "url": "https://tech.visasq.com/claude-otel-bigquery",
+      "title": "Claude の利用状況を OpenTelemetry Collector で BigQuery に流し込んで可視化できるようにした - VISASQ Dev Blog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "VISASQがClaude Codeの利用状況をOpenTelemetry Collector経由でBigQueryに集約し可視化した事例を紹介。チームでのAI利用実態を定量的に把握する取り組みを解説している。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "A",
+      "hook": "チームのAI利用を可視化する運用ネタ"
+    },
+    {
+      "url": "https://pc.watch.impress.co.jp/docs/news/2127652.html",
+      "title": "Macのファイルが丸見え!? Claude Coworkにサンドボックス脱出の脆弱性",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Claude Coworkにサンドボックスを脱出してMac上のファイルにアクセスできてしまう脆弱性が見つかった。AIエージェントツールのサンドボックス機構への過信に警鐘を鳴らす内容。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "AIエージェントのサンドボックスも過信は禁物という警鐘ネタ"
+    },
+    {
+      "url": "https://zenn.dev/id774/articles/753f3a9acd861d",
+      "title": "WBS では測れない上流工程の進捗管理を再設計する",
+      "source": "Zenn(アジャイル)",
+      "lang": "ja",
+      "summary": "WBSだけでは上流工程の進捗を正しく測れないという課題から、進捗管理の再設計を提案する記事。数字に表れにくい検討・合意形成のプロセスをどう可視化するかを論じている。",
+      "topics": [
+        "agile",
+        "design"
+      ],
+      "neta": "S",
+      "hook": "WBSという当たり前を疑う進捗管理の逆転ネタ"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "title": "Claude Opus 5",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "Anthropicが新フラッグシップモデルClaude Opus 5を発表。性能向上や新機能の詳細が公開されている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "最新モデルで何が変わったのかを実務目線で紹介"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/07/jotai-rework-performance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Jotai v2.20: Rework Store Building Blocks for High-Throughput Performance and Sets the Stage for v3",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "Reactの状態管理ライブラリJotaiがv2.20でストアの内部構造を刷新。高スループット向けの性能改善とv3に向けた地ならしを行ったリリース。",
+      "topics": [
+        "design"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/singularity/articles/diy-terminal-500-commits",
+      "title": "ターミナルを自作したら、1日のコミット数が500を超えて、生産性がバグった話",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "自分専用のターミナルを自作したところ、1日のコミット数が500件を超えるほど開発が加速したという体験談。AI支援によって開発速度が劇的に変わった実感と、コミット数という指標の捉え方を論じている。",
+      "topics": [
+        "ai-dev",
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "コミット数は生産性の指標にならないという逆転ネタ"
+    },
+    {
+      "url": "https://game.watch.impress.co.jp/docs/news/2127591.html",
+      "title": "日本の国富を育てる「遊び部屋」とは？ 登大遊氏基調講演レポート【CEDEC2026】",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "ソフトイーサ登大遊氏がCEDEC2026で行った基調講演のレポート。組織の枠を超えて自由に技術開発できる「遊び部屋」が日本の技術力・国富を育てるという主張を展開している。",
+      "topics": [
+        "team",
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "遊びが技術力を育てるという逆転ネタ"
+    },
+    {
+      "url": "https://ai.watch.impress.co.jp/docs/news/2127562.html",
+      "title": "みんな使っている「ChatGPT Work」だけど、いまひとつピンときていない人へ アクティブユーザー数が1,000万人突破した「ChatGPT Work」とは",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "法人向け「ChatGPT Work」のアクティブユーザー数が1,000万人を突破。多くの人が使っているのに実態がよく知られていないというギャップを解説している。",
+      "topics": [
+        "ai-dev",
+        "worklife"
+      ],
+      "neta": "A",
+      "hook": "みんな使っているのに実態が知られていないツールという切り口"
+    },
+    {
+      "url": "https://blog.inorinrinrin.com/entry/2026/07/24/201658",
+      "title": "「君の知らない物語」を見つける技術 - プププなテクブ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AI生成資料が増え「聞き手を向いていない発表」が量産される現状を指摘し、カンファレンス登壇では自分だけの実体験に基づく物語を語るべきだと論じる記事。AIが便利になるほど人間の一次体験の価値が上がるという逆転の視点を提示している。",
+      "topics": [
+        "worklife",
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "AI資料が増える時代だからこそ自分の物語が差別化になる逆転ネタ"
+    },
+    {
+      "url": "https://speakerdeck.com/fujiwara3/da-ji-xiang-si-dot-pm-2026qian-ye-ji",
+      "title": "クラウドを使う側から、作る側へ / 大吉祥寺.pm 2026前夜祭",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "大吉祥寺.pm前夜祭での発表資料。クラウドサービスを利用する立場から、自分たちでクラウド基盤を作る立場へと視点を転換する話を扱っている。",
+      "topics": [
+        "design",
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "使う側から作る側への視点転換ネタ"
+    },
+    {
+      "url": "https://zenn.dev/layerx/articles/f7124d4e761c1f",
+      "title": "Go 1.27 から uuid 実装がサポートされる！ので個人的に気になった議論とその着地をまとめてみた",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Go言語1.27でUUID実装が標準サポートされることを受け、その議論の経緯と着地点を個人的な視点でまとめた記事。標準化に至るまでの設計判断のプロセスを追っている。",
+      "topics": [
+        "design"
+      ],
+      "neta": "A",
+      "hook": "標準化議論の着地から学ぶ設計判断ネタ"
+    },
+    {
+      "url": "https://zenn.dev/dress_code/articles/4df9132fc28b4f",
+      "title": "実装前に品質を上げるために始めた「QAとの事前打ち合わせ」",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "実装前に品質を上げるため、QAと事前に打ち合わせを行う取り組みを始めた事例。通常は実装後にQAが入るところを前倒しすることで、手戻りを減らす狙いがある。",
+      "topics": [
+        "team",
+        "agile"
+      ],
+      "neta": "S",
+      "hook": "実装前にQAと話す、という工程の逆転ネタ"
+    }
+  ],
+  "rejected_count": 18,
+  "capped_count": 87,
+  "failures": [
+    {
+      "name": "Simon Willison",
+      "error": "[Errno 54] Connection reset by peer"
+    }
+  ]
+}
