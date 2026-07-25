@@ -1,0 +1,251 @@
+{
+  "date": "2026-07-26",
+  "items": [
+    {
+      "url": "https://azukiazusa.dev/blog/hermes-agent-slack-workflow/",
+      "title": "Hermes Agent と Slack で設計し、Linear のチケットから Draft PR まで作成するワークフローの素振りをした",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Slack上でHermes Agentと設計の議論を行い、そのままLinearのチケット化からDraft PR作成までを自動でつなぐワークフローを試した記事。設計から実装着手までの手戻りや手作業を減らす狙いで、AIエージェントを開発フローに組み込む具体例として参考になる。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "設計の会話からPRまで自動生成、その先に人が担うべき仕事は何か"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/articles/2607/24/news078.html",
+      "title": "ChatGPTとClaude、そろって音声機能強化 Codexでエージェントに“声だけで指示”も可能に",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "ChatGPTとClaudeがそろって音声機能を強化し、OpenAIのCodexでもエージェントに声だけで指示を出せるようになったというニュース。コーディングエージェントの操作手段が音声にも広がりつつある動きを伝えている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/ir63/articles/a839700f243b7a",
+      "title": "チームトポロジーで振り返るスクラム研修 — ロールは(強制的に)回った、境界は回らなかった",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "チームトポロジーの観点からスクラム研修を振り返った記事で、研修中にロールは強制的にローテーションできた一方、チーム間の境界（バウンダリ）は思ったように変化しなかったという経験を報告している。ロール変更と構造変化の違いという、スクラム導入の現場でありがちなギャップを扱っている。",
+      "topics": [
+        "scrum",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "ロールは回っても境界は回らなかった、というスクラム研修のギャップ"
+    },
+    {
+      "url": "https://zenn.dev/mryo0826/articles/c27f77be94f47c",
+      "title": "AI駆動開発をしていたらリムルとシエラになっていた件について",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AI駆動開発を進める中での試行錯誤を、アニメのキャラクターになぞらえてユーモラスに綴った記事。AIと二人三脚で開発する際に陥りがちな状態を、独特の例え話で表現している点が特徴。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "AI駆動開発の迷走っぷりをアニメの転生キャラに例えて語る"
+    },
+    {
+      "url": "https://zenn.dev/m16_llc/articles/claude-code-skill-map",
+      "title": "【Claude Code】Skillが29個に増えたので「skill-map」を作った 〜Skillsのルーティング設計〜",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Claude CodeのSkillが29個にまで増えたことを受けて、どのSkillをどう呼び分けるかをまとめた「skill-map」を作成した記事。Skillsが増えた際のルーティング設計という、AI駆動開発を実務で使う上での運用上の悩みを扱っている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "Skillsが増えすぎた時のルーティング設計、という運用の悩み"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything",
+      "title": "The first known runaway AI agent - or a very bad marketing stunt?",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "「史上初の暴走AIエージェント」と報じられた事例について、それが本物の暴走なのか、単なる悪質なマーケティング施策なのかを検証した記事。AIエージェントの自律性と、それをどう検証・監督すべきかという論点を扱っている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "'暴走AIエージェント'は本物か、それとも仕組まれた話題作りか"
+    },
+    {
+      "url": "https://zenn.dev/peishim/articles/a10faeabae7c09",
+      "title": "【Obsidian】既存のAIサブスクだけでメモを整理する環境を作った",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "新たにツールを増やさず、既存のAIサブスクリプションだけを使ってObsidianのメモを整理する環境を構築した記事。個人の情報整理・仕事術としてAIをどう活用するかの一事例。",
+      "topics": [
+        "worklife"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://speakerdeck.com/asei/aigong-xue-te-lun-mlopsji-sok-de-ping-jia-b257eb10-fb3e-4159-828b-8445b7ff2f37",
+      "title": "AI工学特論: MLOps・継続的評価",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "大学講義「AI工学特論」の資料で、MLOpsと機械学習システムの継続的評価をテーマに扱っている。モデルを作って終わりではなく、運用しながら評価し続ける体制づくりについて解説していると見られる。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "作って終わりじゃない、AIを'継続的に評価し続ける'運用スキル"
+    },
+    {
+      "url": "https://note.com/chan_san_jp/n/n137415f2ef48",
+      "title": "AIが迷わず仕事を進められる「型」の作り方 〜10の工夫と638セッションの実測〜｜Yoshihiro Ibayashi (ちゃん)",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIが迷わず仕事を進められるようにするための「型」の作り方を、638セッションという実測データをもとに10の工夫としてまとめた記事。AIへの指示出しのコツを定量的な検証を交えて語っている点が特徴。",
+      "topics": [
+        "ai-dev",
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "638セッションの実測、AIに迷わせない'型'は新人指導のコツと同じ"
+    },
+    {
+      "url": "https://claude.com/blog/building-verification-loops-in-claude-code-with-skills",
+      "title": "Building verification loops in Claude Code with skills | Claude by Anthropic",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Claude CodeのSkillsを使って検証ループ（verification loop）を組み込む方法を解説した公式ブログ記事。AIエージェントに自分の作業を検証させる仕組みづくりについて扱っている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "AI自身に'自分の作業を検証させる'ループを組む発想"
+    },
+    {
+      "url": "https://www.digital.go.jp/councils/procurement-agile-opensource/agile-review-meeting/46a036e6-a531-4655-b146-76a1d340feb5",
+      "title": "アジャイル開発に関する有識者検討会（第7回）｜デジタル庁",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "デジタル庁が開催した「アジャイル開発に関する有識者検討会」第7回の資料・議事。官公庁におけるアジャイル調達・開発の制度面の議論を扱っている。",
+      "topics": [
+        "agile"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://pc.watch.impress.co.jp/docs/news/2127832.html",
+      "title": "「Fable 5級を半額で」Claude Opus 5登場。Proでも最強モデルに",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Anthropicの新モデル「Claude Opus 5」が登場し、Proプランでも最上位モデルとして使えるようになったというニュース。価格・提供プランの変更点を伝えている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/flinters_blog/articles/c1f6e286dc3a40",
+      "title": "Claude CodeのInput Tokenが増える原因を、利用ログから調べてみた",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Claude Codeの利用ログを分析し、Input Tokenが増加する原因を実データから調査した記事。感覚論ではなくログという一次データに基づいて原因を検証している点が特徴。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "実ログで検証する、Claude CodeのInput Tokenが膨らむ意外な原因"
+    },
+    {
+      "url": "https://zenn.dev/loglass/articles/ef099b123153cf",
+      "title": "AI時代のエンジニアリングマネージャーのあり方｜外部品質編 〜品質の可視化を、現場と経営をつなぐ形にするまで〜",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AI時代のエンジニアリングマネージャーのあり方について、外部品質の可視化を現場と経営をつなぐ形にするまでの取り組みを綴った記事。品質という技術的な観点を、経営との対話に翻訳するマネジメントの仕事を扱っている。",
+      "topics": [
+        "team",
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "品質の可視化で現場と経営をつなぐ、というEMの新しい仕事"
+    },
+    {
+      "url": "https://zenn.dev/torukona/articles/4b6f0bfe083d2b",
+      "title": "AI支援旅行アプリ「タベリエ」を、構造化ループエンジニアリングで作り上げた話",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AI支援の旅行アプリ「タベリエ」を、著者が「構造化ループエンジニアリング」と名付けた開発手法で作り上げた経緯を綴った記事。個人開発でAIと反復的に作り込んでいくプロセスを独自の方法論として言語化している。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "S",
+      "hook": "'構造化ループエンジニアリング'という自己流開発スタイルの名付け"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/07/ai-rca-context-engineering/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "AI Root Cause Analysis Shifts from Model Reasoning to Context Engineering",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "AIによる障害の根本原因分析（RCA）が、モデルの推論力そのものよりも「コンテキストエンジニアリング」に重心が移ってきているという動向を扱った記事。AIに何を推論させるかより、何をどう見せるかが重要という視点を示している。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "S",
+      "hook": "root cause analysisは推論力よりコンテキスト設計の時代へ"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything",
+      "title": "Introducing Claude Opus 5",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "Anthropicの新モデル「Claude Opus 5」の登場について、Simon Willisonが解説・所感をまとめた記事。単なる発表の後追いではなく、実際の開発現場での使い所という観点からの分析が含まれると見られる。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "Claude Opus 5発表を、実務目線でどう読むか"
+    },
+    {
+      "url": "https://zenn.dev/akfm/books/nextjs-basic-principle/viewer/part_2_container_1st_design",
+      "title": "UIをツリーに分解する｜Next.jsの考え方",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Next.jsの考え方を解説する書籍の一節で、UIをコンポーネントのツリー構造として分解して設計する考え方を扱っている。フロントエンドの設計原則を初級〜中級向けに整理した内容。",
+      "topics": [
+        "design"
+      ],
+      "neta": "A",
+      "hook": "UIを'ツリー構造'として捉える設計思想"
+    },
+    {
+      "url": "https://www.ryuzee.com/contents/blog/14617",
+      "title": "「PdM廃止」という言葉に振り回されない",
+      "source": "Ryuzee.com",
+      "lang": "ja",
+      "summary": "「PdM廃止」という言葉が独り歩きすることに警鐘を鳴らし、役割論の本質を見失わないよう論じた記事。流行語や組織論のトレンドに振り回されず、役割の意味を考え直すことの重要性を説いている。",
+      "topics": [
+        "agile",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "'PdM廃止'論に振り回されない、役割論の本質"
+    },
+    {
+      "url": "https://www.ryuzee.com/contents/blog/14615",
+      "title": "役割と責任の区別をつける",
+      "source": "Ryuzee.com",
+      "lang": "ja",
+      "summary": "役割と責任を混同しないことの重要性について論じた記事。スクラムやアジャイルの現場でよくある、役割の曖昧さが組織や進行に悪影響を与える問題を扱っている。",
+      "topics": [
+        "agile",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "役割と責任を混同すると、組織はどう壊れるか"
+    }
+  ],
+  "rejected_count": 20,
+  "capped_count": 100,
+  "failures": []
+}
