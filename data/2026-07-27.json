@@ -1,0 +1,239 @@
+{
+  "date": "2026-07-27",
+  "items": [
+    {
+      "url": "https://zenn.dev/ren_i24/articles/2ed98704fcaa45",
+      "title": "個人×AI駆動開発で20万行を支えるアーキテクチャ設計 — 総論と骨格（iOS編①）",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "個人開発で20万行規模に達したiOSアプリのアーキテクチャ設計を、AI駆動開発を前提に総論・骨格から解説する連載の第一弾。一人でも大規模コードベースを持続的に保守できる設計方針が語られている。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "S",
+      "hook": "「個人開発なのに20万行」という規模感の意外性から、AI時代の設計原則を語る"
+    },
+    {
+      "url": "https://zenn.dev/yun_bow/articles/6aa0ee90ec5697",
+      "title": "AI駆動開発導入診断 ― AI導入の準備度で「減点だけ」の設問は何を測るのか",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AI駆動開発の導入準備度診断において、なぜ「減点だけ」の設問が存在するのかを分析した記事。加点ではなく減点式の設問設計が組織のどんな弱点を可視化しようとしているのか、診断ツールの裏にある思想を掘り下げている。",
+      "topics": [
+        "ai-dev",
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "「診断は加点じゃなく減点でできている」という切り口からAI導入の落とし穴を語る"
+    },
+    {
+      "url": "https://qiita.com/IORI1261/items/03293d82225d1acae6ec",
+      "title": "チームトポロジーで振り返るスクラム研修 — ロールは(強制的に)回った、境界は回らなかった",
+      "source": "Qiita(スクラム)",
+      "lang": "ja",
+      "summary": "スクラム研修をチームトポロジーの観点で振り返った実践報告。ロール(役割)は研修を通じて強制的に回るようになった一方、チーム間の境界線は変わらなかったという結果から、役割訓練だけでは組織構造の壁は崩せないと指摘する。",
+      "topics": [
+        "scrum",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "「ロールは回ったのに境界は回らなかった」という逆説からスクラム研修の限界を語る"
+    },
+    {
+      "url": "https://github.com/faizannraza/wattage",
+      "title": "Wattage: A token-spend profiler and cost-regression gate for AI agents",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "AIエージェントのトークン消費量を計測し、コスト悪化をCIで検知する「コスト回帰ゲート」を実現するOSSプロファイラ。AIエージェント開発における運用コスト管理の実践例として注目されている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "「AIエージェントのコストにCIゲートをかける」という発想から運用コストの話へ"
+    },
+    {
+      "url": "https://platform.claude.com/docs/ja/build-with-claude/prompt-engineering/prompting-claude-opus-5",
+      "title": "Claude Opus 5のプロンプティング",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Claude Opus 5向けの公式プロンプトエンジニアリングガイド。従来モデルとは異なる挙動特性を踏まえた、Opus 5に最適なプロンプト設計のポイントがまとめられている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOUC130DH0T10C26A7000000/",
+      "title": "二極化するデザイナー、AIが「頭の中の判断基準」学習 中間層不要に - 日本経済新聞",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIが「頭の中の判断基準」を学習することで、デザイナーの二極化が進み中間層が不要になっていくという分析記事。トップ層とAI活用の判断力を持つ層以外の仕事が失われていく構造を報じている。",
+      "topics": [
+        "design"
+      ],
+      "neta": "S",
+      "hook": "「AIが判断基準を学習すると中間層がいらなくなる」という逆転構造をエンジニアにも当てはめて語る"
+    },
+    {
+      "url": "https://yamdas.hatenablog.com/entry/20260727/ai-google-kills-curiosity",
+      "title": "Google検索のAIモードはユーザーの好奇心を殺す？ - YAMDAS現更新履歴",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Google検索のAIモードが便利になるほど、ユーザーが自分で調べて発見する好奇心を奪っているのではないかという論考。AIに頼ることと自ら探究することのバランスを問い直している。",
+      "topics": [
+        "worklife"
+      ],
+      "neta": "A",
+      "hook": "「AIが好奇心を奪う」という切り口から、AI依存との付き合い方を仕事術として語る"
+    },
+    {
+      "url": "https://github.com/sktkkoo/Yorishiro",
+      "title": "GitHub - sktkkoo/Yorishiro: A terminal that gives AI a body and a living space.",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIエージェントに「身体」と「住む場所」を与えるという発想のターミナルツール。単なるチャットボットではなく、AIが継続的に存在し生活する空間としてターミナルを再定義しようとするプロジェクト。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "「AIに身体と住処を与えるターミナル」というユニークな発想から入る"
+    },
+    {
+      "url": "https://zenn.dev/pdfractal/articles/088bb3ae17657d",
+      "title": "なぜ、人類の産業の歴史はウォーターフォールとアジャイルの往復を繰り返すのか？",
+      "source": "Zenn(アジャイル)",
+      "lang": "ja",
+      "summary": "産業の歴史がウォーターフォールとアジャイルの間を繰り返し往復してきた理由を考察する記事。手法の優劣ではなく、組織や技術の成熟度に応じて振り子のように揺れ動く構造的な必然性を論じている。",
+      "topics": [
+        "agile"
+      ],
+      "neta": "S",
+      "hook": "「人類はなぜウォーターフォールとアジャイルを行き来し続けるのか」という壮大な問いから入る"
+    },
+    {
+      "url": "https://zenn.dev/h4gi/articles/2c0db2c93cc4ab",
+      "title": "予測型（ウォーターフォール）かアジャイルか、その選択は「たった1つの問い」から始まる：PMBOKで読み解く開発アプローチ",
+      "source": "Zenn(アジャイル)",
+      "lang": "ja",
+      "summary": "PMBOKの枠組みを使い、予測型(ウォーターフォール)かアジャイルかの選択が実は「たった1つの問い」に集約されるという整理を行った記事。手法論争になりがちなテーマをシンプルな判断基準に落とし込んでいる。",
+      "topics": [
+        "agile"
+      ],
+      "neta": "S",
+      "hook": "「開発手法の選択はたった1つの問いで決まる」というシンプル化フックで語る"
+    },
+    {
+      "url": "https://zenn.dev/kittybbit/articles/5b8a20118bf87b",
+      "title": "生成AI導入で先に決める7項目：作業時間だけで効果を測らない",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "生成AI導入の効果測定について、作業時間の短縮だけを見るのではなく、導入前に決めておくべき7つの項目を提示する記事。効果測定の設計を誤ると成果を見誤るという実践的な警鐘を鳴らしている。",
+      "topics": [
+        "ai-dev",
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "「作業時間だけで測ると効果を見誤る」という逆説からAI導入の評価設計を語る"
+    },
+    {
+      "url": "https://www.gamedevs.org/uploads/introduction-to-data-oriented-design.pdf",
+      "title": "Introduction to Data-Oriented Design [pdf]",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "データ指向設計(Data-Oriented Design)の入門資料。オブジェクト指向的な直感よりもメモリレイアウトとキャッシュ効率を優先する設計思想を、ゲーム開発の文脈から解説している。",
+      "topics": [
+        "design"
+      ],
+      "neta": "A",
+      "hook": "「人間の直感的な設計より速度を優先する」という性能起点の設計思想から語る"
+    },
+    {
+      "url": "https://stephango.com/design-is-compromise",
+      "title": "Design is compromise",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "「デザインとは妥協である」という主張を軸に、あらゆる設計判断が制約の中でのトレードオフに過ぎないことを論じるエッセイ。美しい設計ほど実は多くの妥協の産物であるという視点を提示している。",
+      "topics": [
+        "design"
+      ],
+      "neta": "S",
+      "hook": "「良い設計とは妥協の産物である」という逆転フックで設計論を語る"
+    },
+    {
+      "url": "https://speakerdeck.com/yuzneri/ren-jian-nomu-hakawaranai-dakarajpegha30nian-motu",
+      "title": "人間の目はかわらない、だからJPEGは30年もつ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "人間の視覚特性が根本的に変わらないからこそ、30年前に策定されたJPEGという画像圧縮規格が今なお通用しているという考察。技術の寿命を決めるのは技術そのものではなく、それを使う人間の特性であるという視点を示す。",
+      "topics": [
+        "design"
+      ],
+      "neta": "S",
+      "hook": "「人間の目が変わらないからJPEGは30年もつ」という人間起点の設計論から語る"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/mcp728mcpgithub_mcp.html",
+      "title": "MCP仕様が明日アップデート、7月28日版MCPからはステートレスな接続が正式仕様に。GitHub MCPサーバが早くも対応発表",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "MCP(Model Context Protocol)の仕様が2026年7月28日にアップデートされ、ステートレスな接続が正式仕様として採用される。GitHub MCPサーバーは早くも対応を発表しており、AI駆動開発のツール連携基盤が進化している。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://blog.shin1x1.com/entry/dont-let-go-of-understanding",
+      "title": "理解を手放さない - Shin x Blog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIによるコード生成が普及する中でも、エンジニアが「理解すること」を手放してはいけないという主張を綴ったエッセイ。効率化の裏で失われがちな、自分の頭で考え続ける姿勢の重要性を説いている。",
+      "topics": [
+        "worklife",
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "「AIに任せても理解だけは手放すな」という逆転フックで仕事術を語る"
+    },
+    {
+      "url": "https://qiita.com/NekoByte/items/efa81aaa8a61d3478568",
+      "title": "開発効率が上がったCLIツール・コマンド10選 - Qiita",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "日々の開発効率を上げてくれたCLIツールやコマンドを10個紹介する記事。地味だが積み重なると大きな効率化につながる実践的なTips集となっている。",
+      "topics": [
+        "worklife"
+      ],
+      "neta": "A",
+      "hook": "「地味なコマンドの積み重ねが開発効率を変える」という仕事術ネタとして語る"
+    },
+    {
+      "url": "https://zenn.dev/uhyo/articles/react-profession-bench-14",
+      "title": "【速報】Opus 5、React習熟度ベンチマークで余裕のFable 5超え",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Claude Opus 5がReact習熟度を測るベンチマークで、Fable 5を大きく上回るスコアを記録したという速報記事。AIコーディングモデルの実力比較として注目を集めている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "「ベンチマークでFable5を大きく超えた」という性能競争ネタから語る"
+    },
+    {
+      "url": "https://zenn.dev/little_hand_s/articles/72646a09f49d2a",
+      "title": "Opus 5では今までのプロンプトが逆効果に。「検証して」を消して「簡潔に」と書くべし。公式プロンプトガイドを読み解く",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Claude Opus 5では従来推奨されてきたプロンプトの書き方がむしろ逆効果になるという記事。「検証して」という指示を削り「簡潔に」と書くべきだという、公式プロンプトガイドの読み解きを紹介している。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "「今までのプロンプトの常識が逆効果になった」という逆転フックで語る"
+    }
+  ],
+  "rejected_count": 21,
+  "capped_count": 105,
+  "failures": []
+}
