@@ -1,0 +1,307 @@
+{
+  "date": "2026-07-28",
+  "items": [
+    {
+      "url": "https://zenn.dev/raamenwakamatu/articles/software-architecture-fundamentals-review",
+      "title": "「ソフトウェアアーキテクチャの基礎」を読んで設計判断の引き出しが増えた",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "書籍「ソフトウェアアーキテクチャの基礎」を読んだ感想と学びをまとめた記事。アーキテクチャ特性やトレードオフ分析といった考え方を通じて、設計判断の引き出しが増えたという実感が語られている。設計に唯一の正解はなくトレードオフの選択であるという視点が中心。",
+      "topics": [
+        "design"
+      ],
+      "neta": "A",
+      "hook": "設計に『正解』はない、あるのは『どの痛みを引き受けるか』だけ"
+    },
+    {
+      "url": "https://qiita.com/TACAMP/items/f5cd215833b3b9db5d39",
+      "title": "「アーキテクチャ」と「設計」って同じじゃないの?と思ってた話 - Qiita",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "「アーキテクチャ」と「設計」を同じものだと思っていた筆者が、両者の違いを整理した記事。決定の変更コストや影響範囲という軸で、アーキテクチャは後から変えにくい決定、設計はその内側の選択だと区別している。初級エンジニアが混同しやすい用語を言語化している。",
+      "topics": [
+        "design"
+      ],
+      "neta": "S",
+      "hook": "『後から変えられないもの』がアーキテクチャ、変えられるものは全部ただの設計"
+    },
+    {
+      "url": "https://aws.amazon.com/jp/blogs/news/multitenant-ai-agent-saas-architecture-aws-summit-japan-2026/",
+      "title": "AWS Summit Japan 2026：完全自律型 AI Agent が変える SaaS の世界 | Amazon Web Services",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AWS Summit Japan 2026 のセッションを基に、完全自律型 AI エージェントを組み込んだマルチテナント SaaS のアーキテクチャを解説した記事。テナント分離やエージェントの権限管理など、AI エージェント時代の SaaS 設計論点が整理されている。実装レベルの構成例が中心で対象読者はやや上級寄り。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://techfeed.io/entries/6a65420cd0c20765e83dd880",
+      "title": "「AIを使えるところを探す」という発想が間違っている — LLMを導入すべきか6つの問いで判断するフレームワーク",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "「AIを使えるところを探す」というアプローチ自体が本末転倒だと指摘し、LLM を導入すべきかを6つの問いで判断するフレームワークを提示した記事。課題起点で考えるべきという原則を、実務で使える判断軸に落とし込んでいる。AI導入の意思決定を技術ではなく問題定義の話として扱う。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "S",
+      "hook": "AIの使いどころを探した時点で負け。先に必要なのは『解きたい問題』の言語化"
+    },
+    {
+      "url": "https://zenn.dev/aiforall/articles/a7657601499a34",
+      "title": "誰でも「Cursor」で安全なWeb運用を。レガシーな現場でAI駆動開発の民主化を目指したPoCの記録（第3回／全3回）",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "レガシーな現場で Cursor を使った安全な Web 運用を実現する PoC の記録、全3回の最終回。ツール導入そのものより、非エンジニアを含む誰もが安全に使える仕組みづくりとルール整備に焦点が当たっている。AI駆動開発を組織に根づかせる実践知が読みどころ。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "A",
+      "hook": "AI導入の壁はモデル性能ではなく『レガシーな現場の合意形成』だった"
+    },
+    {
+      "url": "https://qiita.com/Tohru-f/items/9954f61196ccf9bc9c50",
+      "title": "アジャイル開発・スクラムとは？",
+      "source": "Qiita(スクラム)",
+      "lang": "ja",
+      "summary": "アジャイル開発とスクラムの基本概念を初学者向けに整理した入門記事。アジャイルの価値観、スクラムのロール・イベント・成果物といった枠組みが一通りまとめられている。用語の全体像を掴みたい層向けの内容。",
+      "topics": [
+        "agile",
+        "scrum"
+      ],
+      "neta": "A",
+      "hook": "スクラムは『開発手法』ではない、という一文から始める入門やり直し"
+    },
+    {
+      "url": "https://www.infoq.com/articles/evolutionary-architecture-pattern/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Article: An Evolutionary Architecture Pattern for Managing AI’s Pace of Change",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "AI 領域の変化速度に耐えるための進化的アーキテクチャのパターンを論じた InfoQ の記事。変わり続ける前提でモデルやコンポーネントを差し替え可能に保つ設計指針を示している。適応度関数など進化的アーキテクチャの考え方を AI 文脈に適用している点が特徴。",
+      "topics": [
+        "design",
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "AI時代の設計目標は『正しく作る』ではなく『捨てやすく作る』"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/aiplus/article/2607/27/2000000223/",
+      "title": "MIXI、新卒エンジニア向け研修資料＆動画を無料公開 「実践的なAI活用術」を12科目で紹介",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "MIXI が新卒エンジニア向けの技術研修資料と動画を無料公開したニュース。実践的な AI 活用術を含む12科目が揃い、社外の学習者も利用できる。初級エンジニアの学習ロードマップの参考になる。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "A",
+      "hook": "大企業が新卒に教えている『AI活用12科目』を、独学の指針として盗む"
+    },
+    {
+      "url": "https://blog.shibayu36.org/entry/2026/07/27/163000",
+      "title": "Claude Code Actionで使うSkillを、リポジトリにコミットせずgh skill installで実行時に入れる - $shibayu36->blog;",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Claude Code Action で使う Skill を、リポジトリにコミットせず gh skill install で実行時に取得する方法を紹介した記事。共有資産をリポジトリに散らかさず再利用するための運用テクニック。AI エージェント運用の実装寄りの工夫。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://mixi.co.jp/news/2026/0727/55293/",
+      "title": "MIXI、AIと共創する次世代エンジニア育成に向けた2026年度新卒技術研修資料を公開 | ニュース| 株式会社MIXI",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "MIXI が2026年度の新卒技術研修資料を公開したことを伝える公式ニュースリリース。AI と共創する次世代エンジニアの育成を掲げた研修方針が示されている。内容自体は他記事と重複するプレスリリース。",
+      "topics": [
+        "team",
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://aws.amazon.com/jp/blogs/news/bengo4com-devops-agent-case-study/",
+      "title": "寄稿：弁護士ドットコムにおける AWS DevOps Agent の活用事例 – インシデント対応の自動化と属人化の解消 | Amazon Web Services",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "弁護士ドットコムが AWS DevOps Agent を導入し、インシデント対応の自動化と属人化の解消を進めた事例の寄稿記事。特定メンバーに依存していた運用知識をエージェントに移すことでチーム全体の対応力を底上げしている。技術導入がチーム課題の解決につながった実例。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "A",
+      "hook": "AIエージェント導入の本当の成果は自動化ではなく『あの人がいないと直せない』の解消"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/aiplus/article/2607/27/2000000223/2",
+      "title": "MIXI、新卒エンジニア向け研修資料＆動画を無料公開 「実践的なAI活用術」を12科目で紹介",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "MIXI の新卒エンジニア向け研修資料公開を伝える記事の2ページ目。公開科目の詳細が続く内容で、前ページと一体の記事。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://forest.watch.impress.co.jp/docs/news/2127918.html",
+      "title": "Anthropic、「Claude Opus 5」を発表 ～「Fable 5」に迫る知能を半分の価格で／「Opus 4.8」から価格据え置き、「Max」プランの新たな既定モデルに",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Anthropic が Claude Opus 5 を発表したというニュース。Fable 5 に迫る知能を半分の価格で提供し、Max プランの既定モデルになる。AI 駆動開発の日常ツールの前提が変わる話題。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/hataluck/articles/3c681a81e852b6",
+      "title": "AIと二人三脚で、機能開発を一人で回しきる",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AI と二人三脚で機能開発を一人で回しきった実践記録。設計・実装・レビューといった従来チームで分担していた工程を、AI を相棒にして個人で完結させる進め方が語られている。開発プロセスにおける人の役割の変化が具体的に見える内容。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "AIと組むと、エンジニアの仕事は『書く人』から『決める人』に変わる"
+    },
+    {
+      "url": "https://zenn.dev/emuni/articles/claude-code-prompt-templates-30",
+      "title": "コピペで使えるClaude Code依頼文テンプレ30選【逆引き活用辞典】",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Claude Code への依頼文テンプレートを30パターン、逆引き辞典形式でまとめた記事。実装・調査・リファクタリングなど目的別にコピペで使える文面が揃っている。AI への指示の粒度や前提の書き方の実例集として使える。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "AIの出力が悪いのはモデルのせいじゃなく『依頼文が仕様書になっていない』せい"
+    },
+    {
+      "url": "https://zenn.dev/sukedachi_dev/articles/2d9b6d8f13f46b",
+      "title": "【Flutter並列開発】git worktreeをリサイクルして、Claude Code for VS Code上でサクサク並列開発",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Flutter 開発で git worktree を使い回して Claude Code for VS Code 上で並列開発を進める手法の紹介。ワークツリーをリサイクルすることでセットアップコストを抑えている。AI エージェントを複数走らせる際の作業環境の工夫。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/presentations/kotlin-serverless/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Presentation: Clean Architecture for Serverless: Business Logic You Can Take Anywhere",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "サーバーレス環境でクリーンアーキテクチャを適用し、ビジネスロジックを実行基盤から独立させる手法を扱った講演。特定のクラウドやフレームワークにロジックを縛られないための境界の引き方が語られる。設計原則の実践例として参考になる。",
+      "topics": [
+        "design"
+      ],
+      "neta": "A",
+      "hook": "『どこでも動かせるビジネスロジック』は理想論か、それとも最低ラインか"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything",
+      "title": "An opinionated guide to which AI to use to do stuff",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "Simon Willison による、用途別にどの AI を使うべきかを主観込みで示したガイド。コーディング、検索、文章作成などタスクごとの使い分けが具体名で整理されている。ツール選びに迷う人向けの実践的な指針。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "『とりあえず一番賢いモデル』が一番のムダ。タスク別に使い分ける"
+    },
+    {
+      "url": "https://zenn.dev/mixi/articles/fd62f8ddc178f6",
+      "title": "【2026年版】MIXI 新卒向け技術研修を公開しました。",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "MIXI が2026年版の新卒向け技術研修資料を公開したことを伝える技術ブログ記事。研修の構成や狙い、公開科目の一覧が紹介されている。新人育成のカリキュラム設計を覗ける内容。",
+      "topics": [
+        "team",
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "新卒研修のカリキュラムは、そのまま中級者の『抜け漏れチェックリスト』になる"
+    },
+    {
+      "url": "https://mtx2s.hatenablog.com/entry/2026/07/27/194549",
+      "title": "周囲から頼られ、「優秀だ」と評されるソフトウェアエンジニアの6つのタイプ - mtx2s’s blog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "周囲から頼られ「優秀だ」と評されるソフトウェアエンジニアを6つのタイプに分類した記事。コードを速く書けることだけが評価軸ではなく、問題の切り分けや調整力など複数の強みの形があると示している。自分の伸ばすべき方向を考える材料になる。",
+      "topics": [
+        "team",
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "『優秀』の正体は6種類ある。コードが速い人はそのうち1つでしかない"
+    },
+    {
+      "url": "https://blog.hanhans.net/2026/07/26/dai-kichijojipm-2026-lt/",
+      "title": "hanhan's blog - 「進捗をなんとかする技術」- 大吉祥寺.pm 2026 LT",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "大吉祥寺.pm 2026 の LT「進捗をなんとかする技術」の登壇内容をまとめた記事。進捗が出ない状況をどう捉え直し、どう手を打つかという実践的な仕事術が語られている。技術力ではなく進め方の問題として扱っている点が特徴。",
+      "topics": [
+        "worklife",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "進捗が出ないのは能力の問題ではなく『タスクの切り方』の問題"
+    },
+    {
+      "url": "https://gigazine.net/news/20260726-handwriting-avoid-fatigue/",
+      "title": "「メタバース」という言葉を生み出したSF作家が勧める「手書きで疲れない方法」とは？",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "「メタバース」という言葉を生んだSF作家ニール・スティーヴンスンが勧める、手書きで疲れない方法を紹介した記事。長時間の執筆作業における身体的な負担の減らし方が語られている。作業environment・体の使い方という観点の仕事術。",
+      "topics": [
+        "worklife"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://speakerdeck.com/ichimichi/lun-yu-wu-shi-dao-chan-ye-ge-ming-karajian-ru-kawarumono-kawaranaimono",
+      "title": "論語・武士道・産業革命から見る かわるもの、かわらないもの",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "論語・武士道・産業革命という歴史的な題材から、時代が変わっても変わらないものと変わるものを読み解く講演資料。技術の変化が激しい時代に、エンジニアが何を軸に据えるべきかを考えさせる内容。AI時代の働き方を長い時間軸で相対化する視点。",
+      "topics": [
+        "worklife",
+        "team"
+      ],
+      "neta": "A",
+      "hook": "AIで全部変わると言うけれど、2500年前から変わっていないものは何か"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/saasuipr.html",
+      "title": "SaaSにおけるUI開発のよくある課題とその解決方法、教えます［PR］",
+      "source": "Publickey",
+      "lang": "ja",
+      "summary": "SaaS における UI 開発でよくある課題とその解決方法を紹介した PR 記事。デザインと実装の分断やコンポーネントの再利用性といった典型的な問題が扱われている。製品紹介の色が強い内容。",
+      "topics": [
+        "design"
+      ],
+      "neta": "B"
+    }
+  ],
+  "rejected_count": 16,
+  "capped_count": 93,
+  "failures": [
+    {
+      "name": "Hacker News Front Page",
+      "error": "<urlopen error [Errno 54] Connection reset by peer>"
+    }
+  ]
+}
