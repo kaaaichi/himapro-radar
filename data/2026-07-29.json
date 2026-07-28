@@ -1,0 +1,217 @@
+{
+  "date": "2026-07-29",
+  "items": [
+    {
+      "url": "https://togetter.com/li/2725778",
+      "title": "「AIのセキュリティリスクとしてお堅い説明するよりこれ見せた方が理解が早そう」AIずんだもんが視聴者によるプロンプトインジェクションで壊れる動画が怖い",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIキャラクター「ずんだもん」が視聴者のコメント経由でプロンプトインジェクションを受け、応答が壊れていく配信動画が話題に。抽象的なセキュリティ説明よりも、実際に壊れる様子を見せた方がリスクが直感的に伝わるという反応が集まった。AIエージェントに外部入力を渡す開発では避けて通れない論点。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "AIのセキュリティ講義より、AIが目の前で壊れる30秒の方が刺さる"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/business/articles/2607/28/news032.html",
+      "title": "「すし職人をAI開発の輪に入れろ」──オードリー・タンに聞く、米中AI競争で日本が勝つ道",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "オードリー・タン氏へのインタビューで、米中のAI競争に対して日本が取るべき道として「すし職人をAI開発の輪に入れろ」と提言。モデルの性能競争ではなく、現場の職人的な暗黙知を持つ人をAI開発チームに組み込むことに勝ち筋があると語る。エンジニアだけで閉じない越境チームの作り方の話に接続できる。",
+      "topics": [
+        "team",
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "AI開発チームに一番足りないメンバーは、エンジニアじゃなくてすし職人かもしれない"
+    },
+    {
+      "url": "https://japan.zdnet.com/article/35251007/",
+      "title": "「Claude」の共有チャットがGoogle検索で一時丸見えに",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Claudeの共有チャット機能で作られたリンクが検索エンジンにインデックスされ、一時的に第三者から閲覧可能な状態になっていた。業務でAIチャットにコードや社内情報を貼る場面が増えた今、共有ボタン一つの意味を再確認させる事例。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://gigazine.net/news/20260727-prompt-caching/",
+      "title": "AIのトークン価格を10分の1にできる「プロンプトキャッシュ」の仕組みとは？",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "LLMのAPI利用コストを大きく下げるプロンプトキャッシュの仕組みを解説した記事。同じプレフィックスの再計算を省くことでトークン単価が最大10分の1になる一方、キャッシュが効く前提でプロンプトの並び順を設計する必要がある。AIコーディングツールを日常的に使う開発者が「なぜ会話が長いほど安くなる場合があるのか」を理解する材料になる。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "AIの請求額を10分の1にするのは、賢いプロンプトじゃなくて「変えない部分を先に置く」順番の話"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/google_cloudaicodemender.html",
+      "title": "Google Cloud、AIが自律的にコードの脆弱性検出からサンドボックス内でのリスク検証、修正までを自動実行。「CodeMender」プレビュー公開",
+      "source": "Publickey",
+      "lang": "ja",
+      "summary": "Google CloudがAIエージェント「CodeMender」をプレビュー公開。脆弱性の検出からサンドボックス内での再現・検証、修正パッチの作成までを自律的に実行する。人間の役割が「直すこと」から「AIが出した修正を受け入れるか判断すること」に移る流れを象徴する事例。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "AIが修正まで出すようになると、エンジニアの仕事は「直す力」から「受け入れる判断力」に変わる"
+    },
+    {
+      "url": "https://zenn.dev/pdfractal/articles/22997558c14a9e",
+      "title": "なぜ、アジャイルは少人数のPJしか扱えないのに、巨大企業はアジャイルで開発を行うのか？",
+      "source": "Zenn(アジャイル)",
+      "lang": "ja",
+      "summary": "アジャイルは本来少人数チームを前提とした手法なのに、なぜ巨大企業がアジャイルを名乗って開発できるのかを掘り下げた記事。スケールの本質はフレームワークの拡大ではなく、小さなチームに分割し依存を減らす設計側の工夫にあると論じる。アジャイルとスケーリングの誤解を初級者に説明するのに使いやすい。",
+      "topics": [
+        "agile",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "アジャイルは大規模化できない。大規模化しているのは「小さいままでいられる分け方」の方"
+    },
+    {
+      "url": "https://zenn.dev/jinjer_techblog/articles/5076d01bd1eb57",
+      "title": "生成AIで、Webアクセシビリティ対応を開発フローに組み込めるか",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "後回しにされがちなWebアクセシビリティ対応を、生成AIを使って開発フローそのものに組み込めるか試した実践記事。実装後のチェックではなく、レビューやCIの段階でAIに指摘させることで継続的な対応が可能かを検証している。「品質を人の意識に頼らず仕組みに載せる」という設計思想の実例。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "A",
+      "hook": "アクセシビリティが定着しないのは知識不足じゃなく、フローに置き場所がないから"
+    },
+    {
+      "url": "https://github.com/ctrlb-hq/ctrlb-decompose",
+      "title": "Show HN: Ctrlb-decompose: Strip the noise from logs before sending to LLMs",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "LLMに送る前にログからノイズを除去し、トークン量を圧縮するOSSツール。AIに渡す入力を整えることが精度とコストの両方に効くという、AI活用の地味だが重要な勘所を示している。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://github.com/schildep/verified-3d-mesh-intersection",
+      "title": "Show HN: Formally verified 3D CSG: Trust 93 lines spec, not 1000 lines AI code",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "3D CSG処理の実装で、AIが生成した1000行のコードではなく、形式検証された93行の仕様の方を信頼せよという主張のプロジェクト。AI生成コードが増えるほど、レビューの対象を「コード全体」から「小さく検証可能な仕様」へ移す必要があると示す。AI時代の設計・検証の考え方として分かりやすい題材。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "S",
+      "hook": "AIが書いた1000行を読むのをやめて、93行の仕様だけを信じる。それが新しいレビュー"
+    },
+    {
+      "url": "https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski",
+      "title": "What AI developers could learn from Charles Bukowski?",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "詩人チャールズ・ブコウスキーの創作姿勢から、AI開発者が学べることを論じたエッセイ。無理に生み出そうとせず、書くべきものが立ち上がるまで待つという態度を、AIに何でも生成させたがる今の開発文化と対比している。技術の話から働き方・創作態度の話へ折り返せる素材。",
+      "topics": [
+        "worklife",
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "AIは「とりあえず書く」のが得意すぎる。だから人間側が『書かない判断』を持つ必要がある"
+    },
+    {
+      "url": "https://segue.ai/",
+      "title": "Show HN: Segue – Save context in one AI, load it in another by a short handle",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "あるAIで積み上げた文脈を短いハンドルで保存し、別のAIに読み込ませて続きから作業できるツール。AIを乗り換えるたびに前提を説明し直すコストに着目したサービスで、複数のAIツールを併用する開発者の実務課題を突いている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings/",
+      "title": "Fast Remediation Is the New Trust Model (JFrog and OpenAI Zero-Day Findings)",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "JFrogとOpenAIのゼロデイ脆弱性対応の協業事例から、「脆弱性がないこと」ではなく「修正の速さ」が信頼の基準になりつつあると論じた記事。完璧な状態を目指すのではなく、壊れた時に素早く直せる体制をチームで持つという考え方につながる。",
+      "topics": [
+        "team"
+      ],
+      "neta": "A",
+      "hook": "信頼されるチームの条件は「バグを出さないこと」から「直すのが速いこと」に変わった"
+    },
+    {
+      "url": "https://www.infoq.com/articles/pull-based-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Article: The Hard-Stop Rule: From 3 HCM Monoliths to 120 Domain Microservices",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "3つのHCMモノリスを120のドメインマイクロサービスへ移行した事例で、鍵になったのは「ハードストップルール」——ある期日以降は旧システムへの新規追加を一切認めないという運用上の決断だった。技術的な分割手法よりも、移行を止めない仕組みをチームに課したことが成否を分けたと語る。設計と組織運営が地続きであることを示す好例。",
+      "topics": [
+        "design",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "マイクロサービス移行を成功させたのは設計図じゃなく「もう旧システムに足すな」というたった一つのルール"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/07/efficient-ai-infrastructure/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Uber’s Zero Growth Stack: Scaling Services, While Optimising Infrastructure and AI Cost",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "Uberが掲げる「ゼロ成長スタック」の取り組みで、サービス規模が拡大してもインフラとAIのコストを増やさないことを目標に据えた事例。増設ではなく最適化を前提に置くという制約が、設計判断そのものを変えていく様子が語られている。",
+      "topics": [
+        "design"
+      ],
+      "neta": "A",
+      "hook": "「サービスは伸ばすがサーバーは増やさない」という制約が、設計の質を上げる"
+    },
+    {
+      "url": "https://zenn.dev/kimuchan/articles/bc8e98682f8594",
+      "title": "最近の開発の流れ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "リファインメントからClaude Codeによる実装、多層的なAIレビュー、自動修正までをつなげた現在の開発フローを紹介した記事。AIが実装とレビューを担うことで、エンジニアは仕様の合意・設計判断・最終レビューという判断業務に集中できるようになったと述べている。スクラムの各イベントにAIをどう差し込むかの具体例として使える。",
+      "topics": [
+        "ai-dev",
+        "agile"
+      ],
+      "neta": "S",
+      "hook": "AIに実装を渡した結果、残った仕事は「決めること」だけになった"
+    },
+    {
+      "url": "https://tajd.github.io/projektor/",
+      "title": "Projektor",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIコーディングエージェントを一級のクライアントとして扱うissueトラッカー兼wiki。MCPサーバー経由でエージェント自身がチケット起票・スプリント計画・wiki検索を行える設計になっている。人間向けに作られたプロジェクト管理ツールを、AIが使う前提で作り直すとどうなるかという実例。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "A",
+      "hook": "チケット管理ツールの「主なユーザー」が人間じゃなくなったら、何が変わるか"
+    },
+    {
+      "url": "https://qiita.com/musenmai/items/b525b64882548d4aec0d",
+      "title": "ハードコーディングは本当に悪なのか - Qiita",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "「ハードコーディングは悪」という定説を検証し、設定化・抽象化が常に正解とは限らないと論じた記事。変更されない値まで外部化することで、かえって読みにくく壊れやすいコードになる場合があると指摘する。初級〜中級が最も踏みやすい「良かれと思った過剰設計」の話に直結する。",
+      "topics": [
+        "design"
+      ],
+      "neta": "S",
+      "hook": "ハードコーディングを避けた結果、もっと悪いコードになるパターンがある"
+    }
+  ],
+  "rejected_count": 23,
+  "capped_count": 115,
+  "failures": []
+}
