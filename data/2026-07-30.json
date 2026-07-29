@@ -1,0 +1,219 @@
+{
+  "date": "2026-07-30",
+  "items": [
+    {
+      "url": "https://www.infoq.com/news/2026/07/microsoft-agents-aks-routing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Microsoft Three-Layer LLM Routing Architecture for AI Agents on AKS",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "MicrosoftがAKS上でAIエージェントを動かすための3層構成のLLMルーティングアーキテクチャを公開した。リクエストをタスク種別・コスト・必要な能力で振り分け、適切なモデルへ委譲する設計になっている。エージェント基盤を自前で組む際の設計パターンとして参考になる。",
+      "topics": [
+        "design",
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/katatan/articles/b5ebd091dc447a",
+      "title": "なぜExcelはAI駆動開発のテスト管理に向かないのか",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AI駆動開発ではテストケースの生成・更新サイクルが高速化するため、Excelでのテスト管理がボトルネックになると指摘する記事。テスト資産をコードと同じリポジトリに置き、AIが読み書きできる形式で管理すべきだと説く。既存の管理プロセスがAIの速度に追いつかない典型例。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "A",
+      "hook": "AIが1分で書いたテストを、人間がExcelに転記する30分"
+    },
+    {
+      "url": "https://zenn.dev/sun_asterisk/articles/aba4a7a4f4af63",
+      "title": "コードを書かない新卒エンジニアが、AI駆動開発で大事にしている判断軸",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "自分でコードを書かない新卒エンジニアが、AI駆動開発で何を判断基準にしているかを語った記事。実装力ではなく「どこまでAIに任せ、どこで自分が判断するか」という軸を持つことが価値になると述べる。スキルの重心が実装から判断へ移る様子が具体的に読める。",
+      "topics": [
+        "ai-dev",
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "コードを書かない新卒が、いま一番鍛えているのは「判断」というスキル"
+    },
+    {
+      "url": "https://zenn.dev/m16_llc/articles/claude-code-ecosystem-guide",
+      "title": "【Claude Code】エコシステム完全整理 〜Skills・Hooks・Subagents・Plugins使い分け〜",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Claude CodeのSkills・Hooks・Subagents・Pluginsという4つの拡張機構を整理し、それぞれの役割と使い分けを解説した記事。似た機能が並立して迷いやすい部分を、目的別に切り分けて提示している。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "Skills・Hooks・Subagents・Plugins、結局どれをいつ使えばいいのか"
+    },
+    {
+      "url": "https://zenn.dev/digeon/articles/e9ffeb0e2428d0",
+      "title": "AIに既存UIの制約を守らせるAGENTS.mdとSkillとテストの役割分担",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "既存UIの制約をAIに守らせるために、AGENTS.md・Skill・テストの3つをどう役割分担させるかを論じた記事。ドキュメントでの「お願い」だけでは守られず、最終的にテストという仕組みで担保する構成を提案している。AIへの指示を設計問題として扱う視点が学べる。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "A",
+      "hook": "AIに制約を守らせるのは、お願い(ドキュメント)ではなく仕組み(テスト)"
+    },
+    {
+      "url": "https://qiita.com/TakanobuSano/items/97b51b653ee654b7b56f",
+      "title": "ストーリーポイントは「人間がやる当てずっぽう」だった。アジャイル開発の一次見積もりはAIの仕事にする",
+      "source": "Qiita(スクラム)",
+      "lang": "ja",
+      "summary": "ストーリーポイントによる見積もりは結局のところ人間の当てずっぽうだったと総括し、一次見積もりをAIに任せる運用を提案する記事。人間はAIの見積もりをレビューし、認識のズレを議論する役に回るという分担を示す。スクラムの中核プラクティスの前提を問い直す内容。",
+      "topics": [
+        "scrum",
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "見積もりが当てずっぽうなら、その当てずっぽうはAIにやらせていいのでは"
+    },
+    {
+      "url": "https://www.techno-edge.net/article/2026/07/29/5344.html",
+      "title": "自分専用の歌唱合成エディター＆トレーナーをClaude Codeで開発。数十秒の歌唱データだけで歌ってくれるゼロショットボーカルシンセ「SoulX-Singer」の現在地（CloseBox） | テクノエッジ TechnoEdge",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "歌唱合成モデルSoulX-Singerを使い、自分専用のエディター兼トレーナーをClaude Codeで開発した体験記。専門外の領域でも、AIコーディングで「自分だけの道具」を作れるところまで来ていることを示している。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "専門外の分野でも「自分専用ツール」を作れてしまう時代の個人開発"
+    },
+    {
+      "url": "https://forest.watch.impress.co.jp/docs/news/2128824.html",
+      "title": "OpenAI、脆弱性の発見・検証・修正を行う「Codex Security CLI」をオープンソース公開／CI/CDへ組み込むことも可能",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "OpenAIが脆弱性の発見・検証・修正までを行う「Codex Security CLI」をオープンソース公開した。CI/CDに組み込んで自動実行できるため、セキュリティチェックを開発フローに常駐させる使い方ができる。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/explaza/articles/20f7f41cff8428",
+      "title": "【決着】Claude CodeとCodexの設定ファイルを同期させる (みんな仲良く)",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Claude CodeとCodexで別々に増えていく設定ファイルを、どう一元管理して同期させるかの実践記事。ツールごとに指示を書き分ける手間と食い違いを、共通ソースからの生成で解消する方法を示す。複数AIツール併用時の運用課題として身近なテーマ。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "AIツールを掛け持ちすると増えるのは、コードではなく設定ファイル"
+    },
+    {
+      "url": "https://www.technologyreview.jp/s/386637/openai-called-the-hugging-face-attack-unprecedented-but-weve-been-here-before/",
+      "title": "「AIの暴走」ではない、オープンAIのモデルが不正侵入した理由",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "OpenAIのモデルが関与した不正侵入事案について、「AIの暴走」ではなく従来から知られた攻撃パターンの再演だと分析した記事。問題はモデルの自律性そのものより、エージェントに与えた権限と境界の設計にあると指摘する。エージェントに何を任せるかを考える材料になる。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "事故の原因はAIの暴走ではなく、人間が渡した権限の設計"
+    },
+    {
+      "url": "https://zenn.dev/fukurou_labo/articles/f9358a968aa5ad",
+      "title": "精度を高める、不確実性を受け入れる──AIプログラミングの狂騒を越えて",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AIプログラミングを巡る過熱した期待と失望の両極を離れ、精度を上げる努力と不確実性を受け入れる姿勢を両立させるべきだと論じる記事。AIの出力が確率的である前提に立った付き合い方を提案している。ツール論ではなく心構えの話として初級〜中級に刺さる内容。",
+      "topics": [
+        "ai-dev",
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "AIを使いこなすとは、不確実性と付き合う技術を身につけること"
+    },
+    {
+      "url": "https://zachholman.com/posts/cold-email",
+      "title": "The Cold Email",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "元GitHubのZach Holmanが、大学進学・GitHub入社・サッカークラブのオーナー参加という人生の転機がすべて「突然の一通のメール」から始まったと振り返るエッセイ。技術力ではなく、自分から連絡を取るという行動が機会を生むと説く。キャリアの動かし方として語りやすい。",
+      "topics": [
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "GitHub入社もサッカークラブ買収も、始まりは1通の突然のメールだった"
+    },
+    {
+      "url": "https://newsletter.posthog.com/p/agent-autonomy",
+      "title": "How much can you delegate to agents?",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "AIエージェントにどこまで任せるかを、モデルの性能ではなくタスクの性質で決めるフレームワークを提示した記事。「検証が容易か」「ミスの修復コストが低いか」の2軸から、助手・人間参加・委譲・完全自動の4段階を定義する。チェック機構とロールバック戦略の整備をセットで求めている。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "委譲レベルを決めるのはモデルの賢さではなく「検証しやすさ」と「やり直しの安さ」"
+    },
+    {
+      "url": "https://www.infoq.com/presentations/ai-lead-interview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Presentation: Getting Rid of LeetCode Interviews in the World of AI",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "AIが当たり前に使える時代にLeetCode形式のコーディング面接をやめ、何を代わりに見るべきかを論じた講演。実装速度ではなく、問題の切り分けや意思決定、AIとの協働の仕方を評価する方向を提案している。採用する側・される側どちらの視点でも語れる。",
+      "topics": [
+        "team",
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "AI時代の面接で見られるのは、コードを書ける力ではなく問題を選ぶ力"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-everything",
+      "title": "Adding a custom MCP server to Claude and ChatGPT",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "自作のMCPサーバーをClaudeとChatGPTの両方に登録する手順を、実例で解説した記事。設定の差異やつまずきどころが具体的に示されている。AIに自分の環境を繋ぐ第一歩として実践しやすい。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "自作MCPサーバーは、AIに自分の仕事道具を持たせる作業"
+    },
+    {
+      "url": "https://www.macotakara.jp/etc/book/entry-51535.html",
+      "title": "現役Appleマップエンジニアが書いた日本の住所表記のやばさを指摘する「ヤバい日本の住所」が出版 | 書籍 | Mac OTAKARA",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "現役Appleマップエンジニアが日本の住所表記の複雑さを解説した書籍「ヤバい日本の住所」が出版された。住所という一見単純に見えるデータが、実務ではいかに例外だらけかを扱っている。ドメインモデリングや「単純そうな仕様」の落とし穴を語る題材になる。",
+      "topics": [
+        "design"
+      ],
+      "neta": "S",
+      "hook": "「住所は文字列1つでいいよね」と設計した瞬間に負けが決まる"
+    },
+    {
+      "url": "https://togetter.com/li/2726040",
+      "title": "「Slackの使い方が下手な人なんとかならないの？」休日中の相手にメッセージを送っていいかどうかで大きく意見が割れる",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "休日中の相手にSlackメッセージを送ってよいかを巡り、意見が大きく割れた議論のまとめ。「送る側の自由」と「受け取る側の負担」がぶつかり、非同期コミュニケーションの前提がチームで共有されていない実態が浮かぶ。チーム内のルール作りを考える素材になる。",
+      "topics": [
+        "team",
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "Slackが下手なのはツールの問題ではなく、チームで合意を作っていない問題"
+    }
+  ],
+  "rejected_count": 23,
+  "capped_count": 123,
+  "failures": []
+}
