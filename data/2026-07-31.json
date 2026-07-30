@@ -1,0 +1,219 @@
+{
+  "date": "2026-07-31",
+  "items": [
+    {
+      "url": "https://zenn.dev/gyu07/articles/d97cee8c83e95e",
+      "title": "AIエージェント時代のTerraform活用：信頼できるプランを支えるハーネス設計",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AIエージェントにTerraformを扱わせる際、plan結果を人間が信頼できるようにするための「ハーネス」設計を論じた記事。エージェントに自由に触らせるのではなく、実行前後の検証レールを敷くことで安全性を確保するアプローチを示す。インフラ領域でのAI活用の勘所がまとまっている。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "A",
+      "hook": "AIを賢くするより、AIが暴走できない「柵」を先に作る"
+    },
+    {
+      "url": "https://github.com/u-ichi/reviewable-html-workbench",
+      "title": "GitHub - u-ichi/reviewable-html-workbench: Claude Code / Codex CLI plugin for generating reviewable HTML documents with preview, inline review comments, and agent feedback ingestion.",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Claude Code / Codex CLI 向けのプラグインで、レビュー可能なHTMLドキュメントを生成するツール。プレビュー、インラインのレビューコメント、エージェントへのフィードバック取り込みまでを一連の流れとして扱える。AIの成果物を人間がレビューするワークフローを補助する。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/ren_i24/articles/f122b8e386e7fa",
+      "title": "AIに境界を守らせるための三重ガード設計 — コンパイラとCIで誤りを実行前に弾く（iOS編③）",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AIが設計上の境界を踏み越えないよう、コンパイラ・静的解析・CIの三重でガードをかけるiOS設計の実践記事。人間のレビューで気づく前に、実行前の機械的なチェックで誤りを弾く仕組みを構築する。AIに規律を守らせる方法論として読める。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "A",
+      "hook": "AIに「気をつけて」と頼むな、型とCIに怒らせろ"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/07/AI-research-into-action/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "AI-Assisted Software Development: Team Profiles and Capabilities for Putting Research into Action",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "AI支援開発の研究成果を実務に落とし込むには、チームのプロファイルとケイパビリティが鍵になると論じたInfoQの記事。同じツールを導入しても成果に差が出る要因を、個人の技能ではなくチームの状態として捉える。導入施策を考える立場に示唆が多い。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "AIで生産性が上がるかは、ツールではなくチームの「型」で決まっていた"
+    },
+    {
+      "url": "https://zenn.dev/u1/articles/rhw-reviewable-html-workbench",
+      "title": "生成AIにおけるHTML/画像出力の必要性と改善案としてのRHW(reviewable-html-workbench)の紹介",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "生成AIの出力をテキストだけでなくHTML/画像として受け取る必要性を論じ、その改善案としてRHW(reviewable-html-workbench)を紹介する記事。AIの成果物に対して人間がレビューコメントを付け、それをエージェントに戻す流れを設計している。AIとの共同作業のインターフェース論。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "AIの成果物は「読める形」より「レビューできる形」で出させる"
+    },
+    {
+      "url": "https://forbesjapan.com/articles/detail/101752",
+      "title": "AIの嘘を封じ込める最強プロンプト、「わからない」と言えない人工知能の弱点 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIが「わからない」と言えない構造的な弱点を解説し、ハルシネーションを抑えるプロンプトの工夫を紹介する記事。知識の欠落を埋めようとするモデルの性質を理解した上で、問いの立て方でリスクを下げる。AIを日常的に使うエンジニアに直結する話題。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "AIが嘘をつくのは、人間が「知らない」と言う許可を出していないから"
+    },
+    {
+      "url": "https://www.m3tech.blog/entry/2026/07/30/173031",
+      "title": "AIは何を「速く」したのか｜AI DevEx Conference 2026での学び - エムスリーテックブログ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AI DevEx Conference 2026 の参加レポートで、AIが実際に何を「速く」したのかを整理している。コードを書く速度以外のどこにボトルネックが移ったのかという観点で開発者体験を捉え直す内容。現場でAIを導入した後の実感と重なる論点が多い。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "AIで速くなったのはコーディングではなかった、では何が？"
+    },
+    {
+      "url": "https://qiita.com/f_uto/items/438336db3684cf662321",
+      "title": "Claude Code「/config」設定の教科書 ― 全42項目を1つずつ解説＋おすすめ設定（v2.1.220対応） - Qiita",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Claude Code の `/config` 設定42項目をひとつずつ解説し、おすすめ設定まで提示した実践的な記事。デフォルトのまま使いがちな項目を洗い出し、用途に応じた調整方針を示す。AIコーディングツールを日常的に使う人向けのチューニングガイド。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "毎日使っているツールの設定画面を、あなたは一度でも全部見たことがあるか"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/jetbrainsaijetbrains_context.html",
+      "title": "JetBrains、AIが少ないトークンでコンテキストを取得しやすく、よりよいコード生成を可能にする「JetBrains Context」発表",
+      "source": "Publickey",
+      "lang": "ja",
+      "summary": "JetBrains が、AIが少ないトークンで的確なコンテキストを取得できるようにする「JetBrains Context」を発表した。IDE 側が持つ構造情報を活用し、コード生成の精度を高める狙い。AIに何をどう渡すかという設計課題への一つの回答。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "AIに全部読ませるのをやめると、かえって精度が上がる"
+    },
+    {
+      "url": "https://zenn.dev/mk668a/articles/a44244398c4187",
+      "title": "AIスロップによる汚染に注意 - 「グラフエンジニアリング」って結局何？ -",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "「グラフエンジニアリング」というバズワードの実態を追い、その解説記事の多くがAI生成のスロップで汚染されている現状に注意を促す記事。用語の出所を辿りながら、何が実体で何が増幅されたノイズかを切り分ける。情報収集そのものの作法を問い直す内容。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "調べても出てこないのではなく、AIが書いた偽の答えで埋まっている"
+    },
+    {
+      "url": "https://zenn.dev/kitacom_blog/articles/how_to_make_prompt",
+      "title": "AI駆動したいのにコンテキストファイルがうまく作れない？それなら一緒に書けばいいんじゃない？",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AI駆動開発のためのコンテキストファイルがうまく書けないなら、AIと一緒に書けばいいと提案する記事。完璧な指示書を人間が事前に用意するのではなく、対話を通じて育てていくアプローチを示す。プロンプト作りに詰まっている人向けの実践論。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "AIへの指示書が書けないなら、AIに一緒に書かせればいい"
+    },
+    {
+      "url": "https://zenn.dev/ren_i24/articles/d3f94de3d6ea22",
+      "title": "障害・race・バグ・移植・拡張 — 5つの\"波及\"を同じ1手で止めるiOS設計（iOS編②）",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "障害・race condition・バグ・移植・拡張という5種類の「波及」を、同じ一つの設計判断で同時に止めるというiOS設計の記事。個別に対処せず、根っこの構造を押さえることで複数の問題が一括で消える構図を示す。設計の効き所を考える題材になる。",
+      "topics": [
+        "design"
+      ],
+      "neta": "A",
+      "hook": "5つの別々の問題が、たった1つの設計判断で同時に消える"
+    },
+    {
+      "url": "https://qiita.com/HiroyukiHonda/items/600ccbf2d87d80992dee",
+      "title": "スクラムフェス仙台2026参加レポート- 今年のキーワードは「システム思考」だった",
+      "source": "Qiita(スクラム)",
+      "lang": "ja",
+      "summary": "スクラムフェス仙台2026の参加レポートで、今年のキーワードが「システム思考」だったと総括している。個々のプラクティスの改善ではなく、チームや組織を系として捉える視点が中心にあったという観察。アジャイル界隈の関心の移り変わりが分かる。",
+      "topics": [
+        "scrum",
+        "agile"
+      ],
+      "neta": "S",
+      "hook": "スクラムの現場で今いちばん語られているのは、スクラムの話ではなかった"
+    },
+    {
+      "url": "https://newsletter.kentbeck.com/p/canon-3x-exploreexpandextract",
+      "title": "Canon 3X: Explore/Expand/Extract",
+      "source": "Kent Beck / Tidy First",
+      "lang": "en",
+      "summary": "Kent Beck が提唱する 3X(Explore / Expand / Extract)の正典的な整理。ソフトウェア開発を製品のライフステージごとに異なるモードとして捉え、各フェーズで有効な振る舞いが変わることを説く。同じ「良いやり方」が別の段階では害になるという指摘が核。",
+      "topics": [
+        "xp",
+        "agile"
+      ],
+      "neta": "S",
+      "hook": "正しい開発のやり方は一つではない、製品の年齢によって正解が入れ替わる"
+    },
+    {
+      "url": "https://github.com/AminBlg/SimpleEnglish",
+      "title": "Agent Skill to Force Docs in ASD-STE100 Simplified Technical English",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "航空宇宙業界の規格 ASD-STE100(簡易技術英語)に沿ってドキュメントを書かせる Agent Skill。語彙と文型を制限することで、AIが生成する技術文書の曖昧さを減らす狙い。ドキュメント品質を仕組みで担保するアプローチ。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "A",
+      "hook": "航空機マニュアルの英語ルールを、AIのドキュメント生成に持ち込む"
+    },
+    {
+      "url": "https://speakerdeck.com/asa1984/why-effect-ts-and-why-do-we-keep-using-it",
+      "title": "Effect-TS をなぜ採用し、なぜ継続できたか？ / Why Effect-TS? And why do we keep using it?",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Effect-TS を採用した理由と、それ以上に「なぜ継続できたか」を語った登壇資料。技術選定の是非だけでなく、チームに定着させて使い続けるための条件に焦点を当てている。新技術の導入と定着のギャップを考える材料になる。",
+      "topics": [
+        "design",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "技術選定の本当の難しさは、選ぶことではなく使い続けること"
+    },
+    {
+      "url": "https://agend.jp/media/ikuo-self-management/",
+      "title": "「働くしんどさ」とどう付き合っていくか———『エンジニアのための自己管理入門』著者、小田中育生さんインタビュー",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "『エンジニアのための自己管理入門』著者・小田中育生氏へのインタビューで、「働くしんどさ」との付き合い方を語る内容。しんどさを消し去る対象ではなく、観測して管理する対象として扱う視点が示される。アジャイル的な考え方を自分自身に適用する話でもある。",
+      "topics": [
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "しんどさは解決するものではなく、計測して付き合うもの"
+    }
+  ],
+  "rejected_count": 23,
+  "capped_count": 118,
+  "failures": []
+}
