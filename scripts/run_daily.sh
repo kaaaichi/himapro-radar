@@ -20,6 +20,22 @@ cd "$REPO_DIR"
 {
   echo "=== run_daily.sh start: $(date) ==="
 
+  # クラウド routine (himapro-radar-daily) 優先の時間ガード。
+  # クラウドは 07:05 JST に起動し、判定に数十分かかる。その間にこのスクリプトが
+  # 走ると、下の冪等性チェックは「当日の radar コミットはまだ origin/main に無い」と
+  # 判定してしまい(あれは完了済みの検出であって実行中の検出ではない)、両者が並走して
+  # 同じ data/seen/docs をコミットし push が衝突する。敗者は set -euo pipefail で
+  # 異常終了し、push されないローカル radar コミットが残る。以降のティックは毎回
+  # pull --rebase がそれをコンフリクトさせ、自力では復旧しなくなる。
+  # そのため午前中はクラウドに譲り、10:00 JST 以降だけフォールバックとして動く
+  # (ローカル1周の実測は約72分なので3時間弱の猶予がある)。
+  # クラウドを使わない運用に戻すときは、このガードごと削除すること。
+  HOUR=$(TZ=Asia/Tokyo date +%H)
+  if [ "$((10#$HOUR))" -lt 10 ]; then
+    echo "before 10:00 JST (${HOUR}時) — クラウド routine に譲るためスキップ"
+    exit 0
+  fi
+
   git fetch -q origin main || { echo "git fetch failed, will retry next tick"; exit 1; }
   git pull -q --rebase origin main || { echo "git pull failed, will retry next tick"; exit 1; }
 

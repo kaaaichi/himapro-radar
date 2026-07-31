@@ -49,6 +49,7 @@ sources.yaml(固定リスト) → scripts/collect.py(巡回・既読差分) → 
 - 定義ファイル: `~/Library/LaunchAgents/com.himapro.radar.daily.plist`(このMac固有、git管理外)
 - 実行スクリプト: `scripts/run_daily.sh`
 - トリガー: 毎日7:00 + 30分ごとのポーリング。**Macがスリープ中は動かない** — その日最初にMacを開いた(起きた)タイミングの30分以内に、まだ未完了なら自動実行される(冪等性チェックにより1日1回のみ実際に実行)
+- **10:00 JST 前のティックはスキップする**(クラウド routine との並走回避。上記「移行状況」参照)。`StartInterval` は `StartCalendarInterval` と独立に終日30分ごとに発火するため、plist の `Hour` を変えてもこのガードの代わりにはならない
 - ログ: `logs/YYYY-MM-DD.log`(git管理外)
 
 ### 停止手順(このMac固有)
@@ -66,7 +67,9 @@ launchctl load ~/Library/LaunchAgents/com.himapro.radar.daily.plist
 
 クラウド routine の不具合を修正したが、**クラウドが実際にコミットを push できたことはまだ未確認**。そのため launchd は意図的に稼働継続中。
 
-二重実行にはならない。`run_daily.sh` は `origin/main` の履歴に当日の `radar:` コミットがあるかで判定するため、クラウドが 07:05 に push すれば 07:12 の launchd は `already completed today` でスキップする。この仕組みがそのまま検証装置になる。
+**冪等性チェックだけでは並走を防げない**点に注意。あれは「完了済みか」を見るもので「実行中か」は見ないため、クラウドが判定中(数十分かかる)の間に launchd が起動すると両方が走り、push が衝突する。敗者は push されないローカルコミットを抱えて終了し、以降 `pull --rebase` が毎回コンフリクトして自力復旧できなくなる。
+
+そのため `run_daily.sh` に **10:00 JST 前はスキップする時間ガード**を入れてある。午前中はクラウドに譲り、クラウドが失敗した日だけ 10:00 以降のティックがフォールバックとして拾う。クラウドを使わない運用に戻すときはこのガードを削除すること。
 
 - [ ] クラウド routine が日次コミットを push できたことを確認する(確認できたら launchd を `launchctl unload` して本項を更新)
 

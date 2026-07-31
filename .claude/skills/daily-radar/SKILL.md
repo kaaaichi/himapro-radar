@@ -12,6 +12,7 @@ description: ひまプロ Podcast 元ネタ発掘の日次レーダー。固定�
 0. **環境準備**: 以下を上から順に実行する。実行環境のチェックアウトは **detached HEAD** のことがあり、その状態では `git pull --rebase` も引数なしの `git push` も `You are not currently on a branch.` で失敗する。必ずブランチに乗せてから作業を始める
    - `git fetch origin main`
    - `git checkout -B main origin/main`(detached HEAD でも通る。ローカルの main を origin/main に強制的に合わせる)
+     ※この手順は**使い捨てチェックアウトで実行される前提**。手元のクローンで手動実行する場合、未 push のコミットがあると捨てられるので先に push しておくこと
    - `.venv` が無ければ `python3 -m venv .venv && .venv/bin/pip install -r requirements.txt` で作る
 1. **収集(決定的)**: `source .venv/bin/activate && python3 scripts/collect.py` を実行し、`state/inbox.json` を読む
 2. **上限ガード**: new_items が50件を超える場合、番組トピックへの関連が高そうな上位30件だけを判定対象にする。スキップ件数を `capped_count` に記録する(スキップ分は seen に入れない=翌日再登場する)
