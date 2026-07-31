@@ -7,9 +7,16 @@
 
 ## 🛑 停止手順(まずこれ)
 
-1. Claude Code で `/schedule` を開き、routine **himapro-radar-daily** を無効化(disable)する
-2. 完全にやめる場合は同 routine を削除する
-3. これ以外に動いているものはない(webhook・Actionsなし)
+**動いている実行基盤は2つある。止めるときは両方を確認すること。**
+
+1. ローカル launchd(現在の実運用。実際に日次コミットを作っているのはこちら)
+
+   ```bash
+   launchctl unload ~/Library/LaunchAgents/com.himapro.radar.daily.plist
+   ```
+
+2. クラウド routine **himapro-radar-daily**(`trig_01254gPqxsP6d4EoTqaa1Juv`)を Claude Code の `/schedule` から無効化(disable)する。有効なら空振りでも課金される
+3. これ以外に動いているものはない(webhook なし。GitHub Actions は gitleaks のみで日次実行には無関係)
 
 ## 仕組み
 
@@ -19,9 +26,23 @@ sources.yaml(固定リスト) → scripts/collect.py(巡回・既読差分) → 
 - ソースの追加・削除は sources.yaml の編集のみ
 - ネタ度: S=エピソード化候補 / A=ストック / B=参考
 
-## 実行基盤(ローカル launchd)
+## 実行基盤
 
-クラウドの Claude Code routine は `claude/` ブランチ制限と egress 制限のため、このプロジェクトの用途(main への直接 push、外部フィード取得)と相性が悪く不採用とした(検証記録: `.superpowers/sdd/progress.md`)。代わりに、このMacBookの launchd で日次実行する。
+**2026-07-31 現在、クラウド routine への復帰作業中。** 検証が済むまでローカル launchd を残す(下記「移行状況」)。
+
+### クラウド routine `himapro-radar-daily`(本命)
+
+毎日 07:05 JST 起動。SKILL.md の手順に従い、クラウド環境が判定から push まで行う。Mac の電源・スリープ状態に依存しないのが利点。
+
+2026-07-07 の初回検証では (a) egress 遮断で全15フィード403 (b) push 権限不足 の2点で失敗し、一度は不採用とした。**この2点は 2026-07-31 の再検証でいずれも解消済みを確認**(15フィード中14件が HTTP 200、`git push origin HEAD:main` 成功)。
+
+不採用期間中に routine が再有効化されていたが、別の原因(下記)で 07/24〜07/31 は空振りしていた。
+
+**既知の制約**: クラウド環境の egress プロキシは `tidyfirst.substack.com`(Kent Beck / Tidy First)のみ 403 で遮断する。当該フィードは `failures` に記録され、レーダーには載らない。ローカル launchd 実行では取得できるため、実行基盤による差分になる。
+
+**注意(SKILL.md を編集するとき)**: クラウド環境のチェックアウトは **detached HEAD**。`git pull --rebase` と引数なしの `git push` はどちらも `You are not currently on a branch.` で失敗する。必ず `git checkout -B main origin/main` でブランチに乗せ、push は `git push origin HEAD:main` と明示すること。ガードレールが手順外コマンドを禁じているため、エージェントは自力でこの回避ができない。
+
+### ローカル launchd(現在のフォールバック)
 
 **セキュリティ設計**: 信頼できない記事本文を読む判定ステップ(`claude -p`)には `WebFetch` 以外のツールを一切与えない。Bash実行・ファイル書き込み・git操作はすべて `run_daily.sh`(決定的シェルスクリプト)側が行うため、記事内容にプロンプトインジェクションが仕込まれていても、判定LLMがコマンド実行やpushをすることはできない。判定LLMの生出力は必ずファイル経由(`state/judge_output.txt`)で `scripts/apply_judgment.py` に渡され、`json.loads` でデータとしてのみ解釈される(シェルやPythonのソースコードに組み立てることは一切しない)。既知URL集合・スキーマとの照合で不正な出力は破棄する(fail-closed)。
 
@@ -41,6 +62,14 @@ launchctl unload ~/Library/LaunchAgents/com.himapro.radar.daily.plist
 launchctl load ~/Library/LaunchAgents/com.himapro.radar.daily.plist
 ```
 
+### 移行状況(2026-07-31 時点)
+
+クラウド routine の不具合を修正したが、**クラウドが実際にコミットを push できたことはまだ未確認**。そのため launchd は意図的に稼働継続中。
+
+二重実行にはならない。`run_daily.sh` は `origin/main` の履歴に当日の `radar:` コミットがあるかで判定するため、クラウドが 07:05 に push すれば 07:12 の launchd は `already completed today` でスキップする。この仕組みがそのまま検証装置になる。
+
+- [ ] クラウド routine が日次コミットを push できたことを確認する(確認できたら launchd を `launchctl unload` して本項を更新)
+
 ## ガードレール
 
 - routine は日次1回・1本のみ。テスト用の高頻度 routine は作らない
@@ -52,6 +81,7 @@ launchctl load ~/Library/LaunchAgents/com.himapro.radar.daily.plist
 
 - 運用開始: 2026-07-07(routine `himapro-radar-daily` 登録日)
 - [ ] 2026-07-10 の棚卸し(実行ログ・コスト・レポート品質・S判定の妥当性)— 済んだら日付を書く
+- 2026-07-31: クラウド routine の不調を調査。経緯 — 07/07 に egress・push 権限の問題で無効化 → 07/14 に launchd ラッパーで代替 → **07/24 に routine が再有効化されており、以降 07/31 まで毎日空振りしながら課金だけ発生していた**。原因は egress でも権限でもなく、クラウド環境が detached HEAD のため SKILL.md 手順0・手順7 の git コマンドが失敗していたこと。SKILL.md を修正済み
 
 ## ローカル実行(手動で1周)
 
