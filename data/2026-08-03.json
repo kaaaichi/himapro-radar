@@ -1,0 +1,188 @@
+{
+  "date": "2026-08-03",
+  "items": [
+    {
+      "url": "https://zenn.dev/thorie/articles/548se-review-in-era-of-ai-dd",
+      "title": "AI駆動開発でレビュー時間はスプリントの210%になる ～ レビュー疲れの正体とその処方",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AI駆動開発でコード生成量が急増した結果、レビューに費やす時間がスプリント容量の210%に達するという分析記事。レビュー疲れの原因を「量」「文脈の欠落」「責任の所在の曖昧さ」に分解し、レビュー設計そのものを見直す処方箋を示す。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "AIで書く時間は減ったのに、チームの限界は『読む速度』に移った"
+    },
+    {
+      "url": "https://zenn.dev/minewo/articles/ai-merge-ready-state-machine",
+      "title": "AIにマージさせない。PRをMERGE_READYまで運ぶ状態機械の設計",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AIエージェントにマージ権限を渡さず、PRをMERGE_READY状態まで運ばせる状態機械として開発フローを設計する提案。各状態の遷移条件を明示することで、AIの作業範囲と人間の最終判断の境界をコードレベルで固定する。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "S",
+      "hook": "AIに任せる範囲は『能力』ではなく『状態遷移図』で決める"
+    },
+    {
+      "url": "https://speakerdeck.com/kawaguti/okr-essence-scrum-fest-osaka-2026",
+      "title": "OKRの本質 / Scrum Fest Osaka 2026",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Scrum Fest Osaka 2026 での講演資料で、OKRが本来何のための仕組みだったのかを原典に遡って整理する。目標管理ツールとして形骸化しがちなOKRを、アジャイルな探索と学習のための道具として捉え直す。",
+      "topics": [
+        "agile",
+        "scrum"
+      ],
+      "neta": "A",
+      "hook": "OKRは『達成率を測る道具』ではなく『何を諦めるかを決める道具』"
+    },
+    {
+      "url": "https://blog.magnolia.tech/entry/2026/08/02/133343",
+      "title": "『エンジニアのための自己管理入門』で自身の”行動を設計”する - Magnolia Tech",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "書籍『エンジニアのための自己管理入門』の書評記事。意志力や気合いではなく、自分の行動が起きる条件を設計する視点で自己管理を捉え直す内容を紹介している。エンジニアの日常業務にそのまま適用できる具体的な仕組み化の話が中心。",
+      "topics": [
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "自己管理は精神論ではなく『自分向けのシステム設計』だ"
+    },
+    {
+      "url": "https://togetter.com/li/2728033",
+      "title": "アイドルグループ『Juice=Juice』の宮本佳林さんがAIで10時間配信の全システムを構築し技術ブログも公開している「アイドルの技術ブログ！？」",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "アイドルグループのメンバーがAIを活用して10時間配信の全システムを自力で構築し、技術ブログまで公開したことが話題になった件のまとめ。非エンジニアがAIを相棒にして実運用レベルのシステムを作り切った事例として注目されている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "『職業エンジニアである』ことの価値は、もうコードを書けることではない"
+    },
+    {
+      "url": "https://zenn.dev/norman6464/books/scrum-basics",
+      "title": "スクラム実践入門：理論と Jira チケット運用",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "スクラムの理論的な基礎と、Jiraでのチケット運用という実務面の両方をまとめた入門書籍(Zenn Book)。スクラムイベントや各ロールの意味を押さえたうえで、実際のツール運用に落とし込む構成になっている。",
+      "topics": [
+        "scrum"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/numarn/articles/claude-input-length-cost-latency-handson",
+      "title": "AIに2万字を貼ったら料金は4.2倍。トークン数は1.5倍で、待ち時間は長さに比例しなかった",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AIに2万字のテキストを貼り付けた場合のコスト・トークン数・レイテンシを実測したハンズオン記事。料金は4.2倍になる一方でトークン数は1.5倍にとどまり、待ち時間は入力長に比例しなかったという直感に反する結果を報告している。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "『長い入力=遅い』は嘘。でも財布には正直に効く"
+    },
+    {
+      "url": "https://zenn.dev/headwaters/articles/76f20490b76952",
+      "title": "ローカルタスク管理アプリを設計してみた",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "ローカル環境で動くタスク管理アプリを題材に、要件整理から設計までの過程をまとめた記事。個人開発規模で設計の考え方を追体験できる内容になっている。",
+      "topics": [
+        "design"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://github.com/micro/mu",
+      "title": "Show HN: Mu – Tools for Agents",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "AIエージェント向けのツール群を提供するOSSプロジェクト「Mu」のShow HN投稿。エージェントが利用する道具立てを小さく揃えるアプローチを取っている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://frogs.vaguespac.es/",
+      "title": "My personal AI benchmark: \"Generate an SVG of a frog with a Habsburg jaw.\"",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "「ハプスブルク顎のカエルのSVGを生成させる」という独自プロンプトを個人用AIベンチマークとして使い、各モデルの結果を並べて比較したサイト。公式ベンチマークのスコアではなく、自分の用途に近い一問で判断するという発想が示されている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "モデル選びは公式スコアより『自分専用の一問』で決める"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Jul/31/llm-mcp-client/#atom-everything",
+      "title": "llm-mcp-client 0.1a0",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "LLM CLIからMCPサーバーに接続するためのプラグイン llm-mcp-client の初期アルファ版リリース。手元のコマンドラインツールからMCP経由で外部ツールを呼び出せるようになる。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Jul/31/datasette-agent/#atom-everything",
+      "title": "datasette-agent 0.4a0",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "Datasette上でAIエージェントを動かすプラグイン datasette-agent のアルファ版リリース。データベース探索をエージェントに任せる方向の実験的な取り組み。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://speakerdeck.com/uproad3/fu-zhai-jie-xiao-toiushi-shi-hachu-karu-a3e15d25-6c66-4c26-8278-179c14e50f40",
+      "title": "負債解消という仕事は儲かる",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "技術的負債の解消を「コストのかかる後始末」ではなく、ビジネス的に儲かる仕事として位置づけ直す講演資料。負債解消の価値をどう説明し、どう予算と体制を勝ち取るかという観点でまとめられている。",
+      "topics": [
+        "team",
+        "design"
+      ],
+      "neta": "S",
+      "hook": "リファクタリングの予算が取れないのは、技術の問題ではなく説明の問題"
+    },
+    {
+      "url": "https://engineering.mercari.com/blog/entry/20260731-bd36d55a0c/",
+      "title": "メルカリのCoreDBをMySQLからTiDBへ移行した振り返り | メルカリエンジニアリング",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "メルカリがコアDBをMySQLからTiDBへ移行した経緯と結果の振り返り記事。移行の意思決定、段階的な進め方、想定と違った点までを含めて公開しており、大規模な基盤変更の進め方の実例になっている。",
+      "topics": [
+        "design",
+        "team"
+      ],
+      "neta": "A",
+      "hook": "大移行の成否を分けるのは技術選定ではなく『引き返せる設計』"
+    },
+    {
+      "url": "https://nowokay.hatenablog.com/entry/2026/08/02/002257",
+      "title": "DeepSeek-V4-Flash-0731を試す。コーディングにはお勧めできない。 - きしだのHatena",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "新しいモデル DeepSeek-V4-Flash-0731 を実際にコーディング用途で試した結果、実用には勧められないと結論づけた検証記事。ベンチマーク上の評価と実タスクでの使い勝手が一致しない例として具体的に書かれている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "『新しいモデルが出た』は『自分のコードが良くなる』を意味しない"
+    }
+  ],
+  "rejected_count": 25,
+  "capped_count": 111,
+  "failures": []
+}
