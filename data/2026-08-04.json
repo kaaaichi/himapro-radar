@@ -1,0 +1,291 @@
+{
+  "date": "2026-08-04",
+  "items": [
+    {
+      "url": "https://anond.hatelabo.jp/20260803162719",
+      "title": "AIで仕事を効率化したら、なぜか僕の仕事だけ増えた話",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIツールで業務を効率化したはずが、逆に自分の仕事量だけが増えていくというはてな匿名日記の体験談。効率化の恩恵が個人に偏り、浮いた時間がさらなるタスク割り当てで相殺されてしまう皮肉な構造を描く。",
+      "topics": ["worklife", "ai-dev"],
+      "neta": "S",
+      "hook": "「AIで効率化したら仕事が減るどころか増えた」という逆説から入る"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/article/2608/03/2000000362/",
+      "title": "「コードは一行も書いていない」 アイドルの宮本佳林さん、AIで配信システムを丸ごと構築 “技術ブログ”が話題",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "元アイドルの宮本佳林さんが「コードは一行も書いていない」と語りながら、AIとの対話だけで配信システムを丸ごと構築した体験を綴った技術ブログが話題に。非エンジニアがバイブコーディングでプロダクトを作り上げる実例として注目されている。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "「元アイドルがエンジニアなしでシステムを作った」という意外性で入る"
+    },
+    {
+      "url": "https://qiita.com/rira__/items/dab9765ffd6aae8f0c07",
+      "title": "社内IT推進で「作っても使われない」をゼロにするために、僕が現場で学んだ5つのこと - Qiita",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "社内向けにツールを開発しても現場で使われない問題に直面した筆者が、現場で得た5つの教訓をまとめたQiita記事。ユーザーを巻き込むプロセスやフィードバックの取り方など、社内IT推進の実践知が語られている。",
+      "topics": ["team", "worklife"],
+      "neta": "A"
+    },
+    {
+      "url": "https://zenn.dev/knowledge_graph/articles/ontology-define-first-vs-induce",
+      "title": "オントロジーは「先に決める」か「データから起こす」か",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "オントロジー(概念体系)を設計時に先に定義すべきか、データから帰納的に構築すべきかを論じるZenn記事。両アプローチのトレードオフを整理し、AI時代の知識設計に示唆を与える。",
+      "topics": ["design"],
+      "neta": "A"
+    },
+    {
+      "url": "https://zenn.dev/aws_japan/articles/context-ontology-accelerator-deploy",
+      "title": "オントロジーで AI に業務知識を渡す — AWS の OSS「Context Ontology Accelerator」を試してみた",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AWS発のOSS「Context Ontology Accelerator」を使い、業務知識をオントロジーとしてAIに渡す実践を試した記事。企業のドメイン知識をAIエージェントに理解させるための設計パターンを紹介している。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/business/articles/2608/03/news030.html",
+      "title": "「AI、結局使えないじゃん」問題 セールスフォースが431万件対応で導いた正解",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "「AI、結局使えないじゃん」という現場の声に対し、セールスフォースが431万件のサポート対応の分析から導いた解決策を紹介する記事。AI導入がうまくいかない要因と改善のポイントを整理している。",
+      "topics": ["ai-dev"],
+      "neta": "A"
+    },
+    {
+      "url": "https://gihyo.jp/article/2026/08/yc-qm",
+      "title": "Y Combinator、マルチエージェントハーネス「QM」をオープンソース化 ——組織のクラウド環境で利用者やチャンネルごとの作業環境を管理 | gihyo.jp",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Y Combinatorがマルチエージェントハーネス「QM」をオープンソース化。組織のクラウド環境で利用者やチャンネルごとに作業環境を管理できる仕組みで、チームでのAIエージェント運用を見据えた設計になっている。",
+      "topics": ["ai-dev"],
+      "neta": "A"
+    },
+    {
+      "url": "https://www.technologyreview.jp/s/386800/a-fundamental-flaw-leaves-llms-strikingly-vulnerable-to-attack/",
+      "title": "「思考の連鎖」偽装でLLMを騙す新手法、訓練では防げない構造的欠陥",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "LLMの「思考の連鎖(Chain-of-Thought)」を偽装することで安全対策をすり抜けられる、訓練だけでは防げない構造的な脆弱性を報じる記事。AIエージェントの信頼性を語る上で押さえておきたい内容。",
+      "topics": ["ai-dev"],
+      "neta": "A"
+    },
+    {
+      "url": "https://blog.techscore.com/entry/2026/08/03/080000",
+      "title": "herdr を使いこなす: 複数 AI エージェントの連携から自作プラグインまで - TECHSCORE BLOG",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "複数のAIエージェントを連携させるツール「herdr」の使いこなし方を解説する記事。基本操作から自作プラグインの作り方まで、実践的なノウハウがまとめられている。",
+      "topics": ["ai-dev"],
+      "neta": "A"
+    },
+    {
+      "url": "https://qiita.com/Y-Y-dev/items/d526fb7cdbe35a3f9384",
+      "title": "Claude Code／Codexに中～大規模開発を任せるためのタスク管理 - Qiita",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Claude CodeやCodexに中〜大規模な開発を任せる際のタスク管理手法を解説するQiita記事。AIエージェントに委ねる粒度やチケット設計など、実務での工夫が紹介されている。",
+      "topics": ["ai-dev", "agile"],
+      "neta": "A"
+    },
+    {
+      "url": "https://dev.classmethod.jp/articles/ai-era-docs-tsumugu/",
+      "title": "AI 時代の docs のために、Zero Config なドキュメントサーバー「Tsumugu」を作った — Semantic AST で Markdown・HTML・MDX・OpenAPI をつなぐ | DevelopersIO",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AI時代のドキュメント運用のために作られた「Tsumugu」というZero Configドキュメントサーバーの紹介記事。Semantic ASTでMarkdown・HTML・MDX・OpenAPIを横断的に扱える設計が特徴。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A"
+    },
+    {
+      "url": "https://anond.hatelabo.jp/20260803115506",
+      "title": "AI認定してる人たち、ほぼ9割くらいは単に読解力がないだけ説",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "「AI否定派の9割は単に読解力がないだけではないか」という挑発的な仮説を展開するはてな匿名日記。AI批判の質を巡る議論として話題になっている。",
+      "topics": ["worklife", "ai-dev"],
+      "neta": "S",
+      "hook": "「AI否定派は読解力不足なだけ」という挑発的な切り口で入る"
+    },
+    {
+      "url": "https://zenn.dev/dip_techblog/articles/c264e1544ebb53",
+      "title": "AIに社内1,127リポジトリを爆速調査させて分かった、「何を疑うか」を決める人間の仕事",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Claude Codeに社内1,127リポジトリと371ページのポータルを走査させ、業務フローを1枚のHTMLにまとめさせた事例。AIは「決まっていないもの」を決まっているかのように断定してしまう問題が浮き彫りになり、確実・推定・不明を仕分ける敵対的レビューで45件以上の誤りを検出した。速度は劇的に上がった一方、「何を疑うべきか判断する仕事」が人間に新たに生まれたという結論。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "「AIは全部やってくれたのに、逆に新しい仕事が生まれた」という逆転型で入る"
+    },
+    {
+      "url": "https://zenn.dev/tukiyubi/articles/289ddb13e112b9",
+      "title": "実装したAIにレビューさせない——Claude Codeの3パス独立レビューと機械判定",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "実装したAI自身にレビューさせると自己承認しがちになる問題を避けるため、仕様なし→仕様あり→仕様なしの「3パス独立レビュー」と機械判定を組み合わせた手法を紹介するZenn記事。実装時の会話文脈を遮断し、PASS/BLOCKED判定をスクリプトに委ねることで客観性を担保している。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "「AIに自分の実装をレビューさせてはいけない」という逆説から入る"
+    },
+    {
+      "url": "https://zenn.dev/redamoon/articles/article48-cursor-meetup-sapporo",
+      "title": "「速くなった」では足りない ─ Cursor Meetup Sapporo で話した、弥生の Cursor 組織導入1年",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "弥生がCursorを組織導入して1年、その経験をCursor Meetup Sapporoで発表した内容をまとめた記事。「速くなった」だけでは語れない、組織展開ならではの課題や工夫が紹介されている。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A"
+    },
+    {
+      "url": "https://zenn.dev/mryo0826/articles/b798cb915a2886",
+      "title": "グラフエンジニアリングってこれだった？",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "「グラフエンジニアリング」という概念について、実際の業務経験を踏まえて再定義を試みる記事。グラフ構造を用いた設計手法の実践的な気づきが語られている。",
+      "topics": ["design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/emuni/articles/emuni-demo-poc-production-flow",
+      "title": "【PM/エンジニア向け】エムニのデモ開発→PoCアプリ開発→本番システム開発の流れと、その意味について",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "PM・エンジニア向けに、デモ開発からPoCアプリ開発、本番システム開発へと至る一連の流れとその意味を整理した記事。各フェーズで求められる意思決定の違いを解説している。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A"
+    },
+    {
+      "url": "https://qiita.com/Maku-Inc/items/7daa7f023398f6d19472",
+      "title": "エンジニア必見！見積もりが「2倍ズレ」る科学的理由と精度を上げる実践テクニック",
+      "source": "Qiita(アジャイル)",
+      "lang": "ja",
+      "summary": "エンジニアの見積もりが「2倍ズレる」現象を科学的な理由から解説し、精度を上げるための実践テクニックを紹介するQiita記事。見積もりバイアスの研究知見を実務に落とし込んでいる。",
+      "topics": ["agile"],
+      "neta": "A"
+    },
+    {
+      "url": "https://www.ryuzee.com/contents/blog/14609",
+      "title": "【新刊】『Aligned ―プロダクト開発におけるステークホルダーとの関係性の築き方』発売のお知らせ",
+      "source": "Ryuzee.com",
+      "lang": "ja",
+      "summary": "アジャイルコーチRyuzee氏の新刊『Aligned ―プロダクト開発におけるステークホルダーとの関係性の築き方』の発売告知。プロダクト開発でのステークホルダーマネジメントに焦点を当てた内容。",
+      "topics": ["agile", "team"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/warumonogakari/articles/scrum-fest-mikawa-2026-rubric-appendix",
+      "title": "スクフェス三河のプロポーザルに使ったルーブリック全文🐱（付録）",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "スクラムフェス三河のプロポーザル選定に使われたルーブリック(評価基準)の全文を公開する付録記事。カンファレンス運営の裏側にある評価の仕組みが具体的に分かる。",
+      "topics": ["scrum"],
+      "neta": "A"
+    },
+    {
+      "url": "https://zenn.dev/warumonogakari/articles/scrum-fest-mikawa-2026-rubric-2",
+      "title": "スクフェス三河のプロポーザルに、ルーブリックを使ってフィードバックしてみた🐱（後編）",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "スクラムフェス三河のプロポーザルに対し、前掲のルーブリックを使って実際にフィードバックしてみた過程をまとめた後編記事。評価基準を実践に適用する際の気づきが語られている。",
+      "topics": ["scrum"],
+      "neta": "A"
+    },
+    {
+      "url": "https://zenn.dev/xaiondata/articles/18052f7e039a1f",
+      "title": "Engineering and Product Management might not be so different after all",
+      "source": "Zenn(スクラム)",
+      "lang": "en",
+      "summary": "エンジニアリングとプロダクトマネジメントは実はそれほど違わないのではないか、という視点から両職種の共通点を論じる記事。役割の垣根を超えたチーム連携について考察している。",
+      "topics": ["agile", "team"],
+      "neta": "A"
+    },
+    {
+      "url": "https://zenn.dev/appleworld/articles/adea3e4a0b529a",
+      "title": "「エンジニアの役割の変化に向き合うConference」に登壇しました",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "「エンジニアの役割の変化に向き合うConference」への登壇報告記事。AI時代におけるエンジニアの役割変化というテーマについて、登壇者としての気づきが共有されている。",
+      "topics": ["team", "worklife"],
+      "neta": "B"
+    },
+    {
+      "url": "https://martinfowler.com/articles/archaeologist-copilot.html",
+      "title": "The Archaeologist's Copilot",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "summary": "20年前のJava 1.5レガシーコードベースをAIと共に現代化した実践記録。AIを翻訳機ではなく「考古学者のように分析し、DevOpsエンジニアのように環境構築し、アーキテクトとして戦略を立てる」補助として使い、分析→コンテナ化→段階的モダナイズ→検証の4段階で証拠ベースに刷新した。「楽観的なAIの提案は危険」という教訓から、AIを制約されたツールとして再定義した点が核心。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "「AIに考古学者の役割をやらせる」というユニークな比喩で入る"
+    },
+    {
+      "url": "https://martinfowler.com/articles/exploring-gen-ai/local-models-for-coding-factors.html",
+      "title": "Viability of local models for coding",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "summary": "コーディング用途におけるローカルLLMの実用性を検証した記事。クラウドAIと比較した際の性能・コスト・プライバシー面でのトレードオフを、実際の要因分析を通じて論じている。",
+      "topics": ["ai-dev"],
+      "neta": "A"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/inside-anthropic",
+      "title": "How building software is changing at Anthropic",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "Anthropic社内でのソフトウェア開発プロセスの変化を追った記事。実装より検証に時間がかかるようになり(あるプロジェクトでは検証に85%)、3〜10体のAIエージェントを並列実行するのが標準になった。Bunの50万行超のコードをZigからRustへ移行するプロジェクトが、従来1年かかるところをAI活用で11日に短縮された事例も紹介されている。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "「実装は速くなったのに、検証に85%の時間がかかる」という逆転型で入る"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/context-engineering-with-dex-horthy",
+      "title": "Context engineering with Dex Horthy",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "AIエージェント活用の鍵となる「コンテキストエンジニアリング」について、実践者Dex Horthy氏に聞いたインタビュー記事。プロンプト設計を超えた、AIに渡す文脈の設計手法が語られている。",
+      "topics": ["ai-dev"],
+      "neta": "A"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/what-is-loop-engineering",
+      "title": "What is \"loop engineering?\"",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "AIエージェントを繰り返し実行させる「ループエンジニアリング」という新しい概念を解説する記事。単発のプロンプトではなく、反復ループとして開発プロセスを設計する考え方を紹介している。",
+      "topics": ["ai-dev"],
+      "neta": "A"
+    },
+    {
+      "url": "https://addyosmani.com/blog/software-factories/",
+      "title": "Software Factories, Light and Dark",
+      "source": "Addy Osmani",
+      "lang": "en",
+      "summary": "ソフトウェア開発の自動化を「ループ(単一タスクの反復)」「ハーネス(実行環境)」「ファクトリー(組織的実行体制)」という3層構造で整理し、人間が読まずにコードを出荷する「Dark Factory」は初速こそ速いが「理解債」が蓄積し4ヶ月後に問題化すると警告。人間の判断を組み込む「Lit Factory」では検証が瓶首であり生成ではないとし、エンジニアは「外側のループ」(判断・検証・承認)を担うべきだと主張する。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "「Dark Factory」と「Lit Factory」という対比で入る"
+    },
+    {
+      "url": "https://addyosmani.com/blog/orchestration-tax/",
+      "title": "The Orchestration Tax",
+      "source": "Addy Osmani",
+      "lang": "en",
+      "summary": "複数のAIエージェントやツールを組み合わせる際に生じる「オーケストレーションの税金」というコストについて論じる記事。統合の複雑さが生産性向上を相殺してしまう構造を指摘している。",
+      "topics": ["ai-dev"],
+      "neta": "A"
+    }
+  ],
+  "rejected_count": 0,
+  "capped_count": 108,
+  "failures": [
+    {
+      "name": "Kent Beck / Tidy First",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ]
+}
