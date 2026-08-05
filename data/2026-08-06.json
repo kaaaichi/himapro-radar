@@ -1,0 +1,304 @@
+{
+  "date": "2026-08-06",
+  "items": [
+    {
+      "url": "https://speakerdeck.com/mikimhk/how-a-skill-born-from-a-chance-encounter-became-the-most-used-tool-in-the-company",
+      "title": "ふとした出会いで生まれたSkillが、社内利用1位になるまで",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "ちょっとした偶然のきっかけから作られたAIエージェント向けSkillが、いつの間にか社内で最も使われるツールに育っていった経緯を紹介するスライド。技術的な作り込みよりも「実際に現場で使われ続けること」を重視した改善サイクルが語られている。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "「偶然の出会いから社内No.1ツールへ」という逆転型フックで紹介できる"
+    },
+    {
+      "url": "https://speakerdeck.com/masuda220/jin-kosowen-kitaisohutoueashe-ji-domeinqu-dong-she-ji-zai-ru-men",
+      "title": "今こそ聞きたいソフトウェア設計 ドメイン駆動設計再入門",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "DDDの実践者として知られる増田亨氏による、ドメイン駆動設計の基本概念を今の開発現場向けに捉え直す再入門スライド。難解になりがちなDDDを実務目線で整理し直している。",
+      "topics": ["design"],
+      "neta": "A",
+      "hook": "初級向けにDDDの基本をおさらいする設計回として使える"
+    },
+    {
+      "url": "https://zenn.dev/lambdalisue/articles/introduce-cclens",
+      "title": "Claude Code の「無駄」を可視化するツール cclens を作った",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Claude Codeの実行ログからトークンの無駄遣いや非効率な挙動を可視化するツール「cclens」を自作した話。AIエージェントの運用コストを見える化して最適化するという実務的な視点を提供している。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "「AIエージェントは実は無駄遣いだらけ？」を逆転フックに"
+    },
+    {
+      "url": "https://findy-code.io/media/articles/list-micchiebear",
+      "title": "ごきげんは、気合じゃなく設計。変化を楽しむメンタルモデルは“やらない”からつくる - Findy Media",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "「ごきげん」を気合や根性ではなく、環境や仕組みの「設計」として捉え直すメンタルモデルを語るインタビュー記事。何かを「やらない」と決めることから変化を楽しむ余白をつくるという考え方が紹介されている。",
+      "topics": ["worklife", "design"],
+      "neta": "S",
+      "hook": "「ごきげんは気合いではなく設計」という逆転型フック"
+    },
+    {
+      "url": "https://engineering.nature.global/entry/2026/07/prove-pure-refactoring-with-ai-and-auto-merge",
+      "title": "「純粋リファクタリング」をAIに証明させて自動マージする - Nature Engineering Blog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "振る舞いを変えない「純粋リファクタリング」であることをAIに検証・証明させ、人間のレビューを介さずに自動マージする仕組みについて解説する記事。AIエージェントによる開発ワークフロー自動化の具体的な実践例。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "「レビューなしでAIが自動マージする世界」を逆転フックに"
+    },
+    {
+      "url": "https://note.com/fladdict/n/nd10afb769a62",
+      "title": "高度に進化したAI駆動開発は、農業と区別がつかなくなる｜深津 貴之 (fladdict)",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AI駆動開発が高度化するほど、コードを一から「作る」というより種をまいて育てていく「農業」的な営みに近づいていく、という比喩でこれからの開発観を論じた記事(本文はタイトル・見出しからの推測を含む)。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "「AI駆動開発の未来は農業に近づく」という比喩を逆転フックに"
+    },
+    {
+      "url": "https://blog.cybozu.io/entry/2026/08/04/090000",
+      "title": "kintone フロントエンド技術標準ってなに？ - Cybozu Inside Out | サイボウズエンジニアのブログ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "サイボウズのkintone開発チームが定めた「フロントエンド技術標準」の目的や運用方法を紹介する記事。大規模プロダクトにおける技術選定の一貫性とチーム間の合意形成の工夫が語られている。",
+      "topics": ["design", "team"],
+      "neta": "A",
+      "hook": "「技術標準はルールではなく合意形成のツール」という切り口"
+    },
+    {
+      "url": "https://zenn.dev/cybozu_frontend/articles/llm-wiki-for-design-systems",
+      "title": "散らばった議論を LLM-Wiki でフル活用する AI 時代のデザインシステムのカタチ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "社内に散らばったデザインシステムに関する議論をLLMでWiki化し、蓄積された意思決定をチームで活かす取り組みを紹介する記事。AI時代のデザインシステム運用のあり方を提案している。",
+      "topics": ["design", "ai-dev"],
+      "neta": "A",
+      "hook": "「議論の散逸をLLMが救う」という切り口"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/aiplus/article/2608/05/2000000397/",
+      "title": "AIで“存在しない脆弱性”を量産？ 「SQLite」の偽CVEが判明 米企業が検証",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIが生成した「存在しない脆弱性」の偽CVE報告がSQLiteに対して行われ、米セキュリティ企業がその実態を検証したというニュース。AIを使った脆弱性調査の信頼性に警鐘を鳴らす内容。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "「AIが作った幻の脆弱性」を逆転フックに"
+    },
+    {
+      "url": "https://tech-blog.monotaro.com/entry/2026/08/05/090000",
+      "title": "シニアエンジニア目線をAIレビューへ 〜 判断を移植した社内エージェント「Makasetaro」の設計 - MonotaRO Tech Blog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "MonotaROがシニアエンジニアの判断基準を移植した社内AIレビューエージェント「Makasetaro」を開発した事例。属人化しがちなレビュー観点をAIに移植するという設計思想を紹介している。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "「ベテランの目線をAIに移植する」という切り口"
+    },
+    {
+      "url": "https://zenn.dev/pdfractal/articles/8155cf16e85bfd",
+      "title": "なぜ、テイラー主義とアジャイルは矛盾しないのか？",
+      "source": "Zenn(アジャイル)",
+      "lang": "ja",
+      "summary": "一見対立するように見えるテイラー主義(科学的管理法)とアジャイル開発が、実は矛盾しないという主張を展開する記事。管理論の歴史的文脈からアジャイルを捉え直している。",
+      "topics": ["agile"],
+      "neta": "S",
+      "hook": "「テイラー主義とアジャイルは実は同じ」という逆転フック"
+    },
+    {
+      "url": "https://zenn.dev/rakko_inc/articles/claude-code-security-guidance-intro",
+      "title": "脆弱性を作り込まないために、Claude公式「Security Guidance Plugin」を導入した話",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AIにコードを書かせる際に脆弱性を作り込まないよう、Claude公式の「Security Guidance Plugin」を導入した経験を紹介する記事。AI駆動開発におけるセキュリティ対策の具体的な実例。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "「AIにセキュリティレビューさせる」という切り口"
+    },
+    {
+      "url": "https://qiita.com/nakanyewest/items/0daf51421f025eeb9b28",
+      "title": "縦割りの壁は壊せない。でも「一つの島」から航路は引ける",
+      "source": "Qiita(スクラム)",
+      "lang": "ja",
+      "summary": "組織の縦割り(サイロ)の壁は簡単には壊せないという前提のもと、自分の「一つの島」からできることを始めて航路を切り拓くというチーム開発の実践論。",
+      "topics": ["team", "scrum"],
+      "neta": "A",
+      "hook": "「壁は壊せなくても航路は引ける」という切り口"
+    },
+    {
+      "url": "https://qiita.com/Maku-Inc/items/8e90ccfea804716c828f",
+      "title": "エンジニアが納得！ROIと技術的負債を両立するプロダクトバックログ優先順位付けの極意",
+      "source": "Qiita(アジャイル)",
+      "lang": "ja",
+      "summary": "プロダクトバックログの優先順位付けにおいて、ROIと技術的負債の解消を両立させる考え方を解説する記事。エンジニアが納得感を持てる優先順位付けの実践知が語られている。",
+      "topics": ["agile", "scrum"],
+      "neta": "A",
+      "hook": "「技術的負債の返済にもROIをつける」という切り口"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/formal-methods-with-hillel-wayne",
+      "title": "Formal methods with Hillel Wayne",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "形式手法(Formal Methods)の専門家Hillel Wayne氏へのインタビュー記事。仕様の曖昧さをなくし、実装前に設計の欠陥を見つける形式手法が実務でどう使われるかを議論している。",
+      "topics": ["design"],
+      "neta": "A",
+      "hook": "「バグを実装前に見つける形式手法」という切り口"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/how-kent-beck-shapes-the-software",
+      "title": "How Kent Beck shapes the software engineering industry",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "TDD・XP・アジャイルマニフェストの共著者であるKent Beck氏の考えを紹介する記事。コーディングはソフトウェアエンジニアリングのごく一部に過ぎず、信頼構築のような自動化できない部分こそ重要だとし、AI時代は「信頼の蓄積がコード生成の速さに追いついていない」と指摘している。",
+      "topics": ["xp", "ai-dev"],
+      "neta": "S",
+      "hook": "「コード生成は速くなったのに信頼構築が追いついていない」というKent Beckの指摘を逆転フックに"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
+      "title": "Why is Meta destroying its engineering organization?",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "Metaのエンジニアリング組織で近年起きている大規模な再編やレイオフが、なぜ「組織を壊している」と評されるのかを分析する記事。大企業における組織運営の教訓として語れる内容。",
+      "topics": ["team"],
+      "neta": "A",
+      "hook": "「大企業のエンジニア組織はなぜ壊れるのか」という切り口"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/pushing-software-engineering-limits",
+      "title": "Pushing software engineering limits with “napkin math”",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "「紙ナプキン一枚でできる概算(napkin math)」で、ソフトウェアエンジニアリングの限界を見積もる思考法についての記事。設計判断における素早い見積もりの技術を紹介している。",
+      "topics": ["design"],
+      "neta": "A",
+      "hook": "「紙ナプキン一枚で限界を見積もる」という切り口"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/tech-jobs-market-in-2026-part-3-hiring",
+      "title": "Tech jobs market in 2026, part 3: hiring managers & job seekers",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "2026年のテック業界求人市場について、採用担当者と求職者の両方の視点から分析するシリーズ記事の第3弾。キャリア形成に関する参考情報。",
+      "topics": ["worklife"],
+      "neta": "B"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/tech-interviews-with-neetcode",
+      "title": "Tech interviews with NeetCode",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "プログラミング教育で知られるNeetCode氏への、技術面接についてのインタビュー記事。面接対策とキャリア形成の観点が語られている。",
+      "topics": ["worklife"],
+      "neta": "B"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/the-job-market-in-2026-part-2",
+      "title": "State of the software engineering job market in 2026, part 2",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "2026年のソフトウェアエンジニア求人市場の状況を分析するシリーズ記事の第2弾。仕事術・キャリアに関する参考情報。",
+      "topics": ["worklife"],
+      "neta": "B"
+    },
+    {
+      "url": "https://addyosmani.com/blog/own-the-outer-loop/",
+      "title": "Own the Outer Loop",
+      "source": "Addy Osmani",
+      "lang": "en",
+      "summary": "AIがコーディングという「内側のループ」を担うようになる中で、エンジニアは要件定義・レビュー・意思決定といった「外側のループ」を主体的に担うべきだと説く記事。AI時代のエンジニアの役割の変化を論じている。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "「AIが内側、人間が外側」という役割の逆転フック"
+    },
+    {
+      "url": "https://addyosmani.com/blog/earning-judgment/",
+      "title": "Earning taste and judgment",
+      "source": "Addy Osmani",
+      "lang": "en",
+      "summary": "AIが実装の多くを担う時代において、エンジニアの「センスや判断力」がどう培われていくのかを論じる記事。経験を積むことでしか得られない審美眼の重要性を説いている。",
+      "topics": ["worklife", "ai-dev"],
+      "neta": "S",
+      "hook": "「AI時代に磨かれる“判断力”」という切り口"
+    },
+    {
+      "url": "https://addyosmani.com/blog/new-sdlc-vibe-coding/",
+      "title": "The New Software Lifecycle",
+      "source": "Addy Osmani",
+      "lang": "en",
+      "summary": "「vibe coding(直感的にAIと対話しながらコードを作る開発スタイル)」の台頭により、従来のソフトウェア開発ライフサイクルがどう変わっていくかを論じる記事。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "「開発ライフサイクルはvibe codingで作り変わる」という切り口"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-everything",
+      "title": "One-shotting a Raccoon Heist game using Claude Fable 5",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "Claude Fable 5を使い、ゲーム「Raccoon Heist」を一度のプロンプトで一発生成(one-shot)した実験レポート。AIモデルのコード生成力を測る具体例として紹介されている。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "「一発でゲームを作らせてみた」という切り口"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/4/steve-yegge/#atom-everything",
+      "title": "Quoting Steve Yegge",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "Steve Yegge氏の文章からの引用。「Gas Town」というプロジェクトで、Opus 4.7が「あと2つだけ」と自己改善に固執し続け、実用的な作業に進めなくなったというAIエージェントの「収束不能問題」を紹介している。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "「AIエージェントが自己改善から抜け出せなくなる問題」を逆転フックに"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-everything",
+      "title": "Don't be a meat proxy",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "Niklas Gruhn氏が提唱する「meat proxy(肉のプロキシ)」という概念を紹介する記事。AIの出力をただコピペするのではなく、読んで理解し検証してから自分の言葉で応答することの重要性を説いている。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "「AIの出力をただ右から左に流す“肉のプロキシ”になるな」という逆転フック"
+    },
+    {
+      "url": "https://speakerdeck.com/recruitengineers/fy2026_bootcamp_kuroda",
+      "title": "事業価値と Engineering 2026年度版",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "リクルートのエンジニア向けブートキャンプ資料。事業価値とエンジニアリングの関係を、2026年度版として最新の考え方でまとめている。",
+      "topics": ["team", "agile"],
+      "neta": "A",
+      "hook": "「事業価値目線でエンジニアリングを語る」という切り口"
+    },
+    {
+      "url": "https://zenn.dev/boy_techblog/articles/visiting-other-banks",
+      "title": "山梨中央銀行様を訪問させていただきました！",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "横浜銀行のエンジニアが山梨中央銀行を訪問し、銀行の内製開発が抱える評価制度や開発基準の課題について意見交換した記事。「エンジニアは縁の下の力持ち」という意識と、若手が挑戦できる心理的安全性の重要性という気づきが語られている。",
+      "topics": ["scrum", "team"],
+      "neta": "A",
+      "hook": "「銀行同士でエンジニア文化の悩みを共有する」という切り口"
+    }
+  ],
+  "rejected_count": 1,
+  "capped_count": 74,
+  "failures": [
+    {
+      "name": "Martin Fowler",
+      "error": "<urlopen error _ssl.c:999: The handshake operation timed out>"
+    },
+    {
+      "name": "Kent Beck / Tidy First",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ]
+}
