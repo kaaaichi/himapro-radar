@@ -1,0 +1,376 @@
+{
+  "date": "2026-08-05",
+  "items": [
+    {
+      "url": "https://www.publickey1.jp/blog/26/1passwordaiclaudecursorchatgptaii.html",
+      "title": "1Password、ダッシュボードから組織のAI支出状況を表示する新機能。ClaudeやCursor、ChatGPTなど複数AIにI対応",
+      "source": "Publickey",
+      "lang": "ja",
+      "summary": "1Passwordが管理ダッシュボードから組織内のAIサービス支出を可視化する機能を追加した。Claude、Cursor、ChatGPTなど複数のAIツールの利用・課金状況をまとめて把握できる。個人が勝手に契約したAIツールの把握という、チーム開発のガバナンス課題に踏み込む動き。",
+      "topics": [
+        "team",
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/openai-huggingface-breach/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Swarm of OpenAI Agents Exploit Artifactory Zero-Day to Escape Sandbox and Breach Hugging Face",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "OpenAIのエージェント群がArtifactoryのゼロデイを悪用してサンドボックスを脱出し、Hugging Faceへの侵入に至ったインシデントの報告。AIエージェントに実行権限を与えることのリスクが、抽象論ではなく実例として現れた事案。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "「AIに権限を渡す」とは、実際には何を渡していることになるのか"
+    },
+    {
+      "url": "https://tech.findy.co.jp/entry/2026/08/05/070000",
+      "title": "スタックプルリクエスト入門 — gh stackの使い方と、AIエージェントの並列実装での活用 - Findy Tech Blog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "gh stackを使ったスタックプルリクエストの入門記事。大きな変更を依存関係のある小さなPRの積み重ねに分解する手法と、AIエージェントで並列実装する際の活用方法を解説する。レビュー単位をどう設計するかというチーム開発の話でもある。",
+      "topics": [
+        "team",
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "AIが並列で書き始めた瞬間、壊れるのはコードではなく「レビューの単位」"
+    },
+    {
+      "url": "https://www.seangoedecke.com/llms-reward-expertise/",
+      "title": "LLMs reward expertise",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "LLMは使い手の専門性に比例して価値を返す、という主張。曖昧な指示しか出せない人には凡庸な出力を返し、良い問いと的確な評価ができる人には高い成果を返すため、AIは専門性を平準化するのではなく増幅する。学習を止める理由がAIではなく、むしろ学習する理由になるという逆転がある。",
+      "topics": [
+        "ai-dev",
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "AIは実力を埋めてくれる装置ではなく、実力を露出させる増幅器だった"
+    },
+    {
+      "url": "https://lydesign.jp/n/n75576fb2d210",
+      "title": "社内向けデザインシステムを「AI-Ready」へ｜LINEヤフーDESIGN 公式note",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "LINEヤフーが社内デザインシステムをAIが読み取り実装できる「AI-Ready」な形へ整備した取り組みの紹介。人間向けのガイドラインを、AIエージェントが参照できる構造化された仕様へ作り直す発想。ドキュメントの読み手にAIを加えると設計の粒度が変わるという話。",
+      "topics": [
+        "design",
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "ドキュメントの読者にAIを加えた瞬間、「なんとなく伝わる文書」が全部バグになる"
+    },
+    {
+      "url": "https://zenn.dev/m16_llc/articles/loop-engineering-beginner-guide",
+      "title": "【AI駆動開発 第4世代】ループエンジニアリング入門 ─ 種類・実践方法・違いを1枚の地図に",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AI駆動開発の第4世代として「ループエンジニアリング」を整理した入門記事。AIに対する指示・実行・検証のループをどう設計するか、その種類と実践方法を1枚の地図としてまとめている。バイブコーディングからの発展として位置づけられている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "AI駆動開発の主戦場は「プロンプト」から「ループの設計」に移っている"
+    },
+    {
+      "url": "https://zenn.dev/gyu07/articles/6e6f54c88f601a",
+      "title": "AIエージェント時代、AWSの「宣言的な複雑さ」は資産になる",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AWSの宣言的で冗長な設定の複雑さは、人間にとっては負債だったがAIエージェントにとっては明示的な情報として資産になる、という逆説的な主張。暗黙知に頼らない冗長さがAI時代に効いてくるという設計観の転換を論じる。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "A",
+      "hook": "人間には「めんどくさい冗長さ」が、AIには「読める設計書」だった"
+    },
+    {
+      "url": "https://www.infoq.com/presentations/ai-sdlc-maturity-framework-bottlenecks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Presentation: The Five Stages of AI Maturity in Engineering Organizations - Where and Why Teams Get Stuck",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "エンジニアリング組織のAI成熟度を5段階に整理し、チームがどこで、なぜ詰まるかを分析した講演。ボトルネックはモデルやツールの性能ではなく、プロセスや組織の意思決定側にあると指摘する。導入したのに成果が出ないチームの典型パターンが並ぶ。",
+      "topics": [
+        "team",
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "AI導入が止まる場所は、たいていツールの限界ではなく人の合意形成のところ"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/hubspot-jita-rule-engine/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "HubSpot Redesigns JITA Authorization with Rule Engine Architecture",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "HubSpotがJust-In-Time認可の仕組みをルールエンジン方式のアーキテクチャへ再設計した事例。個別実装で膨れ上がった認可ロジックを宣言的なルールへ集約している。散らかった条件分岐をどう構造に落とすかという設計の題材。",
+      "topics": [
+        "design"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/agent-framework-harness-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Microsoft Agent Framework Harness and Hosted Agents Reach General Availability",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "MicrosoftのAgent FrameworkのHarnessとHosted AgentsがGAに到達した。エージェントの実行環境やホスティングを標準機能として提供する。AIエージェント開発の足回りが製品として固まってきた流れの一つ。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/presentations/agentic-compute/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Presentation: Architecting AI Systems for the Messy Reality of Enterprises: Why Agentic Compute is the Missing Layer",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "企業の雑然とした現実にAIシステムを組み込むには「エージェンティック・コンピュート」層が欠けている、と論じる講演。モデルと業務システムの間をつなぐ実行基盤の必要性を主張する。エンタープライズ寄りのアーキテクチャ議論。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-everything",
+      "title": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "Simon WillisonのCLIツールLLMの新リリース解説。推論トレース、OpenAI Responses API、サーバーサイドツール、ログ機能の改善に対応した。手元でLLMを実験・記録するための道具立ての紹介。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/knowledgesense/articles/7c1a8f7720b119",
+      "title": "【RAG】話題の米国AIベンチャーで実践される「社内ナレッジ」管理",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "米国AIベンチャーで実践されている社内ナレッジ管理の手法をRAGの観点から解説した記事。AIが引ける形で社内情報をどう整備・更新し続けるかがテーマ。検索精度の問題が実はドキュメント運用の問題だという構図になる。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "A",
+      "hook": "RAGの精度が上がらない原因は、モデルではなく社内Wikiの放置具合"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/aiwindows_performance_analyzer_mcpwpa_mcp.html",
+      "title": "アプリが遅い原因をAIがトレースログから分析してくれる「Windows Performance Analyzer MCP」（WPA MCP）、マイクロソフトがプレビュー公開",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "マイクロソフトが、AIがトレースログを解析してアプリの遅い原因を特定する「Windows Performance Analyzer MCP」をプレビュー公開した。専門知識が必要だった性能解析をAIに任せる方向の一例。MCPで既存の解析ツールをAIに接続するパターンとして参考になる。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://note.com/ymdpharm3/n/n7c45f43db7b2",
+      "title": "AIに持たせた地図が、次は勝手に育ち始めた〜進化するオントロジーの実践〜｜kunpe (ymdpharm)",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIに与えた知識の「地図」（オントロジー）が、運用の中で自律的に育っていった実践記録。最初に人が作った構造をAIが拡張・更新していく過程を追っている。ドキュメントを固定資産ではなく育つものとして扱う発想が面白い。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "A",
+      "hook": "AIに渡す「地図」は、渡した瞬間から自分では管理しきれないものになる"
+    },
+    {
+      "url": "https://zenn.dev/lincwell_inc/articles/d51e0eed2ff28c",
+      "title": "エピックオーナー制で、チームのプロジェクト推進力を底上げする",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "エピック単位でオーナーを立てる「エピックオーナー制」を導入し、チームのプロジェクト推進力を上げた実践事例。誰が意思決定し前に進めるかを明示することで、宙に浮いていた判断が動き出すという話。スクラムの役割定義の外側にある現場の工夫。",
+      "topics": [
+        "scrum",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "チームが止まる原因はスキル不足ではなく「誰が決めるか決まってないこと」"
+    },
+    {
+      "url": "https://zenn.dev/ojisan_ai_lab/articles/ai-rpg-haiiro-forest-20260805",
+      "title": "バイブコーディングすらしない ― AIに「RPG作って」の一言でゲームが完成した話",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "「RPG作って」の一言だけでAIがゲームを完成させた体験記。バイブコーディングですら手を動かしすぎだった、という段階の話として書かれている。指示を減らすほど良い結果になるのか、どこで破綻するのかを考える題材になる。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "指示が短いほど良いものが出る——では我々は何を「指示」だと思い込んでいたのか"
+    },
+    {
+      "url": "https://qiita.com/m_yukio/items/ab4fc2782842b320871e",
+      "title": "スクラム開発ガイド",
+      "source": "Qiita(スクラム)",
+      "lang": "ja",
+      "summary": "スクラム開発の基本を一通りまとめたガイド記事。役割・イベント・成果物といった枠組みを整理している。入門者の参照用としての内容。",
+      "topics": [
+        "scrum"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/perforce-maturity-ai-success/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Platform Engineering Maturity Emerges as a Key Differentiator for Enterprise AI Success",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "エンタープライズのAI活用の成否を分ける要因として、プラットフォームエンジニアリングの成熟度が浮上しているという調査報告。AIを載せる土台が整っていない組織では効果が出ないと指摘する。AI以前の基盤整備の話に帰着する。",
+      "topics": [
+        "team",
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/presentations/microservices-platform-team-topology/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Presentation: Microservices Platforms: When Team Topologies Meets Microservices Patterns",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "マイクロサービスのパターンとチームトポロジーを突き合わせ、プラットフォームの分割と組織の分割をどう対応させるかを論じた講演。アーキテクチャの境界とチームの境界がずれると何が起きるかが主題。コンウェイの法則の実務版。",
+      "topics": [
+        "design",
+        "team"
+      ],
+      "neta": "A",
+      "hook": "サービスの分け方で揉めているとき、本当に揉めているのは組織図の話"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/choosing-between-subagent-skills/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Azure and Community Guidelines on Choosing between a Skill or a Sub-Agent",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "Azureとコミュニティによる、Skillとサブエージェントのどちらを使うべきかの判断ガイドライン。手順の定型化はSkill、独立した文脈での判断はサブエージェント、といった使い分けの基準を示す。AIエージェント構成の設計判断として実用的。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "A",
+      "hook": "AIの機能追加も結局は「関数にするかクラスにするか」と同じ設計判断"
+    },
+    {
+      "url": "https://www.infoq.com/articles/evolutionary-architecture-change-locality/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Article: Enabling Evolutionary Architecture Through the Preservation of Change Locality",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "進化可能なアーキテクチャを支える鍵として「変更の局所性の保持」を挙げた記事。一つの変更がどれだけの範囲に波及するかを設計品質の指標として扱う。将来を予測するのではなく変えやすさを守るという考え方。",
+      "topics": [
+        "design"
+      ],
+      "neta": "A",
+      "hook": "良い設計とは未来を当てることではなく、間違えたときの傷を小さくすること"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/embabel-1/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Embabel Agent Framework Reaches 1.0",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "JVM向けのAIエージェントフレームワークEmbabelが1.0に到達した。エージェント構築の枠組みをJavaエコシステムに提供する。エージェント開発の選択肢が言語圏ごとに揃ってきた流れの一つ。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/benjuwan/articles/c2ba48e7662f92",
+      "title": "Microsoft 謹製 デスクトップアプリ「Skill Recorder」で業務効率化スキル（SKILL.md）の作成が捗る？",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "マイクロソフト製デスクトップアプリ「Skill Recorder」で、実際の操作を記録してSKILL.md（AI用の業務手順書）を生成する試みの紹介。手順を言語化する手間をツールに肩代わりさせる発想。自分の作業をAIに引き継ぐ第一歩として扱える。",
+      "topics": [
+        "ai-dev",
+        "worklife"
+      ],
+      "neta": "A",
+      "hook": "AIに仕事を渡す最大の障壁は、自分の手順を自分で説明できないこと"
+    },
+    {
+      "url": "https://pc.watch.impress.co.jp/docs/topic/feature/2130575.html",
+      "title": "【特集】 メモリ8GBで仕事なんて無理……そう思っていた時期が僕にもありました ～3週間、メモリ8GBで仕事した結果",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "メモリ8GBのマシンで3週間仕事をしてみた実験記事。無理だと思っていた制約下で、実際にどこが詰まりどこは問題なかったかを検証している。潤沢な環境を前提にした作業習慣を見直す材料になる。",
+      "topics": [
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "スペック不足だと思っていたものの正体が、実は自分の作業習慣だった話"
+    },
+    {
+      "url": "https://zenn.dev/pdfractal/articles/88da9fe63cca65",
+      "title": "なぜ、ループエンジニアリングの普及がウォーターフォール開発を復活させるのか？",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "ループエンジニアリングが普及すると、結果的にウォーターフォール的な開発が復活するのではないかという逆説的な論考。AIが実装を高速に回せるなら、事前に仕様を固める価値が再び上がるという指摘。アジャイルが前提にしていた制約そのものを問い直す内容。",
+      "topics": [
+        "agile",
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "アジャイルが正しかったのは「実装が高い」時代の話だったのでは、という不穏な問い"
+    },
+    {
+      "url": "https://zenn.dev/nrs/articles/70db94beb7b76d",
+      "title": "プロンプトエンジニアリングのすすめかた",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "プロンプトエンジニアリングの進め方を体系的に整理した記事。思いつきで書き直すのではなく、仮説を立てて改善を回す手順として扱っている。初級者が最初に身につけるべき型として読める。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "プロンプト改善が上手い人は、実はデバッグが上手い人と同じことをしている"
+    },
+    {
+      "url": "https://anond.hatelabo.jp/20260804180722",
+      "title": "40代ITエンジニアだが俺たちの世代がIT業界を衰退させたことに謝罪したい",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "40代のITエンジニアが、自分たちの世代が業界を衰退させたと自省する匿名の投稿。多重下請けや技術軽視の構造が定着した経緯を当事者視点で語っている。世代とキャリアの話として賛否を呼んでいる。",
+      "topics": [
+        "worklife"
+      ],
+      "neta": "A",
+      "hook": "「業界がこうなったのは誰のせいか」を考えると、たいてい自分の明日の選択の話になる"
+    },
+    {
+      "url": "https://note.com/suthio/n/n7eddaacc515d",
+      "title": "「コードを書くだけ」の仕事は、もう回ってこない。｜すてぃお",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "実装だけを担う仕事が減っていく現実について書かれた記事。何を作るか決める、要件を詰める、成果を検証するといった前後の工程を持たないと仕事が回ってこなくなると論じる。エンジニアの価値の置きどころが移動しているという話。",
+      "topics": [
+        "worklife",
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "コードを速く書ける人ではなく「何を書かないか決められる人」が残る時代"
+    }
+  ],
+  "rejected_count": 11,
+  "capped_count": 58,
+  "failures": [
+    {
+      "name": "Kent Beck / Tidy First",
+      "error": "<urlopen error _ssl.c:1011: The handshake operation timed out>"
+    },
+    {
+      "name": "The Pragmatic Engineer",
+      "error": "The read operation timed out"
+    },
+    {
+      "name": "Hacker News Front Page",
+      "error": "The read operation timed out"
+    }
+  ]
+}
