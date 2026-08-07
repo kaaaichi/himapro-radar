@@ -1,0 +1,279 @@
+{
+  "date": "2026-08-08",
+  "items": [
+    {
+      "url": "https://tech.timee.co.jp/entry/2026/08/07/164910",
+      "title": "テストが増えすぎてもう限界だったので、PRで全テストを回すのをやめた話 - Timee Product Team Blog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "summary": "Timee Product Teamが、PRごとに全テストを実行する運用に限界を感じ、テスト実行戦略を見直した経緯を紹介する記事。テストの増加に伴うCI実行時間の肥大化が背景にあり、全件実行をやめる決断とその代替アプローチが語られている。",
+      "topics": ["team"],
+      "neta": "A",
+      "hook": "『PRで全部テスト回す』をやめた判断"
+    },
+    {
+      "url": "https://techblog.tebiki.co.jp/2026/08/07/163000",
+      "title": "インシデント対応の属人化に、障害対応訓練で立ち向かっている - tebiki Tech Blog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "summary": "tebiki Tech Blogが、インシデント対応が特定の人に依存してしまう『属人化』の課題に対し、障害対応訓練を通じて対処している取り組みを紹介する記事。訓練を仕組み化することでチーム全体の対応力を底上げする狙いが語られている。",
+      "topics": ["team"],
+      "neta": "A",
+      "hook": "障害対応の属人化を『訓練』で崩す"
+    },
+    {
+      "url": "https://forest.watch.impress.co.jp/docs/bookwatch/news/2131651.html",
+      "title": "「Claude」シリーズ第5世代のプロンプトやモデルの選び方を図解した書籍が無償公開／Anthropicの公式ドキュメント2本を日本語で図解した『Claude 5世代 マスターガイド』【Book Watch/ニュース】",
+      "source": "はてなブックマーク IT人気エントリ",
+      "summary": "Anthropicの公式ドキュメント2本を日本語で図解した無償書籍『Claude 5世代 マスターガイド』の公開を伝えるニュース。Claudeシリーズ第5世代のプロンプト設計やモデル選定の考え方を整理した内容になっている。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://anond.hatelabo.jp/20260807171120",
+      "title": "40代ITエンジニアだが俺達の世代のプライドの高さを許してやってくれ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "summary": "40代のITエンジニアが、自分たちの世代に根付く『プライドの高さ』について自省的に綴った匿名ダイアリー記事。技術トレンドの変化への態度や、若い世代とのコミュニケーションギャップについての本音が書かれている。",
+      "topics": ["worklife"],
+      "neta": "A",
+      "hook": "『40代のプライド』を自虐的に語る"
+    },
+    {
+      "url": "https://speakerdeck.com/watany/expiration-date-of-sdd",
+      "title": "仕様駆動開発の消費期限",
+      "source": "はてなブックマーク IT人気エントリ",
+      "summary": "『仕様駆動開発の消費期限』と題したスライド。AIコーディングエージェント向けの仕様駆動開発(SDD)が万能ではなく、有効に機能する場面と『賞味期限』が切れる場面があることを論じている。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "『仕様駆動開発にも賞味期限がある』という逆張り"
+    },
+    {
+      "url": "https://speakerdeck.com/recruitengineers/fy2026_bootcamp_uejima",
+      "title": "制約理論（ToC）入門 2026版",
+      "source": "はてなブックマーク IT人気エントリ",
+      "summary": "リクルートのエンジニア向け新人研修資料『制約理論（ToC）入門 2026版』。ボトルネックの特定と全体最適化という制約理論の基本的な考え方を、開発現場に応用する形で解説している。",
+      "topics": ["agile"],
+      "neta": "A",
+      "hook": "『ボトルネックを探す』開発版ToC入門"
+    },
+    {
+      "url": "https://note.com/4bata/n/n49e021b13bb0",
+      "title": "良かれと思って無駄な仕事が増えていく｜柴田史郎",
+      "source": "はてなブックマーク IT人気エントリ",
+      "summary": "『良かれと思って』行った工夫や配慮が、かえって無駄な仕事を増やしてしまう構造について論じたnote記事。善意からくる過剰な作業がチームの生産性を下げてしまう罠について書かれている。",
+      "topics": ["worklife", "team"],
+      "neta": "S",
+      "hook": "『良かれと思って』が生産性を下げる逆説"
+    },
+    {
+      "url": "https://gigazine.net/news/20260807-agent-plugins/",
+      "title": "AIエージェントのスキルやMCPサーバーを持ち運べる「Agent Plugins」にGoogleが参加、OpenAI・Microsoft・Amazonなどと共同推進",
+      "source": "はてなブックマーク IT人気エントリ",
+      "summary": "AIエージェントのスキルやMCPサーバーを異なるプラットフォーム間で持ち運べる標準規格『Agent Plugins』にGoogleが参加したというニュース。OpenAI・Microsoft・Amazonなども共同で推進しており、エージェント間の相互運用性を高める動きが進んでいる。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "AIエージェントの『持ち運べるスキル』規格"
+    },
+    {
+      "url": "https://sizu.me/nikaera/posts/evm35vwz0tr9",
+      "title": "育児エンジニアの学び｜nikaera",
+      "source": "はてなブックマーク IT人気エントリ",
+      "summary": "育児をしながら働くエンジニアが、子育てを通じて得た仕事への向き合い方や時間管理の学びを綴った個人ブログ記事。限られた時間の中で優先順位をつける工夫について書かれている。",
+      "topics": ["worklife"],
+      "neta": "A",
+      "hook": "育児で身につく『優先順位づけ』のスキル"
+    },
+    {
+      "url": "https://blog.inorinrinrin.com/entry/b80576e5-1efc-2c1a-bf81-ee838b66db06",
+      "title": "Formisch・Honox・Cloudflare Workersではじめる超ミニマルなSchema駆動開発 - プププなテクブ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "summary": "Formisch、Honox、Cloudflare Workersを組み合わせて、超ミニマルなスキーマ駆動開発環境を構築した記録。軽量な構成でスキーマからバリデーションや型を導出する設計アプローチが紹介されている。",
+      "topics": ["design"],
+      "neta": "A",
+      "hook": "最小構成でのスキーマ駆動開発"
+    },
+    {
+      "url": "https://techfeed.io/entries/6a73c3fc4ddb25dd629d50d1",
+      "title": "AWSがAnthropicとOpenAIと組んでコード脆弱性検出ツール「AWS Continuum」を発表 — コードを書きながらセキュリティ修正まで完結する世界へ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "summary": "AWSがAnthropicおよびOpenAIと連携し、コードを書きながら脆弱性を検出・修正できるツール『AWS Continuum』を発表したというニュース。開発中にセキュリティ修正までシームレスに完結させることを目指している。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "『書きながら直る』セキュリティの未来像"
+    },
+    {
+      "url": "https://tech-blog.rakus.co.jp/entry/20260807/aicon_summer",
+      "title": "仕様駆動開発、導入半年。「本当に速くなってるの?」にデータで答える - RAKUS Developers Blog | ラクス エンジニアブログ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "summary": "ラクスが仕様駆動開発を導入してから半年が経過した時点での効果検証記事。『本当に速くなっているのか』という疑問に対し、実際のデータをもとに開発速度や品質への影響を検証している。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "『本当に速くなった?』を半年データで検証"
+    },
+    {
+      "url": "https://zenn.dev/shohei_ai_lab/articles/e72b00f326f6aa",
+      "title": "CLAUDE.md は「書いて終わり」じゃない — プロジェクトと一緒に育てる運用ワークフロー",
+      "source": "Zenn(AI駆動開発)",
+      "summary": "CLAUDE.mdは一度書いて終わりではなく、プロジェクトの成長に合わせて継続的に育てていく運用ワークフローが重要だと説くZenn記事。実際の更新サイクルや改善の進め方が紹介されている。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "CLAUDE.mdは『育てる』もの"
+    },
+    {
+      "url": "https://zenn.dev/idealive_kmon/articles/domain-knowledge-differentiation",
+      "title": "AI時代のエンジニアの価値",
+      "source": "Zenn(AI駆動開発)",
+      "summary": "AIがコードを書く時代において、エンジニアの価値がどこにシフトするかを論じたZenn記事。ドメイン知識による差別化が今後より重要になるという主張が展開されている。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "AI時代は『ドメイン知識』が武器になる"
+    },
+    {
+      "url": "https://zenn.dev/sikada/articles/claude-driven-dev",
+      "title": "「コードは書けないが、仕様なら書ける」製造系エンジニアがClaudeと自宅ローカルAI環境を作り切った話",
+      "source": "Zenn(AI駆動開発)",
+      "summary": "コードは書けないが仕様は書けるという製造系エンジニアが、Claudeと自宅のローカルAI環境を組み合わせて開発をやり切った体験記。非エンジニア寄りの人材でもAIを活用して開発を進められる事例として紹介されている。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "『コードは書けないが仕様は書ける』人がやり切った開発"
+    },
+    {
+      "url": "https://qiita.com/Maku-Inc/items/fd5cea59f47628beed1c",
+      "title": "ベロシティが嘘をつく？スクラム開発が形骸化する「スプリント完了」の真実",
+      "source": "Qiita(スクラム)",
+      "summary": "スクラム開発においてベロシティが『チームの計画立案の目安』から『評価指標』へと誤って使われることで、見積もりの水増しや品質低下、心理的安全性の喪失が生じると指摘する記事。スプリント完了が単なるタスク消化と見なされテストやレビューが疎かになる形骸化の実態も論じ、厳格な『完了の定義』の重要性を訴えている。",
+      "topics": ["scrum"],
+      "neta": "S",
+      "hook": "『ベロシティは嘘をつく』を厳格な完了定義で崩す"
+    },
+    {
+      "url": "https://martinfowler.com/articles/sensors-for-coding-agents.html#TheTestSuiteAsARegressionSensor",
+      "title": "The test suite as a regression sensor",
+      "source": "Martin Fowler",
+      "summary": "Martin Fowlerが、AIコーディングエージェントの生成物を検証する『センサー』の一つとしてテストスイートを位置づけた記事。カバレッジだけでなくミューテーションテストを用いて、テストが実際に結果を検証しているかを確認する重要性を説いている。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "テストは『カバレッジ』より『ミューテーション』で見る"
+    },
+    {
+      "url": "https://martinfowler.com/articles/sensors-for-coding-agents.html#StaticCodeAnalysisDependencyRules",
+      "title": "Three more static code analysis sensors",
+      "source": "Martin Fowler",
+      "summary": "Martin Fowlerによる、AIコーディングエージェントを監督するための静的解析センサー群についての続編記事。ESLintのようなファイル・関数レベルの解析に加え、依存関係ルールの強制とLLMによる意味的なモジュール性レビューを組み合わせることで、AIが気づかぬうちに技術的負債を積み上げるのを防げると論じている。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "静的解析+LLMレビューでAIの技術的負債を防ぐ"
+    },
+    {
+      "url": "https://martinfowler.com/articles/what-is-code.html",
+      "title": "What is Code",
+      "source": "Martin Fowler",
+      "summary": "Martin Fowlerが『コードとは何か』という基本的な問いを改めて掘り下げた記事。ソフトウェア開発におけるコードの本質的な役割について論じている。",
+      "topics": ["design"],
+      "neta": "A",
+      "hook": "『コードとは何か』を今こそ問い直す"
+    },
+    {
+      "url": "https://martinfowler.com/bliki/MythicalManMonth.html",
+      "title": "Bliki: Mythical Man Month",
+      "source": "Martin Fowler",
+      "summary": "Martin FowlerがFred Brooksの名著『人月の神話』の要点を紹介するBliki記事。『遅れているプロジェクトに人を追加すると、さらに遅れる』という古典的な教訓を改めて取り上げている。",
+      "topics": ["team"],
+      "neta": "A",
+      "hook": "『人を増やすとさらに遅れる』人月の神話"
+    },
+    {
+      "url": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
+      "title": "Databricks drove down AI coding spend 70%",
+      "source": "Hacker News Front Page",
+      "summary": "Databricksが、AIコーディングツールの利用コストを70%削減した取り組みを紹介するブログ記事。大規模にAIコーディングエージェントを運用する際のコスト管理手法が語られている。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "AIコーディングのコストを7割削減した舞台裏"
+    },
+    {
+      "url": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
+      "title": "Oracle bans AI-generated code from OpenJDK",
+      "source": "Hacker News Front Page",
+      "summary": "OracleがOpenJDKプロジェクトにおいてAI生成コードの利用を禁止したというニュース。CEOのラリー・エリソン氏が『Oracle自身はコードを書いていない』と発言していたこととの対比が話題になっている。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "AI推進派のOracleが自社OSSではAIコード禁止"
+    },
+    {
+      "url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
+      "title": "What happens if an entire class of workers loses faith in their careers",
+      "source": "Hacker News Front Page",
+      "summary": "テック業界で働く人々が自分のキャリアへの信頼を失いつつある状況を論じたNoemaマガジンの記事。AIによる自動化が進む中で、エンジニアという職業の意味や将来像が揺らいでいる現状について書かれている。",
+      "topics": ["worklife"],
+      "neta": "A",
+      "hook": "『キャリアへの信頼』を失うテック労働者たち"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/cloudflare-computer-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Cloudflare Launches Persistent, Stateful, Computer-like Environments for Agents",
+      "source": "InfoQ",
+      "summary": "Cloudflareが、AIエージェント向けに永続的でステートフルな『コンピュータのような』実行環境を提供する新機能を発表したというニュース。エージェントが長時間タスクを継続的に実行できる基盤づくりが進んでいる。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "エージェント専用の『永続する作業環境』"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/instacart-blueberry-sre-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Instacart Builds Blueberry, an AI-Powered Assistant to Help On-Call Engineers Investigate Incidents",
+      "source": "InfoQ",
+      "summary": "InstacartがオンコールエンジニアのインシデントAI調査支援AI『Blueberry』を開発したという記事。障害発生時の一次調査をAIが肩代わりすることで、対応チームの負荷を減らす狙いがある。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "オンコール担当の『一次調査』をAIが肩代わり"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/ai-incident-response/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "AI Is Transforming Incident Response - but the Hardest Problems May Still Belong to Humans",
+      "source": "InfoQ",
+      "summary": "AIがインシデント対応の現場をどう変えつつあるか、そして依然として人間にしか担えない難しい判断は何かを論じる記事。AIによる一次対応の自動化が進む一方で、根本原因の特定や意思決定には人間の関与が欠かせないという論点が扱われている。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A",
+      "hook": "AIが変えるインシデント対応、変わらない人間の役割"
+    },
+    {
+      "url": "https://www.infoq.com/presentations/spotify-ai-codebase-migration-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Presentation: Rewriting All of Spotify's Code Base, All the Time",
+      "source": "InfoQ",
+      "summary": "Spotifyのコードベース全体を継続的に書き換え続けるという取り組みを紹介するInfoQのプレゼンテーション記事。AIエージェントを活用した大規模なコード移行・リファクタリングの実践事例が語られている。",
+      "topics": ["design", "ai-dev"],
+      "neta": "S",
+      "hook": "『コードベース全体を書き換え続ける』という発想"
+    },
+    {
+      "url": "https://www.infoq.com/articles/culture-trends-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Article: InfoQ Culture and Methods Trends Report - 2026",
+      "source": "InfoQ",
+      "summary": "InfoQによる『カルチャー&メソッド』分野の2026年トレンドレポート。アジャイルやチーム開発における最新の潮流や、組織文化に関する調査結果がまとめられている。",
+      "topics": ["agile", "team"],
+      "neta": "A",
+      "hook": "2026年版チーム開発トレンドまとめ"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/rootly-small-pr-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Rootly Drops Small PR Rule as Agentic AI Changes Code Review Economics",
+      "source": "InfoQ",
+      "summary": "インシデント管理企業Rootlyが、これまで推奨してきた『小さいPRルール』を撤廃したというニュース。エージェント型AIの台頭によってコードレビューの経済性が変化し、PRサイズに関する従来の常識が見直されつつあることを示す事例として紹介されている。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "『PRは小さく』の常識をAIが覆す"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/platform-products-people-use/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "From Projects to Products: Turning Platforms into Products People Use",
+      "source": "InfoQ",
+      "summary": "プロジェクト単位の開発体制から、継続的に使われる『プロダクト』としてプラットフォームを運営する体制へ移行する考え方を論じるInfoQ記事。組織構造やチームの評価軸をどう変えるべきかについての議論が展開されている。",
+      "topics": ["agile", "team"],
+      "neta": "A",
+      "hook": "『プロジェクト』から『プロダクト』への体制転換"
+    }
+  ],
+  "rejected_count": 0,
+  "capped_count": 81,
+  "failures": [
+    {"name": "Kent Beck / Tidy First", "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"}
+  ]
+}
