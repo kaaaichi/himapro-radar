@@ -1,0 +1,280 @@
+{
+  "date": "2026-08-09",
+  "items": [
+    {
+      "url": "https://blog.takaumada.com/entry/ai-organization-flow",
+      "title": "「AIを全員に配った組織」の生産性が落ちるとき",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "組織全体にAIツールを配布しただけでは生産性が上がらず、かえって落ちてしまう場合があるという指摘。ツール導入そのものより、業務フローや意思決定の仕組みを合わせて見直さないと逆効果になりうるという趣旨の記事。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "「AIを配れば配るほど生産性が落ちる」という逆張りの切り口で"
+    },
+    {
+      "url": "https://zenn.dev/skmkzyk/articles/experts-werent-always-experts",
+      "title": "詳しい人は最初から詳しいわけではない",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "「詳しい人」は最初から詳しかったわけではなく、地道な積み重ねの結果であるという趣旨のエッセイ。初心者への向き合い方やチーム内での学び方について考えさせる内容。",
+      "topics": ["team", "worklife"],
+      "neta": "A",
+      "hook": "「詳しい人も最初は初心者だった」という切り口で"
+    },
+    {
+      "url": "https://bookplus.nikkei.com/atcl/column/070300541/072800013/",
+      "title": "「ばんくし」こと河合俊典が薦める、すべてのエンジニアが読むべき本",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "著名エンジニア「ばんくし」こと河合俊典氏が、すべてのエンジニアに薦める書籍を紹介するコラム。キャリア形成や学び方の観点から選書されている。",
+      "topics": ["worklife", "team"],
+      "neta": "A",
+      "hook": "著名エンジニアの推薦図書という切り口で"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2608/07/news026.html",
+      "title": "従来型テストの限界があらわに 3915件のOSSを解析して判明した「99.4％未報告」の実態",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "3915件のOSSプロジェクトを解析した調査により、従来型のテストで検出しきれない不具合が大半で「99.4%未報告」という実態が判明したという記事。テスト手法・品質保証の限界を示すデータとして紹介されている。",
+      "topics": ["design", "team"],
+      "neta": "S",
+      "hook": "「テストは万全」という思い込みを崩す数字という切り口で"
+    },
+    {
+      "url": "https://www.techno-edge.net/article/2026/08/08/5373.html",
+      "title": "本物と偽物を混ぜた演奏も。エリック・サティ様式の自動生成アプリ「無限サティ機関」をClaude Codeで作って公開した",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "作曲家エリック・サティ風の楽曲を自動生成するアプリ「無限サティ機関」をClaude Codeで開発し公開した事例。本物の楽曲と生成した偽物を織り交ぜて聴かせる仕掛けが特徴的な個人開発プロジェクト。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "「本物と偽物を聴き分けられるか」という遊び心のある切り口で"
+    },
+    {
+      "url": "https://tson.io/",
+      "title": "TSON (Typed Schema Object Notation)",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "en",
+      "summary": "型情報を持たせたスキーマ記法「TSON」を提案するプロジェクト。JSONに型付けスキーマの概念を組み込むことで、データ構造の設計・検証をしやすくすることを狙っている。",
+      "topics": ["design"],
+      "neta": "A",
+      "hook": "新しいデータ形式の設計思想という切り口で"
+    },
+    {
+      "url": "https://qiita.com/tatsuya582/items/a800739c02eadff68c70",
+      "title": "Web API設計の現在地2026",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "2026年時点でのWeb API設計のトレンドや考え方をまとめた記事。設計原則やベストプラクティスの変遷を俯瞰する内容になっている。",
+      "topics": ["design"],
+      "neta": "A",
+      "hook": "API設計トレンドの総まとめという切り口で"
+    },
+    {
+      "url": "https://note.com/seikei_kin/n/n726ab396c481",
+      "title": "主要10デザインシステムに見るAIへの向き合い方とそのトレンド",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "主要な10のデザインシステムがAIとどう向き合っているかを比較し、共通するトレンドを分析する記事。デザインシステム運用にAIを取り込む際の考え方の違いを扱っている。",
+      "topics": ["design", "ai-dev"],
+      "neta": "A",
+      "hook": "デザインシステム横断のAI対応比較という切り口で"
+    },
+    {
+      "url": "https://zenn.dev/kanaria007/articles/ee3dfd438af4df",
+      "title": "コーディングエージェントを安全に使うための実務ガイド v0.2",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AI主導のコード生成を安全に運用するための15の実践原則をまとめたガイド。証拠の構造化・自動化・人間の判断を組み合わせ、変更の複雑度に応じた段階的レビューや多層防御を提案している。「AIが正しく書くか」より「チームが安全に受け止められるか」を重視する視点が特徴。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "「AIの正しさ」より「チームの受け止め方」を問う切り口で"
+    },
+    {
+      "url": "https://zenn.dev/babyjob/articles/scrum-fest-osaka-2026-report-babyjob",
+      "title": "Scrum Fest Osaka 2026 参加レポート",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "スクラムの実践者コミュニティイベント「Scrum Fest Osaka 2026」への参加レポート。現地セッションで得た学びや気づきがまとめられている。",
+      "topics": ["scrum"],
+      "neta": "A",
+      "hook": "カンファレンス参加レポートという切り口で"
+    },
+    {
+      "url": "https://zenn.dev/4no/articles/394e4d93d07e29",
+      "title": "初スクラムマスター1ヶ月目、「これで合ってるのか」の不安と沈黙と向き合った記録",
+      "source": "Zenn(アジャイル)",
+      "lang": "ja",
+      "summary": "スクラムマスターに就任して1ヶ月目の担当者が、「これで合っているのか」という不安やチームの沈黙にどう向き合ったかを綴った記録。新任スクラムマスターのリアルな葛藤が語られている。",
+      "topics": ["scrum", "team"],
+      "neta": "S",
+      "hook": "「新任SMの不安と沈黙」というリアルな告白調の切り口で"
+    },
+    {
+      "url": "https://zenn.dev/takenori_kusaka/books/pit-in-process",
+      "title": "AIが実装する時代の開発プロセス — ピットイン方式",
+      "source": "Zenn(アジャイル)",
+      "lang": "ja",
+      "summary": "AIが実装の主要な役割を担う前提で、人間の判定と品質管理を確保する新しい開発プロセス「ピットイン方式」を提唱する書籍。従来のAIDLCを理想論と感じる実務者向けに、個人利用から組織展開までを見据えた段階的フレームワークを解説している。",
+      "topics": ["ai-dev", "agile"],
+      "neta": "S",
+      "hook": "F1のピットインになぞらえた開発プロセスという切り口で"
+    },
+    {
+      "url": "https://martinfowler.com/fragments/2026-08-04.html",
+      "title": "Fragments: August 4",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "summary": "Martin Fowler氏による短信・リンク集「Fragments」の8月4日号。ソフトウェア設計や開発プラクティスに関する話題を取り上げている回。",
+      "topics": ["design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://martinfowler.com/fragments/2026-07-21.html",
+      "title": "Fragments: July 21",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "summary": "Martin Fowler氏による短信・リンク集「Fragments」の7月21日号。ソフトウェア設計や開発プラクティスに関する話題を取り上げている回。",
+      "topics": ["design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://martinfowler.com/fragments/2026-07-13.html",
+      "title": "Fragments: July 13",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "summary": "Martin Fowler氏による短信・リンク集「Fragments」の7月13日号。ソフトウェア設計や開発プラクティスに関する話題を取り上げている回。",
+      "topics": ["design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-groks-cli-caught-uploading",
+      "title": "The Pulse: Grok’s CLI caught uploading all your local files to the cloud",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "AI企業が提供するコーディング向けCLIツールが、ユーザーのローカルファイルを無断でクラウドにアップロードしていたと報じる記事。AI駆動開発ツールにおけるデータ送信・セキュリティリスクへの警鐘となる事例。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "「信頼して使うAIツールが実は情報を送っていた」という切り口で"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/kubernetes-and-retiring-at-the-top",
+      "title": "Kubernetes and retiring at the top with Kelsey Hightower",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "Kubernetesコミュニティの著名人Kelsey Hightower氏を招き、キャリアの頂点で退くという決断について語るインタビュー記事。技術者としての引き際・キャリア論がテーマ。",
+      "topics": ["worklife"],
+      "neta": "A",
+      "hook": "「頂点で退く」というキャリアの引き際の切り口で"
+    },
+    {
+      "url": "https://code.claude.com/docs/en/cross-session-messaging",
+      "title": "Message your other Claude Code sessions",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "Claude Codeの新機能として、実行中の別セッションのClaudeにメッセージを送って連携できる「クロスセッションメッセージング」を紹介するドキュメント。複数のエージェントセッションを横断した非同期連携が可能になる。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "「エージェント同士が会話する」未来という切り口で"
+    },
+    {
+      "url": "https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers",
+      "title": "\"Code was never the hard part\" is an insult to all programmers",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "「コードを書くことは本質的な難しさではなかった」というAI時代によく語られる主張に対し、それはプログラマー全体への侮辱だと反論するブログ記事。コーディングそのものに価値があるという立場から反論を展開している。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "AI時代の「コードは簡単」論への反論という切り口で"
+    },
+    {
+      "url": "https://www.infoq.com/presentations/openai-performance-engineering-agentic-coding/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Presentation: Keeping ChatGPT Fast as AI Development Accelerates",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "AI開発が加速する中でChatGPTの応答速度を維持するためのパフォーマンスエンジニアリングを扱うカンファレンス発表。大規模AIサービス運用の技術的知見が紹介されている。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "大規模AIサービスの高速化事例という切り口で"
+    },
+    {
+      "url": "https://www.infoq.com/podcasts/infoq-culture-trends-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Podcast: Culture & Methods Trends 2026: The Human Side of AI Engineering",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "2026年の「カルチャー&メソッド」領域のトレンドを議論するポッドキャスト。AIエンジニアリングが進む中でこそ重要になるチーム文化・プロセスといった「人間側」の要素に焦点を当てている。",
+      "topics": ["team", "ai-dev"],
+      "neta": "S",
+      "hook": "「AI時代こそ人間側が重要」という逆転の切り口で"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything",
+      "title": "Moonlight & Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "Codex と GPT系モデルを組み合わせて共同制作されたゲーム・創作プロジェクト「Raccoon Heist」を紹介する記事。複数のAIエージェントを組み合わせた創作の事例として紹介されている。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "複数AIエージェントの共同制作という切り口で"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/#atom-everything",
+      "title": "The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "AI利用コストが急増し、多くの企業がAIへの支出を抑えようと躍起になっているという「トークンポカリプス」現象を報じる記事。AI導入の裏で顕在化するコスト問題を扱っている。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "「AI導入で逆にコストが爆発する」という逆転の切り口で"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-everything",
+      "title": "Introducing Muse Code and Muse Spark 1.2",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "新しいAIコーディング支援ツール「Muse Code」と、そのアップデート版「Muse Spark 1.2」を紹介する記事。AI駆動開発向けの新ツールの動向として参考になる。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "新しいAIコーディングツールの登場という切り口で"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-everything",
+      "title": "Devtools must be open source (exe.dev)",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "開発ツールはオープンソースであるべきだと主張する記事の紹介。AI時代における開発ツールの信頼性・透明性についての議論を扱っている。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "「開発ツールはOSSであるべき」という主張の切り口で"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/superlogical.html",
+      "title": "ミッチェル・ハシモト氏が新会社「Superlogical」を設立、あらゆる仕事に使えるマルチプレクサの開発へ",
+      "source": "Publickey",
+      "lang": "ja",
+      "summary": "HashiCorp創業者として知られるミッチェル・ハシモト氏が新会社「Superlogical」を設立し、あらゆる仕事に使える「マルチプレクサ」の開発に取り組むと発表した記事。著名技術者の新たなキャリアの選択として紹介されている。",
+      "topics": ["worklife"],
+      "neta": "A",
+      "hook": "著名創業者の新たな挑戦という切り口で"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/npm-stage-available/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "npm Staged Publishing Available, Adding a Human Approval Step Before Packages Go Live",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "npmパッケージの公開プロセスに、人間による承認ステップを挟む「Staged Publishing」機能が利用可能になったことを伝える記事。サプライチェーンセキュリティとチームの運用プロセス設計の観点から関心が高い。",
+      "topics": ["team", "design"],
+      "neta": "A",
+      "hook": "パッケージ公開に人間の承認を挟むという切り口で"
+    }
+  ],
+  "rejected_count": 3,
+  "capped_count": 73,
+  "failures": [
+    {
+      "name": "Kent Beck / Tidy First",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ]
+}
