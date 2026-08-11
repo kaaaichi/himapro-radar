@@ -1,0 +1,240 @@
+{
+  "date": "2026-08-12",
+  "items": [
+    {
+      "url": "https://zenn.dev/moca/articles/b6e950a5826641",
+      "title": "2週間かかった開発が2日になった。AI開発で変えたのはモデルではなく設計だった",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AI駆動開発で開発期間を2週間から2日に短縮できた事例を紹介する記事。速くなった要因はAIモデルの性能向上ではなく、要件定義や設計プロセスを見直したことにあると分析している。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "モデルは変えていない、変えたのは設計だった、で逆転型に入れる"
+    },
+    {
+      "url": "https://zenn.dev/moca/articles/eb520439e185d8",
+      "title": "ChatGPTをPM、Claude Codeをエンジニアにして失敗した。PM役のAIを外すまで",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "ChatGPTをPM役、Claude Codeをエンジニア役に据えたAIだけのチーム構成を試したが機能せず、PM役のAIを外したことでうまく回るようになったという失敗談。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "AIをPMにしたら破綻した、で逆転型に入れる"
+    },
+    {
+      "url": "https://zenn.dev/m16_llc/articles/claude-code-goal-autonomous-error",
+      "title": "【Claude Code】/goalでエラー解決を丸投げする 〜ゴール駆動の自律ループ〜",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Claude Codeの/goalコマンドを使い、エラー解決を自律的な試行錯誤ループに任せる運用方法を紹介する記事。ゴールだけを指定してAIに反復させる工夫を解説している。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "エラー解決をAIに丸投げしてみた結果"
+    },
+    {
+      "url": "https://martinfowler.com/articles/exploring-gen-ai/tdd-in-the-agent-loop.html",
+      "title": "TDD inside the agent loop - theater or actual value?",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "summary": "AIエージェントにTDDを指示しても、指示しなかった場合と品質に明確な差は見られず、むしろ非TDD解法の方が設計・テスト品質でやや高く評価されたとする検証記事。著者はモデルにやり方を細かく指示しすぎるのは持続可能でないと述べ、ミューテーションテストや静的解析などの代替手段を提案している。",
+      "topics": ["ai-dev", "xp"],
+      "neta": "S",
+      "hook": "エージェントループの中のTDDは劇場だった、で逆転型に入れる"
+    },
+    {
+      "url": "https://github.com/Nutlope/hallmark",
+      "title": "GitHub - Nutlope/hallmark: Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Claude Code・Cursor・CodexなどのAIコーディングツール向けに、AIが生成しがちな没個性な「AIスロップ」的デザインを防ぐためのガイドライン集(スキル)を提供するOSSプロジェクト。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "AIの量産デザインを防ぐ番人スキル"
+    },
+    {
+      "url": "https://zenn.dev/dress_code/articles/34f18afe1464e8",
+      "title": "ドメインモデル図がすぐ古くなるので、Storybookっぽくコードと関連付けて見れるようにしてみた",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "ドメインモデル図がコードとすぐ乖離して陳腐化する問題に対し、Storybookのようにコードと図を紐づけて表示できる仕組みを自作した取り組みを紹介する記事。",
+      "topics": ["design"],
+      "neta": "S",
+      "hook": "設計図をStorybook化する、で意外性を出す"
+    },
+    {
+      "url": "https://zenn.dev/tokium_dev/articles/21d7e178362377",
+      "title": "AI 駆動開発のボトルネックは人間 ― Raycast で手作業を削る",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AI駆動開発を進める中で真のボトルネックはAIではなく人間の手作業だと指摘し、Raycastを使って開発フロー中の細かな手作業を削減する工夫を紹介する記事。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "AIより人間がボトルネックだった、で逆転型に入れる"
+    },
+    {
+      "url": "https://zenn.dev/knowledgesense/articles/9e55a3bb67729c",
+      "title": "BM25を使用してCodexのトークンの消費を30%抑える",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "検索アルゴリズムBM25を使ってCodexに渡すコンテキスト情報を絞り込み、トークン消費を約30%削減する手法を紹介する記事。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "古典的な検索アルゴリズムでAIのトークン代を削る"
+    },
+    {
+      "url": "https://zenn.dev/singularity/articles/ever-better-pm2",
+      "title": "1日500コミットを日常にするツールを作りました ── これを使えばだれでも余裕です",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "1日500コミットという非現実的なペースの開発を実現するためのツールを紹介する記事。AIエージェントを活用した並列的な開発ワークフローの工夫がテーマになっている。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "1日500コミットは正気か、で入れる"
+    },
+    {
+      "url": "https://speakerdeck.com/mizutani/seccamp2026-b2",
+      "title": "セキュリティ・キャンプ2026B2 セキュリティ分析LLMエージェントの実装 /seccamp2026-b2",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "セキュリティ・キャンプ2026の講義資料で、ログ解析や脅威検知を行うLLMエージェントの実装方法を解説するスライド。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "AIエージェントにセキュリティ分析をやらせる設計"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/article/2608/10/2000000481/",
+      "title": "避難所でAI使ってサービス開発「イマココナビ」 ニッチな生活情報も被災者主導で共有",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "避難所で被災者自身がAIを使って生活情報共有サービス「イマココナビ」を開発した事例。当事者主導でニッチな困りごとをスピーディーに解決した点が特徴。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "被災者自身がAIでアプリを作った、で意外性を出す"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/netflix-service-topology/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "How Netflix Scaled Its Real-Time Service Map",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "Netflixがマイクロサービス間の依存関係をリアルタイムに可視化する「サービスマップ」をどのように大規模化させたかを解説する記事。大規模分散システムにおける可観測性設計の事例を紹介している。",
+      "topics": ["design"],
+      "neta": "A",
+      "hook": "大規模サービスの依存関係をリアルタイムで見える化する設計"
+    },
+    {
+      "url": "https://www.infoq.com/presentations/ai-token-price/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Presentation: Producing the World's Cheapest Tokens: A How-to Guide",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "AI推論にかかるトークンのコストを極限まで下げるための手法を解説するプレゼンテーションの紹介記事。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "世界一安いトークンの作り方"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/jetbrains-ai-spend/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "JetBrains Details Its First Steps to Bring Rapidly Growing AI Spend Under Control",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "JetBrainsが急増するAI関連コストを抑えるために取り組み始めた最初の施策を紹介する記事。組織的なAI予算管理の実例。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "AI利用料が青天井になる問題、大手はどう抑えたか"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/cloudflare-webmcp/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "CloudFlare Previews Automatic WebMCP Support for Web Pages",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "Cloudflareが、Webページに自動的にWebMCP(Model Context Protocol)対応機能をプレビュー公開したという記事。AIエージェントがWebサイトを直接操作しやすくなる仕組みを紹介している。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "Webサイトが自動でAIエージェント対応になる"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/optiver",
+      "title": "Software engineering at a proprietary trading company: Optiver",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "高頻度取引企業Optiverにおけるソフトウェアエンジニアリング文化を紹介する記事。特殊な業界における開発チームの働き方や技術選定を解説している。",
+      "topics": ["team", "worklife"],
+      "neta": "A",
+      "hook": "超高速取引の会社のエンジニアチームはどう働いているか"
+    },
+    {
+      "url": "https://logmi.jp/main/management/333602",
+      "title": "管理職にならないまま45歳になるとどうなる？ マネジメントを避ける若者が陥る「3つの誤解」 [1/2] | ログミーBusiness",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "管理職にならないまま45歳を迎えた場合に起きるキャリア上の変化と、マネジメントを避けたがる若手が陥りがちな3つの誤解を解説する記事。",
+      "topics": ["worklife", "team"],
+      "neta": "S",
+      "hook": "管理職を避け続けるとどうなるか、で意外性を出す"
+    },
+    {
+      "url": "https://dev.classmethod.jp/articles/entra-id-auth-basics/",
+      "title": "【入門】 Entra ID を理解する前に知っておきたい認証・認可の基礎と SAML / OIDC / SCIM | DevelopersIO",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Entra IDを理解する前提知識として、認証・認可の基礎およびSAML/OIDC/SCIMといった標準プロトコルの違いをわかりやすく解説する入門記事。",
+      "topics": ["design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.techno-edge.net/article/2026/08/11/5382.html",
+      "title": "AIに書かせた文はバレる時代へ。EU AI法にClaudeも対応、編集しても残る見えないテキスト透かしを導入 | テクノエッジ TechnoEdge",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "EU AI法への対応としてAnthropicのClaudeが、編集しても消えない見えないテキスト電子透かしを導入したことを伝える記事。AI生成コンテンツの検出義務化に対する業界の動きを紹介している。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/discus0434/articles/disable-cursoruiviewservice-macos",
+      "title": "macOSでメモリを使い続けるCursorUIViewServiceを無効化する",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIコーディングツールCursorのバックグラウンドプロセスCursorUIViewServiceがmacOSで大量にメモリを消費する問題への対処法を解説する記事。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/10/openclaw/#atom-everything",
+      "title": "Quoting OpenClaw (running Opus 4.6)",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "AIエージェント「OpenClaw」(Opus 4.6で動作)が、あるジム予約サイトで他人の予約を勝手にキャンセルできてしまう認可チェック漏れの脆弱性を発見した事例を紹介する記事。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "AIエージェントが勝手にセキュリティ脆弱性を見つけてしまった"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/#atom-everything",
+      "title": "Simon Willison on Technical Blogging",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "Simon Willisonが技術ブログを書き続ける理由や執筆哲学について語ったインタビュー記事。完璧を目指して下書きを溜め込むより、満足いかなくても公開する方が良いという執筆スタンスを紹介している。",
+      "topics": ["worklife"],
+      "neta": "A",
+      "hook": "下書きを溜め込むな、不満足でも公開しろ"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything",
+      "title": "Quoting David Crawshaw's prompt",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "エンジニアDavid Crawshawが提案する、夜間に自動でアップストリームの変更を取得しローカルの変更を再適用・動作確認した上で本体を差し替える、というAIエージェントを使った自動化アイデアをSimon Willisonが紹介する記事。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "寝ている間にAIがコードを追従させてくれる"
+    }
+  ],
+  "rejected_count": 7,
+  "capped_count": 68,
+  "failures": [
+    {
+      "name": "Kent Beck / Tidy First",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ]
+}
