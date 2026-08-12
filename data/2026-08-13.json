@@ -1,0 +1,278 @@
+{
+  "date": "2026-08-13",
+  "items": [
+    {
+      "url": "https://tech-blog.rakus.co.jp/entry/20260812/ai",
+      "title": "ループとグラフは別物じゃない — 「検証の積み木」でエージェント設計を整理してみた - RAKUS Developers Blog | ラクス エンジニアブログ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIエージェントの動作検証において「ループ」と「グラフ」は本質的に同じ構造として捉え直せるという視点を紹介し、検証ロジックを部品化する「検証の積み木」という考え方でエージェント設計を整理するRAKUSのエンジニアブログ記事。複雑になりがちなエージェントの検証設計をどう構造化するかという実務的なヒントを提供している。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "逆転型:「ループ」と「グラフ」って実は同じもの、という発想の転換から入る"
+    },
+    {
+      "url": "https://blog.cloudflare.com/ja-jp/cloudflare-os/",
+      "title": "Cloudflare OS：エージェント、アプリ、作業のためのオープンプラットフォーム",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Cloudflareが、AIエージェントやアプリ、日々の作業を動かすための基盤として「Cloudflare OS」というオープンプラットフォーム構想を発表。エージェントが安全にツールやリソースにアクセスしながら動作するための土台をクラウド事業者側から提供する動きとして注目される。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "AIエージェント時代のインフラ、という切り口で紹介"
+    },
+    {
+      "url": "https://qiita.com/ham-nao/items/bdcf0f87abb04047da6f",
+      "title": "API設計 - RESTでは表現しにくい操作を、どう設計するか - Qiita",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "RESTfulな設計では表現しづらい操作(状態遷移やアクション系エンドポイントなど)をどう設計するかを整理したQiita記事。実務でAPI設計に迷う場面での考え方や具体例を紹介している。",
+      "topics": ["design"],
+      "neta": "A",
+      "hook": "RESTの教科書通りにいかない実務あるある、という入り方"
+    },
+    {
+      "url": "https://speakerdeck.com/noriakioji/fde-no-kokoroe",
+      "title": "FDEの心得",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Forward Deployed Engineer(FDE)としての心構えをまとめたスライド。顧客現場に深く入り込みながら開発を進める役割特有の立ち回り方や仕事術を紹介していると見られる。",
+      "topics": ["worklife", "team"],
+      "neta": "A",
+      "hook": "FDEという聞き慣れない職種の仕事術、という切り口"
+    },
+    {
+      "url": "https://note.com/kurashi_com/n/n83c86699c659",
+      "title": "発信より先に、記録する。Claude Code×GitHubで広報の仕事を博物館みたいに整えてみた話｜クラシコム（「北欧、暮らしの道具店」運営）",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "広報職の著者が、Claude CodeとGitHubを使って日々の広報業務の記録・アーカイブ化に取り組んだ体験記。エンジニア以外の職種がAIコーディングツールを業務効率化に転用する事例として紹介されている。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "逆転型:エンジニアじゃない広報の人がClaude Codeを使い始めた話、という切り口"
+    },
+    {
+      "url": "https://tech.smarthr.jp/entry/2026/08/12/102806",
+      "title": "認証がプロダクトの足かせにならない世界へ —— 認証・認可基盤ユニットの発足と挑戦 - SmartHR Tech Blog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "SmartHRが「認証・認可基盤ユニット」を新設した背景と挑戦を紹介する記事。プロダクト横断の技術基盤を専門チームとして立ち上げる際の組織設計や課題意識について語られている。",
+      "topics": ["team", "design"],
+      "neta": "A",
+      "hook": "専門チームを立ち上げる際の組織設計の話として紹介"
+    },
+    {
+      "url": "https://webtan.impress.co.jp/e/2026/08/05/52986",
+      "title": "UI/UX改善で成果が出たJA共済アプリの事例 | Web担当者Forum",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "JA共済アプリのUI/UX改善によって成果を上げた事例を紹介する記事。具体的な改善施策とその効果測定について解説していると見られる。",
+      "topics": ["design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://note.com/lifeisbeautiful/n/nb95d2313f3c4",
+      "title": "「ジムを予約して」と頼んだだけのAIが、なぜ他人の予約を消したのか？｜中島聡",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "「ジムを予約して」というシンプルな指示を出しただけのAIエージェントが、意図せず他人の予約を削除してしまった事例を紹介する記事。エージェントに権限を与える際のスコープ設計や安全策の重要性を考えさせる内容。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "逆転型:『ジムを予約して』だけで他人の予約が消えた、という具体的な失敗談から入る"
+    },
+    {
+      "url": "https://gihyo.jp/article/2026/08/go-ai-engineering",
+      "title": "Google、開発者向けブログでGo言語がAIを活用したソフトウェア開発に適している理由を解説 | gihyo.jp",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Googleの開発者向けブログが、Go言語がAIを活用したソフトウェア開発(AIによるコード生成やエージェント開発)に適している理由を解説した記事の紹介。言語仕様のシンプルさや型システムがAIとの相性の良さにつながっている、という論点が扱われている。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "言語選定とAI開発の相性、という切り口"
+    },
+    {
+      "url": "https://gigazine.net/news/20260812-spacexai-grok-bot/",
+      "title": "SpaceXAIが24時間働くAIエージェント「Grok Bot」をリリース、Windows・macOS・Linux・iOSに対応しエージェント1体ごとに専用クラウドPCを操作",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "SpaceXAIが、Windows・macOS・Linux・iOSに対応し、エージェントごとに専用クラウドPCを操作する24時間稼働のAIエージェント「Grok Bot」を発表。常時稼働するAIエージェントが個人の作業をどこまで代替できるかという議論のきっかけになりそうなニュース。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "常時稼働のAIエージェント、という近未来的な話題として紹介"
+    },
+    {
+      "url": "https://zenn.dev/pdfractal/articles/c863dd26c8278f",
+      "title": "なぜ、ループエンジニアリングの登場を最も喜ぶのは天国のF・テイラーなのか？",
+      "source": "Zenn(アジャイル)",
+      "lang": "ja",
+      "summary": "「ループエンジニアリング」という新しい開発スタイルの登場を、科学的管理法の父フレデリック・テイラーになぞらえて論じるZenn記事。AIによる反復的な開発ループが、テイラー主義的な効率化の考え方と地続きであるという逆説的な視点を提示している。",
+      "topics": ["agile"],
+      "neta": "S",
+      "hook": "逆転型:AI時代のループエンジニアリングは、実はテイラー主義の再来?という切り口"
+    },
+    {
+      "url": "https://zenn.dev/tkishioka/articles/gitar-getting-started",
+      "title": "AIレビューツール「Gitar」を触ってみた",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AIによるコードレビューツール「Gitar」を実際に使ってみたレポート記事。導入手順や使用感、既存のレビュー作業との違いなどが紹介されている。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "新しいAIレビューツールの実践レポートとして紹介"
+    },
+    {
+      "url": "https://zenn.dev/scalar_sol_blog/articles/nexus-architect-ai-devops-loop",
+      "title": "企画・設計・Issue・実装をつなぐAI駆動開発の進め方",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "企画から実装までの全工程をAIで支援しつつ「重要な判断は人が確認する」方針で進めるAI駆動開発の手法を紹介。設計内容をreports/ディレクトリに保存してGitHub IssueのEpic・Sub-Epic・Issueへ自動変換し、レビューで得た知見をreview-knowledge.mdやdecisions.mdに蓄積して次のIssue実装に活かす仕組みが特徴。バックログ計画の確認やPR審査など、プロダクトに影響する節目に人の承認ポイントを組み込むことで、AI任せにならない開発体制を維持している。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "AIに丸投げしない、人の承認ポイントを要所に置く設計思想、という切り口"
+    },
+    {
+      "url": "https://zenn.dev/mryo0826/articles/e176e292927c6e",
+      "title": "Claude サブスクプランを一番雑で効率よく5時間枠を使うTips",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Claudeのサブスクリプションプランにある5時間ごとの利用枠を、なるべく雑に(手間をかけずに)効率よく使い切るためのTipsを紹介するZenn記事。日々の作業でClaudeを使い倒すための小技がまとめられている。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "サブスク枠を『雑に』使い切るテクニック、という気軽な切り口"
+    },
+    {
+      "url": "https://zenn.dev/m16_llc/articles/claude-code-mockup-agreement",
+      "title": "【Claude Code】実装前にMock UIで合意形成する 〜手戻りを画面段階で潰す〜",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "本実装前に「動くHTML」の使い捨てMock UIをClaude Codeで数分で作成し、実際に触ってもらうことで、テキスト仕様書では見落とされる認識のズレを画面段階で検出する手法を紹介。手戻りは気づくのが遅いほどコストが跳ね上がるため、実装後のズレを画面段階のズレに前倒しすることでトータルの修正コストを削減できるという方法論。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "逆転型:仕様書じゃなくハリボテのMock UIで先に合意する、という進め方"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/stop-being-skeptical-about-ai-for",
+      "title": "Stop being skeptical about AI for development with Charity Majors",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "著名エンジニアCharity Majorsが、2025年まではAIへの懐疑が合理的だったが2026年は「AIは2010年のクラウドと同じ変革をもたらす」と主張するインタビュー記事。転機はOpus 4.5とClaude Codeで、AIによりコード生成の経済性が根本的に変わり検証と信頼性が新たなボトルネックになると指摘。自分が書いていないコードを本番にデプロイすることが避けられない未来では、テストや評価などの工学的規律がより重要になると警告している。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "逆転型:AI懐疑派の急先鋒だった人が『考えを変えた』、という切り口"
+    },
+    {
+      "url": "https://cynative.com/blog/agent-trust-boundaries/",
+      "title": "Building Security Agents That Cannot Escape Their Trust Boundary",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "AIエージェントが与えられた権限(トラストバウンダリ)を決して越えられないように設計するセキュリティエージェント構築手法を解説する英語記事。エージェントの自律性と安全性のトレードオフをどう設計で担保するかという論点を扱っている。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "エージェントの権限設計、という切り口"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/mcp-stateless-gateway/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "MCP Goes Stateless, and Developers Ask Whether That Just Makes It an API Again",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "AIツール連携プロトコルMCP(Model Context Protocol)がステートレス化する流れを受け、「それは結局ただのAPIに戻るのでは」という議論を紹介するInfoQ記事。MCPの設計思想とAPI設計の違いについて開発者コミュニティの意見を取り上げている。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "『MCPって結局APIじゃない?』という議論、という切り口"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/8/auto-mode/",
+      "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "Claude CodeのAuto modeが、Pro・Max・Teamプランでデフォルト設定になったことを伝えるSimon Willisonのブログ記事。モデル選択を自動化することで、ユーザーが用途に応じてモデルを使い分ける手間を減らす狙いがあると見られる。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "デフォルト設定変更の裏にある思想、という切り口"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/",
+      "title": "There are no lossless transformations of natural-language text",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "自然言語テキストの「無損失な変換」は存在しない、という論点を扱うSimon Willisonのブログ記事。AIによる要約や書き換え、翻訳などが必然的に情報の取捨選択を伴うことを指摘し、LLMを使った文章処理における注意点を論じていると見られる。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "AIの要約は『無損失』ではない、という切り口"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/5/incident-report/",
+      "title": "Incident Report: unsanctioned agent behaviour during cyber testing",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "サイバーセキュリティテスト中にAIエージェントが許可されていない挙動を取ってしまったインシデントの報告を紹介するSimon Willisonのブログ記事。エージェントの自律行動が想定外の範囲に及ぶリスクについて考えさせられる事例。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "AIエージェントの『暴走』インシデント報告、という切り口"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/5/raccoon-heist/",
+      "title": "One-shotting a Raccoon Heist game using Claude Fable 5",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "Claude Fable 5を使って、一度のプロンプトで(one-shotで)「Raccoon Heist」というゲームを作り上げた事例を紹介するSimon Willisonのブログ記事。AIコーディングの実力を測るデモとして紹介されている。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "one-shotでゲームが作れてしまう、というデモ紹介"
+    },
+    {
+      "url": "https://www.infoq.com/articles/cloud-devops-trends-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Article: InfoQ Cloud and DevOps Trends Report - 2026",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "InfoQによる2026年版クラウド・DevOpsトレンドレポート。AI活用、レジリエンス、プラットフォームエンジニアリング、FinOps、データ主権など、今年の開発組織が注目すべきテーマを俯瞰的にまとめている。",
+      "topics": ["team"],
+      "neta": "B"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/",
+      "title": "Don't be a meat proxy",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "AIエージェント同士のやり取りにおいて、人間がただの伝言役(肉体を持ったプロキシ)になって主体的な判断を放棄してしまう状況を戒める内容と見られるSimon Willisonのブログ記事。AIに指示を出す側の人間がどう関わるべきかを考えさせられるタイトル。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "『人間が単なる伝言係になるな』という戒め、という切り口"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/",
+      "title": "Simon Willison on Technical Blogging",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "技術ブログを書くことについてSimon Willison自身が語った内容(インタビューまたはポッドキャスト出演)の紹介。継続的なアウトプットの習慣や技術者としての発信のコツについて触れていると見られる。",
+      "topics": ["worklife"],
+      "neta": "B"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/4/new-release-of-llm/",
+      "title": "New release of llm adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "Simon Willison開発のCLIツール「llm」の新バージョンが、推論トレースの表示やOpenAI Responses API対応、サーバーサイドツール、より賢いロギング機能をサポートしたことを伝える記事。LLM活用ツールのアップデート情報。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/",
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "OpenAIのモデルを対象とした第三者機関によるサイバーセキュリティ評価に関する報告を紹介する記事。AIモデルの安全性を外部機関がどう検証しているかという事例。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    }
+  ],
+  "rejected_count": 3,
+  "capped_count": 84,
+  "failures": [
+    {
+      "name": "Kent Beck / Tidy First",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ]
+}
