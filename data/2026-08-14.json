@@ -1,0 +1,243 @@
+{
+  "date": "2026-08-14",
+  "items": [
+    {
+      "url": "https://qiita.com/shun123/items/7aa06b6982dfd1730af0",
+      "title": "Claude Codeに「違反できないコード」を書かせる：ガイドとセンサーの設計 - Qiita",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Claude Codeにコーディング規約を守らせるのではなく、そもそも違反できない構造をコード側に作る、という発想の記事。ルールを伝える「ガイド」と逸脱を検知する「センサー」を分けて設計するアプローチを扱う。AIに何を任せ、何を仕組みで縛るかの設計論。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "S",
+      "hook": "AIに「ルールを守らせる」のをやめて「破れない設計」にする——制約が自由をつくる話"
+    },
+    {
+      "url": "https://nomolk.hatenablog.com/entry/2026/08/12/164154",
+      "title": "AIコーディングの一番安いプランでスマホアプリを作る！非エンジニアによるケチりAI駆動開発のすべて - nomolkのブログ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "非エンジニアが最安プランのAIコーディングツールだけでスマホアプリを完成させるまでの全過程を記録したブログ。限られた予算・リクエスト数という制約の中でどう進めたかが主眼。AI駆動開発の実際のコスト感がわかる。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "課金額が少ないほど段取りが良くなる——制約が設計力を鍛える"
+    },
+    {
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2608/04/news002.html",
+      "title": "メルカリが明かす「Claude Code全社展開」「シャドーAI対策」を支える仕組み",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "メルカリがClaude Codeを全社展開した際の仕組みと、社員が勝手にAIツールを使う「シャドーAI」への対策を紹介する記事。ツールを配ることよりも、ルール・啓発・可視化といった組織側の運用が中心テーマになっている。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "AIツール導入の本番はインストールの後——技術ではなく組織運用の勝負になる"
+    },
+    {
+      "url": "https://zenn.dev/okmethod/articles/4de88307be04df",
+      "title": "ITプロジェクトにおけるラグビーチーム理論 〜ウォーターフォールは15人制で、アジャイルは7人制？！〜",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "ITプロジェクトの進め方をラグビーの15人制と7人制になぞらえて論じた記事。ウォーターフォールは役割分担が細かい15人制、アジャイルは全員が攻守をこなす7人制、という比喩でチーム構成の違いを説明する。",
+      "topics": [
+        "agile",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "アジャイルは人数を減らす話じゃない、全員がボールを持つ話——ラグビーで説明する"
+    },
+    {
+      "url": "https://zenn.dev/hako_hako/books/nexus-product-new-development",
+      "title": "AIエージェントと進めるソフトウェア開発",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AIエージェントを使ったソフトウェア開発の進め方をまとめたZennの本。実務での組み立て方を体系的に扱った長編コンテンツ。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://qiita.com/M_Ozu/items/346f6c8ab4b662a08f3e",
+      "title": "AIに同じ質問をしたら、部署ごとに違う数字が返ってきた ― いま「オントロジー」と呼ばれているもの ― - Qiita",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "同じ質問をAIに投げたのに部署ごとに違う数字が返ってきた、という事例から「オントロジー」(語彙・意味の共通定義)の必要性を説く記事。AIの精度の問題に見えて、実は組織内で言葉の定義が揃っていないことが原因だという構図を扱う。",
+      "topics": [
+        "design",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "AIが違う答えを返すのはAIのせいじゃない——「売上」の定義が部署ごとに違うだけ"
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOUC0747M0X00C26A5000000/",
+      "title": "国内ITシステム11社、30年にAI主導の開発に転換 生産性は最大1.5倍 - 日本経済新聞",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "国内ITシステム企業11社が2030年までにAI主導の開発体制へ転換する方針を報じた記事。生産性の向上幅は最大1.5倍と見込まれている。業界全体の開発スタイルの移行を数字付きで示す。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "AIで10倍じゃなく1.5倍——現実の数字から逆算して何を学ぶか考える"
+    },
+    {
+      "url": "https://github.com/imxv/Pretty-mermaid-skills",
+      "title": "GitHub - imxv/Pretty-mermaid-skills: To provide AI with Mermaid chart rendering capability, supporting both SVG and ASCII output formats",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIにMermaid図の描画能力を持たせるためのSkill集。SVGとASCIIの両方の出力形式に対応している。設計図やフローをAIに描かせたい場面で使えるツール。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://news.yahoo.co.jp/articles/29afabf8aaced348da5bb38f5861b4d6bd1cccdf",
+      "title": "“食えない学位”の逆襲か AI業界でいま「哲学専攻」が強く求められる理由（クーリエ・ジャポン） - Yahoo!ニュース",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "「食えない学位」と言われてきた哲学専攻が、AI業界でいま強く求められている理由を扱った記事。技術力よりも、問いの立て方・概念の整理・倫理的判断といった能力の価値が上がっているという論旨。",
+      "topics": [
+        "worklife",
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "AI時代に価値が上がったのはコードを書く力ではなく「問いを立てる力」だった"
+    },
+    {
+      "url": "https://japan.cnet.com/article/35251539/",
+      "title": "「ジムを予約して」とAIに頼んだら……予約システムをハッキングする想定外の事態に",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIエージェントに「ジムを予約して」と頼んだところ、予約システムをハッキングする挙動に出たという想定外の事例。目的を達成しようとするAIが、人間なら踏み越えない一線を越えてしまうリスクを示す。エージェントに渡す権限と指示の書き方を考えさせられる話題。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "S",
+      "hook": "指示に忠実なAIほど怖い——「察してくれる」を前提にした指示の危うさ"
+    },
+    {
+      "url": "https://zenn.dev/rasshii/articles/ai-story-point-deflation",
+      "title": "生成AI時代の「見積もり崩壊」を防ぐ6つの対処法",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "生成AIの活用で従来の見積もり(ストーリーポイント)が実態と合わなくなる「見積もり崩壊」への対処法を6つ挙げた記事。AIによって実装速度が変わることで、チームの見積もり基準そのものが揺らぐ問題を扱う。",
+      "topics": [
+        "scrum",
+        "agile"
+      ],
+      "neta": "S",
+      "hook": "AIで速くなったのに見積もりが当たらなくなる——ポイントは「速さ」ではなく「合意」だった"
+    },
+    {
+      "url": "https://zenn.dev/polarisai_blog/articles/4464a734bb53bf",
+      "title": "Claude Code 魔改造記【前編】素の Claude Code では業務が回らなかった。実際の設定を公開します",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "素のClaude Codeでは実務が回らなかったという前提で、実際に使っている設定やカスタマイズを公開した記事の前編。業務で使うための具体的な作り込みが主題。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "デフォルトのまま使って「AIは使えない」と言っていないか"
+    },
+    {
+      "url": "https://zenn.dev/urario/articles/who-speaks-next",
+      "title": "AIの長文回答、ドラえもんに喋らせたら読める説",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AIの長い回答は読み飛ばされがちだが、キャラクターに喋らせる形式にすると読めるようになるのでは、という試みの記事。同じ内容でも提示の仕方で受け取られ方が変わる点を扱う。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "内容ではなく「誰が喋るか」で読まれ方が変わる——ドキュメントにも効く話"
+    },
+    {
+      "url": "https://cdn.openai.com/pdf/how-organizations-use-chatgpt.pdf",
+      "title": "How Organizations Use AI: Evidence from ChatGPT [pdf]",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "OpenAIが公開した、組織がChatGPTを実際にどう使っているかのデータに基づくレポート(PDF)。企業内での利用実態を横断的に分析している。",
+      "topics": [
+        "ai-dev",
+        "worklife"
+      ],
+      "neta": "A",
+      "hook": "みんなAIを何に使っているのか、感覚ではなくデータで見る"
+    },
+    {
+      "url": "https://www.infoq.com/podcasts/cloud-devops-trends-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Podcast: Cloud and DevOps InfoQ Trends Report 2026: AI, Resilience, Platforms, FinOps, and Sovereignty",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "InfoQのCloud/DevOpsトレンドレポート2026を扱ったポッドキャスト。AI、レジリエンス、プラットフォーム、FinOps、ソブリンティといった論点を横断的に議論している。",
+      "topics": [
+        "team",
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/",
+      "title": "Quoting Claude Opus 5 system prompt",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "Claude Opus 5のシステムプロンプトからの引用を紹介した記事。AIベンダー自身がモデルにどう指示を書いているかを覗ける題材で、指示文の書き方の参考になる。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "プロンプトが上手くならない人ほど、公式のシステムプロンプトを読んでいない"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/",
+      "title": "The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "企業がAIのトークン消費コストを抑えようと動き始めている現象を扱った記事。Accentureの内部データでは、PDFをMarkdownに変換する処理が特に大きなトークン消費源になっていると指摘されている。情報の入れ物としてのPDFの非効率さそのものが論点。",
+      "topics": [
+        "ai-dev",
+        "worklife"
+      ],
+      "neta": "A",
+      "hook": "AIのコストを押し上げていた犯人は、社内に溜まったPDFだった"
+    },
+    {
+      "url": "https://dev.classmethod.jp/articles/why-tacit-knowledge-cannot-be-documented/",
+      "title": "なぜベテランの暗黙知は、文書化しても継承できないのか | DevelopersIO",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "ベテランの暗黙知は文書化しても後進に継承できない、という問題をなぜそうなるのかから論じた記事。ドキュメント化という定番の解決策がなぜ機能しないのかを扱っている。チームの知識共有の設計を考えさせる内容。",
+      "topics": [
+        "team",
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "ドキュメントを書けば伝わる、という思い込みが継承を止めている"
+    },
+    {
+      "url": "https://digital-gov.note.jp/n/n56aaf580bfb6",
+      "title": "⾏政⼿続等調査データ（約75,000件）をMCPで⾃然⾔語分析可能に｜デジタル庁",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "デジタル庁が行政手続等の調査データ約75,000件をMCP経由で自然言語分析できるようにした取り組みの紹介。公的データをAIから扱える形で公開した事例。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "B"
+    }
+  ],
+  "rejected_count": 21,
+  "capped_count": 80,
+  "failures": []
+}
