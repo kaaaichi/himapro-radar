@@ -1,0 +1,240 @@
+{
+  "date": "2026-08-16",
+  "items": [
+    {
+      "url": "https://ai.itokoba.com/archives/861/",
+      "title": "AIを使っているなら全員入れるべきAgent Skill 4選【ChatGPT / Codex / Claude Code】",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "ChatGPT・Codex・Claude Codeなど複数のAIコーディングツールで使える汎用的なAgent Skill(拡張機能)を4つ厳選して紹介する記事。導入するだけで日々の開発作業の質が上がる実践的なスキルを解説している。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "とりあえず入れるべきAgent Skillを実演形式で紹介"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/aiplus/article/2608/06/2000000410/",
+      "title": "Meta、コーディングエージェント「Muse Code」リリース 「Claude Code」や「Codex」に対抗",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "MetaがAIコーディングエージェント「Muse Code」をリリースし、Claude CodeやCodexに対抗する布陣を敷いたというニュース。大手各社のコーディングエージェント競争がさらに激化している状況を伝えている。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "Meta参戦でコーディングエージェント戦国時代に"
+    },
+    {
+      "url": "https://zenn.dev/nnakapa/articles/lab-35-claude-copilot-sonnet5-qcd",
+      "title": "同じ Sonnet 5 でも Claude Code と GitHub Copilot では使い方が違った（オトナの自由研究 #35）",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "同じSonnet 5モデルを使っていても、Claude CodeとGitHub Copilotでは実際の使い勝手や向いているワークフローが異なることを、著者の実体験を通じて比較検証した記事。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "同じモデルなのに体験が全然違う、という切り口"
+    },
+    {
+      "url": "https://www.ryuzee.com/contents/blog/14624",
+      "title": "【資料公開】数字を使う技術",
+      "source": "Ryuzee.com",
+      "lang": "ja",
+      "summary": "アジャイルコーチのRyuzee氏が、仕事や開発の現場で数字(データ)を効果的に使うための技術をまとめた資料を公開。定量的な意思決定やコミュニケーションに役立つ考え方を紹介している。",
+      "topics": ["worklife", "agile"],
+      "neta": "A",
+      "hook": "「数字」の使い方一つで説得力が変わる、という切り口"
+    },
+    {
+      "url": "https://zenn.dev/trskd/articles/97e64618a71049",
+      "title": "AIを使いこなしたいなら、まず「見積もり」スキルを磨こう――AI時代にこそ問われるエンジニアリングの基礎",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AI時代だからこそ、AIに何をどれだけ任せられるかを判断する「見積もり」スキルが重要になるという主張の記事。AIを使いこなすための土台として、従来型のエンジニアリング基礎能力の重要性を再評価している。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "AI時代こそ地味な『見積もり』が武器になる、という逆説"
+    },
+    {
+      "url": "https://zenn.dev/saltmu/articles/c05853bb7eeb49",
+      "title": "AIに1つのPRを任せきるための開発設計",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AIエージェントに1つのプルリクエストを最初から最後まで任せきるための開発設計・タスク分割の工夫を紹介する記事。AIに委任しやすい単位でどう設計するかという実践的な知見をまとめている。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "AIに『丸投げできる』PR設計とは"
+    },
+    {
+      "url": "https://zenn.dev/ncdc/articles/ad8bdc27c199b6",
+      "title": "ADRはAI駆動開発の武器になるが、負債にもなるかもしれない",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Architecture Decision Record(ADR)がAI駆動開発において強力な武器になる一方で、運用を誤ると新たな技術的負債になりうるという両面性を論じる記事。AIにコンテキストを与える手段としてのADR活用と注意点を解説している。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "ADRが『武器』にも『負債』にもなる、という両面性"
+    },
+    {
+      "url": "https://zenn.dev/m16_llc/articles/claude-code-plugins-beginner-guide",
+      "title": "【Claude Code】公式プラグイン＆有名プラグイン紹介 〜まず入れる12個と選び方〜",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Claude Codeの公式プラグインと有名なサードパーティプラグインの中から、まず入れるべき12個を厳選して紹介するガイド記事。選び方の基準も合わせて解説している。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "Claude Codeプラグイン、まず入れるべき12選"
+    },
+    {
+      "url": "https://zenn.dev/nullcontroller/articles/fccbf170ead145",
+      "title": "私が考えるAI駆動開発 ― AI・人間・成果物をどうつなぐか",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AI駆動開発において、AI・人間・成果物という3者の関係性をどう設計するかという著者独自の考察をまとめた記事。AIに任せる範囲と人間が担うべき役割の線引きについて論じている。",
+      "topics": ["ai-dev", "team"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/kittybbit/articles/e21125dacaecd7",
+      "title": "AIで既存コードを壊さず変更する：タスク分解と完了条件",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "既存コードベースをAIに変更させる際、既存機能を壊さないためのタスク分解の仕方と、完了条件(Definition of Done)の設定方法を解説する記事。AIとの協働を安全に進めるための実践的な工夫を紹介している。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "AIに『壊されない』ためのタスク分解とDoD"
+    },
+    {
+      "url": "https://qiita.com/hironavalo/items/ab2a2c97d433d5e33dd3",
+      "title": "GitHub Projectsだけでユーザーストーリーマップを作る手順と、3つの限界",
+      "source": "Qiita(アジャイル)",
+      "lang": "ja",
+      "summary": "追加ツールを使わずGitHub Projectsだけでユーザーストーリーマップを作成する具体的な手順を紹介しつつ、その運用における3つの限界点も正直に指摘する記事。",
+      "topics": ["agile"],
+      "neta": "A",
+      "hook": "GitHub Projectsだけでどこまでできるか、その限界も含めて"
+    },
+    {
+      "url": "http://www.stephen-cresswell.com/2026/08/15/Yadda-3.0.0-BDD-in-the-Age-of-AI-Agents.html",
+      "title": "Yadda 3.0.0: BDD in the Age of AI Agents",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "BDD(振る舞い駆動開発)ツール「Yadda」の3.0.0がリリースされ、AIエージェント時代に合わせてBDDの役割を再定義する内容。AIエージェントに仕様を正確に伝えるための手段としてBDDを位置づけ直している。",
+      "topics": ["xp", "ai-dev"],
+      "neta": "S",
+      "hook": "BDDが『AIへの指示書』として復権する、という切り口"
+    },
+    {
+      "url": "https://sankalp.bearblog.dev/autoresearch/",
+      "title": "Auto-research with codex: How I achieved a 232x Faster Kernel",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "AIエージェント「Codex」に自動的にリサーチとカーネル最適化を任せることで、カーネルの実行速度を232倍高速化したという著者の実験記録。AIによる自律的な性能改善リサーチの可能性を示す事例。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "AIエージェントが自力でカーネルを232倍速くした話"
+    },
+    {
+      "url": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership/",
+      "title": "Working with AI Feels More Like Leadership Than Coding",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "AIエージェントと働くことは、コードを書くことよりもむしろ「リーダーシップ」に近い感覚だという著者の気づきをまとめたエッセイ。タスクの委任・レビュー・方向づけといったマネジメント的スキルがAI駆動開発で重要になると論じている。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "AIと働くと『コーディング』より『マネジメント』に近くなる、という逆説"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/AI-disrupts-engineering-progress/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "How Artificial Intelligence Disrupts Engineering Progression",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "AIの普及がエンジニアのキャリアパス・昇進の仕組みをどう変えつつあるかを論じる記事。若手エンジニアの成長機会が減る懸念や、評価基準の見直しの必要性について取り上げている。",
+      "topics": ["team", "worklife", "ai-dev"],
+      "neta": "S",
+      "hook": "AI時代、エンジニアの『出世コース』はどう変わるか"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/",
+      "title": "Introducing Muse Code and Muse Spark 1.2",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "Meta発の新しいAIコーディングエージェント「Muse Code」と、そのモデル「Muse Spark 1.2」についてSimon Willisonが解説する記事。既存の主要コーディングエージェントとの比較や特徴を紹介している。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "Muse Code登場の背景と技術的な特徴を深掘り"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
+      "title": "Don't classify. Hallucinate!",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "分類タスクをLLMに解かせる際、素直に「分類」させるのではなく、あえて自由記述で「幻覚(ハルシネーション)」させた方が良い結果につながるという逆説的なテクニックを紹介する記事。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "『分類するな、幻覚させろ』という逆説的テクニック"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-metas-self-inflicted-resignation",
+      "title": "The Pulse: Meta's self-inflicted resignation-wave",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "Meta社内で相次ぐ自主退職の波が、実は同社自身の施策によって引き起こされた「自傷的」なものだったと分析するニュースレター記事。組織運営の失敗が人材流出を招いた経緯を解説している。",
+      "topics": ["team", "worklife"],
+      "neta": "A",
+      "hook": "Metaの退職ラッシュは『自業自得』だった、という分析"
+    },
+    {
+      "url": "https://note.com/geekdrums/n/nea4ec22c73eb",
+      "title": "何者かになりたければコミュニティを作れ｜じーくどらむす",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "個人が「何者か」として認知されるためには、既存コミュニティに属するだけでなく自らコミュニティを作ることが有効だという著者の主張をまとめたエッセイ。キャリア形成や個人ブランディングの観点から論じている。",
+      "topics": ["worklife"],
+      "neta": "B"
+    },
+    {
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2608/15/news013.html",
+      "title": "AI時代は「Go言語」が理想の言語に？ Googleが解説する「Goの価値」",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIによるコード生成が主流になる時代において、シンプルさと明快さを重視するGo言語がむしろ理想的な言語になり得るという、Google自身による解説記事。AI時代の言語選定における新たな視点を提供している。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "AI時代こそ『地味なGo言語』が理想、という逆説"
+    },
+    {
+      "url": "https://paper2.hatenablog.com/entry/2026/08/15/170823",
+      "title": "セールス主導開発の滑りやすい坂道 - ともにかける",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "営業側の要望が開発の優先順位を次第に支配していく「セールス主導開発」がどのように組織やプロダクトを蝕んでいくかを論じる記事。開発チームが陥りがちな坂道のパターンを警鐘として描いている。",
+      "topics": ["team", "agile"],
+      "neta": "A",
+      "hook": "『セールス主導開発』が組織を蝕む坂道"
+    },
+    {
+      "url": "https://martinfowler.com/rachels-ramblings/intro.html",
+      "title": "Why I'm Writing Rachel's Ramblings",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "summary": "Thoughtworks CTOのRachel Laycock氏が、ソフトウェア開発の未来やAI時代における開発の変化について、完璧を求めず率直に書き綴る新連載ブログを開始した経緯を紹介する記事。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "Thoughtworks CTOがAI時代の開発論を語り始めた"
+    },
+    {
+      "url": "https://martinfowler.com/fragments/2026-06-02.html",
+      "title": "Fragments: June 2",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "summary": "Martin Fowlerによるリンク集企画「Fragments」の一本。AI導入時の生産性測定の難しさ、技術的負債がLLMに与える悪影響、AI生成コンテンツの品質問題など、AI駆動開発をめぐる複数の論点をまとめて紹介している。",
+      "topics": ["ai-dev"],
+      "neta": "A"
+    }
+  ],
+  "rejected_count": 7,
+  "capped_count": 69,
+  "failures": [
+    {
+      "name": "Kent Beck / Tidy First",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ]
+}
