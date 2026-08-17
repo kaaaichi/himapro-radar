@@ -1,0 +1,236 @@
+{
+  "date": "2026-08-17",
+  "items": [
+    {
+      "url": "https://github.com/coji/natural-japanese",
+      "title": "GitHub - coji/natural-japanese: 仕事の日本語文書を読みやすくわかりやすく書く・直す Agent Skill。議事録・調査レポート・社内ガイド・リサーチメモ・スライド構成に対応し、AI臭さの除去も工程に含む。sudachipy 形態素解析による機械検出付き。",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "仕事の日本語文書を読みやすく書き直すためのAgent Skill。議事録・調査レポート・社内ガイドなどの文書種別に対応し、sudachipyによる形態素解析で「AI臭さ」を機械的に検出して除去する工程を含む。",
+      "topics": [
+        "worklife",
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "AIが書いた文章のAI臭さを、AIに検出させる時代"
+    },
+    {
+      "url": "https://zenn.dev/aws_japan/articles/2b62886aa8735e",
+      "title": "AI エージェントの「認可疲れ」に効く処方箋 : 理論から実装まで",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIエージェントの操作にいちいち承認を求める設計が、かえって人間の「認可疲れ」を生む問題を扱う。理論から実装まで、どこまでを事前に許可し、どこで人間が止めるべきかの設計指針を示す。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "A",
+      "hook": "確認ダイアログを増やすほど、人は中身を見なくなる"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/zeddeltaai.html",
+      "title": "Zed開発チームが「Delta」発表。人間とAIの全対話とコード変更履歴をコンテキストとして保存共有するコラボレーションツール",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Zed開発チームが、人間とAIの全対話とコード変更履歴をコンテキストとして保存・共有するコラボレーションツール「Delta」を発表。チームの資産がコードだけでなく「AIとのやり取りそのもの」になる方向を示している。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "レビュー対象がコードではなく「AIとの会話」になる日"
+    },
+    {
+      "url": "https://qiita.com/minorun365/items/320b4230c0b0c169ba13",
+      "title": "AIエージェントの作業結果、マークダウンで読むの辛くない？ →「HTML共有くん」を作りました - Qiita",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIエージェントの作業結果をマークダウンのまま読むのが辛いという課題から、HTMLに変換して共有するツールを自作した記録。AIの成果物を人間やチームに届ける「最後の一歩」に注目した内容。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "A",
+      "hook": "AIの成果物は、読まれる形にするまでが仕事"
+    },
+    {
+      "url": "https://zenn.dev/kinokomilk/articles/6c40d9a169a892",
+      "title": "AI駆動開発は従来開発と何が違う？ 8領域で整理してみた",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AI駆動開発が従来の開発と何が違うのかを、8つの領域に分けて整理した記事。要件・設計・実装・レビューなど工程ごとに変化点を並べており、AI開発への移行を俯瞰する見取り図になっている。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "A",
+      "hook": "変わったのは「書く速さ」ではなく、工程の重心"
+    },
+    {
+      "url": "https://voluntas.ghost.io/local-llm-2026-08/",
+      "title": "ローカル LLM 雑感 (2026-08)",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "2026年8月時点でのローカルLLMの実用度についての所感。どこまで実務で使えるようになったか、クラウドのモデルとの差をどう見るかを率直に整理している。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://qiita.com/jksoft/items/65f7824679ddf171a93d",
+      "title": "エラーを 3 秒で AI に丸投げする若手を見て、AI から答えを取り上げることにした - Qiita",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "エラーが出た瞬間に内容も読まずAIへ丸投げする若手を見て、あえてAIから答えを取り上げる指導に切り替えた話。AI時代の育成で「考える時間」をどう守るかという問題提起になっている。",
+      "topics": [
+        "team",
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "AIを取り上げるのが、いちばん効く教え方だった"
+    },
+    {
+      "url": "https://zenn.dev/dev_jp/articles/da537a095f13da",
+      "title": "お金がないけどAIコーディングしたい",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "潤沢な予算がなくてもAIコーディングを続けるための工夫をまとめた記事。無料枠やローカルモデルの使い分け、コンテキストの節約など、コストを抑えながら成果を出す実践が中心。",
+      "topics": [
+        "ai-dev",
+        "worklife"
+      ],
+      "neta": "A",
+      "hook": "AIコーディングの上手さは、課金額では決まらない"
+    },
+    {
+      "url": "https://www.docswell.com/s/magurotuna/53J4YJ-2026-08-16-aiau-craft-day",
+      "title": "AIがコードを書くなら、もう勉強しなくていい？AI時代に基礎を学ぶ理由 | ドクセル",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIがコードを書く時代に、なぜ人間が基礎を学ぶ必要があるのかを論じた発表資料。AIの出力を評価・修正できるかは基礎知識の有無で決まる、という立場から学習の意味を捉え直している。",
+      "topics": [
+        "ai-dev",
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "AIが書けるのに勉強する理由は「書くため」ではない"
+    },
+    {
+      "url": "https://zenn.dev/akito_tsukahara/articles/99534a252a6b9b",
+      "title": "スクラムガイド拡張パックで、自分のスクラム理解を棚卸しした",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "スクラムガイド拡張パックを読みながら、自分のスクラム理解を棚卸しした記録。分かったつもりだった概念のズレを、拡張パックの記述と突き合わせて確認していく内容になっている。",
+      "topics": [
+        "scrum",
+        "agile"
+      ],
+      "neta": "S",
+      "hook": "スクラムガイドに「拡張パック」が出ていたのを知っていますか"
+    },
+    {
+      "url": "https://zenn.dev/kittybbit/articles/e3356225cf916d",
+      "title": "AIに実装を任せる前に何を人が承認するか：仕様・計画・実装の境界",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AIに実装を任せる際、人間が承認すべきポイントを仕様・計画・実装の3層に分けて整理した記事。どの境界で人がレビューを入れると手戻りが減るかという設計の話にまとめている。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "S",
+      "hook": "レビューする場所を一段上げるだけで手戻りが消える"
+    },
+    {
+      "url": "https://zenn.dev/saltmu/articles/83b332232d7b75",
+      "title": "LLMが書いたタスク分解は、誰が検証しているのか",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "LLMが出力したタスク分解を、実際には誰も検証しないまま進めてしまう問題を指摘した記事。もっともらしい分解を鵜呑みにするリスクと、人間側の検証責任について論じている。",
+      "topics": [
+        "ai-dev",
+        "agile"
+      ],
+      "neta": "S",
+      "hook": "きれいに分解されたタスクほど、誰も疑わない"
+    },
+    {
+      "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
+      "title": "Claude: System Prompts",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "Claudeのシステムプロンプトが公式に公開されているページ。実際の運用プロンプトがどう書かれているかを読めるため、指示の与え方を学ぶ一次資料として使える。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "一番参考になるプロンプト教材は、公式が公開している"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/aws-dogwood-agent-policy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "AWS Open-Sources Dogwood, Extending Cedar to Govern Sequences of Agent Tool Calls",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "AWSがCedarを拡張し、AIエージェントのツール呼び出しの「並び」まで統制できるポリシー基盤Dogwoodをオープンソース化した。単発の権限ではなく操作の連なりを制御する方向を示している。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://tech.findy.co.jp/entry/2026/08/17/070000",
+      "title": "エンジニアが会場に立って101人に聞く 〜 カンファレンスアプリのUI改善を仮説から検証まで一周させた話 〜 - Findy Tech Blog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "エンジニア自身がカンファレンス会場に立ち、101人に直接聞いてアプリのUI改善の仮説を検証した事例。仮説立案からユーザーへのヒアリング、改善までを一周させた過程がまとめられている。",
+      "topics": [
+        "agile",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "コードを書く前に、会場で101人に話しかけた"
+    },
+    {
+      "url": "https://qiita.com/Tadataka_Takahashi/items/40689313c2192200c20a",
+      "title": "【備忘録】WBSをきれいに作るより、「事実」と「見せ方」を分けたほうが楽なのかもしれない - Qiita",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "WBSを美しく作り込むより、「事実」と「見せ方」を分けて管理したほうが結果的に楽になるという気づきの備忘録。計画資料のメンテナンスコストをどう下げるかという実務的な話。",
+      "topics": [
+        "worklife",
+        "agile"
+      ],
+      "neta": "S",
+      "hook": "きれいな進捗表を作るほど、現実から遠ざかる"
+    },
+    {
+      "url": "https://note.com/syam_grit/n/n839693f4c194",
+      "title": "フリーランスエンジニア、24日で契約切られました｜しゃま（フリーランスエンジニア）",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "フリーランスエンジニアが参画24日で契約を切られた経験を振り返った記事。技術力そのものより、期待値のすり合わせやコミュニケーションが評価を左右した過程が語られている。",
+      "topics": [
+        "worklife",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "切られた理由は、コードの品質ではなかった"
+    },
+    {
+      "url": "https://artifactshare.com/a/2aretj5195",
+      "title": "natural-japanese v1.4.0 — 読解負荷レーンを追加した",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "日本語文書改善スキルnatural-japaneseのv1.4.0で「読解負荷レーン」が追加されたという更新記録。文章の読みにくさを負荷という軸で可視化する試み。",
+      "topics": [
+        "worklife"
+      ],
+      "neta": "B"
+    }
+  ],
+  "rejected_count": 22,
+  "capped_count": 62,
+  "failures": []
+}
