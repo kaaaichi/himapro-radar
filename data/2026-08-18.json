@@ -1,0 +1,315 @@
+{
+  "date": "2026-08-18",
+  "items": [
+    {
+      "url": "https://togetter.com/li/2734257",
+      "title": "JTCにいる50代窓際サラリーマンをテーマにしたAIマンガの「動かない社員の代わりにAIエージェントを使う」回の「シニアがAIをうまく使いこなす」シーンに共感",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "JTCの50代窓際サラリーマンを描いたAIマンガの一編が話題に。「動かない社員の代わりにAIエージェントを使う」という筋書きの中で、シニア社員がAIをうまく使いこなすシーンに共感が集まった。世代とAI活用の関係についての受け止め方がうかがえる反応まとめ。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "AIを一番うまく使うのは若手じゃなく「仕事の段取りを知っている人」かもしれない"
+    },
+    {
+      "url": "https://note.com/saki_reset/n/n9e79bb3b09ae",
+      "title": "今から「情報系キャリア」には進むな。推奨しない理由と、AI時代にも生き残るキャリア論｜Saki",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "情報系キャリアを今から選ぶことを推奨しない、という立場から書かれたキャリア論。AI時代に何が残り何が価値を失うのかを軸に、生き残るための進路の考え方を提示している。エンジニア志望者・現役ともに反応が分かれるテーマ。",
+      "topics": [
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "「情報系に行くな」と言われる時代に、エンジニアの価値はどこに移ったのか"
+    },
+    {
+      "url": "https://zenn.dev/sukedachi_dev/articles/5414c5dbf9dc7c",
+      "title": "巨大Swaggerで迷子になってたAIエージェントが、自作MCPで迷子にならなくなった話",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "巨大なSwagger定義を前にAIエージェントが目的のAPIにたどり着けなくなる問題に対し、自作MCPサーバーを用意して解決した事例。仕様書をそのまま渡すのではなく、エージェントが引きやすい形に絞って提供したという話。AIに渡す情報設計の実例として読める。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "S",
+      "hook": "情報を全部渡すほどAIは賢くなる…と思ったら逆だった話"
+    },
+    {
+      "url": "https://zenn.dev/m16_llc/articles/claude-code-skill-team-composition",
+      "title": "【Claude Code】Skillで“開発チーム”を編成する 〜役割で選ぶSkillキュレーション〜",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Claude CodeのSkillを役割ごとにキュレーションし、擬似的な「開発チーム」を編成する試み。どの役割にどのSkillを割り当てるかという観点でのキュレーション方法を紹介している。AIの使い分けをチーム編成のメタファーで整理した記事。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "AIエージェントの設計で効いてくるのは、実はチームビルディングの知識だった"
+    },
+    {
+      "url": "https://zenn.dev/is0383kk/articles/f096c3d3c302ca",
+      "title": "SIerのウォーターフォール開発をスキル化して、AI駆動開発しやすい形に再構成する ～実装編～",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "SIerのウォーターフォール開発プロセスをSkillとして定義し直し、AI駆動開発に載せやすい形へ再構成する実装編。工程や成果物という古典的な枠組みをAIエージェント向けの手順に落とし込んでいる。旧来型プロセスとAI活用の接続を扱った記事。",
+      "topics": [
+        "ai-dev",
+        "agile"
+      ],
+      "neta": "S",
+      "hook": "AI時代に一番相性がいい開発プロセスは、実はウォーターフォールかもしれない"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/grok-bot-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "SpaceXAI Launches Grok Bot for Autonomous AI Agents",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "SpaceXAIが自律型AIエージェント向けの「Grok Bot」を発表したというInfoQのニュース。自律エージェントを構築・運用するための基盤という位置づけで紹介されている。エージェント関連プロダクトの動向を押さえる記事。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/grab-ai-analytics-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Grab Cuts Mechanical Analytics Work From 44% to 30% with AI Agents",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "GrabがAIエージェントの導入により、アナリティクス業務のうち機械的な作業の割合を44%から30%へ削減したというInfoQのニュース。定量的な効果が示された企業導入事例として報じられている。AIが人の仕事配分をどう変えるかを具体的な数字で語れる素材。",
+      "topics": [
+        "ai-dev",
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "機械的な作業が44%→30%に。では空いた14%で人は何をやるのか"
+    },
+    {
+      "url": "https://www.infoq.com/articles/agentic-fitness-functions-evolutionary-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Article: Agentic Fitness Functions: Extending Evolutionary Architecture Beyond Deterministic Rules",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "進化的アーキテクチャの「適応度関数(fitness function)」を、決定論的なルールの外側へ拡張しようという趣旨のInfoQ記事。AIエージェントを使った評価という発想でアーキテクチャの健全性を測る方向性を論じている。設計を継続的に守る仕組みの話。",
+      "topics": [
+        "design",
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "設計を守るのは規約じゃなく「測り続ける仕組み」だという話"
+    },
+    {
+      "url": "https://www.infoq.com/podcasts/agentic-ai-sorcerers-apprentice/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Podcast: Will Agentic AI Bring Fantasia’s Sorcerer's Apprentice to Life?: A Conversation with Tracy Bannon",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "Tracy Bannon氏との対談で、エージェント型AIを『ファンタジア』の魔法使いの弟子になぞらえて論じたInfoQのPodcast。制御を離れて自己増殖する自動化という比喩を軸に議論している。AIエージェント運用の危うさを語る際の枠組みとして使える。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "A",
+      "hook": "魔法使いの弟子——箒を増やせるけど止め方を知らない、というAIエージェントの話"
+    },
+    {
+      "url": "https://tech.smarthr.jp/entry/2026/08/17/080914",
+      "title": "Sandboxテスト 〜フロントエンドとAI時代の変化の激しさへの挑戦〜 - SmartHR Tech Blog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "SmartHRのテックブログによる、フロントエンド領域の「Sandboxテスト」の取り組み紹介。AI時代の変化の速さに対応するためのテスト戦略という文脈で書かれている。変化に耐えるテスト・検証の作り方をチーム視点で扱った記事。",
+      "topics": [
+        "team",
+        "design"
+      ],
+      "neta": "A",
+      "hook": "変化が速すぎる時代に、テストは「守るもの」から「試す場所」に変わる"
+    },
+    {
+      "url": "https://qiita.com/ryoji9702/items/8fdef34e0a55e7f4d558",
+      "title": "エージェントに AWS の鍵を渡さず AWS を叩かせる方法 - Qiita",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIエージェントにAWSの認証情報そのものを渡さずにAWS操作をさせる方法を解説したQiita記事。権限の渡し方を工夫して、エージェントに鍵を持たせない構成を取る。AIに何をどこまで委ねるかという権限設計の実例。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "A",
+      "hook": "AIを信用するかどうかではなく「鍵を渡さない設計」にする、という発想"
+    },
+    {
+      "url": "https://qiita.com/tatsuya582/items/e5c56a2f7b976cfc17ea",
+      "title": "エラーレスポンス設計の現在地2026 - Qiita",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "2026年時点でのエラーレスポンス設計の考え方を整理したQiita記事。APIのエラーをどう表現するかという設計論の現在地をまとめている。初級〜中級が実務で必ず当たるテーマ。",
+      "topics": [
+        "design"
+      ],
+      "neta": "A",
+      "hook": "エラーの返し方は、そのAPIが誰を助けたいかの表明である"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/visual_studio_code_1133htmlclaudecopilot.html",
+      "title": "Visual Studio Code 1.133正式リリース。プロンプトを見失わない固定スクロール、ローカルHTMLファイルの自動リロード、ClaudeとCopilotの混在可能など新機能",
+      "source": "Publickey",
+      "lang": "ja",
+      "summary": "Visual Studio Code 1.133の正式リリース情報。プロンプトを見失わない固定スクロール、ローカルHTMLファイルの自動リロード、ClaudeとCopilotの混在利用などが新機能として挙げられている。日常の開発環境がAI前提に寄っていく動きを示すリリース。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
+      "title": "AI;DR (AI; Didn't Read)",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "編集されていない生のAI生成コンテンツは読む価値がない、という主張から「AI;DR(AI; Didn't Read)」という造語を提案した記事。AIを使うこと自体は否定せず、自分の名前が付くなら自分で見直し編集する責任がある、という線引きを示す。AI生成物の品質責任を扱ったエッセイ。",
+      "topics": [
+        "worklife",
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "AIが書いたかどうかではなく「あなたが手を入れたか」で読まれるかが決まる"
+    },
+    {
+      "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+      "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "GitHub CopilotがAI生成した「Autofix」を経路として、SnowflakeのJira環境が侵害され得た問題をWizが報告。CI/CDに組み込まれた自動修正提案が攻撃面になり得ることを示した事例。AIによる自動化とレビュー体制の関係を考えさせる内容。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "AIが出した「修正案」が、そのまま侵入経路になった話"
+    },
+    {
+      "url": "https://www.librarian.net/notoai/",
+      "title": "How to disable or avoid intrusive AI",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "各種サービスに押し込まれてくるAI機能を無効化・回避する方法をまとめたページ。AIを使わない・切るという選択肢を実務的に整理している。ツールに流されず自分の作業環境を選ぶという視点の資料。",
+      "topics": [
+        "worklife"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/grafana-mcp-server-telemetry/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Grafana's gcx and MCP Server Reach GA for Telemetry-Driven Agent Development",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "Grafanaのgcxおよび MCPサーバーがGAに到達したというInfoQのニュース。テレメトリを起点にしたエージェント開発を支える位置づけで紹介されている。観測データとAIエージェントを繋ぐ動きの一例。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/presentations/architecture-patterns-llm/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Presentation: From Thousands to One: Building LLM-Powered Selection Systems",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "大量の候補から一つを選ばせるLLM活用システムの構築について論じたInfoQのプレゼンテーション。「数千から一つへ」という選択問題としてアーキテクチャを捉えている。LLMを組み込むときの設計パターンを扱った内容。",
+      "topics": [
+        "design",
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "LLMに「作らせる」より「選ばせる」ほうが設計しやすいという視点"
+    },
+    {
+      "url": "https://kawarimidoll.com/posts/202608172/",
+      "title": "コードの構造をざっと外観するzatが良さげかも | kawarimidoll.com",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "コードの構造をざっと概観するためのツール「zat」の紹介記事。ファイルを読み込む前に全体像を掴む用途として良さそうだと評価している。未知のコードベースに入るときの読み方の道具立て。",
+      "topics": [
+        "design"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://qiita.com/kazuneet/items/8b890ba7903326209729",
+      "title": "温泉トロジーでオントロジーの効能に思いを馳せてみた - Qiita",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "温泉の法令・分類体系をOWL/RDFで構造化し、素のRAGと比較した実験レポート。結果として効いていたのはオントロジーという形式そのものではなく、「全対象を同じ項目・同じ順序で並べ、未公表を明示する」という整理作業のほうで、同内容をMarkdownに整理し直しても同等の成績が出たと報告している。知識をどこに置くかより、どう揃えるかが効くという知見。",
+      "topics": [
+        "design",
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "効いていたのは高度な形式じゃなく「全部同じ順番で並べ直した」という地味な作業だった"
+    },
+    {
+      "url": "https://zenn.dev/aun_phonogram/articles/3f8c1a7b5d902e",
+      "title": "Codexを効率よく使う方法（ChatGPT + GitHub）",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "ChatGPTとGitHubを組み合わせてCodexを効率よく使う方法を紹介した記事。ツールの繋ぎ方と使い分けで作業効率を上げる実践的な内容。AIコーディングの運用の型を知る素材。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "AIツールは単体の性能より「どこに繋ぐか」で仕事量が変わる"
+    },
+    {
+      "url": "https://zenn.dev/hidebike712/books/oauth-attacks-and-bcp",
+      "title": "攻撃手法から学ぶ OAuth セキュリティベストプラクティス",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "攻撃手法を起点にOAuthのセキュリティベストプラクティスを学ぶZennの本。なぜその対策が必要なのかを攻撃側から辿る構成になっている。仕様の背景を理解する学び方の例としても読める。",
+      "topics": [
+        "design"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://qiita.com/moritalous/items/b023919af9f9e3e205c5",
+      "title": "Bedrockのエンドポイント/APIはどれを選べばいいの？（2026/8） - Qiita",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "2026年8月時点でのAmazon Bedrockのエンドポイント・APIの選択肢を整理したQiita記事。どれを選べばいいのかという観点でまとめられている。AI基盤を実務に組み込む際の前提知識。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://speakerdeck.com/izumin5210/in-process-graphql-ginzajs-11",
+      "title": "in-process GraphQL のすすめ #ginzajs",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "GraphQLをHTTP越しではなくプロセス内で使う「in-process GraphQL」を勧めるginzajsの登壇資料。通信を挟まずにGraphQLの利点を活かすというアーキテクチャの提案。技術選定の前提を疑う設計の話。",
+      "topics": [
+        "design"
+      ],
+      "neta": "A",
+      "hook": "GraphQLの価値は通信じゃなくて「データの取り方の記述」にあった"
+    },
+    {
+      "url": "https://mohritaroh.hateblo.jp/entry/2026/08/16/123000",
+      "title": "デブサミとPHPコンと大吉祥寺pmに参加した2026夏 ━ ソフトウェア開発の話がソフトウェア開発の領域を越境していく瞬間が好きすぎる - in between days",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "デブサミ・PHPカンファレンス・大吉祥寺pmに参加した2026年夏の参加記。ソフトウェア開発の話がソフトウェア開発の領域を越境していく瞬間が好きだ、という視点で各イベントを振り返っている。技術コミュニティで起きていることを人の側から捉えた記事。",
+      "topics": [
+        "team",
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "開発の話が開発の外に染み出す瞬間——それが一番おもしろいという話"
+    }
+  ],
+  "rejected_count": 15,
+  "capped_count": 68,
+  "failures": []
+}
