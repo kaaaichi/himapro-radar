@@ -1,0 +1,232 @@
+{
+  "date": "2026-08-19",
+  "items": [
+    {
+      "url": "https://www.publickey1.jp/blog/26/aigitorigincursorcursorgithub.html",
+      "title": "AIエージェント時代のGitホスティングサービス「Origin」、Cursorが発表。Cursorとの統合、コマンドラインでの操作、GitHubとの同期など提供",
+      "source": "Publickey",
+      "lang": "ja",
+      "summary": "Cursorが、AIエージェント時代を前提としたGitホスティングサービス「Origin」を発表した。Cursorとの統合やコマンドラインからの操作、GitHubとの同期などを提供するという。人間がブラウザでレビュー・マージする前提で作られてきたGitホスティングの形が問い直されている。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "A",
+      "hook": "GitHubのUIは「人間が読む」前提で作られている。書き手がエージェントになると何が要らなくなるのか"
+    },
+    {
+      "url": "https://zenn.dev/okamyuji/articles/ai-writes-code-so-no-design-doc-fallacy",
+      "title": "「AIがコードを書くから設計書は要らない」はただ単に口頭で済ませたいだけではないのか",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "「AIがコードを書くから設計書は不要」という主張に対し、それは単に口頭で済ませたいだけではないかと問い直す記事。設計書の役割はコード生成の入力だけでなく、合意形成と後からの参照にあることを指摘する。AI時代にこそ設計を言語化する意味が問われる。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "S",
+      "hook": "「設計書要らない」の正体は技術の進歩ではなく、書きたくない気持ちだったのでは"
+    },
+    {
+      "url": "https://linear.app/data",
+      "title": "AI usage patterns in software teams",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "Linearが自社データからソフトウェアチームのAI利用パターンを分析したレポート。コーディングエージェントを使うチームは週あたりPR数が21件から65件に伸びた一方、非利用チームは8件から10件にとどまり、成長のほとんどがエージェント側に集中している。またPMやデザイナーがPRを添付する割合が上がり、AI作成のイシューが全体の約半分に達するなど、職種の境界が薄れつつある。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "PMとデザイナーがPRを出し始めた。じゃあエンジニアの仕事は何が残るのか"
+    },
+    {
+      "url": "https://pc.watch.impress.co.jp/docs/topic/feature/2133686.html",
+      "title": "【特集】 sigmarion IIIも甦る！「Claude Code」が凄すぎて2カ月間下僕になったオタクの記録",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Claude Codeにのめり込んだ筆者が、2カ月間で旧機種sigmarion IIIを動かすところまでやった記録。個人開発でAIエージェントをどこまで使い倒せるかの実例になっている。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/finatext/articles/0d1e6dd99ec34d",
+      "title": "DMARC 集計レポートを Claude Code で分解して p=reject に到達するまで",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "DMARCの集計レポートをClaude Codeで分解・分析し、最終的にポリシーをp=rejectまで引き上げるに至った実践記録。コードを書かせるのではなく、面倒なデータ調査の相棒としてAIエージェントを使った例。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "Claude Codeはコードを書く道具じゃない。読みたくないログを読む道具でもある"
+    },
+    {
+      "url": "https://zenn.dev/coji/articles/artifact-share-release",
+      "title": "AIが作ったHTMLの社内共有、みんな一回自作するやつをちゃんと作った",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIが生成したHTMLを社内で共有するための仕組みを、使い捨てで自作しがちなところをちゃんとしたツールとして作った話。AI活用が広がると出力物の共有という新しい運用課題が出てくることを示している。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://note.com/lifeisbeautiful/n/n890f00a6136a",
+      "title": "LLMは「次の単語を当てる」だけなのに、なぜ思考しているように見えるのか？｜中島聡",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "LLMは「次の単語を予測している」だけなのに、なぜ思考しているように見えるのかを解説した記事。仕組みの理解が、AIに何を任せられて何を任せられないかの判断につながる。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "AIが「考えている」ように見える理由が分かると、任せ方が変わる"
+    },
+    {
+      "url": "https://zenn.dev/m16_llc/articles/claude-code-git-worktree-parallel",
+      "title": "【Claude Code】git worktreeで複数のClaude Codeを並列で走らせる 〜“無限の部下”を実際に並列稼働〜",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "git worktreeを使って複数のClaude Codeを並列で走らせる方法と、実際に並列稼働させた記録。手を動かす量ではなく、並行して動く作業を割り振り・統合する力が問われるようになる。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "部下が無限に増えた瞬間、あなたの仕事はコードを書くことからマネジメントに変わる"
+    },
+    {
+      "url": "https://zenn.dev/yook/articles/spec-driven-test-code-blind-spots-revised-draft",
+      "title": "仕様に保証条件を書くだけでは不十分だった。テストコードと向き合って気づいた設計の甘さ",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "仕様に保証条件を書けば十分だと思っていたが、実際にテストコードと向き合うと設計の甘さが見えてきたという記事。仕様駆動開発の盲点を、テストという具体を通して指摘している。",
+      "topics": [
+        "design",
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "仕様書に書いたから安心、ではない。テストを書いた瞬間に設計の穴がバレる"
+    },
+    {
+      "url": "https://zenn.dev/polarisai_blog/articles/72b0214231121f",
+      "title": "Claude Code 魔改造記【後編】いちばん価値が出たのは運用保守。積み上げた設定の一部は、モデルが変わって捨てました",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Claude Codeを作り込んだ結果、いちばん価値が出たのは新規開発ではなく運用保守だったという振り返り。積み上げた設定の一部はモデルの更新によって不要になり捨てたことも書かれている。AI環境への投資は前提が変わると陳腐化するという教訓が得られる。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "苦労して作り込んだ設定は、モデルが賢くなった日にゴミになる"
+    },
+    {
+      "url": "https://zenn.dev/olana_kishimoto/articles/2f0628a8ea7d2a",
+      "title": "AIでコードは一瞬で直せるのに、なぜ納品は速くならないのか",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AIによってコードの修正自体は一瞬で終わるようになったのに、納品までのリードタイムが縮まらないのはなぜか、を掘り下げた記事。ボトルネックがコーディングではなく、その前後の合意形成やプロセスにあることを示している。",
+      "topics": [
+        "ai-dev",
+        "agile"
+      ],
+      "neta": "S",
+      "hook": "コーディングが10倍速くなっても納品が速くならない。ボトルネックは最初からそこじゃなかった"
+    },
+    {
+      "url": "https://cdn.kuber.studio/chat/hp-laser-1008a-driver",
+      "title": "Claude Code Teaching macOS to Natively Print to the HP Laser 1008a",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "公式ドライバのないHP Laser 1008aをmacOSからネイティブに印刷できるよう、Claude Codeを使って対応させた記録。専門外の領域でも、AIと組めば「諦めていた不便」を自分で解決できるという実例。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "「対応してないから無理」が、個人でも覆せる時代になった"
+    },
+    {
+      "url": "https://creators.bengo4.com/entry/2026/08/19/080000",
+      "title": "人間に向けて文書を書こう - 弁護士ドットコム株式会社 Creators’ blog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "社内外の文書を「人間に向けて書く」ことの重要性を説いた記事。読み手が誰で、何を判断したいのかを起点に書くという基本を改めて確認している。AIが文章を量産できる時代に、読ませる相手を意識する技術が効いてくる。",
+      "topics": [
+        "team",
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "AIに読ませる文書が増えた今こそ、人間に向けて書く技術が差になる"
+    },
+    {
+      "url": "https://openlogi.hatenablog.com/entry/cancel-cto-office",
+      "title": "CTO室を解散したい - OPENLOGI TECH BLOG",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "OPENLOGIが、自ら作ったCTO室を解散したいと考えるに至った経緯を綴った記事。組織を作ることと同じくらい、役割を終えた組織をたたむ設計が重要だという視点が示されている。",
+      "topics": [
+        "team",
+        "worklife"
+      ],
+      "neta": "S",
+      "hook": "いい組織を作った証拠は、その組織が要らなくなること"
+    },
+    {
+      "url": "https://techblog.demae-can.co.jp/entry/ci-23-to-11",
+      "title": "CI 23分 → 11分。8.6万行のテストコードを消すまでにやったこと - 出前館 Tech Blog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "出前館がCIの実行時間を23分から11分に短縮するまでの取り組みで、8.6万行のテストコードを削除した記録。テストは増やすほど良いという前提を疑い、価値を生まないテストを捨てる判断をしている。",
+      "topics": [
+        "team",
+        "design"
+      ],
+      "neta": "S",
+      "hook": "テストを8.6万行「消した」らCIが半分になった。増やすことだけが品質じゃない"
+    },
+    {
+      "url": "https://www.lifehacker.jp/article/260810-hacks-every-google-drive-user-should-know/",
+      "title": "Googleドライブを使いこなす10のコツ | ライフハッカー・ジャパン",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Googleドライブを効率よく使うための10のコツを紹介した記事。日常的に使うツールの操作を詰めることで、細かい手間を減らせる。",
+      "topics": [
+        "worklife"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://japan.zdnet.com/article/35251440/",
+      "title": "サイバーセキュリティで資格や経験よりも重要な3つのスキル",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "サイバーセキュリティの分野で、資格や経験年数よりも重要になる3つのスキルを挙げた記事。技術的な肩書きよりも、姿勢やコミュニケーションといった土台の力が効いてくるという主張。",
+      "topics": [
+        "worklife",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "資格を積み上げるより効く、履歴書に書けない3つの力"
+    },
+    {
+      "url": "https://acadia.engineering/blog/rethinking-database-programming",
+      "title": "Rethinking Database Programming",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "アプリケーションとデータベースの関わり方を根本から問い直す記事。ORMやクエリの書き方を含め、どこに処理と責務を置くかという設計判断を再考している。",
+      "topics": [
+        "design"
+      ],
+      "neta": "A",
+      "hook": "アプリとDBの境界線、なんとなくそこに引いていないか"
+    }
+  ],
+  "rejected_count": 22,
+  "capped_count": 69,
+  "failures": []
+}
