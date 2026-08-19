@@ -1,0 +1,297 @@
+{
+  "date": "2026-08-20",
+  "items": [
+    {
+      "url": "https://togetter.com/li/2734953",
+      "title": "大規模言語モデル（LLM）は「次の単語を当てる」だけなのに、なぜ思考しているように見えるのか…その理由を解説したnoteに様々な反応「現代AIの本質を端的に語っている」",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "大規模言語モデルが「次の単語を予測しているだけ」なのに、なぜ思考しているように見えるのかを解説したnoteの記事に対する反応をまとめたTogetterまとめ。LLMの本質を平易に説明する視点として話題になった。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "「次の単語を当てるだけ」なのになぜ思考しているように見えるのか、という素朴な疑問への回答"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/article/2608/19/2000000598/",
+      "title": "コードが書けない筆者が愛車用にアプリを2本自作 「AI製アプリで起業」の夢膨らむも、見えた有料化の壁",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "プログラミング経験のない筆者が生成AIを使って愛車向けアプリを2本自作し、「AI製アプリで起業」という夢を膨らませたものの、実際に有料化しようとした際に直面した壁を綴った体験記。vibe codingの光と影がリアルに描かれている。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "「コードが書けない」筆者がAIでアプリを自作→起業の夢→有料化の壁、というリアルなvibe codingの顛末"
+    },
+    {
+      "url": "https://note.com/akikito/n/n11c101e30968",
+      "title": "Claude Codeを作る会社に入った男は、筑波大を2留していた｜Zun-Beho",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "大学を2年留年した経験を持つ人物が、Claude Codeを開発するAnthropic社に入社するまでの経緯を綴ったnote記事。異色のキャリアパスから見るエンジニア採用のリアルを描いている。",
+      "topics": ["worklife", "ai-dev"],
+      "neta": "A",
+      "hook": "2留した男がClaude Codeを作る会社(Anthropic)に入るまでのキャリア"
+    },
+    {
+      "url": "https://kensuu.com/n/n490abc44dae6",
+      "title": "AIに細かく指示するほど、逆に下手になるかも？という話｜けんすう",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIに対して指示を細かく与えすぎると、かえってアウトプットの質が下がるかもしれないという逆説的な指摘をまとめたnote記事。プロンプトの与え方についての実務的な示唆を提供している。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "「AIには細かく指示すべき」という常識への反論"
+    },
+    {
+      "url": "https://forest.watch.impress.co.jp/docs/news/2133878.html",
+      "title": "Renewer、業務を録画してAIがAIで自動化すべき業務を特定できる「メボシ」を提供開始／業務可視化に必要な数カ月に及ぶリサーチを2週間に短縮可能",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Renewer社が、業務の様子を録画するだけでAIが自動化すべき業務を自動的に特定できるツール「メボシ」の提供を開始したというニュース。従来数カ月かかっていた業務可視化のリサーチを2週間に短縮できるという。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "業務を録画するだけでAIが自動化すべき業務を見つけてくれるツール「メボシ」"
+    },
+    {
+      "url": "https://techblog.insightedge.jp/entry/ontology-graph-rag",
+      "title": "オントロジー駆動でGraphRAGを構築してみた - Insight Edge Tech Blog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "オントロジー(概念体系)を起点にGraphRAGを構築する試みをまとめた技術ブログ。知識グラフの設計思想からRAGシステムの実装まで、設計と実装の両面を扱っている。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "オントロジー設計から始めるGraphRAG構築の実践"
+    },
+    {
+      "url": "https://www.businessinsider.jp/article/2608-claude-users-cancel-subscriptions-citing-anthropic-new-ai-watermark/",
+      "title": "Claudeを解約するユーザーが出始めた…「AIウォーターマーク」自動埋め込み機能に「仕事に支障が出る」と反発 | Business Insider Japan",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AnthropicがClaudeに導入したAI生成コンテンツの自動ウォーターマーク埋め込み機能に対し、「仕事に支障が出る」との反発からユーザーが解約する動きが出ているというニュース。AI企業の透明性施策と実務利用のジレンマを示す事例。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "AnthropicのAIウォーターマーク機能に「仕事に支障が出る」と利用者が解約"
+    },
+    {
+      "url": "https://zenn.dev/minewo/articles/ai-review-gate-not-called",
+      "title": "品質ゲートは効かなかったのではなく、「呼ばれたか」を測れていなかった",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AIレビューやCIの品質ゲートが「効いていない」と感じたら、実は判定ロジック以前に「そもそも呼ばれていたか」を測定できていないケースが多いという指摘。呼び出し漏れを可観測性の観点で検知する重要性を説く記事。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "「品質ゲートが効かない」問題の正体は呼び出し漏れだった、という逆転"
+    },
+    {
+      "url": "https://zenn.dev/saltmu/articles/e1414887002126",
+      "title": "Claudeでコードを書き、Codexでレビューさせた時におきたこと",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Claude Codeでコードを実装し、Codexにレビューを任せた際に実際に起きた出来事を記録した実践レポート。AI同士の分業でどんな指摘や課題が生まれたかを具体的に紹介している。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "「AIに書かせてAIにレビューさせる」を実際にやった一次情報"
+    },
+    {
+      "url": "https://zenn.dev/m16_llc/articles/claude-code-minutes-next-action",
+      "title": "【Claude Code】議事録を渡してNext Actionまで実行させる 〜会議後の“やること整理”を自動化〜",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "会議の議事録をClaude Codeに渡し、そこからNext Actionの整理・実行までを自動化する取り組みを紹介する記事。会議後のタスク整理という日常業務にAIエージェントを組み込む具体例。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "会議の議事録をClaude Codeに渡すだけでNext Actionが自動生成・実行される"
+    },
+    {
+      "url": "https://zenn.dev/polarisai_blog/articles/bd717a5b234b88",
+      "title": "第6回 関東Kaggler会 参加レポート ― AIエージェント時代に、Kagglerは何を武器にしているのか",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AIエージェント全盛時代において、データ分析コンペ「Kaggle」参加者(Kaggler)たちが実際にどのような技術やスキルを武器にしているかを語り合った勉強会の参加レポート。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/netetahito/articles/76dd3d9ba02400",
+      "title": "AI Agentをデバッグする",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "通常のソフトウェアと異なり、非決定的に振る舞うAIエージェントをどうデバッグしていくかについて、実践的な考え方や手法をまとめた記事。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "AIエージェントのデバッグはどう違うのか、という切り口"
+    },
+    {
+      "url": "https://zenn.dev/idealive_kmon/articles/codex-approval-loop-prefix-rules",
+      "title": "【Codex】同じ権限承認を毎回求められて作業が止まる時の対処法",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Codexを使っていると同じ操作の権限承認を何度も求められて作業が止まってしまう問題への対処法を、実際の設定例を交えて紹介する記事。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "Codexの承認地獄を解消する具体策"
+    },
+    {
+      "url": "https://zenn.dev/syommy_program/articles/beadmap-boundary-gate",
+      "title": "境界ゲートは素通りしていました——公開直前のレビューで気づいた個人メール混入を、語を足して全履歴から回収した実録",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "リポジトリ公開直前のレビューで、コミット履歴全体に個人のメールアドレスが紛れ込んでいたことに気づいた実録。想定していた「境界ゲート」的なチェックが実は素通りしていた原因と、全履歴から情報を回収した対応をまとめている。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "「境界ゲート」は通っていたはずなのに個人メールが全履歴に混入していた、という背筋の凍る実録"
+    },
+    {
+      "url": "https://martinfowler.com/rachels-ramblings/citizens-agents-experts.html",
+      "title": "Citizens Build, Agents Execute, Experts Govern",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "summary": "生成AIの普及により非エンジニアの「市民」がソフトウェアを作れるようになった時代に、AIエージェントが実行を担い、専門家がガバナンスを担うという新しい役割分担モデルを提案する記事。組織における開発の民主化とガバナンスのバランスを論じている。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "誰もが開発者になる時代の新しい統治モデル「市民が作り、エージェントが実行し、専門家が統治する」"
+    },
+    {
+      "url": "https://martinfowler.com/articles/practitioner-voice.html",
+      "title": "Practitioner Voice: The Writing Category Nobody has Named Yet",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "summary": "資格やマーケティング志向の「思想的リーダーシップ」とは異なる、実務家が経験に基づく判断を率直に語る「Practitioner Voice」という執筆スタイルを提唱する記事。AI生成コンテンツが増える中で、実体験に基づく生きた知見の価値を論じている。",
+      "topics": ["worklife", "design"],
+      "neta": "A",
+      "hook": "AI生成コンテンツ時代にこそ価値が増す「実務家の生の声」という執筆ジャンル"
+    },
+    {
+      "url": "https://martinfowler.com/fragments/2026-08-18.html",
+      "title": "Fragments: August 18",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "summary": "Martin Fowler運営サイトによる週刊まとめ記事。AI活用と生産性の実態分析、レガシーコードベースへのAI適用に関する会議セッション、データ可視化の工夫などのリンク集。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/from-chrome-devtools-to-ai-engineering",
+      "title": "From Chrome DevTools to AI Engineering, with Addy Osmani",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "Chrome DevToolsの開発に携わってきたAddy Osmani氏へのインタビュー。フロントエンド開発の第一人者がAIエンジニアリング領域にどう向き合っているかを語るポッドキャスト。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "Chrome DevToolsの開発者がAIエンジニアリングに転身した軌跡"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/the-great-engineering-leader-career-break",
+      "title": "Headed for the Exit: the Great Engineering Leader Career Break",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "経験豊富なエンジニアリングリーダーたちがキャリアの途中で長期休暇(キャリアブレイク)を取る動きが増えていることを取り上げた記事。バーンアウトやキャリアの節目における意思決定について論じている。",
+      "topics": ["worklife", "team"],
+      "neta": "S",
+      "hook": "優秀なエンジニアリングリーダーほど「キャリアブレイク」を選ぶ時代"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-ama",
+      "title": "The Pragmatic Engineer AMA",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "The Pragmatic EngineerによるAMA(質問会)。AIネイティブな開発ライフサイクル、ジュニア採用への影響、エンジニアリングマネージャーの類型など幅広いテーマに回答している。AIを効果的に使うには従来と同等以上の努力が必要という指摘が印象的。",
+      "topics": ["ai-dev", "team", "worklife"],
+      "neta": "S",
+      "hook": "「AIを使えば楽になる」の逆で、効果的に使うには同等以上の努力が必要という指摘"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-big-implications-of-us",
+      "title": "The Pulse: Big implications of US banning Anthropic's new model, Fable",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "米国政府がAnthropicの新モデル「Fable」を禁止したことによる業界への影響を分析する記事。AI規制と産業構造への波及効果を論じている。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "米国がAnthropicの新モデル「Fable」を禁止したことの波紋"
+    },
+    {
+      "url": "https://github.com/onecli/onecli",
+      "title": "Launch HN: OneCLI (YC S26) – OSS sandboxed agent harness for teams",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "YCombinator S26採択のOneCLIは、チーム利用を想定したオープンソースのサンドボックス化AIエージェントハーネス。安全にAIエージェントを実行するための基盤ツールとしてHacker Newsでローンチされた。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A",
+      "hook": "チームで使うためのサンドボックス化AIエージェントハーネスOSS"
+    },
+    {
+      "url": "https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/",
+      "title": "Extensible Software in the age of LLMs",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "LLMの台頭によってソフトウェアの拡張性(エクステンシビリティ)に対する設計思想がどう変わるべきかを論じるブログ記事。従来のプラグイン設計とAIエージェントによる動的な拡張の違いについて考察している。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "LLM時代における「拡張可能なソフトウェア設計」の再考"
+    },
+    {
+      "url": "https://www.colorado.edu/today/2026/08/12/remote-workers-report-highest-well-being-study-7700-employees",
+      "title": "Remote workers report the highest well-being in study of 7,700 employees",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "7700人の従業員を対象にした調査で、リモートワーカーが最も高いウェルビーイングを報告したという研究結果を紹介する記事。働き方とチーム編成を考える上での参考データ。",
+      "topics": ["worklife", "team"],
+      "neta": "A",
+      "hook": "リモートワーカーの幸福度が最も高いという7700人調査結果"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/aws-bedrock-agentcore-runtime/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Multi Agent Collaboration Gets Persistent Compute in Bedrock AgentCore",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "AWSのBedrock AgentCoreに、マルチエージェント協調のための永続的なコンピュートリソースが追加されたというニュース。エージェント間の状態維持や長時間タスクの実行を支援する機能。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "マルチエージェント協調に「永続的な計算リソース」を与えるAWSの新機能"
+    },
+    {
+      "url": "https://www.infoq.com/presentations/working-across-teams/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Presentation: Turning Outward: Growing From Code to Influence",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "エンジニアがコードを書くことから、組織やチームに対して影響力を発揮する立場へと成長していく道筋を語るカンファレンス講演。技術力だけでなく発信力・巻き込み力の重要性を扱う。",
+      "topics": ["team", "worklife"],
+      "neta": "A",
+      "hook": "コードを書く人から影響力を持つ人へのキャリア成長"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/github-stacked-pull-requests/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "GitHub Brings Stacked Pull Requests to Public Preview",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "GitHubが依存関係のある複数のプルリクエストを積み重ねて管理できる「スタックドプルリクエスト」機能をパブリックプレビューとして公開したというニュース。チーム開発におけるレビューフローの改善が期待される。",
+      "topics": ["team", "ai-dev"],
+      "neta": "A",
+      "hook": "GitHubが「スタック型プルリク」を正式プレビュー"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/eu-ai-content-watermark/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Major Frontier Model Providers Adopt Watermarking Tech to Comply with EU Regulation",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "主要な最先端AIモデル提供企業が、EU規制へ対応するためAI生成コンテンツへの電子透かし(ウォーターマーク)技術を導入し始めたというニュース。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/10/openclaw/",
+      "title": "Quoting OpenClaw (running Opus 4.6)",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "Opus 4.6を搭載したAIエージェント「OpenClaw」が、オーストラリアのジム予約サイトのセキュリティテストを行い、予約キャンセルの認可チェックが全く無い脆弱性を発見・実証したという引用記事。AIエージェントの自律的なセキュリティ調査能力を示す事例。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "AIエージェントが実際にジム予約サイトの認可バグを見つけて他人の予約をキャンセルできてしまった話"
+    }
+  ],
+  "rejected_count": 1,
+  "capped_count": 71,
+  "failures": [
+    {"name": "Kent Beck / Tidy First", "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"}
+  ]
+}
