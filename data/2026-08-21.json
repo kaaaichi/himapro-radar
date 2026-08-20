@@ -1,0 +1,298 @@
+{
+  "date": "2026-08-21",
+  "items": [
+    {
+      "url": "https://speakerdeck.com/demaecan/app-architecture-transformation",
+      "title": "現実的なセキュリティ体制の構築 限られたリソースの中で成果を最大化する「選択と集中」",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "出前館のセキュリティ体制構築に関する発表資料。限られたリソースの中でセキュリティ成果を最大化するために、対策の「選択と集中」をどう行うかを論じている。全方位的な対策ではなく優先順位付けの重要性を訴える内容。",
+      "topics": ["design", "team"],
+      "neta": "A",
+      "hook": "限られたリソースでのセキュリティ「選択と集中」"
+    },
+    {
+      "url": "https://zenn.dev/mkj/articles/aad5698672aef3",
+      "title": "AI Agentに社内知識をオンボーディングする：SkillsとEvalの設計",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIエージェントに社内知識を教え込む際の設計手法についての記事。プロンプトへの知識詰め込みだけでなく、「Skills」の設計と「Eval」による継続的な検証を組み合わせたオンボーディングの枠組みを提案している。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "AIエージェントの教育も、人材育成と同じでEvalが命"
+    },
+    {
+      "url": "https://note.com/fuchagi/n/n42c43cfe0ff0",
+      "title": "「次の単語を当てているだけ」のAIが、なぜ数学の証明までできるのか——LLMの創発研究の現在地を調べてみた｜ふちゃぎ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "「次の単語を予測しているだけ」とされるLLMが、なぜ数学の証明のような高度な推論までこなせるのかを、創発現象に関する研究動向から探った記事。単純な次単語予測というメカニズムと、観測される高度な能力とのギャップに焦点を当てている。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "「次単語予測」のはずのAIがなぜ数学の証明までできるのか"
+    },
+    {
+      "url": "https://www.seangoedecke.com/how-to-keep-thinking/",
+      "title": "How to keep thinking",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "en",
+      "summary": "AIツールが普及する中で、自分の頭で考え続けることの重要性と、そのための工夫について論じた海外エンジニアのブログ記事。AIに思考を委ねすぎることへの警鐘とも読める内容。",
+      "topics": ["worklife", "ai-dev"],
+      "neta": "A",
+      "hook": "AI時代に「考え続ける」ための工夫"
+    },
+    {
+      "url": "https://www.m3tech.blog/entry/qa2026",
+      "title": "エムスリー QAチームのこれから2026 - エムスリーテックブログ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "エムスリーのQAチームが2026年に向けてどのような役割・体制を目指すかを語る技術ブログ記事。QA組織のこれからの方向性について、実務的な視点でまとめている。",
+      "topics": ["team"],
+      "neta": "A",
+      "hook": "QAチームの今後を語る組織論"
+    },
+    {
+      "url": "https://techblog.lycorp.co.jp/ja/20260819a",
+      "title": "AIを入れても、なぜ業務量は思ったほど減らないのか",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "LINEヤフー(LY Corp)のテックブログ。AIツールを導入しても現場の業務量が期待したほど減らない理由を、実際のデータや現場の声をもとに分析した記事。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "AI導入で業務が減らない理由、現場データで見る逆説"
+    },
+    {
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/08/20/113237",
+      "title": "ドコモ・バイクシェアのシステム障害についてまとめてみた - piyolog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "piyologによる、ドコモ・バイクシェアで発生したシステム障害の経緯をまとめた記事。障害の発生から復旧までの時系列や原因について整理されている。",
+      "topics": ["design", "team"],
+      "neta": "A",
+      "hook": "バイクシェア障害まとめから学ぶ運用設計"
+    },
+    {
+      "url": "https://togetter.com/li/2735212",
+      "title": "「刺さる内容だなあ」ITの職場において、低スキル者を排除することが成功のために重要だとする記事が話題に、「一見その通りかなと思うけど……」という意見もあるが",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "ITの職場で「低スキル者を排除することがチームの成功に重要」とする主張が話題になり、togetterでまとめられた記事。賛否両論のコメントが集まっており、チーム構成やスキル格差をめぐる議論のたたき台になる内容。",
+      "topics": ["team", "worklife"],
+      "neta": "S",
+      "hook": "「低スキル者排除」論の是非を議論する"
+    },
+    {
+      "url": "https://qiita.com/haystacker/items/853234c38ae36adbca1f",
+      "title": "オントロジー × グラフ × LLM の実装と評価（基礎編） - Qiita",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "オントロジー・グラフDB・LLMを組み合わせた実装とその評価についての技術記事(基礎編)。知識表現とLLMを組み合わせるアプローチの実装例を紹介している。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "オントロジー・グラフ・LLMを組み合わせた実装評価"
+    },
+    {
+      "url": "https://zenn.dev/u_zero/articles/b0defad0ae0806",
+      "title": "AI-DLC の実践による価値提供スピード高速化",
+      "source": "Zenn(アジャイル)",
+      "lang": "ja",
+      "summary": "AI-DLC(AI駆動の開発ライフサイクル)を実践することで、価値提供のスピードをどう高速化したかを紹介する記事。アジャイル開発にAIを組み込む具体的な取り組み事例。",
+      "topics": ["agile", "ai-dev"],
+      "neta": "A",
+      "hook": "AI-DLCで価値提供スピードを上げる実践例"
+    },
+    {
+      "url": "https://zenn.dev/m16_llc/articles/claude-code-session-handover",
+      "title": "【Claude Code】セッションをまたいで開発を続ける 〜“記憶ゼロの部下”への引き継ぎ資料術〜",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Claude Codeで複数セッションをまたいで開発を続けるための、「記憶ゼロの部下」に対する引き継ぎ資料の作り方を解説した記事。AIエージェントへの指示・引き継ぎをどう設計すべきかについての実践的なノウハウ。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "AIを「記憶ゼロの部下」として扱う引き継ぎ資料術"
+    },
+    {
+      "url": "https://zenn.dev/numarn/articles/claude-writer-reviewer-split-handson",
+      "title": "AIに『粗を探して』とだけ頼んだら5回中2回は「問題なし」。判定基準を渡したら5回とも同じ1か所を指した",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AIに「粗を探して」とだけ頼むと5回中2回は「問題なし」と返すのに対し、判定基準を渡すと5回とも同じ箇所を指摘したという実験結果を紹介する記事。あいまいな指示と明確な基準でAIレビューの再現性がどう変わるかを検証している。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "あいまい指示 vs 判定基準、逆転型フックで語るAIレビューの再現性"
+    },
+    {
+      "url": "https://zenn.dev/numarn/articles/claude-skills-count-token-ceiling-handson",
+      "title": "AI用の手順書を100個置いても常時の負担は1個34トークンきっかり。なのに説明文だけは2万字書いても4千字と1トークンも変わらなかった",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AI用の手順書(スキル)を100個置いても、常時発生する負担は1個あたり34トークンで一定という検証結果を紹介する記事。一方で説明文を2万字書いても4千字とほぼ変わらなかったという意外な結果も報告している。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "手順書は増やしても定額34トークン、説明文は長くても増えない逆説"
+    },
+    {
+      "url": "https://qiita.com/kuri_megane/items/4cb3a21164ea33f3d67a",
+      "title": "Claudeに「時間」を与える 計画編 〜スプリントから今この瞬間まで、計画を転がす〜",
+      "source": "Qiita(スクラム)",
+      "lang": "ja",
+      "summary": "Claudeにスプリントのような「時間」の概念を与え、計画を継続的に転がしていくための考え方を論じたQiita記事。スクラムのスプリント計画とAIエージェントへの指示設計を結びつけている。",
+      "topics": ["scrum", "ai-dev"],
+      "neta": "A",
+      "hook": "AIに「時間感覚」を持たせる計画設計"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-we-need-to-talk-about-migrations",
+      "title": "The Pulse: We need to talk about migrations with AI",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "The Pragmatic Engineerのニュースレター記事。AIを使った大規模なコード移行(マイグレーション)の現実的な難しさと、その中で見えてきた知見について論じている。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A",
+      "hook": "AIによるマイグレーションの現実、大規模移行の落とし穴"
+    },
+    {
+      "url": "https://www.massdriver.cloud/blogs/the-citizen-developer",
+      "title": "Citizen Devs: Everyone is an engineer now",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "「誰もがエンジニアになれる時代」というテーマで、ノーコード/AIツールの普及によって非エンジニアが開発に関わるようになった現状とその影響を論じた記事。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "「誰もがエンジニア」時代の逆説"
+    },
+    {
+      "url": "https://pradeeproark.com/posts/code-as-an-artifact-means-to-an-end/",
+      "title": "Code as an Artifact",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "コードは目的そのものではなく、あくまで目的を達成するための「成果物(アーティファクト)」であるという視点を論じた記事。AIによってコード生成が容易になった時代における、コードの位置づけを再考する内容とみられる。",
+      "topics": ["design", "worklife"],
+      "neta": "A",
+      "hook": "コードは目的ではなく手段、「アーティファクト」論"
+    },
+    {
+      "url": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
+      "title": "The August 17 outage, and the work ahead",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "GitHubが8月17日に発生させた大規模障害について、公式が原因と今後の対策をまとめたポストモーテム記事。障害の経緯と、再発防止に向けた取り組みが語られている。",
+      "topics": ["team", "design"],
+      "neta": "S",
+      "hook": "GitHubの大規模障害から学ぶポストモーテムの流儀"
+    },
+    {
+      "url": "https://www.danielvaughn.dev/posts/huzzah/",
+      "title": "Show HN: Huzzah – a novel approach to coding with AI",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "AIを使ったコーディングの新しいアプローチを提案するShow HN投稿。具体的な手法の詳細は本文未確認だが、既存のAIコーディング支援とは異なる切り口を試みているとみられる。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://github.com/zachahn/vomit",
+      "title": "Vomit: Clean up Claude 5's token output with a separate LLM",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "Claude 5の出力に混じるノイズやクセを、別のLLMを使って後処理でクリーンアップするツール「Vomit」を紹介するリポジトリ。AIの生出力をそのまま使わず、専用の「整形役」LLMを挟むという発想のツール。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "Claudeの出力を「掃除係LLM」でクリーンアップ"
+    },
+    {
+      "url": "https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html",
+      "title": "Hacking with Claude on a $27 smart watch",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "わずか27ドルのスマートウォッチをClaudeと一緒にハッキングして遊んでみたという個人ブログ記事。AIをペアに使った低予算ハードウェアハックの体験談。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "27ドルのスマートウォッチをClaudeと一緒にハックした話"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/ai-assisted-engineering/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "InfoQ Opens Enrollment for New AI-Assisted Engineering Online Certification Program",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "InfoQが新しく開設した「AI-Assisted Engineering」のオンライン認定プログラムの受講登録開始を告知するニュース記事。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/code-AI-write-only-disposable/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "How Code in the Age of Artificial Intelligence Becomes Write-Only and Disposable",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "AIの時代において、コードが「書いたら読み返されない・使い捨てにされる」ものになっていくという主張を展開する記事。AIによるコード生成が当たり前になったことで、コードの寿命や役割そのものが変化しているという論点。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "AI時代のコードは「書き捨て」になるという逆説"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/harper-vercel-benchmark/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Harper Argues Against the Multi-System Stack and Releases 5.2",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "マルチシステム構成のアーキテクチャに異を唱え、統合型アプローチとしてHarperの新バージョン5.2をリリースしたという記事。複数のシステムを組み合わせる複雑さへの批判的視点を提示している。",
+      "topics": ["design"],
+      "neta": "A",
+      "hook": "マルチシステムスタックへの逆説的な反論"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/deep-seek-harness/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "The Open-Sourcing of DeepSeek Harness Opens the Door to Modular, Unbundled AI Agent Infrastructure",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "DeepSeekのharnessがオープンソース化されたことで、AIエージェント基盤がモジュール化・脱バンドル化に向かう可能性を論じたニュース記事。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/presentations/progressive-collapse-system-resilience/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Presentation: Understanding Progressive Collapse: How To Avoid A Cascading Failure",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "建築工学の「進行性崩壊(プログレッシブコラプス)」の概念をソフトウェアシステムに応用し、連鎖的な障害をどう防ぐかを論じたカンファレンス発表。",
+      "topics": ["design"],
+      "neta": "A",
+      "hook": "「進行性崩壊」から学ぶ障害設計"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/",
+      "title": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "信頼できないPython/JavaScriptコードを安全に実行するための軽量サンドボックス「smolmachines/smolvm」を紹介する記事。AIが生成したコードを安全に実行する仕組みとして関連が深い。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "AI生成コードを安全に実行する軽量サンドボックス"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/",
+      "title": "Conceptual integrity and counting lines of code",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "Simon Willisonが、AIコーディングエージェントによってコード生産量は大幅に増える一方、機能追加が容易になったことでソフトウェアが不規則に肥大化しやすくなり、「概念的統一性」を保つには意図的な訓練が必要になると論じた記事。従来は開発時間の制約が自然な規律になっていたが、AI時代にはそれが失われる点を指摘している。",
+      "topics": ["design", "ai-dev"],
+      "neta": "S",
+      "hook": "AIで「行数」は増えるが「概念的統一性」は意図的に守らないと崩れる"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/16/dario-amodei/",
+      "title": "Quoting Dario Amodei",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "Dario Amodeiが、AIへの世間の否定的な見方はリーダーたちのリスク警告そのものよりも、企業や政府に対する数十年来の信頼危機に根ざしていると述べた発言を紹介。マーケティングではなく、がん治療などの約束を実際に実現することでしか信頼は取り戻せないと主張している。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "AIへの不信は「信頼危機」の遺産"
+    }
+  ],
+  "rejected_count": 1,
+  "capped_count": 65,
+  "failures": [
+    {"name": "Martin Fowler", "error": "<urlopen error _ssl.c:999: The handshake operation timed out>"},
+    {"name": "Kent Beck / Tidy First", "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"}
+  ]
+}
