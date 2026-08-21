@@ -1,0 +1,304 @@
+{
+  "date": "2026-08-22",
+  "items": [
+    {
+      "url": "https://forest.watch.impress.co.jp/docs/news/2134400.html",
+      "title": "Anthropic、「Claude」の学習サイト「Claude Academy」を無償開設／AIの基礎から「Code」「Cowork」まで。興味や学習状況に応じてさまざまなコースを提案",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AnthropicがClaudeの学習サイト「Claude Academy」を無償公開した。AIの基礎からClaude Code、Coworkの活用まで、興味や習熟度に応じたコースを提案してくれる内容になっている。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "「無料で学べる」という間口の広さを番組で紹介する切り口"
+    },
+    {
+      "url": "https://www.sbbit.jp/article/cont1/186558",
+      "title": "「Claude Code×GPT」自律ループが凄すぎ、仕事が“3つ”に減る5ステップ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Claude CodeとGPTを組み合わせた自律ループの運用により、日々の作業を「3つのタスク」にまで集約できるという実践法を5ステップで紹介する記事。仕事を効率化するのではなく、仕事の数そのものを減らす発想が特徴。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "「仕事を効率化する」ではなく「仕事の数そのものを減らす」という逆転の発想"
+    },
+    {
+      "url": "https://zenn.dev/factory_dx_eng/articles/ai-productivity-team-divide",
+      "title": "AIで生産性が3倍になった私たちが、チームを置き去りにした話",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AI活用で個人の開発生産性が3倍になった一方、その速度についていけないチームメンバーとの間に溝が生まれてしまった実体験を振り返る記事。AI導入が「個人最適・チーム非最適」に陥る問題を扱っている。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "「生産性3倍」の裏で起きたチームの分断、という逆転型の切り口"
+    },
+    {
+      "url": "https://zenn.dev/cureapp/articles/c1e963064d05fd",
+      "title": "claude のメモリを棚卸しする",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Claudeのメモリ機能に蓄積された情報を棚卸し・整理する実践レポート。長期利用で溜まったメモリの扱い方や見直しの勘所を紹介している。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "溜め込んだAIとの記憶を「棚卸し」するという発想"
+    },
+    {
+      "url": "https://engineering.mercari.com/blog/entry/20260630-b22667b4d6/",
+      "title": "AI-Native な開発の実践に向けて | メルカリエンジニアリング",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "メルカリがAIネイティブな開発体制への移行に向けた取り組みを紹介する記事。組織・プロセス・ツールの各面でAI前提の開発をどう実践しているかを解説している。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "大手企業の「AI前提」への体制シフトの具体例"
+    },
+    {
+      "url": "https://academy.claude.com/ja",
+      "title": "Claude Academy",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Anthropic公式の学習プラットフォーム「Claude Academy」本体ページ。チャット活用からエージェント運用まで段階的に学べるコース群を提供している。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://tech.bm-sms.co.jp/entry/2026/08/20/110000",
+      "title": "複雑なドメインの知識をテストケースとして資産化する - エス・エム・エス エンジニア テックブログ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "複雑な業務ドメインの知識をテストケースという形で資産化し、チームに継承していく取り組みを紹介する記事。属人化しがちなドメイン知識をコードとして残す工夫を解説している。",
+      "topics": ["xp", "design"],
+      "neta": "A",
+      "hook": "属人化しがちな業務知識をテストコードとして残す工夫"
+    },
+    {
+      "url": "https://gigazine.net/news/20260821-anthropic-claude-academy/",
+      "title": "Claudeの使い方を学べる公式チュートリアル「Claude Academy」が登場、単純なチャットからエージェントまで網羅",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Claude Academyについて、単純なチャット利用からエージェント運用まで網羅的に学べる公式チュートリアルとして紹介するニュース記事。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://speakerdeck.com/shinyorke/taming-llm-output-ai-agent-design-patterns-with-fastapi",
+      "title": "LLMの出力を\"いい感じに\"する技術 / Taming LLM Output: AI Agent Design Patterns with FastAPI",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "LLMの出力を安定させ実用的に扱うための設計パターンを、FastAPIを使ったAIエージェント実装の観点から整理したスライド。出力のばらつきをどう構造化して制御するかに焦点を当てている。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "「LLM出力の暴れ」を設計パターンで飼いならす、というエンジニアリング視点"
+    },
+    {
+      "url": "https://engineer.retty.me/entry/openai-aws-identity-federation",
+      "title": "NO MORE $OPENAI_API_KEY - Workload Identity Federation 🤝 AWS IAM Outbound Identity Federation - Retty Tech Blog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "OpenAI APIキーを直接扱う代わりに、AWS IAMのWorkload Identity Federationを使ってOpenAIとの認証を鍵レスで行う仕組みを解説する記事。APIキー管理の煩雑さやリスクを設計で解消する事例。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "「鍵を持たない」認証設計でAPIキー漏洩リスクをなくす発想"
+    },
+    {
+      "url": "https://zenn.dev/testsntips/articles/24f541d8ec8efe",
+      "title": "What Is the Difference Between Manual Testing and Test Automation?",
+      "source": "Zenn(アジャイル)",
+      "lang": "ja",
+      "summary": "手動テストとテスト自動化の違いについて基本から整理した記事。それぞれの向き不向きや使い分けの考え方を解説している。",
+      "topics": ["xp"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/tkishioka/articles/sonar-acdc-framework",
+      "title": "AI駆動開発のフレームワーク「AC/DC」とは",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "SonarSourceが提唱する「AC/DC(Agent Centric Development Cycle)」というAI駆動開発フレームワークを紹介。Guide→Generate→Verify→Solveの4段階で、コード生成の速さに検証が追いつかない「検証ギャップ」問題の解消を狙う。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "「生成は速いが検証が追いつかない」というAI駆動開発あるあるへの処方箋"
+    },
+    {
+      "url": "https://zenn.dev/okojo_it/articles/5b2ecc4b6793b7",
+      "title": "ChatGPTでGit-pull駆動開発？",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "ChatGPTを使い、Gitのpull操作を起点にした独自の開発フローを試みた記事。従来のAI駆動開発とは異なる切り口でのワークフロー実験を紹介している。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "聞き慣れない「Git-pull駆動開発」というネーミングの独自性"
+    },
+    {
+      "url": "https://zenn.dev/emuni/articles/ai-simple-git-client-stella",
+      "title": "AI駆動開発でシンプルなGitクライアントを作ってみた",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AI駆動開発の実践例として、シンプルなGitクライアントをゼロから作ってみた過程を紹介する記事。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/numarn/articles/claude-parallel-agents-file-conflict-handson",
+      "title": "同じファイルにAIを3体同時に書かせたら9回とも1件も消えなかった。素のスクリプトでやると5回とも2件消えた",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "同一ファイルに3体のAIエージェントを同時に書き込ませる実験で、9回とも更新が1件も消失しなかった一方、素のシェルスクリプトでは5回中毎回2件消失した。原因はAIの編集ツールが「読取後の変更検知で書込を拒否する」楽観ロック的な仕組みを持つためで、賢い協調ではなく自動リトライの積み重ねだった。ただし競合により処理時間は12.8秒から40秒へ3倍以上に増加した。",
+      "topics": ["ai-dev", "xp"],
+      "neta": "S",
+      "hook": "「AIは適当に書くから危ない」の逆で、実は素のスクリプトより安全だったという逆転オチ"
+    },
+    {
+      "url": "https://qiita.com/kuri_megane/items/4b84970ced118d3ea519",
+      "title": "Claudeに「時間」を与える 実行・自動化編 〜モデル選択・セルフランナーと、正直な振り返り〜",
+      "source": "Qiita(スクラム)",
+      "lang": "ja",
+      "summary": "Claudeに継続的な実行時間を与えるセルフランナー的な自動化運用について、モデル選択の工夫や率直な振り返りを交えて解説する記事。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "AIに「時間」を与えるという擬人的な捉え方"
+    },
+    {
+      "url": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude/",
+      "title": "Quick impressions: A week of using Codex more than Claude",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "1週間、ClaudeよりもCodexを多く使ってみた開発者の所感記事。両ツールの使用感の違いや、乗り換えを検討するきっかけになった点を率直に述べている。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "普段使いのAIツールをあえて変えてみた「乗り換え1週間レポート」"
+    },
+    {
+      "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
+      "title": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "Anthropicの新モデル「Claude Mythos 5」が持つサイバーセキュリティ関連機能を、より多くの防御側(ディフェンダー)に届ける取り組みを紹介する公式ブログ記事。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://blog.jakesaunders.dev/building-an-almost-fully-self-hosted-sandboxed-agentic-software-factory/",
+      "title": "Building an (almost) fully self-hosted, sandboxed, agentic software factory",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "ほぼ完全にセルフホストされた、サンドボックス化されたエージェント型の「ソフトウェア工場」を個人で構築した記録。AIエージェントを安全に並行稼働させるためのインフラ設計を詳細に解説している。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "個人でもここまで作れる「AIエージェント自動化工場」の設計図"
+    },
+    {
+      "url": "https://github.com/alibaba/anolisa/blob/main/docs/user-guide/en/agent-observability/agentsight.md",
+      "title": "Show HN: AgentSight – eBPF observability for AI agents, no code changes",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "eBPFを使い、コード変更なしでAIエージェントの挙動を可観測化するツール「AgentSight」の紹介。エージェントが何をしているかをOSレベルで捕捉する手法を示している。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "コード変更ゼロでAIエージェントの挙動を覗き見る技術"
+    },
+    {
+      "url": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
+      "title": "Claudette: Make Claude stop talking like a BuzzFeed article",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "Claudeの応答が持つ「BuzzFeed記事っぽい」冗長・煽り気味な文体を抑えるためのプロンプト/ツール「Claudette」を紹介するリポジトリ。AIの出力トーンを制御する軽量な工夫を示している。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "AIの「それっぽい前置き」を黙らせる小技"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/cloudflare-astro-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Cloudflare Cuts Astro Github Issues by 85% with AI Agents",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "CloudflareがオープンソースプロジェクトAstroのGitHub Issue対応にAIエージェントを導入し、未対応Issueを85%削減したという事例。人手が足りないOSSメンテナンス業務へのAI活用の具体例として紹介されている。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "「Issueが溜まって回らない」を85%削減した具体的な数字のインパクト"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/cloudflare-ai-enforcement/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Cloudflare Turns Engineering Standards Into an AI-Enforced Control System",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "Cloudflareが社内のエンジニアリング標準をAIによって自動的に強制・チェックする仕組みに変えた取り組みを紹介。ドキュメントに書くだけでなく、AIエージェントがコードレビューや実装時にリアルタイムで標準遵守を判定する。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "「規約を守らせる」を人力チェックからAIによる自動強制に置き換えた事例"
+    },
+    {
+      "url": "https://www.infoq.com/minibooks/architect-sociotechnical-craft/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Mini book: Architecture as a Socio-Technical Craft",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "ソフトウェアアーキテクチャを技術的な設計だけでなく、組織・人間関係を含む「社会技術的な営み」として捉え直すミニブックの紹介。コンウェイの法則的な観点からアーキテクチャと組織設計の関係を扱っている。",
+      "topics": ["design", "team"],
+      "neta": "A",
+      "hook": "アーキテクチャを「社会技術的な営み」として捉え直す視点"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/azure-devops-remote-mcp-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Azure DevOps Remote MCP Server Reaches GA, Without Support for Claude, ChatGPT, or Cursor",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "Azure DevOpsのリモートMCPサーバーが正式リリースされたが、Claude・ChatGPT・Cursorといった主要なAIツールには非対応という点が話題になっているニュース。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/presentations/local-first-sync-engine/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Presentation: Why Fetch When You Can Sync? Building Local-First Apps on a Sync Engine Architecture",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "ローカルファースト設計のアプリケーションを、都度フェッチではなく同期エンジンアーキテクチャで構築する手法を解説するプレゼンテーション。",
+      "topics": ["design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/21/llm/",
+      "title": "llm 0.32.1",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "Simon Willison氏が開発するCLIツール「llm」のマイナーアップデート(0.32.1)のリリースノート。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://togetter.com/li/2735756",
+      "title": "社内アプリ開発したら『ダークモード実装してくれませんか？』の声がめちゃくちゃ多くてビビった「もうダークモードのないアプリは使いたくない」",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "社内向けアプリを開発したところ、「ダークモードを実装してほしい」という要望が予想以上に多く寄せられて驚いたという体験談まとめ。ユーザーの生活様式の変化を象徴する話題として反響を呼んでいる。",
+      "topics": ["team", "worklife"],
+      "neta": "A",
+      "hook": "社内向けツールでも要望の筆頭は「ダークモード」という共感ネタ"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/saaspr_1.html",
+      "title": "事例で学ぶ、SaaSの開発を加速しつつプロダクト品質も引き上げる上手な方法とは？［PR］",
+      "source": "Publickey",
+      "lang": "ja",
+      "summary": "SaaS開発のスピードと品質を両立させる方法について、事例を交えて紹介するPR記事。開発プロセスや品質管理の工夫が扱われている。",
+      "topics": ["design", "ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/21/stop-making-tuis/",
+      "title": "Stop Making TUIs",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "ターミナルUI(TUI)を安易に作ることに疑問を投げかける意見を紹介する記事。UI設計の選択肢としてTUIが本当に適切かを問い直す視点を示している。",
+      "topics": ["design", "worklife"],
+      "neta": "A",
+      "hook": "流行りのTUI開発に「本当に必要か」を問い直す逆張り"
+    }
+  ],
+  "rejected_count": 0,
+  "capped_count": 63,
+  "failures": [
+    {
+      "name": "Kent Beck / Tidy First",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ]
+}
