@@ -1,0 +1,258 @@
+{
+  "date": "2026-08-23",
+  "items": [
+    {
+      "url": "https://azukiazusa.dev/blog/what-i-learned-writing-technical-blog-posts-with-ai/",
+      "title": "AI に技術ブログを書かせてみてわかったこと",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "著者が実際にAIへ技術ブログ記事の執筆を任せてみた実践レポート。プロンプトの工夫や事実確認の重要性、人間による推敲の必要性など、AI活用執筆で得られた気づきをまとめている。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "AIに書かせてみて分かった落とし穴"
+    },
+    {
+      "url": "https://togetter.com/li/2736160",
+      "title": "「レビューが上下両方向で壊れた」「ベテランの暗黙知が消えた」AIで生産性を上げた結果、組織内の分断が起きたことを書いた記事が興味深い",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AI活用で生産性が向上した一方、コードレビューが上位者・下位者どちらの方向からも機能不全に陥り、ベテランの暗黙知が失われて組織内に分断が生じたという実体験がSNS上でまとめられている。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "AIで生産性UPしたのにチームが壊れた話"
+    },
+    {
+      "url": "https://note.com/19831112/n/nacae0120a692",
+      "title": "アクセルを踏めるのは、ガードレールがあるから。上場デザイン会社の「守りのAI設計図」を全部見せます｜グッドパッチ 執行役員 坂口友紀",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "上場デザイン会社グッドパッチの執行役員が、社内でAI活用を加速させるためにどんな「守り」のガバナンス・ガードレールを整備しているかを解説する記事。攻めと守りのバランスを取る設計思想が語られている。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "攻めるためにこそガードレールを作る"
+    },
+    {
+      "url": "https://www.cyberagent.co.jp/news/detail/id=33737",
+      "title": "AI時代の新たなデザイナー像「AIXデザイナー」を定義",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "サイバーエージェントがAI時代のデザイナー職として「AIXデザイナー」という新しい役割を定義したことを発表する記事。AIを前提としたデザイン業務やスキルセットの再定義が論点となっている。",
+      "topics": ["design", "ai-dev"],
+      "neta": "A",
+      "hook": "“AIXデザイナー”という新職種"
+    },
+    {
+      "url": "https://azukiazusa.dev/blog/open-development-on-slack-with-slack-code/",
+      "title": "Slack 上でオープンな開発を行う Slack Code を試してみた",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Slack上でコードのやり取りやレビューをオープンに進める新機能「Slack Code」を実際に試したレポート。チームのコミュニケーションと開発フローが融合していく動きを紹介している。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A",
+      "hook": "Slackがそのまま開発現場になる"
+    },
+    {
+      "url": "https://zenn.dev/flux/articles/5446dba24b5100",
+      "title": "AIスライド作成、新時代へ ― AIで作ったスライドを、高精度で“編集できるPPTX”に変換する方法",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIで生成したスライドを、編集可能な高精度のPPTX形式に変換する技術的アプローチを解説する記事。AI生成物を実務で使える形に落とし込む工夫がテーマ。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://paper2.hatenablog.com/entry/2026/08/22/103649",
+      "title": "AI時代のPR管理画面 gh pr-graph を激推ししている - ともにかける",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIエージェントが大量のPRを生成する時代に対応した、PR同士の関係性を可視化する管理ツール「gh pr-graph」を紹介し、その使い勝手を激推しする記事。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A",
+      "hook": "AIが量産するPRをどう捌くか"
+    },
+    {
+      "url": "https://zenn.dev/fandhe/articles/c08b98625d8af2",
+      "title": "AI 駆動開発でチームはどう変わるか？PM が PO に収斂する未来の体制予想",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AI駆動開発が進むことで、プロダクトマネージャーとプロダクトオーナーの役割がどのように収斂していくかを予測する記事。開発チームの体制そのものが変化していく未来像を論じている。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "PMとPOが“同じ人”になる未来"
+    },
+    {
+      "url": "https://zenn.dev/canly/articles/9c4a7be1f3d508",
+      "title": "【2026/8/21最新アプデ】Slack の『コードチャンネル』が登場！Claude Tag で PR を出すまで触ってみた",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Slackの新機能「コードチャンネル」とClaude Tagを組み合わせ、Slack上での会話からAIにPRを作成させるまでの流れを実際に試したレポート。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A",
+      "hook": "Slackで会話するだけでPRが生まれる"
+    },
+    {
+      "url": "https://a16z.com/knowing-when-to-stop-the-art-of-making-a-loop-converge/",
+      "title": "Knowing When to Stop: The Art of Making a Loop Converge",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "AIエージェントの自律的な反復ループを、いつ・どうやって適切に収束させるかという設計上の課題を論じるa16zの記事。無限にループさせず、うまく「止める」ための技術的な考え方を扱っている。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "AIエージェントは“止め方”が一番難しい"
+    },
+    {
+      "url": "https://lucumr.pocoo.org/2026/8/22/fast-hard-code/",
+      "title": "Fast and Hard Code",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "著名エンジニアArmin Ronacherによる、AI支援時代における「速く」かつ「堅牢な」コードの書き方についての考察記事。開発速度とコード品質は両立できるという視点が語られている。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "“速い”と“硬い”は両立できる"
+    },
+    {
+      "url": "https://twitter.com/argofowl/status/2091150597374537729",
+      "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "AnthropicがClaude Codeにおいて、意図的に「エフォート(処理の丁寧さ)」レベルを下げるA/Bテストを行っている可能性があるとX(旧Twitter)上で指摘された投稿。ユーザーが感じる出力品質の変動についての話題を提起している。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "Claude Codeが“手を抜いている”日がある?"
+    },
+    {
+      "url": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/",
+      "title": "New MCP Roadmap",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "Model Context Protocol(MCP)の公式ロードマップが公開された記事。今後の仕様拡張やエコシステム普及に向けた方向性が示されている。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "MCPが次に狙う機能とは"
+    },
+    {
+      "url": "https://munderdiffl.in/",
+      "title": "Munder Difflin – Agent harness to run an office of your clones",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "自分自身の複製である複数のAIエージェントで構成された「オフィス」を運営するというユニークなエージェントハーネスのプロジェクト。複数エージェントに役割を割り振って組織的にタスクをこなす発想がユーモラスに紹介されている。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "自分のクローンでオフィスを回す"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/cloudflare-kitesurf-browser/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Cloudflare Announces Kitesurf, a Browser Engine for Agents",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "Cloudflareが、AIエージェントによるWeb操作に特化して設計されたブラウザエンジン「Kitesurf」を発表した記事。エージェント専用インフラという新しい方向性を示している。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "エージェント専用のブラウザエンジン"
+    },
+    {
+      "url": "https://www.infoq.com/presentations/doordash-llm-ai-moderation-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Presentation: SafeChat: Building AI-Powered Safety Systems at Scale in a Real-Time Marketplace",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "DoorDashがリアルタイムマーケットプレイスにおいて、LLMを活用した安全モデレーションシステム「SafeChat」をどう構築したかを紹介するプレゼンテーション記事。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/linkedin-ai-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "AI Code Review at Scale: LinkedIn's Multi-Agent Approach",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "LinkedInが大規模なコードレビューに複数のAIエージェントを役割分担させるマルチエージェント構成を採用している事例を紹介する記事。単一AIに任せず分業させる設計思想が特徴的。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "コードレビューも“複数のAI”で分業する時代"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/aws-bench-agent-evaluation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "AWS Releases Aws-Bench to Evaluate Agents on Cloud Tasks",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "AWSがクラウド関連タスクにおけるAIエージェントの性能を評価するためのベンチマーク「Aws-Bench」を公開したことを伝える記事。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/22/llm/",
+      "title": "llm 0.33",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "Simon Willison氏が開発するAI活用CLIツール「llm」のバージョン0.33がリリースされたことを紹介する記事。新機能や変更点がまとめられている。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
+      "title": "More than just code review",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "AIコーディングエージェントを活用する際は、変更内容を明確に指示することと、変更が正しく適用されたかを確認する能力が重要であり、すべての行を精査する必要はないという効率的な検証の考え方を論じている。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "コードは“全部読む”必要はない"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/21/llm-openrouter/",
+      "title": "llm-openrouter 0.7",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "Simon Willison氏のCLIツール「llm」用OpenRouterプラグインがバージョン0.7に更新されたことを紹介する記事。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://gigazine.net/news/20260822-hubble-md/",
+      "title": "無料でAIエージェントに最適化されたオープンソースのメモ帳アプリ「Hubble.md」、MarkdownとHTMLをベースにして保存・編集・操作が可能",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "MarkdownとHTMLをベースにした、AIエージェントによる保存・編集・操作に最適化されたオープンソースのメモ帳アプリ「Hubble.md」を紹介する記事。人間だけでなくAIが扱いやすい形式を意識した設計が特徴。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "メモ帳もAIエージェント前提で作り直す"
+    },
+    {
+      "url": "https://ymotongpoo.hatenablog.com/entry/2026/08/21/093000",
+      "title": "2026年にオブザーバビリティのコストにどう向き合うか - YAMAGUCHI::weblog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "2026年時点でのオブザーバビリティ(可観測性)導入・運用にかかるコストとどう向き合うべきかを論じる技術ブログ記事。何でも計測すればいいわけではないという設計判断がテーマ。",
+      "topics": ["design"],
+      "neta": "A",
+      "hook": "可観測性は“入れるほど得”ではない"
+    },
+    {
+      "url": "https://speakerdeck.com/smarthr/nani-kara-te-o-tsukeru-smarthr-no-sekyuriti-taisaku-no-kangaekata",
+      "title": "何から手をつける？SmartHRのセキュリティ対策の考え方",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "SmartHRがセキュリティ対策にどこから着手すべきかという優先順位付けの考え方を紹介する登壇資料。限られたリソースの中で組織的にセキュリティ設計を進めるアプローチが学べる。",
+      "topics": ["design", "team"],
+      "neta": "A",
+      "hook": "セキュリティ対策は“全部同時に”やらない"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/22/linus-torvalds/",
+      "title": "Quoting Linus Torvalds",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "Linux開発者Linus Torvaldsが、難解なデバッグ作業でAIアシスタントに助けられた体験を語った引用記事。AIが途中で「解決不可能」と諦めかけたものの、粘り強く指示を出し続けた結果、最終的にデバッグを完遂できたというエピソードが紹介されている。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "リーナス・トーバルズも“AIを諦めさせない”粘り勝ち"
+    }
+  ],
+  "rejected_count": 5,
+  "capped_count": 53,
+  "failures": [
+    {
+      "name": "Kent Beck / Tidy First",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ]
+}
