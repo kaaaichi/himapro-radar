@@ -1,0 +1,247 @@
+{
+  "date": "2026-08-24",
+  "items": [
+    {
+      "url": "https://www.publickey1.jp/blog/26/slackaislack_code.html",
+      "title": "Slack上の開発チームの会話をAIエージェントが把握してコーディング。ドキュメント作成もする「Slack Code」登場",
+      "source": "Publickey",
+      "lang": "ja",
+      "summary": "Slack上の開発チームの会話をAIエージェントが読み取り、そのままコーディングやドキュメント作成まで行う「Slack Code」が登場した。チャットでの議論の流れが実質的な仕様の入力になる。",
+      "topics": [
+        "ai-dev",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "Slackの雑談がそのまま仕様書になる時代、伝わらない書き方をするチームはAIにも伝わらない"
+    },
+    {
+      "url": "https://zenn.dev/numarn/articles/claude-md-agents-md-precedence-handson",
+      "title": "AIへの指示書をAGENTS.mdという名前で置いたら、入力が1トークンも増えなかった。CLAUDE.mdに変えた瞬間7110トークン増えた",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AIへの指示書をAGENTS.mdという名前で置いた場合は入力トークンが増えず、CLAUDE.mdにリネームした途端に7110トークン増えたという検証記事。ファイル名だけで読み込み挙動と優先順位が変わることを実測で示している。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "ファイル名を変えただけで7000トークン。AIは自分が思っているほど指示を読んでいない"
+    },
+    {
+      "url": "https://zenn.dev/neomaru/articles/trustless-why-no-secrets-for-agents",
+      "title": "AIエージェントにAPIキーを渡さない — trustlessを作った理由",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIエージェントにAPIキーそのものを渡さずに外部サービスを操作させるツール「trustless」を作った理由を解説した記事。エージェントを信頼できない前提に立って権限の境界を設計するという発想を示す。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "A",
+      "hook": "AIを信じないことから始める設計。権限を渡さない勇気"
+    },
+    {
+      "url": "https://note.com/kazu_t/n/n34de0b43f0fa",
+      "title": "【2026年8月版】ELI5とは？Claude CodeからELI5を使ってみた。難しい話を図で理解しよう！｜kazu@生成AI×教育 / 谷 一徳 | AI Academy / AI顧問",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "難しい概念を極端に噛み砕いて説明させるELI5(5歳児にもわかるように)というプロンプト手法を、Claude Codeから図解付きで使う方法を紹介している。理解できないものを理解可能な粒度に落とす技術の話。",
+      "topics": [
+        "ai-dev",
+        "worklife"
+      ],
+      "neta": "A",
+      "hook": "AIに『5歳児に説明して』と頼めるなら、人にもそう頼めばいい"
+    },
+    {
+      "url": "https://note.com/maxmatsuura/n/ne59969fd6e71",
+      "title": "AIに書かせたら、前より休めなくなった｜松浦勝人",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIに書かせて作業が速くなった結果、かえって休めなくなったという体験談。生産性向上がそのまま余暇にはならず、空いた時間に別の仕事が流れ込む構造を指摘している。",
+      "topics": [
+        "worklife",
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "AIで速くなったのに休めない。効率化の利益を誰が回収しているのか"
+    },
+    {
+      "url": "https://dontpastetheai.com/ja.html",
+      "title": "AIが書いたものをコピペしないでください。",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIが生成した文章をそのままコピペして他人に送ることの問題を訴えるサイト。読む側のコストを相手に押し付ける行為であり、理解を伴わない出力の受け渡しが信頼を損なうと主張する。",
+      "topics": [
+        "team",
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "AIの出力をそのまま貼るのは、レビューを相手に外注しているのと同じ"
+    },
+    {
+      "url": "https://note.com/shuma_sajimoto/n/n3824385dbdf2",
+      "title": "税理士事務所に1ヶ月住み込んで、会計AIを作ってきた話｜佐次本脩真 | Zeimee",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "会計AIを作るために税理士事務所に1ヶ月住み込み、現場の業務を体感しながら開発した話。プロダクトの精度を決めたのはモデルよりもドメイン理解と観察だったという内容。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "S",
+      "hook": "AIの精度を上げたのは、モデルではなく現場に1ヶ月住んだこと"
+    },
+    {
+      "url": "https://zenn.dev/marvelousu/articles/windows-mcp-vs-computer-use",
+      "title": "Claude Code のデスクトップ操作、内蔵の computer-use ではなく Windows-MCP を使っている理由",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Claude Codeでデスクトップ操作をさせる際に、内蔵のcomputer-useではなくWindows-MCPを選んでいる理由を比較した記事。画面認識に頼るか、OSのAPI経由で操作するかというアプローチの違いを整理している。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://speakerdeck.com/akiratameto/shoseki-shuppan-kinen-10-shuukai-tte-ejento-kaihatsu-ha-rag-ga-subetedata-rag-no-rekishi-to-kaihatsu-genba-de-mieta-jissen-chi",
+      "title": "【書籍出版記念】 10周回って、エージェント開発は RAGがすべてだった。〜RAGの歴史と開発現場で見えた実践知〜",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "エージェント開発の流行を一周した結果、結局はRAG(検索して文脈を渡す設計)が本質だったと論じる書籍出版記念スライド。RAGの歴史と開発現場で得られた実践知をまとめている。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "A",
+      "hook": "10周回って戻ってきた結論、エージェントの賢さは『何を読ませるか』で決まる"
+    },
+    {
+      "url": "https://togetter.com/li/2736661",
+      "title": "ある飲食店が立てた「AI日本酒マップ」看板、地域と県名がバラバラで「チェックくらいしようよ…」「ファミレスの間違い探しかよ」のツッコミが殺到する",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "飲食店が掲げた「AI日本酒マップ」の看板で、地域と県名の対応がめちゃくちゃになっておりツッコミが殺到した事例。AI出力を誰も検証せず世に出すとどうなるかを可視化している。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "AIの出力を誰もチェックしないとどうなるか、看板が全部教えてくれる"
+    },
+    {
+      "url": "https://zenn.dev/scalar_sol_blog/articles/aae32e93fd5680",
+      "title": "Kubernetesのポリシー運用ってどうやるの？既存構成にモヤモヤして、Kyvernoと責任分離の設計を一から調べて整理してみた【前編】",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Kubernetesのポリシー運用に感じたモヤモヤを起点に、Kyvernoを使ったポリシー適用と責任分離の設計を一から調べ直して整理した記事。誰がどこまで守るべきかの線引きを設計として扱っている。",
+      "topics": [
+        "design"
+      ],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/sigsigsigma/articles/c879e9078888c0",
+      "title": "AIで実装が速くなったとき、要求をどう確かめるか",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AIによって実装が高速化した結果、ボトルネックが「作る速さ」から「要求が正しいかの確認」に移ったことを論じた記事。要求の確かめ方をプロセスとしてどう組み込むかを検討している。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "S",
+      "hook": "実装が速くなるほど、間違った要求に速く到達してしまう"
+    },
+    {
+      "url": "https://addyosmani.com/blog/agentic-code-quality/",
+      "title": "Agentic Code Quality",
+      "source": "Addy Osmani",
+      "lang": "en",
+      "summary": "AIエージェントが書いたコードの品質をどう担保するかを論じたAddy Osmaniの記事。生成量が増えるほどレビュー・テスト・設計制約といった人間側の仕組みが効いてくると指摘している。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "S",
+      "hook": "コードを書く力より、書かれたコードを見抜く力が値段のつくスキルになる"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
+      "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "最高性能のAIモデルよりも安価なツールの方がユーザーを集めているという報道への言及。性能の絶対値ではなくコストと用途の適合が選択を決めている状況を示す。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "A",
+      "hook": "一番賢いAIが選ばれない。道具選びは性能勝負じゃない"
+    },
+    {
+      "url": "https://zenn.dev/jnch/articles/18cf3f1893ee5b",
+      "title": "人月で稼ぐSIerは、あと数年で詰む",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "工数(人月)を売る形態のSIerはAIによる生産性向上で数年以内に成り立たなくなると論じた記事。時間ではなく成果に値段をつけるモデルへの転換を迫られると指摘している。",
+      "topics": [
+        "worklife",
+        "team"
+      ],
+      "neta": "S",
+      "hook": "作業時間を売っている限り、速くなるほど自分の売上が減る"
+    },
+    {
+      "url": "https://spf13.com/p/go-the-agentic-language/",
+      "title": "Why TypeScript 7.0 Was Rewritten in Go (and what it means for your dev stack) | spf13",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "TypeScript 7.0がGoで書き直された背景を、AIエージェント時代に適した言語特性という観点から論じた記事。ビルドの速さや単純さがエージェントの反復速度に直結すると主張する。",
+      "topics": [
+        "ai-dev",
+        "design"
+      ],
+      "neta": "A",
+      "hook": "AIが書く前提になると、言語に求められる条件が変わる"
+    },
+    {
+      "url": "https://findy.co.jp/4443/",
+      "title": "【申込者数1,000名突破】技術的負債対応の3大障壁は「リソース確保」「影響範囲」「属人化」、国内外の有識者・実践者が集結！「技術的負債に向き合うConference 2026」9月16日・17日開催 | ニュース | ファインディ株式会社(Findy Inc)",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "技術的負債への対応を阻む3大障壁が「リソース確保」「影響範囲」「属人化」だという調査結果とカンファレンス告知。障壁がいずれも技術そのものではなく、組織と合意形成の問題であることを示している。",
+      "topics": [
+        "team",
+        "design"
+      ],
+      "neta": "S",
+      "hook": "技術的負債を返せない理由は、技術の問題が一つも入っていない"
+    },
+    {
+      "url": "https://buildersbox.corp-sansan.com/entry/2026/08/21/150000",
+      "title": "同じ会社なのに、こんなに違う。Sansan、Eight、Bill Oneのモバイル開発【前半：技術選定・開発プロセス】 - Sansan Tech Blog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Sansan、Eight、Bill Oneという同一企業内の3プロダクトで、モバイルの技術選定と開発プロセスがどう違うかを比較した記事。同じ会社でもプロダクトの事情次第で最適解が分かれることを具体的に示している。",
+      "topics": [
+        "team",
+        "design"
+      ],
+      "neta": "S",
+      "hook": "同じ会社なのに正解が3つ。ベストプラクティスは誰の事情のものか"
+    },
+    {
+      "url": "https://zenn.dev/unchox/articles/backup-restorability-levels",
+      "title": "バックアップが「戻せる」かを 5 段階で測る",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "バックアップを「取れているか」ではなく「戻せるか」で5段階に整理した記事。復旧可能性を成熟度モデルとして定義し、自分たちの現在地を測れるようにしている。",
+      "topics": [
+        "design"
+      ],
+      "neta": "A",
+      "hook": "取れているバックアップと戻せるバックアップは別物"
+    }
+  ],
+  "rejected_count": 21,
+  "capped_count": 55,
+  "failures": []
+}
