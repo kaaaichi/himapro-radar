@@ -2,223 +2,130 @@
   "date": "2026-08-26",
   "items": [
     {
-      "url": "https://zenn.dev/eggletric/articles/4ea81df765fb66",
-      "title": "AIは回せば回すほど凄いのか ―「常時稼働」という設計の敗北",
-      "source": "はてなブックマーク IT人気エントリ",
-      "lang": "ja",
-      "summary": "AIエージェントを常時稼働させ続ければ成果が上がるという発想を疑い、それ自体が設計の失敗だと論じる記事。稼働率ではなく、どこで止めどこで人が判断するかを決めることがAI活用の設計だと指摘する。",
+      "url": "https://arxiv.org/abs/2607.21503",
+      "title": "Agentic Context Management: Memory and Cost as Architecture Problems",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "AIエージェントのコンテキスト管理を「メモリとコストのアーキテクチャ問題」として捉え直した論文。何を覚えさせ何を捨てるかをプロンプトの工夫ではなく設計上の意思決定として扱う視点を示している。エージェント開発における長期記憶と実行コストのトレードオフを整理している。",
       "topics": [
         "ai-dev",
         "design"
       ],
       "neta": "S",
-      "hook": "AIを止められない設計は、実は人間の判断放棄"
+      "hook": "AIエージェントの記憶設計は、実は新人への引き継ぎ資料の設計とまったく同じ問題"
     },
     {
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00157/082500110/",
-      "title": "オードリー・タンが警鐘 AIを「親友」にしてはいけない",
+      "url": "https://www.itmedia.co.jp/news/article/2608/26/2000000739/",
+      "title": "“ドパガキ”がショート動画を止められない理由 fMRIを使って若者の脳活動を分析 中国チームが研究",
       "source": "はてなブックマーク IT人気エントリ",
       "lang": "ja",
-      "summary": "オードリー・タンがAIを「親友」として扱うことの危うさに警鐘を鳴らすインタビュー記事。AIは道具・同僚として距離を保つべきで、依存的な関係は思考力や人間同士の協働を損なうという論点。",
+      "summary": "中国の研究チームがfMRIで若者の脳活動を分析し、ショート動画を止められない理由を報告した。意志の弱さではなく報酬系の反応パターンが関与していることが示唆されている。集中力を要する仕事の環境設計を考える材料になる。",
       "topics": [
-        "ai-dev",
         "worklife"
       ],
-      "neta": "S",
-      "hook": "AIと仲良くなりすぎるエンジニアほど伸び悩む"
+      "neta": "A",
+      "hook": "集中できないのは根性不足ではない——脳の報酬設計に合わせて仕事場を組み替える"
     },
     {
-      "url": "https://github.com/JetBrains/go-modern-guidelines",
-      "title": "GitHub - JetBrains/go-modern-guidelines",
+      "url": "https://news.ycombinator.com/item?id=49443820",
+      "title": "Ask HN: What is one simple thing LLMs are insanely bad at?",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "Hacker Newsで「LLMがとんでもなく苦手な単純なこと」を集めたスレッド。高度な仕事はこなすのに驚くほど初歩的な処理で失敗する事例が多数挙がっている。AIに任せる範囲を線引きする際の実務的な判断材料になる。",
+      "topics": [
+        "ai-dev"
+      ],
+      "neta": "S",
+      "hook": "AIが苦手なことリストは、そのまま「人間が価値を出せる場所リスト」になる"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/article/2608/26/2000000794/",
+      "title": "ダークパターン規制記事に、閉じにくい巨大広告 「これもダークパターンでは」ツッコミ殺到",
       "source": "はてなブックマーク IT人気エントリ",
       "lang": "ja",
-      "summary": "JetBrainsが公開したモダンなGoコードの書き方ガイドライン集。命名・エラーハンドリング・並行処理などの設計指針がリポジトリ形式でまとまっている。",
+      "summary": "ダークパターンの規制を扱った記事自体に閉じにくい巨大広告が表示され、読者からツッコミが殺到した。正論を書いている媒体でもUIの意思決定は現場の事情で覆るという構図が浮き彫りになっている。設計の理想と実装の現実のギャップを語る題材。",
+      "topics": [
+        "design"
+      ],
+      "neta": "S",
+      "hook": "ダークパターン批判の記事がダークパターン——「正しい設計」は誰の判断で殺されるのか"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/business/articles/2608/26/news020.html",
+      "title": "オフィスで「電動ハンディファン禁止」と言われた……マナーで片付けられない“セキュリティリスク”の存在",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "オフィスでの電動ハンディファン禁止が「マナー」ではなくセキュリティリスクを理由にしていた事例を解説する記事。ルールの背景が共有されないと理不尽な規則に見えてしまう構造を示している。チームのルール設計と説明責任の話に接続できる。",
+      "topics": [
+        "team",
+        "worklife"
+      ],
+      "neta": "A",
+      "hook": "理由を言わないルールは必ず形骸化する——チーム規約が守られない本当の原因"
+    },
+    {
+      "url": "https://blog.nnn.dev/entry/2026/08/26/110000",
+      "title": "SwiftUI標準APIだけで実装するレーダーチャート - ドワンゴ教育サービス開発者ブログ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "ドワンゴ教育サービスの開発者ブログが、外部ライブラリを使わずSwiftUIの標準APIだけでレーダーチャートを実装した過程を紹介している。依存を増やさずに要件を満たす実装判断のプロセスが追える。ライブラリ選定という設計判断の一例。",
       "topics": [
         "design"
       ],
       "neta": "B"
     },
     {
-      "url": "https://martinfowler.com/fragments/2026-08-24.html",
-      "title": "Fragments: August 24",
-      "source": "Martin Fowler",
+      "url": "https://www.infoq.com/presentations/cd-reliability-innovation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Presentation: Continuous Delivery for Foundational Platforms",
+      "source": "InfoQ",
       "lang": "en",
-      "summary": "Martin Fowlerが日々の気づきを短文でまとめたFragments。設計やソフトウェア開発の進め方についての断片的な考察が並ぶ。",
+      "summary": "壊すと影響範囲が大きい基盤プラットフォームに継続的デリバリーを適用する方法を扱ったInfoQのプレゼン。信頼性を守りながら変更頻度を上げるための実践が語られている。慎重さと速度を両立させたいチームへの示唆がある。",
       "topics": [
-        "design",
-        "agile"
+        "agile",
+        "team"
       ],
       "neta": "A",
-      "hook": "大家の「メモ書き」から設計観を盗む"
+      "hook": "「壊せないもの」ほど小さく速く出す——慎重さの正しい使い方"
     },
     {
-      "url": "https://newsletter.kentbeck.com/p/baking-a-model",
-      "title": "Baking a Model",
-      "source": "Kent Beck / Tidy First",
+      "url": "https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/",
+      "title": "EVE Online: The Move to Python 3 Begins!",
+      "source": "Simon Willison",
       "lang": "en",
-      "summary": "Kent Beckが、対象システムのモデルを頭の中で「焼き上げる」過程について書いたエッセイ。コードを書く前後で理解のモデルがどう固まっていくかを扱う。",
+      "summary": "20年以上稼働するMMO「EVE Online」が、ついにPython 3への移行を開始したという話題。巨大なレガシーコードベースを止めずに移行するための段取りが焦点になっている。技術的負債との付き合い方を考える好例。",
       "topics": [
         "design",
-        "ai-dev"
-      ],
-      "neta": "A",
-      "hook": "コードより先に「頭の中のモデル」を焼く"
-    },
-    {
-      "url": "https://newsletter.kentbeck.com/p/busy-is-short-volatility",
-      "title": "Busy is Short Volatility",
-      "source": "Kent Beck / Tidy First",
-      "lang": "en",
-      "summary": "「忙しい」状態は金融でいうショート・ボラティリティのポジションだとKent Beckが論じる。普段は儲かるが、予期せぬ変動が来た瞬間に一気に破綻するという構造を開発現場の余白の話に重ねている。",
-      "topics": [
-        "worklife",
         "team"
       ],
       "neta": "S",
-      "hook": "予定を埋めるほど、あなたは破産に近づく"
+      "hook": "20年動き続けたコードの移行は、技術力より段取りと合意形成で決まる"
     },
     {
-      "url": "https://newsletter.kentbeck.com/p/speculative-short-volatility-and",
-      "title": "Speculative Short Volatility & Neglectful Short Volatility",
-      "source": "Kent Beck / Tidy First",
+      "url": "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/",
+      "title": "Your executable is a SQLite database",
+      "source": "Simon Willison",
       "lang": "en",
-      "summary": "ショート・ボラティリティを「投機的」と「怠慢による」の2種類に分けて論じる記事。技術的負債や先送りがどちらの形でリスクを積み上げるのかを区別している。",
+      "summary": "実行ファイルそのものをSQLiteデータベースとして扱うという発想を紹介した記事。バイナリとデータストアという当たり前の境界線が思い込みにすぎないことを示している。設計における前提の疑い方を語る題材になる。",
       "topics": [
-        "design",
-        "worklife"
-      ],
-      "neta": "A",
-      "hook": "手抜きの負債と、賭けの負債は別物"
-    },
-    {
-      "url": "https://newsletter.kentbeck.com/p/how-do-you-know-that",
-      "title": "How Do You Know That?",
-      "source": "Kent Beck / Tidy First",
-      "lang": "en",
-      "summary": "「それをどうして知っていると言えるのか」という問いの効用についてのエッセイ。チームの議論で前提を掘り起こし、思い込みと根拠を分ける習慣を勧めている。",
-      "topics": [
-        "team",
-        "worklife"
-      ],
-      "neta": "S",
-      "hook": "会議で最強の一言は「なぜそう言えるの?」"
-    },
-    {
-      "url": "https://newsletter.kentbeck.com/p/long-vol-what-is-volatility",
-      "title": "Long Vol: What is Volatility?",
-      "source": "Kent Beck / Tidy First",
-      "lang": "en",
-      "summary": "開発を語るための「ボラティリティ(変動性)」という概念そのものを解説した回。不確実性の大きさをどう捉え、どう利用するかの基礎編。",
-      "topics": [
-        "design",
-        "agile"
-      ],
-      "neta": "A",
-      "hook": "不確実性は敵ではなく原材料"
-    },
-    {
-      "url": "https://newsletter.kentbeck.com/p/long-volatility-development",
-      "title": "Long Volatility Development",
-      "source": "Kent Beck / Tidy First",
-      "lang": "en",
-      "summary": "変動性を味方につける「ロング・ボラティリティ型」の開発スタイルを提案するエッセイ。小さく賭けて大きな当たりを拾えるように設計と進め方を組むという考え方。",
-      "topics": [
-        "design",
-        "xp"
-      ],
-      "neta": "S",
-      "hook": "変化が起きるほど得をする開発の組み方"
-    },
-    {
-      "url": "https://newsletter.kentbeck.com/p/why-so-literal",
-      "title": "Why So Literal?",
-      "source": "Kent Beck / Tidy First",
-      "lang": "en",
-      "summary": "指示を文字通りにしか受け取らない相手(AIやコンピュータ)との付き合い方を考えるエッセイ。曖昧さを含む人間の意図を、どこまで明示的に書き下すべきかという問題を扱う。",
-      "topics": [
-        "ai-dev",
         "design"
       ],
-      "neta": "A",
-      "hook": "AIが融通利かないのではなく、指示が曖昧なだけ"
+      "neta": "S",
+      "hook": "実行ファイルがDB? 設計の「当たり前の境界線」はだいたい誰かの思い込み"
     },
     {
-      "url": "https://newsletter.kentbeck.com/p/smalltalk-genie",
-      "title": "Smalltalk Genie",
-      "source": "Kent Beck / Tidy First",
+      "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+      "title": "Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things",
+      "source": "Simon Willison",
       "lang": "en",
-      "summary": "Kent BeckがAI(Genie)と一緒にSmalltalkを触った記録。旧来の言語環境をAIと組んで扱うとどうなるかの実験レポート。",
+      "summary": "Qwen 3.8 27Bは非常に優秀だが、単純な質問にも延々と推論を重ねる「考えすぎ」の傾向があるとSimon Willisonが指摘している。性能が高いことと適切な労力配分ができることは別問題だと分かる。AIの使いどころとコスト感覚を考えさせる内容。",
       "topics": [
         "ai-dev"
       ],
-      "neta": "B"
-    },
-    {
-      "url": "https://newsletter.kentbeck.com/p/a-learning-system-made-of-learning",
-      "title": "A Learning System Made of Learning Parts",
-      "source": "Kent Beck / Tidy First",
-      "lang": "en",
-      "summary": "学習する部品からできた学習するシステム、という視点でチームや開発プロセスを捉えるエッセイ。個人の学びとシステム全体の学びの関係を論じる。",
-      "topics": [
-        "team",
-        "agile"
-      ],
-      "neta": "A",
-      "hook": "学ぶ人の集まりが、そのまま学ぶチームにはならない"
-    },
-    {
-      "url": "https://newsletter.kentbeck.com/p/you-dont-get-to-create-anything-6cb",
-      "title": "You Don't Get to Create Anything",
-      "source": "Kent Beck / Tidy First",
-      "lang": "en",
-      "summary": "「あなたが何かを創り出せるわけではない」という挑発的なタイトルのエッセイ。作り手の意図と、実際に生まれるもの・使われ方のズレについて論じている。",
-      "topics": [
-        "design",
-        "worklife"
-      ],
-      "neta": "A",
-      "hook": "作ったつもりのものは、たいてい作れていない"
-    },
-    {
-      "url": "https://newsletter.kentbeck.com/p/genie-lessons-from-genie-sessions",
-      "title": "Genie Lessons from Genie Sessions: Prose as a Programming Language",
-      "source": "Kent Beck / Tidy First",
-      "lang": "en",
-      "summary": "AIとのセッションから得た教訓として、「散文(prose)こそがプログラミング言語だ」と論じる回。自然言語で書く指示の精度が、そのままコードの質になるという主張。",
-      "topics": [
-        "ai-dev",
-        "design"
-      ],
       "neta": "S",
-      "hook": "次に覚えるべき言語は、日本語の書き方"
-    },
-    {
-      "url": "https://newsletter.kentbeck.com/p/scope-is-the-steering-wheel",
-      "title": "Scope Is The Steering Wheel",
-      "source": "Kent Beck / Tidy First",
-      "lang": "en",
-      "summary": "納期や人員ではなく「スコープ」こそがプロジェクトのハンドルだと説くエッセイ。何を削るかを決められることが、開発を制御するということだと論じる。",
-      "topics": [
-        "agile",
-        "xp"
-      ],
-      "neta": "S",
-      "hook": "見積もりが下手でも、スコープを握れば間に合う"
-    },
-    {
-      "url": "https://blog.master.dev/tooltips-need-a-delay-and-then-they-need-to-skip-it/",
-      "title": "Tooltips need a delay, and then they need to skip it",
-      "source": "Hacker News Front Page",
-      "lang": "en",
-      "summary": "ツールチップは表示までに遅延を入れるべきだが、連続して別の要素を指したときは遅延を飛ばすべきだと論じるUI設計記事。細部の挙動が体験の良し悪しを決める例として具体的な仕様を示している。",
-      "topics": [
-        "design"
-      ],
-      "neta": "A",
-      "hook": "0.5秒の遅延がUIの品格を決める"
+      "hook": "AIの「考えすぎ問題」は、単純な修正に設計を持ち出す我々そのもの"
     }
   ],
-  "rejected_count": 23,
-  "capped_count": 16,
+  "rejected_count": 19,
+  "capped_count": 0,
   "failures": []
 }
