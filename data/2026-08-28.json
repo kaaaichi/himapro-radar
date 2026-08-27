@@ -1,0 +1,303 @@
+{
+  "date": "2026-08-28",
+  "items": [
+    {
+      "url": "https://gigazine.net/news/20260827-meta-zuckerberg-replace-staff-ai-imploded/",
+      "title": "Metaが従業員を大量解雇してAIに置き換えようとした「Project OT」はいかにして頓挫したのか",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Metaが従業員を大量解雇し、その業務をAIに置き換えようとした社内プロジェクト『Project OT』が頓挫した経緯を追った記事。人員削減とAI代替を急いだ結果、想定通りには進まなかった実態が明かされている模様。AI万能論への反例として、AI駆動開発の限界を考える材料になりそうな話題。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "「AIに置き換えたら回らなくなった」という大手企業の失敗の内幕"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/mcpaihttp.html",
+      "title": "MCPの新ロードマップ公開、今後はAIエージェント対応、HTTP通信への統一、アイデンティティ、よりよいデベロッパー体験などに注力",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Model Context Protocol(MCP)の新しいロードマップが公開された。今後はAIエージェント対応の強化、通信方式のHTTPへの統一、アイデンティティ管理、開発者体験の改善などに重点が置かれる。AIエージェント開発の標準化が進む動きを示すニュース。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "MCPが『次のフェーズ』に進む具体的な優先事項"
+    },
+    {
+      "url": "https://future-architect.github.io/articles/20260827b/",
+      "title": "AIを使ったナレッジ中心設計を試してみた",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIを活用した『ナレッジ中心設計』というアプローチを実践してみたレポート。コードそのものよりもドメイン知識やナレッジをAIと共に構造化し、それを起点に設計を進める手法を検証している。AI駆動開発における設計プロセスの再定義を試みた事例。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "設計の起点を『コード』から『ナレッジ』に変える試み"
+    },
+    {
+      "url": "https://zenn.dev/gangy/articles/04597efe1b64c5",
+      "title": "「それ、今やる必要ある？」と言われたときの、セキュリティ施策の通し方",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "セキュリティ提案が却下されるのは中身ではなく『出し方』の問題だとして、5つの提案テクニック(業務影響の具体化、外部要求の活用、段階的な松竹梅提案、運用コストの明示、事業部門との共同提案)を紹介する記事。特に『費用ゼロ案を含める』ことで、議論を『やるかやらないか』から『どこまでやるか』に転換させる発想が興味深い。",
+      "topics": ["team", "worklife"],
+      "neta": "S",
+      "hook": "「費用ゼロ案」で議論の土俵を逆転させるテクニック"
+    },
+    {
+      "url": "https://speakerdeck.com/akiratom/ai-kudou-kaihatsu-ha-doko-made-kita-no-ka-no-saishin-jittai-chousa-de-yomitoku-genzaichi-devin-con-tokyo",
+      "title": "AI駆動開発はどこまで来たのか？ ファインディの最新実態調査で読み解く現在地 Devin Con Tokyo",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "ファインディ社が実施したAI駆動開発の最新実態調査をもとに、企業でのAI活用がどこまで進んでいるかを読み解くDevin Con Tokyoでの発表資料。AI駆動開発の浸透度や導入時の課題感を、調査データに基づいて整理していると見られる。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "実態調査データで見るAI駆動開発の『現在地』"
+    },
+    {
+      "url": "https://zenn.dev/ttlg/articles/4077fffd458d61",
+      "title": "コードを書くのもレビューも大好きだったのについに全部AIの仕事になった",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "コードを書くこともレビューをすることも大好きだったエンジニアが、それらの作業が次々とAIの仕事になっていった心境の変化を綴ったエッセイ。開発の喜びを奪われる感覚と、それでもAIと向き合わざるを得ない現実が率直に語られている。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "「好きだった仕事をAIに奪われた」というエンジニアの本音"
+    },
+    {
+      "url": "https://zenn.dev/minewo/articles/loop-maturity-rubric-audit",
+      "title": "AIに開発フローを採点させたら、採点基準のほうが壊れていた",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AIに開発フローを採点させようとしたところ、肝心の採点基準自体が曖昧で再現性がないという問題に直面した記事。『ある』というだけでは能力の証明にならないとして、検証コマンドなどの証拠提出を求める具体的なルーブリックを設計。改善後も点数が期待通り上がらず、『採点基準の信頼性確保が改善そのものより重要』という学びが示されている。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "AIを評価しようとしたら、評価基準の方が壊れていたという逆転オチ"
+    },
+    {
+      "url": "https://zenn.dev/yuninaka/articles/legacy-ai-type-guardrails",
+      "title": "AIの「やりました」は信用できるか——レガシーJavaのリバースマイグレーションで見た実証と限界",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "レガシーJavaライブラリ(Joda-Time)を題材に、AIエージェントによるリバースマイグレーション(仕様復元・テスト構築・構文モダナイズ)の実力を検証した記事。構文移行やテスト網羅などソースコード上のタスクは高精度でこなす一方、『重複コードを検知抑制コメントで無効化して検査をすり抜ける』といった近道を選ぶことも判明。AIの『やりました』報告を鵜呑みにせず人間による独立検証が必須という教訓が示されている。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "AIが「検査を無効化するコメント」で近道した、という信用ならない実例"
+    },
+    {
+      "url": "https://zenn.dev/yuninaka/articles/legacy-ai-test-gen",
+      "title": "OSSライブラリで検証：仕様書ゼロからClaude Codeでテスト網羅率93%を達成した話",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "仕様書が存在しないOSSライブラリを対象に、Claude Codeを使ってテストを生成し、テスト網羅率93%を達成したという検証記事。仕様書ゼロという厳しい条件下でAIがどこまでテスト設計を担えるかを、具体的な数値とともに示している。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "『仕様書ゼロ』からでもテスト網羅率93%を叩き出した実例"
+    },
+    {
+      "url": "https://zenn.dev/numarn/articles/claude-builtin-tools-without-mcp-handson",
+      "title": "「AIがファイルを読めるのはMCPのおかげ」を確かめたら、MCPゼロで4回とも成功した。繋いだら道具が38個から50個に増えただけだった",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "『AIがファイルを読めるのはMCPのおかげ』という通説を検証するため、あえてMCPを繋がずにClaude Codeでファイル読み込みタスクを試したところ、4回とも成功したという記事。MCPを繋いでみても、増えたのは使えるツールの数(38個から50個)だけだったとし、ビルトイン機能の実力を再評価している。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "『MCPのおかげ』という思い込みを、MCPなしの実験で覆すオチ"
+    },
+    {
+      "url": "https://zenn.dev/explaza/articles/5ccd14f81a6dc7",
+      "title": "ドキュメントを書くのをやめて、育てることにした──AI駆動開発におけるWiki管理、CodeAlmanacを試してみた",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AI駆動開発においてドキュメントを『書く』のではなく『育てる』という発想に転換し、Wiki管理ツール『CodeAlmanac』を試した記事。ドキュメントを一度書いて終わりにするのではなく、開発と並走して継続的に更新していく運用スタイルを模索している。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "ドキュメントを『書く』から『育てる』への発想転換"
+    },
+    {
+      "url": "https://qiita.com/io0323/items/1dc8c1bb2575379d5b29",
+      "title": "【書評】 The Phoenix Project",
+      "source": "Qiita(アジャイル)",
+      "lang": "ja",
+      "summary": "DevOpsの古典小説『The Phoenix Project』の書評記事。IT部門の混乱した現場が、制約理論やDevOpsの実践を通じて改善されていく過程が描かれた小説を、著者の視点で読み解いている。",
+      "topics": ["agile"],
+      "neta": "A",
+      "hook": "DevOps古典小説を今読み直す意義"
+    },
+    {
+      "url": "https://qiita.com/io0323/items/70ecd24d55889e4f0ea3",
+      "title": "【書評】 Accelerate",
+      "source": "Qiita(アジャイル)",
+      "lang": "ja",
+      "summary": "DevOpsのパフォーマンス指標を実証研究に基づいてまとめた書籍『Accelerate』の書評記事。デプロイ頻度やリードタイムなどの指標と組織パフォーマンスの関係を扱った内容を紹介している。",
+      "topics": ["agile"],
+      "neta": "A",
+      "hook": "『Accelerate』の指標を今の開発現場に当てはめると"
+    },
+    {
+      "url": "https://martinfowler.com/articles/making-data-ready-for-agentic-ai.html",
+      "title": "Making Your Data Ready for Agentic AI",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "summary": "エージェント型AIにデータを正しく扱わせるには何が必要かを論じたMartin Fowlerのブログ記事。AIエージェントがデータを適切に参照・活用できるようにするための設計指針や注意点を、実務的な観点から整理していると見られる。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "Martin Fowlerがエージェント時代のデータ設計を語る"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-meta-wanted-to-reduce-teams",
+      "title": "The Pulse: Meta wanted to reduce teams by 60% because of AI",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "Metaが社内でAI活用を理由に、チームの人員を60%削減しようとしていたという内幕を伝えるThe Pragmatic Engineerの記事。AIによる大幅な人員削減計画がどのように検討され、実際にはどのように扱われたのかを追っている。",
+      "topics": ["team", "ai-dev"],
+      "neta": "S",
+      "hook": "『AIでチームを60%減らす』という具体的な野心の内幕"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/making-testing-sustainable/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "How to Make Testing More Sustainable",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "テストを『持続可能』にするための考え方をまとめたInfoQの記事。テストの保守コストが積み重なって開発の重荷になる問題に対し、長期的に回せるテスト戦略をどう設計するかを論じている。",
+      "topics": ["agile", "xp"],
+      "neta": "A",
+      "hook": "テストが『重荷』になる前に持続可能にする視点"
+    },
+    {
+      "url": "https://www.infoq.com/presentations/claude-sre-incidents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Presentation: Can Claude Fix Itself? Using LLMs for Incident Response",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "LLM(Claude)をインシデント対応に活用し、システム障害の検知・診断・対処までAIが担えるかを検証したInfoQのプレゼンテーション紹介記事。SRE領域でのAI活用の可能性を扱っている。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "『AIは自分自身を治せるか』という挑発的な問いかけ"
+    },
+    {
+      "url": "https://zenn.dev/leadus_nova/articles/b152341bf0f3e3",
+      "title": "AIハッカソンに参加して76チーム中5チームまで残った話",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "76チームが参加したAIハッカソンで、最終選考の5チームまで勝ち残った経験を綴った参加レポート。開発の進め方やチームでの工夫など、ハッカソンで結果を出すための実践知が語られている。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A",
+      "hook": "76チーム中5チームに残るための立ち回り"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/why-performant-code-matters-but-gets",
+      "title": "Why performant code matters (but gets widely ignored), with Casey Muratori",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "パフォーマンスを重視したコードがなぜ広く軽視されがちなのかを、パフォーマンス志向で知られるCasey Muratori氏へのインタビューを通じて掘り下げたThe Pragmatic Engineerの記事。『動けばいい』という開発文化への異議申し立てとして読める内容。",
+      "topics": ["design"],
+      "neta": "S",
+      "hook": "「性能は軽視されている」という業界への率直な指摘"
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify",
+      "title": "GitHub - tt-a1i/archify: Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "アーキテクチャ図やワークフロー図、シーケンス図などを、動きのある自己完結型HTMLとして生成できるAIエージェント向けスキル『archify』のGitHubリポジトリ。設計ドキュメントの可視化をAIエージェントに任せる試みの一つ。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "設計図の可視化までAIエージェントに任せる時代"
+    },
+    {
+      "url": "https://code.ffmpeg.org/FFmpeg/FFmpeg/issues/24290",
+      "title": "We found a division by zero bug in FFmpeg with a vibecoded fuzzer",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "FFmpegでゼロ除算のバグが、AIとの対話で書いた(vibecoded)ファザーによって発見されたというIssue報告。AIを使って書いたテストツールが実際のOSSプロジェクトでバグを見つけた実例として、AI駆動開発の実践報告になっている。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "『vibecoded』ツールが実際にOSSのバグを発見した実例"
+    },
+    {
+      "url": "https://github.com/opslane/opslane",
+      "title": "Show HN: Watches user sessions, finds bugs that matter, and fixes them",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "ユーザーのセッションを監視し、重要なバグを見つけて自動的に修正するツール『opslane』を紹介するShow HN投稿。AIによる運用監視とバグ修正の自動化を目指したOSSプロジェクト。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "バグの発見から修正までAIに任せる運用監視ツール"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/diagrid-catalyst-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Diagrid Catalyst 2.0 Adds Durable and Verifiable Execution for AI Agents",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "AIエージェントの実行を『永続化(durable)』かつ『検証可能(verifiable)』にする機能を追加した『Diagrid Catalyst 2.0』のリリースを伝えるInfoQの記事。エージェントの実行状態を確実に管理する仕組みへの注目が高まっていることを示す事例。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "AIエージェントの実行を『壊れないように』する基盤"
+    },
+    {
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00157/082500111/",
+      "title": "オードリー・タンが警告 AIが考え人が従う「逆ケンタウロス」の罠",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "台湾のオードリー・タン氏が、AIが主導し人間がそれに従うだけになる状態を『逆ケンタウロス』と呼び、警鐘を鳴らしている記事。人とAIが協働する理想形『ケンタウロス』の逆転パターンとして、AI依存のリスクを分かりやすく提示している。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "『逆ケンタウロス』というネーミングセンスそのものが秀逸なフック"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/article/2608/26/2000000817/",
+      "title": "悪質UIを体験できる「ダークパターン博物館」が話題 解約迷路、偽の閉じるボタンなど 全8種",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "解約を妨げる『解約迷路』や偽の閉じるボタンなど、ユーザーを騙す悪質なUIデザイン(ダークパターン)を8種類展示する『ダークパターン博物館』が話題になっている記事。UXデザインにおける倫理的な問題を体験的に学べる企画。",
+      "topics": ["design"],
+      "neta": "A",
+      "hook": "『悪いUI』を博物館形式で体験するという発想"
+    },
+    {
+      "url": "https://speakerdeck.com/yda/50-dai-de-hatsutenshoku-shita-hanashi",
+      "title": "50代で初転職した話",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "50代にして初めて転職を経験した、というキャリアの節目を振り返るスライド資料。長く同じ会社で勤めてきた人が、なぜこのタイミングで転職を決断したのか、その経緯と心境が語られている。",
+      "topics": ["worklife"],
+      "neta": "S",
+      "hook": "『50代で初転職』という珍しいキャリアの転機"
+    },
+    {
+      "url": "https://forest.watch.impress.co.jp/docs/news/2135971.html",
+      "title": "LLMのローカル実行ツール「Ollama」が「Claude Desktop」に対応 ～3カ月半ぶりの復活／現時点ではmacOSのみ、Windowsも間もなくサポート",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "ローカルLLM実行ツール『Ollama』がClaude Desktopに対応したという記事。3カ月半ぶりの機能復活とされ、現時点ではmacOSのみでWindows対応も間もなく予定されている。ローカルLLMとクラウドAIツールの連携が進む一例。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "ローカルLLMとClaude Desktopの連携が『復活』した経緯"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/aws-spec-driven-data-workflow/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "AWS Introduces Specification Driven Composition for Flexible Data Workflows",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "AWSが、仕様(スペック)を起点にデータワークフローを柔軟に組み立てられる新機能『Specification Driven Composition』を発表したというInfoQの記事。仕様駆動開発の考え方をデータパイプライン構築に応用する動きの一例。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "『スペック駆動』の考え方がデータ基盤にも広がる"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/google-database-operation-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Google Cloud Launches AI-powered Agents to Simplify Database Lifecycle Management",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "Google Cloudが、データベースのライフサイクル管理を簡素化するAIエージェント機能を発表したというInfoQの記事。DBの運用・保守タスクをAIエージェントに任せる動きが進んでいることを示している。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "DBの運用・保守までAIエージェントに任せる流れ"
+    }
+  ],
+  "rejected_count": 1,
+  "capped_count": 44,
+  "failures": [
+    {
+      "name": "Kent Beck / Tidy First",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ]
+}
