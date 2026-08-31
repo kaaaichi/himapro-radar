@@ -1,0 +1,276 @@
+{
+  "date": "2026-09-01",
+  "items": [
+    {
+      "url": "https://techfeed.io/entries/6a94b314877bc8b0b7db7299",
+      "title": "Claudeに「4人のシニアエンジニア」を演じさせてアプリをレビューさせたら、67倍の高速化を達成しながら「この最適化は不要」と結論づけた",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Claudeに4人のシニアエンジニアを演じさせ、開発中のアプリをレビューさせた事例。提案された最適化を適用すると処理速度が67倍向上する結果を得たにもかかわらず、実際にはその最適化を「不要」と結論づけたという、AIレビューの意思決定プロセスが興味深い内容。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "67倍速くなる最適化を見つけたのに『やらなくていい』と結論づけたAI四人衆のレビュー"
+    },
+    {
+      "url": "https://note.com/fladdict/n/nd62972dd23bb",
+      "title": "Uberに見るAIエージェントの運用コストをいかに減らすか？｜深津 貴之 (fladdict)",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Uber社の事例をもとに、本番運用されるAIエージェントの運用コスト(推論コストやオペレーション負荷)をどう削減するかを論じた記事。深津貴之氏が実務目線でエージェント運用の課題と対策を考察している。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "海外配車大手の実例で学ぶ、AIエージェントの運用コストを減らす発想"
+    },
+    {
+      "url": "https://blog.generative-agents.co.jp/entry/2026/08/31/173537",
+      "title": "AIエージェントとの協働を考え続けた結果、タスク管理ツールとチャットツールを内製しました - Generative Agents Tech Blog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIエージェントと人間が協働する上で既存のタスク管理・チャットツールでは限界を感じ、専用ツールを内製したという事例。AIとの協働を前提にした設計判断がどのようなものだったかを紹介している。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "AIと協働するために、あえて既存ツールを使わずタスク管理・チャットを自作した理由"
+    },
+    {
+      "url": "https://gigazine.net/news/20260831-claude-tag-example/",
+      "title": "AnthropicがSlackとの会話でClaudeを使える「Claude Tag」の社内活用事例を公開",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AnthropicがSlack上でClaudeと会話できる「Claude Tag」の社内活用事例を公開。社内でのAI活用の実践例として、チームでのAIエージェント導入のヒントになる内容。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A",
+      "hook": "Anthropic自身はSlackでClaudeをどう使っているか、その社内事例"
+    },
+    {
+      "url": "https://gigazine.net/news/20260830-flint/",
+      "title": "AIエージェントが人間にとって理解しやすいシンプルなチャート仕様記述から表現力豊かで見栄えの良いグラフを確実に生成できる可視化中間言語「Flint」、50種類のチャートタイプをサポートしVega-Lite・ECharts・Chart.jsなどでレンダリング可能＆MCPサーバーあり",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIエージェントがシンプルなチャート仕様記述から見栄えの良いグラフを生成できる可視化中間言語「Flint」が登場。50種類のチャートタイプに対応し、Vega-LiteやEChartsなどでレンダリング可能でMCPサーバーも用意されている。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "AIエージェント向けの『グラフ生成中間言語』という発想"
+    },
+    {
+      "url": "https://note.com/suzu_4/n/n333d3ff27c18",
+      "title": "ツールではなく、思想を導入する〜カミナシでLinearを導入して分かったこと｜osuzu",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "プロジェクト管理ツールLinearを導入する過程で、単なるツール移行ではなく「思想」を組織に根付かせることが重要だったという気づきを綴った記事。ツール導入とチームの意識変革の関係を考察している。",
+      "topics": ["team", "agile"],
+      "neta": "S",
+      "hook": "ツールを変えるだけでは失敗する、『思想』を導入するという発想"
+    },
+    {
+      "url": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
+      "title": "How Warp builds self-improving agents on Claude | Claude by Anthropic",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "ターミナルアプリWarpが、Claudeを活用して自己改善するAIエージェントをどう構築しているかを解説する記事。実プロダクトでのエージェント設計・運用のノウハウが紹介されている。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "ターミナルツールWarpの『自己改善するエージェント』づくり"
+    },
+    {
+      "url": "https://zenn.dev/gyu07/articles/8181c10592694d",
+      "title": "Athena / Icebergから考える宣言的OLAP基盤",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AWS AthenaとIcebergを題材に、宣言的なOLAP基盤の設計思想を論じた記事。データ基盤における宣言的アプローチの利点を考察している。",
+      "topics": ["design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/kiomatsu/articles/8ee0be988067e0",
+      "title": "育休3か月、ChatGPTとCodexで作りまくったら自分の弱点が露呈した",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "育休中の3か月間、ChatGPTとCodexを駆使して開発を繰り返した結果、「完成すること自体が目的化する」「問題対処より管理の仕組み化に走る」という自身の隠れた癖が、AIによる高速化によってあぶり出されたという内省エッセイ。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "AIで開発が速くなったせいで、自分の『悪い癖』が丸見えになった話"
+    },
+    {
+      "url": "https://zenn.dev/minewo/articles/river-review-judgment-placement",
+      "title": "AIコードレビューを4層に分ける。River ReviewのJudgment Placement設計",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AIによるコードレビューを4つの層に分割して設計した「River Review」というツールのJudgment Placement(判定配置)の考え方を解説する記事。AIレビューの精度と実用性を両立させる設計の工夫が紹介されている。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "AIコードレビューを『4層』に分けて設計するという発想"
+    },
+    {
+      "url": "https://zenn.dev/m16_llc/articles/sdd-vs-adr-driven-development",
+      "title": "【SDD × ADR】仕様駆動開発とADR駆動開発の違い 〜流れる仕様と、積もる決定〜",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "仕様駆動開発(SDD)とADR(Architecture Decision Record)駆動開発の違いを、「流れる仕様」と「積もる決定」という対比で整理した記事。両者の使い分けや設計プロセスにおける役割の違いを論じている。",
+      "topics": ["design", "ai-dev"],
+      "neta": "A",
+      "hook": "『流れる仕様』と『積もる決定』、SDDとADRは何が違うのか"
+    },
+    {
+      "url": "https://zenn.dev/fukukei23/articles/claude-code-tool-calling-5359933a",
+      "title": "Claude Code ハーネス入門：tool calling/自律ループ/サーキットブレーカ用語集",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Claude Codeなどのエージェント型AIハーネスにまつわる基礎用語(tool calling、自律ループ、サーキットブレーカなど)を整理した入門記事。AI駆動開発の基礎知識を体系的に学べる内容。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "AIエージェント開発の基礎用語をまとめて押さえる"
+    },
+    {
+      "url": "https://qiita.com/inukai-masanori/items/fe7dedaefef795db8114",
+      "title": "スプリントレトロスペクティブに「MVP制度」を導入した話",
+      "source": "Qiita(スクラム)",
+      "lang": "ja",
+      "summary": "スプリントレトロスペクティブにスポーツのような「MVP(最優秀選手)制度」を導入してみたという事例を紹介する記事。チームの振り返りに競争的・称賛的な要素を持ち込むことで得られた効果や工夫が語られている。",
+      "topics": ["scrum", "agile"],
+      "neta": "S",
+      "hook": "レトロスペクティブに『MVP表彰』を持ち込んでみたら"
+    },
+    {
+      "url": "http://muratbuffalo.blogspot.com/2026/08/the-safest-job-from-ai-may-be-writing.html",
+      "title": "The safest job from AI may be writing",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "AI技術の発展の中で、意外にも「書くこと(ライティング)」こそがAIに代替されにくい仕事だと論じる英語記事。AIと人間の仕事の棲み分けについての考察。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "AIに一番奪われにくい仕事は『書くこと』だという逆説"
+    },
+    {
+      "url": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/",
+      "title": "Breaking Claude Code Opus 5 Auto Mode",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "セキュリティ研究者が、Claude CodeのOpus 5モデルによる自動実行モード(Auto Mode)の弱点を実証した記事。AIエージェントの自律実行機能に潜むリスクや攻撃手法が紹介されている。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "AIの『自動実行モード』はどう突破されるのか"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/doordash-flux-cloud-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "DoorDash’s Flux Runs 130,000 Engineering Tasks Through Cloud-Based Agents",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "フードデリバリー大手DoorDashが、社内の「Flux」というクラウドベースのAIエージェント基盤を通じて13万件ものエンジニアリングタスクを処理しているという事例を紹介する記事。大規模組織でのAIエージェント活用の実態が分かる内容。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "13万件のエンジニアリングタスクをAIエージェントがこなす、DoorDashの内製基盤"
+    },
+    {
+      "url": "https://www.infoq.com/podcasts/evolving-desktop-agentic-ux/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Podcast: Scott Jenson on Evolving Desktop OS, Local-First, & Agentic UX",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "デスクトップOSの進化、ローカルファーストの思想、そしてエージェント型UXについて、UXの専門家Scott Jenson氏が語るポッドキャスト。今後のOS・UIデザインの方向性を考察する内容。",
+      "topics": ["design", "ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
+      "title": "Understanding ChatGPT Work",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "OpenAIの新機能「ChatGPT Work」について、著名開発者Simon Willison氏が仕組みや特徴を解説する記事。AIエージェントの企業向け活用機能について理解を深める内容。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "ChatGPTの企業向け新機能『Work』を読み解く"
+    },
+    {
+      "url": "https://zenn.dev/kawarimidoll/articles/d3f1a7542de71a",
+      "title": "202608個人的claude code設定",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "2026年8月時点での著者個人のClaude Code設定・カスタマイズをまとめた記事。日々のAI駆動開発の実践的なTipsが多数紹介されている。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/dhhlinux_osomarchy_quattroaiosaios.html",
+      "title": "DHH氏が開発するLinux OS「Omarchy Quattro」リリース。AIエージェントとをOSと統合、スキルによりAIエージェントがOSの設定や操作、プラグイン作成まで支援",
+      "source": "Publickey",
+      "lang": "ja",
+      "summary": "DHH氏が開発するLinuxディストリビューション「Omarchy Quattro」がリリース。AIエージェントとOSを統合し、スキル機能によってAIがOSの設定や操作、プラグイン作成まで支援するという意欲的な内容。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "OS自体にAIエージェントを統合するとどうなるか"
+    },
+    {
+      "url": "https://joisino.hatenablog.com/entry/kasu",
+      "title": "LLMのカスのコンサル問題 - ｼﾞｮｲｼﾞｮｲｼﾞｮｲ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "LLMを使うことで誰でも見栄えの良い分析・提案ができてしまうことで生まれる「中身の伴わないコンサルティング」の問題を論じた記事。AIの民主化がもたらす負の側面について考察している。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "LLMのおかげで誰でも『それっぽいコンサル』ができてしまう問題"
+    },
+    {
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2608/31/news035.html",
+      "title": "「エラーログをAIに解析させる」だけで感染 社内のAIを乗っ取る攻撃、対策は？",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "社内で使うAIツールに、細工されたエラーログを解析させるだけでAIが乗っ取られてしまうという新手の攻撃手法とその対策を解説する記事。AIエージェントを業務に組み込む際のセキュリティリスクを警告している。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "『エラーログを読ませただけ』で社内AIが乗っ取られる恐怖"
+    },
+    {
+      "url": "https://forest.watch.impress.co.jp/docs/news/2136814.html",
+      "title": "「Gemini Live」が単なる話し相手から仕事を片付ける相棒に ～「Gemini Spark」と連携／「Daily Brief」の読み上げや「Gmail」のハンズフリー整理にも対応",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "GoogleのAIアシスタント「Gemini Live」が、単なる会話相手から実際に仕事をこなす相棒へと進化。「Gemini Spark」との連携や「Daily Brief」の読み上げ、Gmailのハンズフリー整理などの新機能が紹介されている。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "AIアシスタントが『話し相手』から『仕事をこなす相棒』に進化"
+    },
+    {
+      "url": "https://gigazine.net/news/20260831-south-koreas-public-ai-service/",
+      "title": "無料で国産AIサービスを一般市民に提供するプロジェクト「AI for All」を韓国政府が推進中",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "韓国政府が、国産AIサービスを無料で一般市民に提供するプロジェクト「AI for All」を推進しているというニュース。国家レベルでのAI民主化施策の一例。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://usealmanac.com/",
+      "title": "Launch HN: Almanac (YC S26) – AI that knows your company",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "自社の情報を学習し、社内向けに回答できるAIを提供するスタートアップ「Almanac」のローンチ告知。企業特化型AIアシスタントの一例。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "B"
+    },
+    {
+      "url": "https://codex-tool-reference.simonw.chatgpt.site/",
+      "title": "ChatGPT Work Tool and Skill Reference",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "OpenAIのChatGPT Workにおけるツール・スキルのリファレンスをまとめたページ。企業向けAIエージェント機能の詳細を確認できる資料的内容。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/presentations/local-ai-browser-inference-privacy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Presentation: Running AI at the Edge: Running Real Workloads Directly in the Browser",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "ブラウザ上でAIワークロードを直接実行する「エッジAI」についてのプレゼンテーション。プライバシーを保ちながらローカルでAI推論を行う手法を紹介している。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    }
+  ],
+  "rejected_count": 3,
+  "capped_count": 40,
+  "failures": [
+    {
+      "name": "Kent Beck / Tidy First",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ]
+}
