@@ -1,0 +1,286 @@
+{
+  "date": "2026-09-02",
+  "items": [
+    {
+      "url": "https://zenn.dev/knowledgesense/articles/ad123283bdea26",
+      "title": "Google提唱の「SKILL.state」について。プロンプトに型の概念を導入",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "GoogleとPurdue大学が提案した「SKILL.state」という手法を紹介する記事。長時間動くAIエージェントは会話履歴をそのまま渡すと精度が落ちる問題に対し、過去の会話ではなく型（スキーマ）を定義した構造化Stateだけを毎ターン渡すことで、200ステップの長いタスクでも精度0.94を維持しつつトークン消費も抑えられるという。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "会話履歴を全部捨てて、型を持ったStateだけを渡すとAIが『長く続くほどバカになる』問題が消える"
+    },
+    {
+      "url": "https://note.com/mazamachi/n/nca12be99a8ac",
+      "title": "何を作ったかより何を変えたかで自分を語れよ!!! - 書籍『Outcomes Over Output』が目標設定の悩みを解消してくれた｜まざっち",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "書籍『Outcomes Over Output』を読んだ感想記事。「何を作ったか」ではなく「何を変えたか」で自分の仕事を語ることが、目標設定やキャリアの悩みを解消するという主張を紹介している。",
+      "topics": ["worklife"],
+      "neta": "A"
+    },
+    {
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "en",
+      "summary": "AnthropicがClaude Fable 5.1とClaude Mythos 5.1を発表した公式アナウンス記事。新モデルの位置づけや特徴が紹介されている。",
+      "topics": ["ai-dev"],
+      "neta": "A"
+    },
+    {
+      "url": "https://gigazine.net/news/20260901-hermes-agent-cron-automation/",
+      "title": "使い込むほど成長するAIエージェント「Hermes Agent」でタスクを自動実行させてみた、PCを放置していても時間になれば勝手に実行",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIエージェント「Hermes Agent」を使い込んでタスクを自動実行させてみたレビュー記事。PCを放置していても指定時刻になれば勝手にタスクを実行してくれ、使うほど成長していく点が特徴という。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "PCを放置しても時間が来たら勝手に動く、しかも使うほど育つAIエージェント"
+    },
+    {
+      "url": "https://www.m3tech.blog/entry/claude-budget-tags",
+      "title": "Claude Codeでトークンリミットが頻発したので、作業ごとにリミットを設定した - エムスリーテックブログ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "エムスリーの開発者がClaude Codeでトークンリミットに頻繁に引っかかるようになったため、作業ごとにトークンの上限（budget tags）を設定して対処した実践記事。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "Claude Codeのトークン切れ対策に『作業ごとの予算管理』を導入"
+    },
+    {
+      "url": "https://zenn.dev/coji/articles/artifactshare-preview-claude-codex-cursor",
+      "title": "会話セッションを邪魔せずに Claude Code / Codex / Cursor を外部イベントで動かすCLIの作り方まとめ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "会話セッションを中断せずに、Claude Code / Codex / Cursorなどのコーディングエージェントを外部イベント（Webhookなど）から起動するCLIツールの作り方をまとめた記事。",
+      "topics": ["ai-dev"],
+      "neta": "A"
+    },
+    {
+      "url": "https://gigazine.net/news/20260901-interacting-ai-people-act-like-robots/",
+      "title": "AIとやり取りし続けると人間が「ロボットのように」振る舞い始めてしまう可能性",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIとやり取りを続けていると、人間の側が「ロボットのように」定型的な話し方や振る舞いをするようになってしまう可能性があるという研究を紹介する記事。",
+      "topics": ["worklife", "ai-dev"],
+      "neta": "S",
+      "hook": "AIに合わせて喋っていたら、人間の方がAIっぽくなっていた"
+    },
+    {
+      "url": "https://gihyo.jp/article/2026/09/home-local-llm-guide",
+      "title": "自宅でローカルLLMを動かしてみた ローカルなら実現できる遊びとこだわり | gihyo.jp",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "自宅でローカルLLMを動かしてみた体験記。クラウドのAIサービスにはない、ローカルならではの遊び方やこだわりのポイントを紹介している。",
+      "topics": ["ai-dev"],
+      "neta": "A"
+    },
+    {
+      "url": "https://kawarimidoll.com/posts/202609011/",
+      "title": "ADRを管理するadrsが良さげかも | kawarimidoll.com",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Architecture Decision Record(ADR)を管理するCLIツール「adrs」を試してみた紹介記事。ADRの作成・一覧管理を手軽に行える点が良さそうだという。",
+      "topics": ["design"],
+      "neta": "A"
+    },
+    {
+      "url": "https://nealle-dev.hatenablog.com/entry/2026/09/01/180204",
+      "title": "Google Cloudのセキュリティ強化を爆速で！ - Google Cloud minimum viable secure platformのススメ - Nealle Developer's Blog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Google Cloudのセキュリティ強化を素早く進めるための考え方「minimum viable secure platform」を紹介する記事。最小限の構成から段階的にセキュアな基盤を整えていく手法を解説している。",
+      "topics": ["design"],
+      "neta": "A"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/airedshiftdwhamazon_redshiftagent_toolkit_for_aws.html",
+      "title": "AIエージェントがRedshiftを操作してDWH構築や集計分析など可能に、Amazon RedshiftがAgent Toolkit for AWSと統合",
+      "source": "Publickey",
+      "lang": "ja",
+      "summary": "Amazon RedshiftがAgent Toolkit for AWSと統合されたことで、AIエージェントがRedshiftを操作してDWH構築や集計分析などを行えるようになったという発表記事。",
+      "topics": ["ai-dev"],
+      "neta": "A"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/vs_codeairubber_duck.html",
+      "title": "VS Code上で開発のセカンドオピニオンを別のAIエージェントから得られる「Rubber Duck」機能が実験的実装",
+      "source": "Publickey",
+      "lang": "ja",
+      "summary": "VS Code上で、開発中のコードについて別のAIエージェントからセカンドオピニオンを得られる「Rubber Duck」機能が実験的に実装されたという記事。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "ラバーダック・デバッグの相手を、本物の『もう一人のAI』にやらせる"
+    },
+    {
+      "url": "https://zenn.dev/plus_blog/articles/agile-talk-01-scrum-pillars-values",
+      "title": "Five Minutes Agile Talk 第1回 スクラムの土台：3つの柱と5つの価値",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "スクラムを解説する連載の第1回。スクラムを支える「3つの柱（透明性・検査・適応）」と「5つの価値基準」について基礎から説明している。",
+      "topics": ["scrum"],
+      "neta": "A"
+    },
+    {
+      "url": "https://zenn.dev/hansodeeeeee/articles/8700f98aef9ebb",
+      "title": "「何すればいいんでしたっけ」から始まるリファインメントを、前日の準備で立て直したチームの試行錯誤（トナリノ）",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "「何すればいいんでしたっけ」から始まっていたリファインメントを、前日にちょっとした準備をすることで立て直したチームの試行錯誤を紹介する記事。",
+      "topics": ["scrum"],
+      "neta": "S",
+      "hook": "リファインメントが迷走する原因は『前日の準備不足』だった"
+    },
+    {
+      "url": "https://zenn.dev/m16_llc/articles/claude-academy-guide-2026",
+      "title": "【全コース無料】Claude Academy 完全ガイド 〜Anthropic公式のAI学習サイトを目的別に使い倒す〜",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Anthropic公式のAI学習サイト「Claude Academy」の全コースを目的別に紹介するガイド記事。すべて無料で受講できるという。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/olana_kishimoto/articles/aef58e60828df1",
+      "title": "クライアントが書いた要望を、AIがそのまま実装する日は来るか",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "クライアントが書いた要望文を、AIがそのまま実装してくれる日は来るのかを考察する記事。要件定義とAIによる実装の間にあるギャップについて論じている。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "『言った通りに作って』が本当に成立する日は来るのか"
+    },
+    {
+      "url": "https://qiita.com/h-yamakawa/items/834d5aebbd7da9c680fe",
+      "title": "「何すればいいんでしたっけ」から始まるリファインメントを、前日の準備で立て直したチームの試行錯誤（トナリノ）",
+      "source": "Qiita(スクラム)",
+      "lang": "ja",
+      "summary": "Zennで公開された「前日の準備でリファインメントを立て直した」記事のQiita転載版。内容は同記事と同じ。",
+      "topics": ["scrum"],
+      "neta": "A"
+    },
+    {
+      "url": "https://qiita.com/Renga/items/77011ad2fa92102ee594",
+      "title": "3案を並べても間違いは見つからない。潰す役を1体足したら1案落ちた",
+      "source": "Qiita(アジャイル)",
+      "lang": "ja",
+      "summary": "3つの案を並べてレビューしても間違いは見つからなかったが、あら探し役を1人追加したら1案が落選したという、レビュー・意思決定プロセスに関する記事。",
+      "topics": ["agile", "team"],
+      "neta": "S",
+      "hook": "レビューに『潰す役』を1人足すだけで結果が変わった"
+    },
+    {
+      "url": "https://martinfowler.com/fragments/2026-09-01.html",
+      "title": "Fragments: September 1",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "summary": "Martin Fowler氏のブログの短文コーナー「Fragments」の9月1日分。ソフトウェア設計にまつわる短い所感やリンクをまとめた回とみられる。",
+      "topics": ["design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+      "title": "The ChatGPT/Codex app bundles a full copy of LibreOffice",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "ChatGPT/CodexのアプリにLibreOfficeの完全なコピーが同梱されていることを発見したという記事。なぜAIコーディングツールにオフィススイートが同梱されているのか、その理由を探っている。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "AIコーディングアプリを開けたら、中からLibreOfficeが丸ごと出てきた"
+    },
+    {
+      "url": "https://iurii.net/en/blog/posts/software-engineering/i-used-fable-to-rewrite-65kloc-to-rust/",
+      "title": "I used Fable to rewrite 65kLoC of Go in Rust. It cost $400",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "Claude Fableを使って65,000行のGoコードをRustに書き換えた体験記。作業は400ドルのコストで完了したという、大規模リライトの実例を紹介している。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "6.5万行のGo→Rust書き換えが400ドルで終わった"
+    },
+    {
+      "url": "https://danluu.com/zitron/",
+      "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "AI懐疑論で知られるEd Zitron氏のこれまでの予測がどれだけ当たっていたかを検証する記事。AI業界に対する悲観的な予測の的中率を振り返っている。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "AI懐疑派の『予言』は実際どれだけ当たっていたのか"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/09/openclaw-2-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "OpenClaw 2.0 Releases with Simplified Setup and Collaborative Agents",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "AIエージェントフレームワーク「OpenClaw 2.0」がリリースされたという記事。セットアップの簡略化と、複数エージェントによる共同作業機能が追加されたという。",
+      "topics": ["ai-dev"],
+      "neta": "A"
+    },
+    {
+      "url": "https://openai.com/index/path-to-astra/",
+      "title": "Path to Astra: critical capabilities and frontier safeguards",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "OpenAIが「Astra」と呼ぶ次のAI能力段階に向けて、危険となりうる能力とフロンティアの安全対策についてまとめた記事。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://github.com/carloslfu/slotstream",
+      "title": "Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "104GBサイズのQwen3.8-Flash-Nextモデルを、48GBメモリのMacで秒間約12トークンの速度で動かしたという実験記事。",
+      "topics": ["ai-dev"],
+      "neta": "A"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/dhhomacom_foundationomarchylinux.html",
+      "title": "DHH氏が「Omacom Foundation」を設立、Omarchy推進によるLinuxデスクトップの本格普及を目指す。マイケル・デル、ジャック・ドーシーら著名人も出資",
+      "source": "Publickey",
+      "lang": "ja",
+      "summary": "DHH氏が「Omacom Foundation」を設立し、自身が開発するLinuxディストリビューション「Omarchy」の普及を通じてLinuxデスクトップの本格普及を目指すという記事。マイケル・デルやジャック・ドーシーら著名人も出資しているという。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://gigazine.net/news/20260901-google-timesfm-3/",
+      "title": "Googleが売上や天気など複数のデータから未来を予測するAI「TimesFM-3」を公開、追加学習なしで予測可能",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Googleが、売上や天気など複数のデータから未来を予測するAI「TimesFM-3」を公開したという記事。追加学習なしでも予測が可能な点が特徴という。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.businessinsider.jp/article/2609-meat-proxy-tech-new-term-ai/",
+      "title": "「ミート・プロキシ」って何？…AIの出力をそのまま送ってくる人を指す新語が話題 | Business Insider Japan",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIの出力をそのまま右から左に送ってくる人を指す新語「ミート・プロキシ」を紹介する記事。AIを使ったやり取りが増える中で生まれた、仕事のコミュニケーションに関する新しい問題提起という。",
+      "topics": ["worklife", "ai-dev"],
+      "neta": "S",
+      "hook": "AIの出力をそのまま右から左に流す人＝『ミート・プロキシ』"
+    },
+    {
+      "url": "https://gigazine.net/news/20260901-anthropic-alignment-security/",
+      "title": "Anthropicが「開発中のAIで外部を攻撃しないための対策」を発表",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Anthropicが、開発中のAIモデルが外部のシステムを攻撃してしまわないようにするための対策について発表したという記事。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    }
+  ],
+  "rejected_count": 1,
+  "capped_count": 43,
+  "failures": [
+    {
+      "name": "Kent Beck / Tidy First",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ]
+}
