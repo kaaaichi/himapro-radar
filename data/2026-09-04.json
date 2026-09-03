@@ -1,0 +1,258 @@
+{
+  "date": "2026-09-04",
+  "items": [
+    {
+      "url": "https://about.gitlab.com/ja-jp/blog/how-gitlab-fosters-ai-fluent-teams/",
+      "title": "AIを使いこなす技術チームの育て方、GitLab社内の実践から",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "GitLab社内でAIを使いこなすエンジニアチームを育てるための取り組みを紹介する記事。ツール導入だけでなく学習文化やナレッジ共有の仕組みづくりが鍵になっている点を解説している。",
+      "topics": ["team", "ai-dev"],
+      "neta": "A"
+    },
+    {
+      "url": "https://dev.classmethod.jp/articles/webmcp-introduction/",
+      "title": "WebMCPがアツいので見てほしい | DevelopersIO",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "ブラウザ上でAIエージェントがWebアプリと直接やり取りできるようにする新技術「WebMCP」を紹介する記事。AIエージェントとWebサービス連携の新しい可能性について解説している。",
+      "topics": ["ai-dev"],
+      "neta": "A"
+    },
+    {
+      "url": "https://future-architect.github.io/articles/20260903a/",
+      "title": "「レビューがしんどい」の正体を、認知的負債から考えてみた | フューチャー技術ブログ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "コードレビューが辛く感じる原因を、スキル不足ではなく「認知的負債」という概念から分析した記事。レビューの負荷を減らすには設計や共有知識の整理が重要だと論じている。",
+      "topics": ["team", "design"],
+      "neta": "S",
+      "hook": "レビューが辛いのは技術力不足ではなく「認知的負債」のせいという逆転の視点"
+    },
+    {
+      "url": "https://gigazine.net/news/20260903-google-mantis-open-source/",
+      "title": "Googleが脆弱性の発見・再現・修正を自動化するオープンソースフレームワーク「Mantis」の詳細を公開、巨大リポジトリでもトークンのオーバーヘッドを85％超削減",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Googleが公開した脆弱性の発見・再現・修正を自動化するOSSフレームワーク「Mantis」を紹介。巨大リポジトリでもトークン消費を85%以上削減できる点が特徴。",
+      "topics": ["ai-dev"],
+      "neta": "A"
+    },
+    {
+      "url": "https://speakerdeck.com/layerx/bet-ai-day-2026-session09",
+      "title": "Bet AI Day 2026丨LayerXの採用を支える組織AIの現在地と、Agentに任せる未来",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "LayerXが登壇したBet AI Day 2026のセッション資料。採用活動を支える「組織AI」の現在地と、将来的にAgentへ業務を委任していく構想について語られている。",
+      "topics": ["team", "ai-dev"],
+      "neta": "S",
+      "hook": "採用や組織運営そのものをAgentに任せる、という組織AIの最前線"
+    },
+    {
+      "url": "https://aiji42.dev/blog/cloudflare-os-agent-workspace/",
+      "title": "気づいたら Cloudflare OS と同じ答えにたどり着いていた",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "個人でAIエージェント用のワークスペース基盤を設計していたら、Cloudflareが提唱する「Cloudflare OS」と同様の設計にたどり着いたという体験記。独立に同じ結論に至った点から設計の妥当性を考察している。",
+      "topics": ["design", "ai-dev"],
+      "neta": "S",
+      "hook": "独自にAgentワークスペースを設計したら、大企業が公開したアーキテクチャと同じ答えに収束していた"
+    },
+    {
+      "url": "https://www.nist.gov/blogs/cybersecurity-insights/back-future-why-agentic-ai-needs-strong-identity-foundation",
+      "title": "Back to the Future: Why Agentic AI Needs a Strong Identity Foundation",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "エージェント型AIには堅牢な「アイデンティティ基盤」が必要だと説くNISTのセキュリティブログ。エージェントの認証・認可設計に関する考え方を紹介している。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A"
+    },
+    {
+      "url": "https://zenn.dev/tsukimi_soba/articles/mgt-requirements-mapping-structure",
+      "title": "[MGT]要望という名のエピックから考える、ウォーターフォールとアジャイルの要件マッピング（構造編）",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "ウォーターフォールとアジャイルで「要望」をどう要件にマッピングするかを構造面から整理した記事。要望をエピックとして扱う際の考え方を解説している。",
+      "topics": ["agile"],
+      "neta": "A"
+    },
+    {
+      "url": "https://zenn.dev/tsukimi_soba/articles/mgt-requirements-mapping-flow",
+      "title": "[MGT]要望という名のエピックから考える、要望をチケット化するタイミングの整理（フロー編）",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "前編に続き、要望をチケット化するタイミングをフローの観点から整理した記事。要求管理のプロセス設計について具体的に論じている。",
+      "topics": ["agile"],
+      "neta": "A"
+    },
+    {
+      "url": "https://zenn.dev/craftgear/articles/61c0b653f1491f",
+      "title": "ストーリーポイントという儀式を、そろそろやめませんか",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "スクラムで定番となっているストーリーポイントによる見積もりを、形骸化した「儀式」だと批判し、やめることを提案する記事。見積もりの本質的な目的に立ち返るべきだと論じている。",
+      "topics": ["scrum"],
+      "neta": "S",
+      "hook": "見積もりの「儀式」と化したストーリーポイントを、思い切ってやめてみようという提案"
+    },
+    {
+      "url": "https://zenn.dev/bricks/articles/refuter-agent",
+      "title": "3案を並べても間違いは見つからない。潰す役を1体足したら1案落ちた",
+      "source": "Zenn(アジャイル)",
+      "lang": "ja",
+      "summary": "AIエージェントに複数案を並列生成させても誤りは見つからないが、批判・反証に特化した「潰し役」エージェントを1体加えるだけで案の欠陥が発覚したという実験記録。レビュープロセスの設計に示唆を与える内容。",
+      "topics": ["agile", "ai-dev"],
+      "neta": "S",
+      "hook": "複数案を比較するだけでは間違いに気づけない。「潰し役」を1体足すだけで見落としが露呈する"
+    },
+    {
+      "url": "https://zenn.dev/yuninaka/articles/ai-review-philosophy",
+      "title": "「テストが通る」は「正しい」の証明にならない——AI協働で見つけた3つの静かなバグから固めたレビュー方針",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AIと協働開発する中で「テストが通ること」と「正しいこと」は同義ではないと痛感した経験から、静かなバグを見つけた事例とレビュー方針の見直しについて論じている。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "AIとの協働で見つかった、テストが通っても隠れていた3つの静かなバグ"
+    },
+    {
+      "url": "https://zenn.dev/deloitte_jp_eng/articles/a01c88ac3e64e2",
+      "title": "Google Cloud Next Tokyo 26で紹介したAI駆動開発の実践例",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Google Cloud Next Tokyo 26で発表されたAI駆動開発の実践例を紹介する記事。実際の開発現場でAIをどう組み込んでいるかの事例がまとめられている。",
+      "topics": ["ai-dev"],
+      "neta": "A"
+    },
+    {
+      "url": "https://zenn.dev/numarn/articles/claude-model-pricing-org-rate-handson",
+      "title": "AIの料金表を書き換える設定を4か所に置いたら、効いたのは1か所だけ。残り3か所は警告0バイトで消えた",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Claudeの組織レート設定を4箇所に配置して検証したところ、実際に効果があったのは1箇所のみで、残り3箇所は警告も出さずに黙って無視されていたという検証記録。設定の優先順位を実測ベースで明らかにしている。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "同じ設定を4箇所に置いたのに効いたのは1箇所だけ、しかも警告すら出ない"
+    },
+    {
+      "url": "https://zenn.dev/quallab/articles/crdd-context-repository-origin",
+      "title": "金曜に捨てた案を、AIは月曜にもう一度提案した",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "一度チームで却下した設計案を、AIが週明けに再度提案してきたという出来事をきっかけに、コンテキストの引き継ぎと「文脈リポジトリ」という仕組みを考案した記事。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "金曜日に却下したはずのアイデアを、AIが月曜日にまた提案してきた理由"
+    },
+    {
+      "url": "https://zenn.dev/tmasuyama1114/articles/claude_code_model_orchestration",
+      "title": "【Claude Code】メインは判断、実行はサブエージェントへ｜Fable/Opus/Sonnet/Haiku の使い分け",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Claude Codeでの開発において、メインエージェントは判断に専念し、実行はサブエージェントに委譲するという運用方針を紹介。Fable/Opus/Sonnet/Haikuの使い分けについても解説している。",
+      "topics": ["ai-dev"],
+      "neta": "A"
+    },
+    {
+      "url": "https://zenn.dev/xneshuk/articles/525560356a3737",
+      "title": "仕事の合間に7か月、AIと電子書籍ビューアを作った――「作れる」から「売れる状態」にするまで",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "本業の合間を縫って7か月間、AIと共に電子書籍ビューアを開発した個人開発の記録。「作れる」段階から「売れる状態」に持っていくまでの苦労を率直に振り返っている。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "「作れる」ことと「売れる状態にする」ことの間にある大きな溝"
+    },
+    {
+      "url": "https://zenn.dev/racco/books/dd23e457e82f10",
+      "title": "医療技術者のためのAI駆動開発（AIDD）完全攻略ハンドブック",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "医療技術者向けにAI駆動開発（AIDD）の進め方をまとめた実践ハンドブック。専門領域の実務者がAIを活用して開発を進めるための手引きとなっている。",
+      "topics": ["ai-dev"],
+      "neta": "A"
+    },
+    {
+      "url": "https://zenn.dev/numarn/articles/claude-prompt-cache-ttl-setting-handson",
+      "title": "設定に1行足したら同じ一問が1.43倍安くなった。8分放置したら、その1行が11倍高くついた",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Claudeのプロンプトキャッシュ設定を1行加えるだけで同じ質問のコストが1.43倍安くなった一方、8分放置するとキャッシュが切れて逆に11倍高くつくという検証結果をまとめた記事。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "たった1行の設定変更で1.43倍安くなるのに、8分放置しただけで逆に11倍高くつく罠"
+    },
+    {
+      "url": "https://martinfowler.com/bliki/ParacelsusMaxim.html",
+      "title": "Bliki: Paracelsus Maxim",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "summary": "Martin Fowlerが、16世紀の医師パラケルススの「用量が毒性を決める」という言葉を引き、ソフトウェア設計の良し悪しは二項対立ではなく文脈と分量次第だと説くBliki記事。グローバル変数を例に、設計判断は常に「どの程度なら許容できるか」を問うべきだと論じている。",
+      "topics": ["design"],
+      "neta": "S",
+      "hook": "『薬も毒も量次第』という原理は、グローバル変数のような設計プラクティスの是非にもそのまま当てはまる"
+    },
+    {
+      "url": "https://martinfowler.com/articles/exploring-gen-ai/an-accidental-blackboard.html",
+      "title": "An Accidental Blackboard",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "summary": "Thoughtworksのエンジニアがエアライン運航管理システムを4日間で構築した際、リポジトリが複数のAIエージェント間の情報共有基盤として偶発的に機能したという体験記。この現象を意図的なアーキテクチャへと発展させる試みも紹介されている。",
+      "topics": ["design", "ai-dev"],
+      "neta": "S",
+      "hook": "偶然うまく機能した仕組みを紐解いたら、古典的な「ブラックボードパターン」だった"
+    },
+    {
+      "url": "https://martinfowler.com/rachels-ramblings/code-review.html",
+      "title": "Maybe We Shouldn't Be Reviewing All This Code",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "summary": "AIが生成するコード量が増える中、「すべてのコードを人間がレビューすべき」という前提自体を見直すべきではないかと問いかける記事。レビューの目的に立ち返った新しい向き合い方を提案している。",
+      "topics": ["team", "ai-dev", "design"],
+      "neta": "S",
+      "hook": "AIが書いたコードを全部人間がレビューする、という前提そのものを疑ってみる"
+    },
+    {
+      "url": "https://armature.tech/blog/which-tools-coding-agents-install",
+      "title": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "Claude・Codex・Cursorなど主要なコーディングエージェントが実際にどのツールを選択しているかを、1万7千件の実行ログを分析して明らかにした記事。エージェント設計におけるツール選択の傾向を定量的に示している。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "1.7万回の実行ログから見えた、AIエージェントが実際に選ぶツールのランキング"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/09/spotify-gisting-llm-performance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Shopify Introduces Gisting: Compressing LLM System Prompts into Learned Tokens",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "ShopifyがLLMのシステムプロンプトを学習済みトークンに圧縮する「Gisting」という手法を発表。プロンプトの長さを削減しつつ性能を維持する取り組みを紹介している。",
+      "topics": ["ai-dev"],
+      "neta": "A"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/09/human-reviews-AI-era/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Rigorous Yet Sustainable Human Reviews in the AI Era",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "AI時代における人間によるコードレビューを、厳密さを保ちながら持続可能にするための方法論を論じた記事。レビュー負荷とAI活用のバランスについて考察している。",
+      "topics": ["team", "ai-dev"],
+      "neta": "A"
+    },
+    {
+      "url": "https://www.infoq.com/presentations/context-engineering-redis-llm-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Presentation: Beyond Prompting: Context Engineering for Production-Grade AI",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "プロンプト設計だけでなく、本番運用レベルのAIシステムに必要な「コンテキストエンジニアリング」について論じたカンファレンス発表。実運用を見据えた設計上の考慮点を紹介している。",
+      "topics": ["ai-dev"],
+      "neta": "A"
+    }
+  ],
+  "rejected_count": 4,
+  "capped_count": 69,
+  "failures": [
+    {"name": "Kent Beck / Tidy First", "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"}
+  ]
+}
