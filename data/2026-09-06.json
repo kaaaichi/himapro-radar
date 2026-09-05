@@ -1,0 +1,231 @@
+{
+  "date": "2026-09-06",
+  "items": [
+    {
+      "url": "https://blog.pinkumohikan.com/entry/2026/09/05/150757",
+      "title": "リモートチームなら通話の音質に命をかけて欲しい - モヒカン技術ブログ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "リモートチームでの会議は通話音質が悪いと発言のしづらさや聞き逃しが生じやすく、コミュニケーションの質そのものを左右すると指摘する記事。良いマイクやヘッドセットへの投資は見えにくいが効果の大きい生産性向上策だと主張している。",
+      "topics": ["team", "worklife"],
+      "neta": "A",
+      "hook": "音質が悪いだけで発言量やチームの一体感が下がる、地味だけど見過ごされがちな逆転ポイント"
+    },
+    {
+      "url": "https://speakerdeck.com/nwiizo/ai-de-jissou-ha-hayaku-nata-nanoni-purodakuto-ha-hayaku-naranai-shokunou-no-kabe-o-koe-te-kachi-no-furo-o-sekkei-suru",
+      "title": "AIで実装は速くなった。なのにプロダクトは速くならない。職能の壁を越えて価値のフローを設計する",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIによってコーディング自体は高速化した一方で、プロダクト全体のリリース速度は上がらないというギャップを指摘するスライド。職能(役割)の壁を越えて価値創出のフロー全体を設計し直す必要があると論じている。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "「AIでコードは速く書けるのに、プロダクトのリリースは速くならない」という逆説"
+    },
+    {
+      "url": "https://kawasin73.hatenablog.com/entry/2026/09/05/092056",
+      "title": "Claude Code の Rules はもう死んでいる - kawasin73のブログ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "CLAUDE.mdのようなルールファイルでAIコーディングエージェントの挙動を縛るアプローチはもはや機能しなくなっていると論じるブログ。エージェントの能力向上に伴い、ルール順守を前提とした運用の見直しを迫る内容とみられる。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "「ルールを書けば守ってくれる」という前提はもう崩れているという挑発的な主張"
+    },
+    {
+      "url": "https://tech.timee.co.jp/entry/2026/02/24/100702",
+      "title": "バックエンド開発Handbookを届けるために ― AI時代の知の高速道路を敷く - Timee Product Team Blog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Timeeがバックエンド開発Handbookを整備した事例を紹介する記事。AI時代においてドキュメントは人間だけでなくAIエージェントも読み解く前提で設計すべきという知見を共有している。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A",
+      "hook": "ドキュメントを『AIが読むための高速道路』として設計し直す発想"
+    },
+    {
+      "url": "https://speakerdeck.com/non0113/zenin-ga-zenbu-yaru-taisei-de-suruputto-3-bai-1-hito-1-anken-x-ai-kaihatsu-o-sasaeta-purosesu-kantoku-no-2-kagetsu",
+      "title": "「全員が全部やる」体制で スループット3倍 〜1人1案件 × AI開発を支えた「プロセス監督」の2ヶ月〜",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "1人1案件を全員が全部やる体制に切り替え、AI開発を支えることでスループットを3倍に高めたという事例。分業を前提とした従来のチーム設計を疑い、2ヶ月の『プロセス監督』の試行錯誤を紹介している。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "分業をやめて『全員が全部やる』にしたらスループットが3倍になった逆転の体制"
+    },
+    {
+      "url": "https://speakerdeck.com/nogu66/ai-ejento-jidai-no-kodo-rebyu-o-sekkei-suru",
+      "title": "AIエージェント時代のコードレビューを設計する",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIエージェントが大量にコードを生成する時代に、人間のコードレビュー体制をどう再設計すべきかを論じるスライド。レビューの目的や粒度そのものを見直す必要性を提起している。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "AIが書いたコードのレビューを『何を見るか』から設計し直す"
+    },
+    {
+      "url": "https://zenn.dev/yesodco/articles/ed0eb2f6b7621a",
+      "title": "AIに「中学生でもわかるように1枚のHTMLで図解して」が、複雑なコードを読む前の最良の準備運動かも",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "複雑なコードベースを読む前に、AIに『中学生でもわかる1枚のHTML図解』を作らせると理解の助けになるという提案記事。読解の準備運動としてAIを活用する具体的なテクニックを紹介している。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "複雑なコードを読む前に『中学生向け1枚図解』をAIに作らせるという準備運動"
+    },
+    {
+      "url": "https://kawasin73.hatenablog.com/entry/2026/09/02/125317",
+      "title": "Git の main ブランチを汚さない AI 振り返り台帳管理 - kawasin73のブログ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIエージェントとの作業の振り返り記録をGitのmainブランチにノイズとして残さずに管理する方法を紹介するブログ。ブランチ運用とAI活用ログの両立という実務的な工夫を扱っている。",
+      "topics": ["ai-dev", "agile"],
+      "neta": "A",
+      "hook": "AIとの振り返り記録をmainブランチを汚さずに管理する工夫"
+    },
+    {
+      "url": "https://speakerdeck.com/gimupop/pdeconfarence",
+      "title": "エンジニアリングは、 どこまで拡大解釈できるか 「一人でもプロダクトが作れるこの時代に、 私は、あなたとプロダクトを作りたいのです」 と言われるために心技体を繋いでいく",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "一人でもプロダクトを作れる時代において、エンジニアリングの定義をどこまで拡げて捉えられるかを論じるスライド。技術力だけでなく心技体を繋いで『あなたと作りたい』と言われる存在になることの重要性を説いている。",
+      "topics": ["team", "worklife"],
+      "neta": "A",
+      "hook": "『一人でもプロダクトが作れる時代』にあえて一緒に作りたいと言われるための心技体"
+    },
+    {
+      "url": "https://speakerdeck.com/aki_iinuma/beyond-kpis-evals-as-a-second-evaluation-framework-for-products-number-pdeconf",
+      "title": "KPIだけでは評価できないプロダクトが考えるべき Evalsという第二の評価系 / Beyond KPIs: Evals as a Second Evaluation Framework for Products #PdEConf",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "プロダクトの成果をKPIだけで評価することの限界を指摘し、AI時代のプロダクト開発における『Evals』という第二の評価フレームワークを提案するスライド。定量指標だけでは見えない品質をどう評価するかを論じている。",
+      "topics": ["design", "ai-dev"],
+      "neta": "A",
+      "hook": "KPIの裏にある『Evals』という第二の評価軸"
+    },
+    {
+      "url": "https://qiita.com/AyakoYamada/items/bb7788d1db6df66446b4",
+      "title": "Power AutomateとPower Appsを活用し、セキュリティ担当者の月次確認業務を50％削減！ - Qiita",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Power AutomateとPower Appsを組み合わせて、セキュリティ担当者が毎月行っていた確認作業を50%削減した事例を紹介するQiita記事。ノーコード/ローコードツールによる定型業務の自動化事例を扱っている。",
+      "topics": ["worklife"],
+      "neta": "B"
+    },
+    {
+      "url": "https://speakerdeck.com/jnishime_dresscode/purodakuto-enjinia-ni-hitsuyouna-ii-kanji-ni-tsukuru-nouryoku-takusan-tsukureru-jidai-ni-doko-made-tsukuru-kano-kimekata",
+      "title": "プロダクトエンジニアに必要な「いい感じ」に作る能力 〜たくさん作れる時代に、どこまで作るかの決め方〜",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIによって誰でもたくさん作れる時代になったからこそ、プロダクトエンジニアには『いい感じ』にどこまで作るかを決める能力が重要になると説くスライド。作り込みすぎない判断力を具体的な観点で整理している。",
+      "topics": ["design", "agile"],
+      "neta": "S",
+      "hook": "『たくさん作れる時代』だからこそ問われる『どこまで作るか』の見極め"
+    },
+    {
+      "url": "https://engineering.visional.inc/blog/734/ai-platform-engineering-at-bizreach/",
+      "title": "LLMサービスからLLMプラットフォームへ：BizReachはいかにして本番AIを標準化したか",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "BizReachが個別サービスごとに散在していたLLM活用を、全社共通の『LLMプラットフォーム』として標準化していった取り組みを紹介する記事。本番運用を見据えたAI基盤づくりの実例を扱っている。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A",
+      "hook": "個別最適のLLM活用を『プラットフォーム化』して標準化する道のり"
+    },
+    {
+      "url": "https://zenn.dev/afante/articles/e23197fb40166d",
+      "title": "アジャイルを考え直そう。プロジェクトをより良く進めための「アルバトロス・メソッド」",
+      "source": "Zenn(アジャイル)",
+      "lang": "ja",
+      "summary": "従来のアジャイル運用を見直し、プロジェクトをより良く進めるための独自の手法『アルバトロス・メソッド』を提案するZenn記事。アジャイルの原則を実務でどう捉え直すかを論じている。",
+      "topics": ["agile"],
+      "neta": "A",
+      "hook": "『アルバトロス・メソッド』という独自の切り口でアジャイルを再考する"
+    },
+    {
+      "url": "https://zenn.dev/z_maruhira/articles/concrete-abstract-organization",
+      "title": "「それ、本当に意味あるの？」で止まる組織の構造 — 『システム開発と「具体と抽象」』を読んで",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "『システム開発と「具体と抽象」』を読み、『それ、本当に意味あるの？』という一言で物事が止まってしまう組織の構造的な問題を考察する記事。具体と抽象の往復ができないチームの課題を扱っている。",
+      "topics": ["team", "agile"],
+      "neta": "A",
+      "hook": "『それ意味あるの？』という一言でプロジェクトが止まる組織の構造分析"
+    },
+    {
+      "url": "https://zenn.dev/numarn/articles/claude-model-picker-allowlist-handson",
+      "title": "AIに使わせるモデルを設定で1つに絞ったら、別のモデルを頼んだ9回とも黙って差し替えられた。警告は0バイトだった",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AIコーディングツールで使用モデルを設定で1つに固定していたはずが、実際には別モデルを頼んでも警告なしに黙って差し替えられていたという検証記事。設定を過信すると危険という実務的な教訓を伝えている。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "モデルを1つに固定したはずが、9回とも黙って別モデルに差し替えられていた事故"
+    },
+    {
+      "url": "https://zenn.dev/z_maruhira/articles/concrete-abstract-ai-development",
+      "title": "AI時代に消えるのは職種ではない — 『システム開発と「具体と抽象」』を読んで",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "『システム開発と「具体と抽象」』を読み、AI時代に淘汰されるのは特定の職種ではなく、具体と抽象を行き来する思考力を持たない人だと論じる記事。職種論ではなく思考様式の観点からAI時代のキャリアを捉え直している。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "AI時代に『消える』のは職種ではなく、具体と抽象を往復できない人という逆転の視点"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-tech-companies-move-to",
+      "title": "The Pulse: tech companies move to open AI models",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "大手テック企業がオープンウェイトのAIモデルへ移行しつつある動きをまとめたThe Pragmatic Engineerのニュースレター記事。AI開発における技術選定のトレンド変化を扱っている。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.03344",
+      "title": "LLMs as a Cognitive Virus",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "LLMの利用が人間の思考プロセスに与える影響を『認知ウイルス』というメタファーで論じるarXivの論文。AIへの依存が思考力そのものに及ぼす影響について問題提起していると考えられる。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "LLMを『認知ウイルス』に例える刺激的な視点"
+    },
+    {
+      "url": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems",
+      "title": "AI handles incidents, engineers lose touch with their systems",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "AIがインシデント対応を肩代わりするようになった結果、エンジニアが自分たちのシステムの挙動を把握できなくなっているという問題提起。運用の自動化が進むほど失われる『現場感』について論じている。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "AIにインシデント対応を任せた結果、エンジニアが自分のシステムを理解できなくなる皮肉"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/09/blume-docs-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Blume: Zero-Config Docs Framework That Turns a Markdown Folder into an AI-Ready Website",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "Markdownフォルダをほぼ設定なしでAIフレンドリーなドキュメントサイトに変換できるフレームワーク『Blume』を紹介するInfoQ記事。AI時代のドキュメント設計のあり方を示す事例として扱われている。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "Markdownフォルダをそのまま『AIが読めるサイト』に変えるゼロコンフィグ設計"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/",
+      "title": "Using Blender with coding agents on macOS",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "コーディング用のAIエージェントをmacOS上のBlender操作に応用してみたという実験記事。プログラミング以外の専門ソフトウェア操作にもAIエージェントが使えることを示す事例として紹介されている。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "コーディングエージェントを3DCGソフトBlenderの操作に使うという意外な応用"
+    }
+  ],
+  "rejected_count": 8,
+  "capped_count": 52,
+  "failures": [
+    {
+      "name": "Kent Beck / Tidy First",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ]
+}
