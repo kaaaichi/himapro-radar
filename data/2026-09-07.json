@@ -1,0 +1,271 @@
+{
+  "date": "2026-09-07",
+  "items": [
+    {
+      "url": "https://note.com/howmanydesigns/n/na108d69827ce",
+      "title": "デジタル庁は、デザインシステムをAIに読ませ始めた。Markdown配布が示すこと",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "デジタル庁がデザインシステムのドキュメントをAIに読ませるためMarkdown形式で配布し始めたという内容。人間の閲覧より機械可読性を優先する動きで、行政のデザインシステム運用がAI前提に変わりつつあることを示している。",
+      "topics": ["design", "ai-dev"],
+      "neta": "S",
+      "hook": "設計書は人間のためでなくAIのために書く時代"
+    },
+    {
+      "url": "https://rocketnews24.com/2026/09/06/2798277/",
+      "title": "AIで作った「100点の理想」が、プロとの打ち合わせで50点になっていく理由",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIが生成した「理想形」のアウトプットが、プロとの打ち合わせを経るうちに現実的な制約で点数を落としていく現象を扱った記事。AIの完璧な提案と現場のプロの経験則との間にあるギャップを描いている。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "AIの100点主義とプロの現場感覚のギャップ"
+    },
+    {
+      "url": "https://zenn.dev/afante/articles/f071f1b9ad09f4",
+      "title": "CI/CDは万能じゃない——実践的な視点で見えてくるコストと落とし穴",
+      "source": "Zenn(アジャイル)",
+      "lang": "ja",
+      "summary": "CI/CD導入を万能視せず、運用コストや見落とされがちな落とし穴を実践的な視点で指摘する記事。チーム開発における自動化の効果と限界を整理している。",
+      "topics": ["team", "agile"],
+      "neta": "A"
+    },
+    {
+      "url": "https://zenn.dev/numarn/articles/mcp-tool-selection-name-desc-handson",
+      "title": "AIの外付け道具に名前も説明も付けずに置いたら5回とも呼ばれた。許可の1行を書き忘れた5回は終了コード0のまま一度も呼ばれなかった",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "MCPツールに名前や説明を付けなくてもAIエージェントから呼ばれる一方、権限設定を書き忘れると静かに一度も呼ばれずに終わるという検証結果を紹介。ツール設計で見落としがちな「許可」の重要性を浮き彫りにしている。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "名前や説明はなくても呼ばれるのに、権限を忘れると静かに無視される"
+    },
+    {
+      "url": "https://zenn.dev/quallab/articles/architecture-before-problem",
+      "title": "最初に設計を作った、何を設計すべきかがなかった",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "ArchitectureとTestingのガイドは充実させていたのに、「何を設計すべきか」を決めるDiscovery工程が抜けていたという失敗談。AIは「どう作るか」は得意でも「何を作るべきか」の判断には問題定義の工程が不可欠だとして、標準にDiscoveryを追加した経緯を紹介している。",
+      "topics": ["design", "ai-dev"],
+      "neta": "S",
+      "hook": "AIは「どう作るか」は得意でも「何を作るべきか」は判断できない"
+    },
+    {
+      "url": "https://zenn.dev/yuki82511988/articles/45a5a464514ac1",
+      "title": "個人PCのClaude Codeの設定ファイルと、設定の動機を一部紹介します",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "個人のClaude Code設定ファイルの中身と、その設定に至った動機を紹介する記事。実際の設定例は日々のAI駆動開発の工夫のネタ帳として参考になる。",
+      "topics": ["ai-dev"],
+      "neta": "A"
+    },
+    {
+      "url": "https://zenn.dev/minewo/articles/ai-second-brain-multi-agent-memory",
+      "title": "AIエージェントの記憶を1つのObsidian Vaultに集約する — Hermes司令塔のmulti-agent設計",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "複数のAIエージェントの記憶を1つのObsidian Vaultに集約し、「Hermes」という司令塔役を置くマルチエージェント設計の実践例。エージェント間の記憶共有という運用面の課題への取り組みを紹介している。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A"
+    },
+    {
+      "url": "https://speakerdeck.com/kgsi/pdeconf2026-design-harness",
+      "title": "デザインハーネス 〜AIが生成する\"デザイン\"の妥当性を、誰がどう担保するのか〜 / PdEConf2026 Design Harness",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIが生成するデザインの妥当性を誰がどう担保するのかという問いを軸にした発表資料。「デザインハーネス」という考え方で、AI生成物のレビュー・検証体制の設計を論じている。",
+      "topics": ["design", "ai-dev"],
+      "neta": "S",
+      "hook": "デザインの正しさを誰が担保するのか、AI時代の新しい役割"
+    },
+    {
+      "url": "https://syu-m-5151.hatenablog.com/entry/2026/09/04/113629",
+      "title": "技術力に優劣はない(「技術力に優劣はある(「技術力に優劣はない」を読んで)」を読んで) - じゃあ、おうちで学べる",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "「技術力に優劣はない」論への反論、さらにその反論への再反論という入れ子構造で展開される、技術力の評価軸をめぐる論争を扱った記事。",
+      "topics": ["team", "worklife"],
+      "neta": "A"
+    },
+    {
+      "url": "https://tech-blog.rakus.co.jp/entry/20260903/sdd",
+      "title": "スキルを43個作っても越えられない、仕様駆動開発の4つの壁",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Claude Codeなどのスキルを43個作り込んでも解決できなかった、仕様駆動開発(SDD)特有の4つの壁を紹介する記事。スキルの数を増やすだけでは越えられない構造的な課題があることを示している。",
+      "topics": ["ai-dev", "agile"],
+      "neta": "S",
+      "hook": "スキルを増やしても越えられない壁がある"
+    },
+    {
+      "url": "https://tech-blog-v2-opal.vercel.app/article/ending-my-career-as-a-frontend-engineer",
+      "title": "フロントエンドエンジニアとしてのキャリアを終える",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "フロントエンドエンジニアとしてのキャリアに区切りをつけるという個人的な決断を綴った記事。キャリアの節目における心境の変化を語っている。",
+      "topics": ["worklife"],
+      "neta": "A"
+    },
+    {
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "title": "Research acceleration: The view inside OpenAI",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "OpenAI内部で研究開発をどう加速させているかを紹介する記事。組織としての研究プロセスやチーム運営の工夫が語られている。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/09/figma-security-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "How Figma Uses AI Agents for Security",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "デザインツールのFigmaが、セキュリティ対策にAIエージェントをどう活用しているかを紹介する記事。デザイン企業ならではのAIエージェント運用事例。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A"
+    },
+    {
+      "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/",
+      "title": "Your intellectual fly is open (2025)",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "技術者コミュニティにおける知的な「隙」や誤りをオープンに晒すことの意義を語るエッセイ。技術文化におけるオープンさと謙虚さについて考察している。",
+      "topics": ["team", "worklife"],
+      "neta": "A"
+    },
+    {
+      "url": "https://www.edwest.co.uk/p/doomscrolling-ourselves-to-death",
+      "title": "Doomscrolling Ourselves to Death",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "SNSのドゥームスクロール(絶望的なニュースを延々と見続ける行為)が心身に与える影響を論じたエッセイ。働き方や生活習慣を見直す示唆を含む。",
+      "topics": ["worklife"],
+      "neta": "A"
+    },
+    {
+      "url": "https://mq1.dev/entry/U0w-0MgT8IhM",
+      "title": "やはりKubernetesからは逃れられない - まいの雑記帳",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "インフラ運用を簡素化しようとしても結局Kubernetesに戻ってきてしまうという実体験を綴った記事。チームの技術選定の悩みどころが伝わる内容。",
+      "topics": ["team"],
+      "neta": "A"
+    },
+    {
+      "url": "https://zenn.dev/koduki/books/sre-itil-enterprise",
+      "title": "SREを組織にする技術",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "SRE(Site Reliability Engineering)を個人の実践に留めず組織的な仕組みとして根付かせる方法論を扱った書籍記事。チーム・組織づくりの観点から運用改善を論じている。",
+      "topics": ["team", "agile"],
+      "neta": "A"
+    },
+    {
+      "url": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human/",
+      "title": "A/I shuts down – Stay human",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "あるAIサービス「A/I」がサービス終了を発表し、「人間であり続けよう」というメッセージを添えた記事。AIサービスの隆盛の中での終了という逆説的な事例。",
+      "topics": ["worklife", "ai-dev"],
+      "neta": "A"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/article/2609/06/2000001202/",
+      "title": "OpenAI、休眠サイトへの自社AIエージェント書き込みを認め、非公表の理由を説明",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "OpenAIが自社のAIエージェントが休眠状態のWebサイトに書き込みを行っていたことを認め、これまで非公表だった理由を説明した記事。AIエージェントの自律的な挙動と説明責任が問われる事例。",
+      "topics": ["ai-dev"],
+      "neta": "A"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/vs_codethe_story_of_vs_codeyoutubeibmmsvs_code.html",
+      "title": "VS Code誕生から現在までの物語「The Story of VS Code」YouTubeで公開。作者のエリック・ガンマ氏はなぜIBMからMSへ移籍してVS Codeを作ることになったか",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "VS Codeの誕生秘話を、作者エリック・ガンマ氏がIBMからマイクロソフトへ移籍した経緯も含めて振り返るドキュメンタリーがYouTubeで公開されたという記事。開発者のキャリア選択とプロダクト誕生の物語。",
+      "topics": ["team", "worklife"],
+      "neta": "A"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/",
+      "title": "There's No Limit to How Bad Code Can Get",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "コードの品質は際限なく悪化しうるという警句を扱った記事。AI駆動開発でコード生成量が増える中、品質管理の重要性を再認識させる内容。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/09/google-mantis-vulnerability-scan/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Google Mantis: An Agentic Vulnerability Scanning Harness for Reducing False Positives",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "Googleが誤検知を減らすためのエージェント型脆弱性スキャンハーネス「Mantis」を発表した記事。AIエージェントをセキュリティ運用に組み込む事例の一つ。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/presentations/ai-predictions-2030/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Presentation: A Few Predicted Talks From QConAI 2030",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "2030年のQConAIで語られるであろう内容を予測する、遊び心のある発表。AI業界の未来予測をネタとして扱った内容。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://openai.com/index/an-alien-mind/",
+      "title": "An Alien Mind",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "AIの思考様式を人間とは異質な「エイリアンの心」として捉える視点を論じたOpenAIのエッセイ。AIの理解や付き合い方についての考察記事。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
+      "title": "Introducing GPT-6 Astra for developers",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "開発者向けに新モデル「GPT-6 Astra」が発表されたことを紹介する記事。新モデルのAPI提供や開発者向け機能についてのアナウンス。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
+      "title": "The Pelican comparison grid for Astra is pretty interesting",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "Simon Willison氏が恒例にしているペリカンのSVG生成ベンチマークで、新モデルAstraの結果を比較した記事。モデル評価のユニークな切り口として知られる企画の最新版。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
+      "title": "Introducing wrapture",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "新しいツール「wrapture」の紹介記事。AI関連の開発者向けツール群の一つとして紹介されている。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
+      "title": "llm-gemini 0.34",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "コマンドラインツール「llm」用のGeminiプラグイン「llm-gemini」がバージョン0.34にアップデートされたことを伝える記事。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    }
+  ],
+  "rejected_count": 2,
+  "capped_count": 55,
+  "failures": [
+    {
+      "name": "Kent Beck / Tidy First",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ]
+}
