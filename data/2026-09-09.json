@@ -1,0 +1,300 @@
+{
+  "date": "2026-09-09",
+  "items": [
+    {
+      "url": "https://forest.watch.impress.co.jp/docs/serial/aidriven/2137349.html",
+      "title": "AI駆動開発の全体感 ～AI時代の生産性を何で測るのか【AI駆動開発の実践例】",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AI駆動開発ではコード量や作業速度だけを追っても、価値ある成果を測れないという問題を扱う記事。AI導入後の生産性を、アウトプットではなく品質や顧客価値を含む指標で捉える視点を提示している。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "AIでコードが増えた。それは本当に生産性なのか"
+    },
+    {
+      "url": "https://zenn.dev/nakurei/articles/generate-trust-not-tests",
+      "title": "テストを生成するな、信頼を生成しろ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIにテストコードを大量生成させること自体ではなく、変更を安心して出荷できる信頼の仕組みを作るべきだと論じる記事。テスト数を成果にせず、検証可能性やフィードバック設計に焦点を移す考え方を示している。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "テストの本数より、変更を信じられる仕組み"
+    },
+    {
+      "url": "https://leaddev.com/ai/meta-tried-to-shrink-engineering-teams-around-ai",
+      "title": "Meta tried to shrink engineering teams around AI",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "MetaがAI支援を前提に開発チームを3〜5人へ縮小したところ、コード変更は増えても機能提供の伸びは限定的で、重大インシデントや消火作業が増えたと報じる記事。AIで出力量を増やす前に、レビュー・評価・運用を担う適正規模のチームが必要だと論じている。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "AIで少人数化したら、コードより事故が増えた"
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOCB074J50X00C26A9000000/",
+      "title": "[FT]コンサル大手、若手に出社回帰促す AI普及で対人スキル重視 - 日本経済新聞",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "生成AIが資料作成などを代替するなか、コンサル大手が若手に出社を促し、対人スキルや現場での学習を重視している動きを伝える記事。AI時代に人間同士で身につける能力と、リモートワークの設計を考える材料になる。",
+      "topics": ["team", "worklife"],
+      "neta": "A",
+      "hook": "AIが普及したから、若手はオフィスへ戻る?"
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOUC251P30V20C26A8000000/",
+      "title": "AIを10分使うだけで正解率が急低下、識者が説く3つの「べからず」 - 日本経済新聞",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIを短時間使っただけでも、人が回答を鵜呑みにして判断精度を落とす可能性を扱う記事。AIを使う場面の選択、検証、依存の避け方という仕事術上の注意点を示している。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "AIを使うほど正解率が下がる瞬間"
+    },
+    {
+      "url": "https://zenn.dev/kitsune_ceo/articles/14c1c51a288e8e",
+      "title": "アジャイル開発のルーツは日本にあるって本当？",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "アジャイル開発の思想と、日本企業の製品開発研究とのつながりをたどる記事。海外発の方法論として受け取られがちなアジャイルを、日本の組織開発史から見直す入口を提供している。",
+      "topics": ["agile", "scrum"],
+      "neta": "S",
+      "hook": "アジャイルは日本から始まった?"
+    },
+    {
+      "url": "https://zenn.dev/okikusan/articles/275f605c6e92b3",
+      "title": "コーディングエージェントに何を読ませ、何を残すか：Anthropic・GitHub・OpenAI の設計を突き合わせる",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "主要なコーディングエージェントを比較し、コンテキストとして何を読ませ、作業後に何を記録として残すかを整理する記事。AIエージェントの性能だけでなく、情報設計と引き継ぎの仕組みが成果を左右する点を掘り下げている。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "賢いAIより、何を読ませ何を残すか"
+    },
+    {
+      "url": "https://zenn.dev/alpaca_village/articles/alpaca-fw-01-inhouse-org",
+      "title": "🦙 ALPACA-FW #01｜1から内製組織を作るにあたり",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "外部委託中心の状態から内製開発組織を立ち上げる際の考え方と準備をまとめた記事。採用だけではなく、目的、役割、開発文化をどう設計するかというチームづくりの論点を扱っている。",
+      "topics": ["team", "agile"],
+      "neta": "A",
+      "hook": "内製化はエンジニアを雇う前に始まる"
+    },
+    {
+      "url": "https://martinfowler.com/articles/never-send-slides/need-presentation.html",
+      "title": "Do you even need a presentation?",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "summary": "情報を伝えるために、本当にプレゼンテーションという形式が必要なのかを問い直す記事。会議やスライドを既定路線にせず、目的に合う共有方法を選ぶ仕事術として読める。",
+      "topics": ["worklife", "team"],
+      "neta": "A",
+      "hook": "その説明、本当にプレゼンである必要がある?"
+    },
+    {
+      "url": "https://newsletter.kentbeck.com/p/reject-change-sometimes",
+      "title": "Reject Change, Sometimes",
+      "source": "Kent Beck / Tidy First",
+      "lang": "en",
+      "summary": "変化を常に受け入れるのではなく、製品の段階と損益構造に応じて変化への賭け方を変えるべきだと論じる記事。探索では大胆に試し、収穫段階では可逆性を保ちながら収益を守るという戦略を、シャノンの悪魔の比喩で説明している。",
+      "topics": ["agile", "design"],
+      "neta": "S",
+      "hook": "変化を歓迎しない方がいい時もある"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/what-is-happening-with-code-reviews",
+      "title": "What is happening with code reviews?",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "AIによるコード生成量の増加などを背景に、コードレビューの現場で何が変わっているかを扱う記事。レビュー待ち、品質保証、チーム内の知識共有という役割をどう再設計するかを考える材料になる。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "AIがコードを書くほど、レビューが詰まる"
+    },
+    {
+      "url": "https://mathstodon.xyz/@tao/117237320796901560",
+      "title": "Tao: Open math problems being non-renewably mined by AI",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "未解決数学問題がAIの評価資源として一度きりに消費され、再利用できない形で掘り尽くされる懸念を示した投稿。ベンチマークの汚染や、希少な評価課題をどう守るかというAI評価設計の問題を提起している。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "AIは未解決問題を解くほど評価資源を失う"
+    },
+    {
+      "url": "https://openai.com/index/navier-stokes-solution/",
+      "title": "On the Navier–Stokes Millennium Prize Problem",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "ナビエ–ストークス方程式のミレニアム懸賞問題に関する解法候補と、その検証についてOpenAIが説明する記事。AI支援による高度な推論でも、結果そのものと独立した検証を分けて扱う重要性を示す題材になる。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "AIの大発見は、誰がどう検証するのか"
+    },
+    {
+      "url": "https://ishamf.dev/p/llm-attention-visualizer/",
+      "title": "Show HN: LLM Attention Visualization",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "大規模言語モデルのAttentionの動きを可視化し、入力のどこに重みが置かれているかを観察できるツール。LLMの内部動作を直感的に学ぶための参考情報として役立つ。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.02246",
+      "title": "C*: Unifying Programming and Verification in C (2025)",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "C言語でのプログラミングと形式検証を一体化する手法C*を提案した研究。実装と証明を別工程にせず、正しさを設計時から組み込む開発アプローチとして紹介できる。",
+      "topics": ["design"],
+      "neta": "A",
+      "hook": "プログラムを書くことと証明することを一つにする"
+    },
+    {
+      "url": "https://www.infoq.com/presentations/ai-platform-engineering-roundtable/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Presentation: Platform Engineering in the Age of AI",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "AI時代のプラットフォームエンジニアリングについて、開発者体験、標準化、ガードレールの変化を議論するプレゼンテーション。個々のAI導入を、チーム全体で安全に使える共通基盤へ育てる視点を扱っている。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A",
+      "hook": "AIエージェントにも社内プラットフォームが必要"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/09/gitlab-ai-sandbox-access/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "GitLab Warns That AI Agent Sandboxes Are Only as Secure as Their Network Access",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "AIエージェントを隔離環境で動かしていても、自由なネットワーク接続を許せば機密流出や外部操作の経路が残るというGitLabの警告を紹介する記事。サンドボックスの安全性は実行環境だけでなく、通信先と権限の設計で決まると指摘している。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "サンドボックスでもネットが開いていれば安全ではない"
+    },
+    {
+      "url": "https://pages.awscloud.com/rs/112-TZM-766/images/R14_0625_6_CDN227_v1.pdf",
+      "title": "[PDF] TBSテレビ「ラヴィット！」大規模配信の裏側と AWS サーバーレス設計",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "テレビ番組「ラヴィット！」の大規模配信を支えるAWSサーバーレス構成を解説する資料。急激なアクセス変動への対応や、運用負荷を抑える設計判断を具体例から学べる。",
+      "topics": ["design", "team"],
+      "neta": "A",
+      "hook": "テレビ番組の瞬間アクセスをサーバーレスで受け止める"
+    },
+    {
+      "url": "https://www.m3tech.blog/entry/embulk-to-dlt-dbt",
+      "title": "ETL 基盤を Embulk から dlt + dbt に乗り換えた 2 つの理由 - エムスリーテックブログ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "ETL基盤をEmbulkからdltとdbtの構成へ移行した理由をまとめた技術記事。データ取り込みと変換の責務分離、保守性、開発体験の改善という設計判断を紹介している。",
+      "topics": ["design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://automaton-media.com/articles/newsjp/20260908-465804/",
+      "title": "最新AI「GPT-6 Astra」で“『スマブラ』クローン”が作られるも、なんとも言えない完成度に議論勃発。「当面は仕事が安泰」と皮肉るゲーム開発者も - AUTOMATON",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "最新AIで対戦ゲームのクローンを生成したものの、見た目ほど遊べる完成度には届かず議論になった事例を紹介する記事。短時間で形を作る能力と、操作感や品質を仕上げる開発力の差が見える。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "AIはゲームを作れた。でも面白くはできなかった"
+    },
+    {
+      "url": "https://zenn.dev/yamatechi/articles/vite-monorepo-react-dedupe",
+      "title": "React 19移行で学んだpnpmの依存関係解決の仕組み",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "React 19への移行で遭遇した問題を通して、pnpmがモノレポ内の依存関係をどう解決するかを解説する記事。重複パッケージやバージョン不整合を避けるための実践的な知識が得られる。",
+      "topics": ["design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/webgitclivimwebterm_learn.html",
+      "title": "Webブラウザ上でターミナルのシミュレータを実行、GitやCLI、Vimなどを無料で学べる「WebTerm Learn」が公開",
+      "source": "Publickey",
+      "lang": "ja",
+      "summary": "ブラウザ内の安全なシミュレータで、Git、CLI、Vimなどの操作を学べる無料教材を紹介する記事。環境構築なしで失敗を試せるため、チームの開発者教育やオンボーディングに使いやすい。",
+      "topics": ["team", "worklife"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/htmx_40xhrfetchstreaming_html.html",
+      "title": "HTMX 4.0正式リリース。内部実装がXHRからfetchに移行しStreaming HTMLが可能に、属性はデフォルトで子要素に継承されないように変更など",
+      "source": "Publickey",
+      "lang": "ja",
+      "summary": "HTMX 4.0が正式リリースされ、通信基盤のfetch移行、Streaming HTML、属性継承の既定変更などが入ったことを伝える記事。軽量なWeb UI設計を採用するチームに影響する変更点をまとめている。",
+      "topics": ["design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://techracho.bpsinc.jp/hachi8833/2026_09_08/159597",
+      "title": "2026年版: Mac開発環境の最新セットアップとインストールスクリプト（翻訳）｜TechRacho by BPS株式会社",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "2026年時点のMac開発環境を整える手順と、セットアップの自動化方法を紹介する翻訳記事。新しい端末の立ち上げやチーム内の環境標準化に使える参考情報をまとめている。",
+      "topics": ["team", "worklife"],
+      "neta": "B"
+    },
+    {
+      "url": "https://qiita.com/nolanlover0527/items/24ee07122dd4d0523069",
+      "title": "Docker環境をガチで軽量化するための鉄板設定まとめ - Qiita",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Dockerイメージや実行環境を軽量化するための定番設定を整理した記事。ビルド時間、容量、開発時の待ち時間を減らすための実務的なチェックリストとして使える。",
+      "topics": ["design", "worklife"],
+      "neta": "B"
+    },
+    {
+      "url": "https://togetter.com/li/2743006",
+      "title": "ドラクエファンが「こういうグッズ思いついた」とイメージ画像をAIで作成＆投稿←これやると実際の企画が潰れる可能性あるし企業ロゴ使用などにも問題が…",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "ファンがAIで商品イメージを作って公開する行為が、企業の正式企画や権利処理に影響しうるという議論をまとめた記事。アイデアを可視化しやすくなった一方、公開前に考えるべき権利と創作プロセスの境界を示している。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "AIでアイデアを見せたら、本物の企画が消える?"
+    },
+    {
+      "url": "https://gigazine.net/news/20260908-instagram-ai-detection/",
+      "title": "InstagramのAI検出ラベルが誤作動しまくっていると話題に",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "InstagramのAI生成コンテンツ検出ラベルが、人間が制作した画像にも誤って付く事例を紹介する記事。自動判定を透明性の仕組みに使うとき、誤検知が作者の信頼を傷つける設計上の難しさを示している。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "AIを見抜くAIが、人間の作品を疑い始めた"
+    },
+    {
+      "url": "https://www.sankei.com/article/20260908-R74BJGPGTVLPHKYJM27AZPAAY4/",
+      "title": "ヘアモデル画像酷似で無断使用と提訴 「AI生成画像」に著作権あるのか、司法判断に注目",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AI生成画像に似た画像が無断使用されたとして提訴された事例を通じ、AI作品の著作権が争点になると伝える記事。生成工程への人間の創作的関与を、権利判断でどう評価するかが注目される。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "AI画像は、誰かに盗まれる作品なのか"
+    },
+    {
+      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-2-5",
+      "title": "Mercury 2.5",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "Inception Labsが高速生成を志向する新モデルMercury 2.5を紹介する公式記事。モデルの能力や速度の更新を追うためのAI開発動向として参考になる。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://jerf.org/iri/post/2026/func_args_are_not_colors/",
+      "title": "Function Arguments Are Not Function Colors",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "関数の引数の違いを、呼び出し側へ伝播する性質を持つ「関数の色」と同一視すべきでないと論じる記事。API設計や型設計で、表面的に似た制約を区別して考えるための概念整理を提供している。",
+      "topics": ["design"],
+      "neta": "A",
+      "hook": "引数が増えることと関数に色が付くことは違う"
+    }
+  ],
+  "rejected_count": 0,
+  "capped_count": 59,
+  "failures": []
+}
