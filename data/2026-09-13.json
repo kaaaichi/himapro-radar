@@ -1,0 +1,307 @@
+{
+  "date": "2026-09-13",
+  "items": [
+    {
+      "url": "https://note.com/takahiroanno/n/n4accbde18d56",
+      "title": "「AI研究者としての自分の賞味期限はあと１年」——AGI競争も終盤戦の様相を呈すシリコンバレーでは何が語られていたか｜安野貴博",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "シリコンバレーのAI研究者や起業家との対話を通じ、AGI競争の進展速度と研究者の役割がどう変わりつつあるかを伝える記事。技術の賞味期限が短くなる時代に、学び直しとキャリアをどう設計するかを考える材料になる。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "AI研究者自身が、あと1年で賞味期限だと言う時代"
+    },
+    {
+      "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+      "title": "Dario Amodei — We Must Pace the Frontier",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Anthropic CEOのDario Amodeiが、最先端AIの能力向上と社会の備えの速度差を踏まえ、開発ペースの調整を訴えるエッセイ。競争を止めずに安全性とガバナンスをどう組み込むかという設計上の緊張を提示している。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "AI企業のCEOが、開発を遅くしようと言い出した"
+    },
+    {
+      "url": "https://qiita.com/Syoitu/items/d41d234876e1bfadbf32",
+      "title": "AI駆動開発のためのオントロジー - Qiita",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AI駆動開発で扱う仕様、コード、判断の関係をオントロジーとして整理する試みを紹介する記事。エージェントへ単なる文書ではなく、意味のつながりを持つ知識を渡す設計として読める。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "AIには文書より、概念の地図を渡す"
+    },
+    {
+      "url": "https://speakerdeck.com/hokaccha/ai-agent-jidai-no-senryaku-to-jissen",
+      "title": "AI Agent時代のリアーキテクチャ戦略と実践",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIエージェントが変更しやすい構造へ既存システムを組み替える、リアーキテクチャの戦略と実践を扱う資料。モデル選定だけでなく、コードベース側の境界や検証可能性が開発速度を左右する視点を示している。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "AIを賢くする前に、AIが直せる構造へ変える"
+    },
+    {
+      "url": "https://aws.amazon.com/jp/blogs/news/calculating-the-roi-of-ai/",
+      "title": "AI の投資収益率 (ROI) を算出する | Amazon Web Services",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AI導入の投資収益率を、コスト削減だけでなく売上、品質、時間短縮などの成果から算出する考え方を解説する記事。実験の熱気と事業価値を切り分け、継続判断に使える指標を設計する入口になる。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A",
+      "hook": "AI導入の成功を、利用人数ではなく回収額で測る"
+    },
+    {
+      "url": "https://zenn.dev/nkzn/articles/cross-platform-development-costs-2026",
+      "title": "クロスプラットフォーム開発が解決するコスト、解決しないコスト",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "クロスプラットフォーム技術で共有できる開発コストと、各OS固有の体験や運用として残るコストを切り分ける記事。コード共有率だけでは見えない、製品とチームの総コストを考える材料になる。",
+      "topics": ["design", "team"],
+      "neta": "A",
+      "hook": "コードを共通化しても、コストは共通化できない"
+    },
+    {
+      "url": "https://tech.asken.inc/entry/2026/09/11/170000",
+      "title": "「覚え直さなくていい」を最優先にしたAI導入 ― アラート一次調査の自動化 - asken テックブログ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "運用アラートの一次調査をAIに任せ、担当者が毎回システム知識を覚え直す負担を減らした事例。単純な時間短縮ではなく、認知負荷を減らすことをAI導入の目的に据えている。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "AIの価値は速さより、覚え直さなくていいこと"
+    },
+    {
+      "url": "https://zenn.dev/mediba/articles/7d0d7d70678546",
+      "title": "Nuxt.js から Next.js へ ── フロントエンド技術リプレイスにおけるハーネスエンジニアリングと理解負債",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Nuxt.jsからNext.jsへの移行を題材に、AIエージェントを支えるハーネスと、人間側に残る理解負債を論じる記事。移行速度が上がっても、変更を説明し保守できる状態まで自動では手に入らないと示している。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "AIが移行を終えても、人間の理解は移行していない"
+    },
+    {
+      "url": "https://findy-code.io/media/articles/modoku-yusuktan-202609",
+      "title": "SQLiteの16年越しのバグに学ぶ、並行処理の難しさとAI時代の形式手法 - Findy Media",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "SQLiteに16年間潜んだWALの競合バグを題材に、TLA+によるモデル検査が短い反例を見つけた過程を紹介する記事。AIが書くコードが増えるほど、不変条件を機械的に検証する形式手法の価値が高まると論じている。",
+      "topics": ["design", "ai-dev"],
+      "neta": "S",
+      "hook": "16年見つからなかったバグを、20状態のモデルが暴いた"
+    },
+    {
+      "url": "https://slides.yusu.ke/web-frameworks-in-the-ai-era",
+      "title": "AI時代のWebフレームワークはどこへ行く？",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "コード生成AIが一般化した環境で、Webフレームワークの抽象化や開発者体験がどう変わるかを考察する資料。人間に書きやすいAPIと、エージェントに扱いやすい構造が同じとは限らないという設計論につながる。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "次のWebフレームワークの利用者は、人間ではなくAIかもしれない"
+    },
+    {
+      "url": "https://speakerdeck.com/inagakikay/yuzajia-zhi-ka-shi-ye-cheng-guo-ka-yi-si-jue-ding-noqian-nisonnakotodenao-muqian-ni-pmgayarubekikoto",
+      "title": "「ユーザー価値か、事業成果か？」 そんな意思決定で悩む前に PMがやるべきこと",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "ユーザー価値と事業成果を二者択一にする前に、PMが前提や因果関係を整理すべきだと説く資料。対立する目標を議論するための問いと意思決定の設計を扱っている。",
+      "topics": ["design", "team"],
+      "neta": "A",
+      "hook": "ユーザーか事業かで迷う時点で、問いが間違っている"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/awsaiawsnx_plugin_for_aws_10.html",
+      "title": "AWS、AIがフルスタックAWSアプリの基本コードを、セキュリティ、可観測性、インフラまで一気通貫で生成する「Nx Plugin for AWS 1.0」、オープンソースで公開",
+      "source": "Publickey",
+      "lang": "ja",
+      "summary": "AWSアプリの基本コードを、セキュリティ、可観測性、インフラを含めて生成するNx Plugin for AWS 1.0を紹介する記事。AI生成を画面やAPIだけで終わらせず、運用可能な一式へ広げる動きとして注目できる。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "AI生成が、コードから運用一式へ広がった"
+    },
+    {
+      "url": "https://zenn.dev/simplex/articles/bffa96e4dbab8c",
+      "title": "カスタムメイドの受託開発と何が違う？複数社で育てるSaaS開発のリアル",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "複数の顧客企業と一つのSaaSを育てる開発が、個別受託とどう異なるかを整理する記事。要望の集約、優先順位、共通価値の発見というプロダクト開発の現実を扱っている。",
+      "topics": ["agile", "team"],
+      "neta": "A",
+      "hook": "顧客ごとに作らないからこそ、顧客と一緒に作る"
+    },
+    {
+      "url": "https://zenn.dev/minewo/articles/agent-utilization-vs-flow-efficiency",
+      "title": "PRは1分でマージできている。それでもAIエージェント運用で終わった気がしなかった",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "AIエージェントの個別タスクが高速でも、開発全体の流れが改善したとは限らないという問題を扱う記事。エージェント稼働率ではなく、価値が届くまでのフロー効率で運用を捉え直している。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "PRが1分でも、開発は速くなっていない"
+    },
+    {
+      "url": "https://zenn.dev/talks_tldr_jp/articles/tldr30-kentbeck-summary",
+      "title": "TDDを作った本人が「AI時代のTDDは誰も知らない」と言った回の要点",
+      "source": "Zenn(アジャイル)",
+      "lang": "ja",
+      "summary": "Kent Beckの議論をもとに、AIが実装を担う時代にTDDの役割がどう変わるかを整理する記事。既存の手順をそのまま自動化するのではなく、フィードバックと設計の方法を再発明する必要を示している。",
+      "topics": ["ai-dev", "agile"],
+      "neta": "S",
+      "hook": "TDDの発明者にも、AI時代の正解はまだない"
+    },
+    {
+      "url": "https://zenn.dev/trust/articles/data-migration-must-not-be-overlooked",
+      "title": "アジャイル開発でも、データ移行を軽視するなかれ",
+      "source": "Zenn(アジャイル)",
+      "lang": "ja",
+      "summary": "反復的に機能を作るプロジェクトでも、データ移行を後回しにすると大きなリスクになると警告する記事。移行を一度きりの終盤作業ではなく、早期から検証する開発項目として扱う視点を示している。",
+      "topics": ["agile", "design"],
+      "neta": "A",
+      "hook": "アジャイルでも、データ移行だけは最後に回せない"
+    },
+    {
+      "url": "https://zenn.dev/z_maruhira/articles/sdd-lighter-with-agents",
+      "title": "仕様駆動開発をエージェントの進化に合わせて軽くしたい",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AIエージェントの能力向上に合わせ、仕様駆動開発の文書量や手順を軽量化する考え方を提案する記事。以前のモデル向けガードレールを惰性で残さず、必要な制約だけを見直す題材になる。",
+      "topics": ["ai-dev", "agile"],
+      "neta": "S",
+      "hook": "賢くなったAIに、昔の重い手順を背負わせ続けるのか"
+    },
+    {
+      "url": "https://zenn.dev/suzuki_tech/articles/e90b94e1bce2cf",
+      "title": "テストを制する者は実装を制す",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AI駆動開発で実装品質を安定させる鍵として、テスト設計と検証ループを重視する記事。生成速度よりも、期待する振る舞いを機械的に確認できる環境が成果を左右すると説く。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "AI実装の主導権は、プロンプトではなくテストが握る"
+    },
+    {
+      "url": "https://zenn.dev/netetahito/articles/0a2a1e9ca36cb8",
+      "title": "AIの「やりました（やってない）」に対応する——動的検収計画法",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AIエージェントの完了報告を鵜呑みにせず、作業内容に応じて検収項目を動的に組み立てる方法を提案する記事。固定チェックリストでは拾えない変更も、実行結果と証拠から確認する発想を扱っている。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "AIの『できました』は、検収計画の開始合図"
+    },
+    {
+      "url": "https://zenn.dev/yuninaka/articles/guardrail-transplant-mypy-false-positive",
+      "title": "CLAUDE.mdに書いた検証習慣は移植できるか——品質ゲートを別プロジェクトに適用して見つかった「静かな誤検知」",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "あるプロジェクト向けの品質ゲートを別環境へ移植した際、mypyの静かな誤検知に遭遇した事例。ガードレールもコードと同様に文脈依存であり、再利用時には有効性そのものを検証すべきだと示している。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A",
+      "hook": "品質ゲートを移植したら、安心まで誤検知になった"
+    },
+    {
+      "url": "https://zenn.dev/fastdoctor/articles/grok-bot-team-development",
+      "title": "Grok botが僕らのチームを侵食してる",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "チーム開発へGrok botを組み込んだことで、日々のコミュニケーションや作業の進め方が変わった事例を扱う記事。便利な補助機能が徐々にチームの習慣や役割を作り替える過程に注目できる。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "AIを導入したのではない。チームの方がAIに作り替えられた"
+    },
+    {
+      "url": "https://zenn.dev/ojisan_ai_lab/articles/unity-claude-plugin-breakout-20260911",
+      "title": "Unity公式のClaude Codeプラグインで、作る工程では人がEditorを触らずに2Dブロック崩しができました（実測90分）",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Unity公式のClaude Codeプラグインを使い、人がEditorを操作せず90分で2Dゲームを作った実験記事。エージェントとゲーム開発環境の連携がどこまで進んだかを示す参考事例になる。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/quallab/articles/feature-without-user",
+      "title": "作るものは決まった、使う人が見えていなかった",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "実装対象は明確でも、実際の利用者や利用場面を捉えないまま進む開発の落とし穴を扱う記事。作る速度が上がるAI時代ほど、誰のどんな変化を目指すかという探索が重要になる。",
+      "topics": ["design", "team"],
+      "neta": "S",
+      "hook": "作るものが決まっているのに、誰のためかは決まっていない"
+    },
+    {
+      "url": "https://zenn.dev/kh_penzen/articles/d3620f789f5543",
+      "title": "【AI駆動開発経験談】第1回：AIが仕様を守らないのは、仕様書の書き方のせいだった",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AIが仕様どおりに実装しない原因を、モデルの能力だけでなく仕様書の表現から見直した経験談。曖昧さ、優先順位、検証条件を人間とAIの双方が扱える形にする重要性を示している。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "AIが仕様を守らない。悪いのはAIではなく仕様書だった"
+    },
+    {
+      "url": "https://zenn.dev/arufian/articles/aeb300d7cf9b1b",
+      "title": "AI駆動開発を速くするために、AIを信頼できる仕組みを作った話",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AIを信頼して開発速度を上げるために、検証や制約を仕組みとして整えた事例。人間の確認を減らすには、信頼を気分ではなく再現可能な品質ゲートとして設計する必要があると示している。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "AIを信じるために、まず疑う仕組みを作る"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/building-codex-with-tibo-sottiaux",
+      "title": "Building Codex with Tibo Sottiaux",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "Codexの開発責任者Tibo Sottiauxが、Rust採用、オープンソース化、ハーネスの進化、OpenAI社内での利用を語るインタビュー。AIで保守や再設計のコストが下がる一方、良い抽象化とテストが変更容易性をなお左右すると説明している。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "AIで再設計は年単位から日単位へ。それでも土台の品質は消えない"
+    },
+    {
+      "url": "https://withspecific.com/benchmarks/real-swe",
+      "title": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "公開課題ではなく、非公開の実企業コードベースでAIモデルのソフトウェア開発能力を測るベンチマーク。学習データ混入を避け、現場で通用する変更能力を評価しようとする取り組みである。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "AIの実力は、見たことのない社内コードで測る"
+    },
+    {
+      "url": "https://www.infoq.com/presentations/knowledge-graphs-agentic-systems-patterns/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Presentation: From Retrieval to Reasoning: Building Production-Ready Agentic AI Systems with Knowledge Graphs",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "知識グラフを使い、検索中心のAIシステムを推論可能な本番エージェントへ発展させる設計パターンを扱う講演。関係性を明示した知識構造が、回答精度や追跡可能性をどう支えるかを紹介している。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "RAGに文書を増やすより、知識の関係を作る"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/09/observability-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Session Traces and Cost Controls Help Diagnose AI Agent Failures",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "AIエージェントの失敗を診断するため、セッショントレースとコスト制御を組み合わせる手法を紹介する記事。出力だけでなく判断経路と消費資源を観測することが、本番運用の改善につながる。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "AIの失敗は、ログだけではなく判断の軌跡で追う"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/09/autonomous-software-teams/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Beyond Autonomous Teams in Software Product Development",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "ソフトウェア製品開発における自律的チームという定石を越え、組織全体の依存関係や意思決定をどう設計するかを論じる記事。チーム単体の自由度だけでは、価値提供の流れは最適化できないという視点を与える。",
+      "topics": ["team", "agile"],
+      "neta": "S",
+      "hook": "自律チームを増やしても、組織は自律しない"
+    }
+  ],
+  "rejected_count": 0,
+  "capped_count": 92,
+  "failures": []
+}
