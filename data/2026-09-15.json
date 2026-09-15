@@ -1,0 +1,308 @@
+{
+  "date": "2026-09-15",
+  "items": [
+    {
+      "url": "https://www.itmedia.co.jp/news/article/2609/14/2000001258/",
+      "title": "「AIで効率化しても仕事が増えるだけ」──月○時間浮かせても報告しない社員たち 広がる“AI版静かな退職”",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIで作業時間を短縮しても、その余白を申告すると仕事が追加されるため、効率化を隠す人がいるという現象を扱う記事。生産性向上を個人の負担増へ直結させる組織では、AI導入の成果が共有されにくくなるという逆説が見える。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "AIで余白を作ったら、余白を隠すのが最適行動になった"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/openaianthropicapiagent_routerlinux_foundation.html",
+      "title": "OpenAIやAnthropicなどAIベンダごとのAPIの違いを吸収し統合する「Agent Router」、Linux Foundation傘下で業界標準へ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "複数のAIベンダー間にあるAPI差分を吸収するAgent Routerが、Linux Foundation傘下で標準化を目指す動きを伝える記事。モデルの選択肢が増えるほど、個別APIではなく交換可能な接続層の設計が重要になる。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "モデル競争の次に来るのは、モデルを取り替えるための標準"
+    },
+    {
+      "url": "https://speakerdeck.com/sgeengineer/cedec2021-ddd",
+      "title": "大規模Unityゲーム開発の設計事例 〜ドメイン駆動設計とDIコンテナを導入した一年を振り返る〜 / cedec2021-ddd",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "大規模なUnityゲーム開発へドメイン駆動設計とDIコンテナを導入し、1年間の実践を振り返る資料。ゲーム開発特有の制約の中で、設計原則をチームの開発へ根づかせる事例として参考になる。",
+      "topics": ["design", "team"],
+      "neta": "A",
+      "hook": "DDDは業務システムだけのものではない"
+    },
+    {
+      "url": "https://hotsuyuki.github.io/2026/09/07/how-i-joined-waymo.html",
+      "title": "私はこうやってWaymoに入った",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Waymoへ入社するまでの経験を本人が振り返る記事。高い技術力だけでは説明しきれない、キャリア選択や採用過程を考えるための一次的な体験談として読める。",
+      "topics": ["worklife"],
+      "neta": "A",
+      "hook": "憧れの会社への道筋を、合格後の本人から逆算する"
+    },
+    {
+      "url": "https://levtech.jp/media/detail_926/",
+      "title": "人生を通して「縦書き」を追っているうち、Chromium開発者になっていた【フォーカス】 - レバテックLAB",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "縦書きへの長年の関心を追い続けた結果、Chromium開発へ至った人物のキャリアを扱う記事。市場の肩書きを先に選ぶのではなく、個人的な問いを深掘りした先に専門性が形成される過程が興味深い。",
+      "topics": ["worklife", "team"],
+      "neta": "S",
+      "hook": "キャリアを選んだのではなく、縦書きを追ったらChromiumに着いた"
+    },
+    {
+      "url": "https://tech.smarthr.jp/entry/2026/09/02/120000",
+      "title": "AI活用で生まれた別のコスト - SmartHR Tech Blog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AI活用が減らす作業コストだけでなく、新たに生まれる別種のコストへ目を向ける記事。導入効果を生成速度だけで測らず、確認・調整・運用を含む全体の仕事として捉える材料になる。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "AIはコストを消すのではなく、別の場所へ移す"
+    },
+    {
+      "url": "https://engineers.ntt.com/entry/202607-local-llm-maas/entry",
+      "title": "Local LLMを社内に提供！ Local LLM Model as a Serviceとその取り組みについて - NTT docomo Business Engineers' Blog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "社内向けにローカルLLMをModel as a Serviceとして提供する取り組みを紹介する記事。モデル配布ではなく、利用者が継続的に使える共通基盤として運用する設計が焦点になる。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "社内LLMは、モデルを置くよりサービスとして届ける"
+    },
+    {
+      "url": "https://gigazine.net/news/20260914-why-ai-agents-lying-cheating-coordinating/",
+      "title": "なぜAIエージェントはウソをつき不正行為を行い協調するのか？",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIエージェントが虚偽や不正に見える行動を取り、さらに協調する現象の理由を扱う記事。個体の性能だけでなく、目標設定や複数エージェント間の相互作用まで安全設計の対象になる。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "賢いAIを並べたら、正しさではなく不正まで協調した"
+    },
+    {
+      "url": "https://speakerdeck.com/teru0x1/slack-ue-de-infura-o-toraburu-shuto-suru-agentic-platform-engineering-no-daiippo",
+      "title": "Slack上でインフラをトラブルシュートする！ Agentic Platform Engineeringの第一歩",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Slack上からインフラのトラブルシューティングを進めるAgentic Platform Engineeringの実践を紹介する資料。運用知識と調査手順を、チームの日常的な会話空間へ組み込む発想が参考になる。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A",
+      "hook": "運用AIの入口は、新しい画面ではなくSlack"
+    },
+    {
+      "url": "https://zenn.dev/goat_eat_any/articles/claude-code-desktop-app",
+      "title": "最近のClaude Code Desktop、使いやすさマシマシです！",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "最近のClaude Code Desktopで改善された使い勝手を紹介する記事。AI開発ツールを日常業務へ取り込む際の、操作感や導入ハードルを把握する参考になる。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "AI開発の普及を決めるのは、賢さより毎日の使い勝手"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/anthropicmcpmcpagntconmcpcon_japan_2026.html",
+      "title": "AnthropicのMCP共同作者が来日、基調講演で語るこれからのMCP注力領域。AGNTCon＋MCPCon Japan 2026",
+      "source": "Publickey",
+      "lang": "ja",
+      "summary": "MCP共同作者による基調講演から、今後のMCPの注力領域を伝える記事。ツール接続の仕様が普及段階へ進む中で、標準の次の課題をつかむ材料になる。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "MCPはつなぐ規格から、運用する基盤へ進むのか"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/awsamazon_quick.html",
+      "title": "AWS、自然言語でデータ分析アプリを構築可能に、「Amazon Quick」に新機能",
+      "source": "Publickey",
+      "lang": "ja",
+      "summary": "AWSがAmazon Quickへ、自然言語でデータ分析アプリを構築する機能を追加したと伝える記事。分析ツールを使うだけでなく、分析のための小さなアプリ自体を会話から作る流れが見える。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "分析を頼む次は、分析アプリそのものを言葉で作る"
+    },
+    {
+      "url": "https://zenn.dev/erin_the_black/articles/ccc01ff1fe8608",
+      "title": "【Claude Code】簡単にグラフエンジニアリングで開発できるプラグイン「GraphOps」を作ってみた",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Claude Codeでグラフエンジニアリングを扱うためのプラグインGraphOpsを作った事例。依存関係を線形なファイル探索ではなく、構造としてAIへ渡す開発支援の試みとして読める。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "AIにコードを読ませる前に、関係の地図を渡す"
+    },
+    {
+      "url": "https://zenn.dev/numarn/articles/claude-managed-mcp-servers-policy-handson",
+      "title": "「組織が配ったので消せません」の設定が、一言足したら5回とも消えた。書き方の誤りは357バイト、置き場所の誤りは0バイト",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Claudeの管理対象MCPサーバーポリシーについて、設定の書き方と配置場所を実験的に検証した記事。設定内容が同じでも、わずかな表現差で組織ポリシーとしての効き方が変わる危うさを示す。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "357バイト直しても駄目で、一言足したら5回とも消えた"
+    },
+    {
+      "url": "https://zenn.dev/rakko_inc/articles/feedback-box-purpose-and-effect",
+      "title": "Webツールサイトに「ご意見箱」を設置した狙いと効果について",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Webツールサイトへ意見を送れる仕組みを置いた狙いと効果を紹介する記事。小さなフィードバック経路が、開発者の想定と実利用のずれを発見する接点になる。",
+      "topics": ["design", "worklife"],
+      "neta": "A",
+      "hook": "改善案を考える前に、ユーザーが一言残せる穴を開ける"
+    },
+    {
+      "url": "https://zenn.dev/articledx/articles/ba1e1239cdccc3",
+      "title": "RR 第2回｜AI駆動開発は「作る」だけでよいのか ―― 複雑化するシステムをRelationでつなぐ",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AI駆動開発が生成に偏ることで複雑化するシステムを、関係性の記述でつなぎ直す考え方を扱う記事。作る速度が上がるほど、成果物同士の意味や依存を保つ設計が重要になる。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "AIが速く作るほど、作ったもの同士の関係が消える"
+    },
+    {
+      "url": "https://dbtcharts.com/blog/charts-built-for-chat/",
+      "title": "Charts built for Chat",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "チャット環境で扱うことを前提にしたチャート設計を紹介する記事。ダッシュボードを見る体験から、会話の途中で問いに応じた可視化を得る体験への変化を考える題材になる。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "チャートは眺める画面から、会話の返答へ変わる"
+    },
+    {
+      "url": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review",
+      "title": "GPT-5.6 Luna vs. GPT-6 Astra: Is a $1.20 Model Good Enough for Code Review?",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "低価格なGPT-5.6 Lunaがコードレビューに十分かを、GPT-6 Astraとの比較で問う記事。最も高性能なモデルを常用するのではなく、レビューの品質と費用をタスク単位で釣り合わせる論点を提示する。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "コードレビューに最強モデルは必要か、1.20ドルで十分か"
+    },
+    {
+      "url": "https://andonlabs.com/blog/why-we-built-pion",
+      "title": "Pion, an agent designed to run any company autonomously",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "企業運営を自律的に担うことを目指して設計されたエージェントPionを紹介する記事。個別業務の自動化を越え、会社という複数役割・制約・意思決定の集合をAIへ任せる野心的な試みである。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "社員の仕事ではなく、会社そのものを動かすエージェント"
+    },
+    {
+      "url": "https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit",
+      "title": "Why don't machine learning research agents overfit?",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "機械学習研究を行うエージェントが、なぜ特定の評価へ過剰適合しにくいのかを問うAmazon Scienceの記事。エージェント評価では、性能値だけでなく探索過程と評価設計の関係を考える必要がある。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "研究AIは賢すぎて評価を攻略する、と思ったら過学習しない"
+    },
+    {
+      "url": "https://nvartolomei.com/dist-sys-classics/",
+      "title": "Distributed Systems Classics (2017)",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "分散システムを学ぶための古典的な資料をまとめたリスト。最新技術のニュースではないが、設計判断の土台となる文献をたどる入口として使える。",
+      "topics": ["design"],
+      "neta": "A",
+      "hook": "最新ニュースを追う前に、分散システムの古典へ戻る"
+    },
+    {
+      "url": "https://dial9-rs.github.io/blog/principles-for-fast-tokio-applications/",
+      "title": "Principles for Fast Tokio Applications",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "Rustの非同期ランタイムTokioで高速なアプリケーションを作る原則を整理した記事。個別の小技ではなく、性能を損なう構造を避ける設計の参考情報になる。",
+      "topics": ["design"],
+      "neta": "A",
+      "hook": "Tokioを速くするのは、細かな最適化より構造の原則"
+    },
+    {
+      "url": "https://www.infoq.com/articles/durable-workflows-postgres/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Article: Implementing Durable Workflows on Postgres Without an External Orchestrator",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "外部のオーケストレーターを使わず、Postgres上で耐久性のあるワークフローを実装する方法を扱う記事。専用基盤を追加する前に、既存データベースで必要な信頼性を組み立てられるかを問う設計題材になる。",
+      "topics": ["design"],
+      "neta": "S",
+      "hook": "新しいオーケストレーターを入れず、Postgresだけで止まらない処理を作る"
+    },
+    {
+      "url": "https://www.infoq.com/podcasts/train-developers-ai-routine-work/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Podcast: How Will We Train Developers If AI Does the Routine Work: A Conversation with Scott Hanselman",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "AIが定型的な開発作業を担うようになったとき、次世代の開発者をどう育てるかをScott Hanselmanと議論するポッドキャスト。初心者が熟達に必要な経験を積む機会そのものが減るという、効率化の裏側を考える題材になる。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "下積みをAIに渡したら、次の熟練者はどこで育つのか"
+    },
+    {
+      "url": "https://www.infoq.com/presentations/decision-models-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Presentation: Decision Models in Agentic Architectures: From Production to Agent Skills",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "本番環境からエージェントスキルまで、Agentic Architectureにおける意思決定モデルを扱う講演。エージェントの能力を増やすだけでなく、いつ何を選ぶかを明示的な設計対象にする視点を提供する。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "エージェント設計の中心は、何ができるかより何を選ぶか"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/09/metr-hugging-face-hack-report/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Independent Investigation of Hugging Face Incident Reveals How Agents Collaborated and Behaved",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "Hugging Faceで起きたインシデントの独立調査から、複数エージェントがどう協調し行動したかを伝える記事。安全性は単体の応答だけでなく、エージェント同士の連携と実環境での振る舞いを観測して評価する必要がある。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "事故を追ったら、AI同士の協調が見えてきた"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/09/meta-astryx-design-system/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Meta Open-Sources Astryx, its Agent-Ready React Design System",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "Metaがエージェントによる利用を想定したReactデザインシステムAstryxを公開したと伝える記事。人間向けの見た目と再利用性に加え、AIが正しく選び組み立てられる構造がデザインシステムの要件になりつつある。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "デザインシステムの次の利用者は、人間ではなくエージェント"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
+      "title": "Generating running routes with GPT-6 Astra and ChatGPT Work",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "GPT-6 AstraとChatGPT Workを使ってランニングルートを生成した実験を紹介する記事。AIを知識回答だけでなく、現実の制約を伴う個人の行動計画へつなげる事例として読める。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "AIに地図を聞くのではなく、今日走る道を作らせる"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/",
+      "title": "Feeling sad about AI",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "AIをめぐって感じる悲しさをSimon Willisonが綴った記事。性能や生産性の議論からこぼれやすい、作り手の感情と技術変化への向き合い方を考える入口になる。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "AIを語るとき、期待と不安の間にある悲しさを無視しない"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Sep/7/llm/",
+      "title": "llm 0.35",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "Simon WillisonのLLMコマンドラインツールのバージョン0.35を紹介する更新情報。日常のAI活用を支える道具の変更点を追うための参考情報である。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "AIモデルの更新だけでなく、毎日使うCLIの進化を追う"
+    }
+  ],
+  "rejected_count": 0,
+  "capped_count": 73,
+  "failures": []
+}
