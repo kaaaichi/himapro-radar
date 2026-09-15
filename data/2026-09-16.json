@@ -1,0 +1,303 @@
+{
+  "date": "2026-09-16",
+  "items": [
+    {
+      "url": "https://qiita.com/take-yoda/items/e5d9ce6618523af1ffc5",
+      "title": "生成AIが書いたドキュメントを読みたくない - Qiita",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "生成AIが書いたドキュメントを読むことへの抵抗を題名に掲げた記事。書く時間の短縮と、読む側が内容を信頼して理解する負担は別問題として議論できる。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "書くのは一瞬、読む人の時間は誰が払う？"
+    },
+    {
+      "url": "https://zenn.dev/nrs/articles/9ba91aea587bf5",
+      "title": "バイブコーディングで GUI が壊れていく理由とその対策プロンプト",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "バイブコーディングでGUIの品質が崩れる問題と、対策としてのプロンプトを扱う記事。生成の速さだけでなく、画面の一貫性をどう検証するかが設計上の論点になる。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "コードは増えるのに、画面はなぜ壊れる？"
+    },
+    {
+      "url": "https://speakerdeck.com/22mi/how-to-design-self-improvement-for-ai-agents",
+      "title": "AIエージェントの自己改善をどう設計するか / How to Design Self-Improvement for AI Agents",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIエージェントの自己改善を設計課題として扱う発表資料。改善と呼ぶ前に、変更の評価基準や失敗時の境界をどう置くかが番組での問いになる。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "自己改善するエージェントを、誰が評価する？"
+    },
+    {
+      "url": "https://www.docswell.com/s/3402128/KVJYJ3-2026-09-15-202358",
+      "title": "AIレビューは３層でまわす | ドクセル",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIを使うレビューを三層で回すという題名の発表資料。各層が何を確認するかは本文未確認であり、単一のAIレビューに任せきりにしない設計の入口として扱う。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A",
+      "hook": "AIレビューを増やす前に、役割を分ける"
+    },
+    {
+      "url": "https://oranie.hatenablog.com/entry/2026/09/15/154245",
+      "title": "AI Agentを利用した開発について雑感 - oranie's blog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AI Agentを開発に使う経験についての雑感記事。具体的な評価や運用方法は本文未確認で、現場での使いどころを考えるための参考に留める。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://cocoda.design/varhirac/p/pe1f4d8e389b2",
+      "title": "ありがちなUIに収束させない生成フロー。カナリーでの「デザイナー人格」のskill化について｜Cocoda",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "生成UIがありがちな形へ収束することを避けるため、デザイナーの視点をskill化する取り組みを題名に示す記事。独自性をプロンプト任せにせず、制作フローにどう組み込むかが論点になる。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "AIに人格を足すと、ありきたりなUIから抜けられる？"
+    },
+    {
+      "url": "https://zenn.dev/aldagram_tech/articles/316c4d944fd9d5",
+      "title": "AIのテスト観点を「決定論的」にする - テスト観点カタログを作った",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIに頼むテスト観点を決定論的にするため、観点カタログを作ったという記事。生成結果のばらつきを人間が定義した確認項目で抑えるという逆転が、品質管理の話題になる。",
+      "topics": ["ai-dev", "xp"],
+      "neta": "S",
+      "hook": "AIの自由さを生かすために、テストは固定する"
+    },
+    {
+      "url": "https://note.herp.co.jp/n/na751e51ea47f",
+      "title": "AI sloppingのコツ｜株式会社HERP公式note",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "『AI sloppingのコツ』と題した企業の投稿。本文は取得できず用語の意図や具体策は未確認なので、AIを使った制作物の質を考える入口に留める。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "B"
+    },
+    {
+      "url": "https://speakerdeck.com/kanfab1/20260914-ai-ejento-jidai-no-platform-engineering-llm-kiban-to-purodakuto-no-sekimu-kyoukaisen",
+      "title": "20260914 AIエージェント時代のPlatform Engineering LLM基盤とプロダクトの責務境界線",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIエージェント時代にLLM基盤とプロダクトの責務境界を考える発表資料。共通基盤へ何を寄せ、各チームに何を残すかという設計の問いを立てられる。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "エージェントの共通基盤、どこからが製品の責任？"
+    },
+    {
+      "url": "https://zenn.dev/afante/articles/c011e18361401f",
+      "title": "ScrumとKanbanを超えて：なぜ人気のアジャイル手法は本格的なソフトウェアプロジェクトで失敗するのか",
+      "source": "Zenn(アジャイル)",
+      "lang": "ja",
+      "summary": "ScrumやKanbanなどの人気手法が本格的なプロジェクトで失敗する理由を問う記事。失敗が手法自体によるのか、適用条件や運用によるのかは本文確認が必要で、議論の出発点として扱う。",
+      "topics": ["agile", "scrum"],
+      "neta": "S",
+      "hook": "スクラムが悪いのか、スクラムの使い方が悪いのか"
+    },
+    {
+      "url": "https://zenn.dev/alpaca_village/articles/system-development-work-05-review-quality",
+      "title": "🧭 システム開発という仕事 #05｜レビューは『指摘を出す会』ではない",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "レビューを指摘の数で測らないという題名の開発論。レビューの目的を、欠点探しだけでなく共通理解や品質への合意として考えるきっかけになる。",
+      "topics": ["team", "design"],
+      "neta": "S",
+      "hook": "指摘ゼロのレビューは、失敗なのか？"
+    },
+    {
+      "url": "https://zenn.dev/dss_studio/articles/0187d3e4324e79",
+      "title": "AI時代に、小さな開発会社の仕事をどう変えていくか",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "小さな開発会社の仕事をAI時代にどう変えるかを考える記事。制作速度だけでなく、顧客に提供する価値やチームの役割の再定義を話題にできる。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A",
+      "hook": "AIで作るのが速くなったら、開発会社は何を売る？"
+    },
+    {
+      "url": "https://zenn.dev/aiforall/articles/100196c8e50a20",
+      "title": "Superpowersを試してみた：AI開発フレームワークを活用した設計から実装まで",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AI開発フレームワークSuperpowersを使い、設計から実装まで試したという記事。手順化によってAI作業の進み方がどう変わるかは、体験談として確認したい。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "AIに自由を与えるより、手順を渡す方が速い？"
+    },
+    {
+      "url": "https://zenn.dev/jordisantamaria/articles/claude-code-config-layers",
+      "title": "Claude Codeの使い方と、使うほど良くなる設定の作り方。6ヶ月でコミットが8.8倍になりました",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Claude Codeの設定を使いながら育てる方法と、コミット数の変化を題名に掲げた記事。8.8倍という数値は筆者の報告であり、品質や因果関係まで示すものとは扱わない。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "コミットが増えたとき、成果はどう測る？"
+    },
+    {
+      "url": "https://zenn.dev/quallab/articles/experience-without-structure",
+      "title": "体験は決まった、どこに何を置くかが決まらなかった",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "望む体験は決まっても、情報や操作をどこへ配置するかは別の設計問題だと題名が示す記事。体験の言語化から画面構造へ橋渡しする過程を考える題材になるが、本文の詳細は未確認。",
+      "topics": ["design", "ai-dev"],
+      "neta": "A",
+      "hook": "体験を決めても、画面はまだ決まらない"
+    },
+    {
+      "url": "https://zenn.dev/genai/articles/cursor-rules-skills-multi-project",
+      "title": "Cursorのrules・skillsを複数PJで使い回す方法を整理したんじゃ【Local / Cloud 対応】",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Cursorのrulesとskillsを複数プロジェクトで再利用する方法を整理した記事。共通ルールとプロジェクト固有の文脈をどこで分けるかが運用上の論点になる。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "AIの設定、使い回すほど文脈が薄まる？"
+    },
+    {
+      "url": "https://zenn.dev/malachite/articles/28d6505a1a64c9",
+      "title": "認知負荷をかけない中断可能な AI コーディングのためのプラグイン「層序（Soujo）」のご紹介",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AIコーディングを中断・再開しやすくするプラグインを紹介する記事。作業の連続性をAIに任せるとき、人間の認知負荷をどう減らすかという問いにつながる。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "AI作業の中断に強くすると、人間も休める？"
+    },
+    {
+      "url": "https://qiita.com/ErikaChiba/items/1a652e2e3d780721b0d9",
+      "title": "XP祭り2026に現地参加してきました！",
+      "source": "Qiita(アジャイル)",
+      "lang": "ja",
+      "summary": "XP祭り2026への現地参加を記した記事。イベントの具体的な発表内容は未確認で、XPコミュニティの活動を知るための参考情報として扱う。",
+      "topics": ["xp", "team"],
+      "neta": "B"
+    },
+    {
+      "url": "https://martinfowler.com/articles/never-send-slides/nail-your-narrative.html",
+      "title": "Nail the Narrative",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "summary": "Martin Fowlerサイトのプレゼンテーション連載で、話の筋を整えることを扱う記事。連載の親記事はスライドを読み物と混同せず、語りの流れを大事にする立場を示しているが、この個別記事の本文は未確認。",
+      "topics": ["worklife", "design"],
+      "neta": "A",
+      "hook": "スライドを作る前に、語りを作る"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/openai-software-factory",
+      "title": "Inside OpenAI’s agentic software factory",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "OpenAIのエージェントを使ったソフトウェア開発現場を題名に掲げる記事。実際の工程や成果については本文未確認なので、開発組織の運用例を確認するためのネタ帳に留める。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A",
+      "hook": "エージェントの工場で、人間はどの工程を持つ？"
+    },
+    {
+      "url": "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover",
+      "title": "We got admin access to Baseten's production GitHub in 25 minutes",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "本番環境のGitHub管理者権限を短時間で得たと主張するセキュリティ記事。主張の事実関係や手順は本文未確認で、AI開発の権限管理を考える参考に留める。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "速いエージェントに、広い権限も渡してよい？"
+    },
+    {
+      "url": "https://josprague.com/blog/the-css-zen-garden-dream-finally-shipped/",
+      "title": "The CSS Zen Garden dream, finally shipped",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "CSS Zen Gardenの構想が実際に形になったと題名に掲げる記事。どの成果を指すかは本文未確認で、同じ内容を異なるデザインで表現する話題の参考にする。",
+      "topics": ["design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/09/microsoft-ai-security-patch/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "AI-Assisted Discovery Helps Microsoft Patch More Than 1,000 Vulnerabilities in a Month",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "InfoQはAI支援の発見がMicrosoftの脆弱性修正に役立ったと報じている。件数やAIの寄与は一次資料で未確認なので、AIと検証・修正工程の関係を考える材料として扱う。",
+      "topics": ["ai-dev", "xp"],
+      "neta": "A",
+      "hook": "AIが欠陥を見つけるなら、直す体制は追いつく？"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/09/atlassian-automated-rca/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Atlassian Automates Root Cause Analysis by Correlating Metrics, Logs and Traces",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "InfoQはAtlassianがメトリクス、ログ、トレースを関連付けて根本原因分析を自動化したと報じる。実装や効果は一次資料で未確認だが、障害調査で情報をつなぐ設計を考える題材になる。",
+      "topics": ["design", "team"],
+      "neta": "A",
+      "hook": "障害対応の速さは、ログの量よりつながりで決まる？"
+    },
+    {
+      "url": "https://www.infoq.com/presentations/engineering-leadership/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Presentation: Lead Without a Ladder: How I Climbed Into Engineering Leadership",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "役職の階段に頼らずエンジニアリングのリーダーシップを担う経験を題名に掲げる講演。具体的な経歴は本文未確認で、肩書とチームへの影響力を分けて考える入口になる。",
+      "topics": ["team", "worklife"],
+      "neta": "A",
+      "hook": "役職がなくても、リードできる？"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/09/grab-agent-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Grab's Agent Framework LLM-Kit Accelerates AI Agent Production Deployment",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "InfoQはGrabのLLM-Kitというエージェント基盤が本番導入を速めると報じる。効果の数字は一次資料で未確認で、試作から運用に移す際の共通基盤を議論できる。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "エージェントを作るより、運用へ乗せる方が難しい？"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/09/turnstile-system-design/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "How Solaris' Turnstile Influenced the Modern System Designs of Web Browsers and Language Runtimes",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "SolarisのTurnstileが現代のブラウザや言語ランタイムの設計に与えた影響を扱う記事。影響の具体的な経路は本文未確認で、古い設計が別領域に再利用される例としてストックする。",
+      "topics": ["design"],
+      "neta": "A",
+      "hook": "古いOSの設計が、今のブラウザを支える？"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
+      "title": "commit-rewriter 0.1",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "Simon Willisonがcommit-rewriterの0.1版を紹介する投稿。機能の詳細は本文未確認なので、開発履歴を扱う道具としての参考情報に留める。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Sep/11/boris-cherny/",
+      "title": "Quoting Boris Cherny",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "Simon WillisonがBoris Chernyの発言を引用し、Claudeが書いた本番コードには人間が書いた場合より高い品質基準が要るという見解を紹介する。引用にはlint、テスト、自動レビューなどのガードレールが挙げられるが、Anthropicでの実施状況は引用元を再確認していない。",
+      "topics": ["ai-dev", "xp"],
+      "neta": "S",
+      "hook": "AIが書いたコードほど、厳しく検査する"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/article/2609/15/2000001500/",
+      "title": "「監視されていないときのAIは、もう評価できない」 OpenAI現役研究者が個人声明",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIを監視なしで評価することへの懸念を、研究者の個人声明として報じる記事。声明の原文は未確認なので、評価と観測条件の関係を考える材料に留める。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "監視するほど、安全な評価が難しくなる？"
+    }
+  ],
+  "rejected_count": 0,
+  "capped_count": 75,
+  "failures": []
+}

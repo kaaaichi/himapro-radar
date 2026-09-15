@@ -49,12 +49,11 @@ def render_item(it):
     )
     hook = ""
     if it.get("hook"):
-        hook = f'<p class="hook">フック候補: {esc(it["hook"])}</p>'
+        hook = f'\n  <p class="hook">フック候補: {esc(it["hook"])}</p>'
     return f'''<article class="item neta-{esc(it.get("neta", "B"))}">
   <div class="item-head"><span class="neta">{esc(it.get("neta", "B"))}</span>{topics}<span class="src">{esc(it.get("source", ""))}</span></div>
   <h3><a href="{esc(url)}">{esc(it.get("title", ""))}</a></h3>
-  <p class="summary">{esc(it.get("summary", ""))}</p>
-  {hook}
+  <p class="summary">{esc(it.get("summary", ""))}</p>{hook}
 </article>'''
 
 

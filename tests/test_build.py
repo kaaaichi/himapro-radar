@@ -25,6 +25,11 @@ def test_render_day_contains_sections_and_items():
     assert "店長宛メモ" in html
     assert "Qiita(アジャイル): timeout" in html
 
+
+def test_render_day_without_hook_has_no_trailing_whitespace():
+    html = render_day(DAY)
+    assert all(line == line.rstrip() for line in html.splitlines())
+
 def test_render_day_empty_items_reports_alive():
     html = render_day({"date": "2026-07-07", "items": [], "rejected_count": 0,
                        "capped_count": 0, "failures": []})
