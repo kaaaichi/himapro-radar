@@ -1,0 +1,304 @@
+{
+  "date": "2026-09-17",
+  "items": [
+    {
+      "url": "https://tech.smarthr.jp/entry/2026/09/16/110205",
+      "title": "Claude Codeで開発期間を2.5か月から1か月に縮めた「ハーネス」の設計手法 - SmartHR Tech Blog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Claude Codeを組み込むハーネスを設計し、開発期間を2.5か月から1か月へ短縮した事例。AIモデル単体よりも、制約・文脈・検証を囲う仕組みが生産性を左右するという題材になる。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "AIを賢くするより、囲い方を設計する"
+    },
+    {
+      "url": "https://qiita.com/kskwtnk/items/aa21e7f57feb43e970e0",
+      "title": "AIを使っても「自分の文章」に仕上げるためにやっていること - Qiita",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIを使った文章を、書き手自身の表現へ仕上げる工夫を扱う記事。生成の効率だけでなく、編集によって声や責任を取り戻す工程を考える材料になる。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "AIに書かせても、最後は自分の文章にできるか"
+    },
+    {
+      "url": "https://speakerdeck.com/kawasima/ningen-ha-dono-ishi-kettei-o-tebanaseru-no-ka",
+      "title": "人間はどの意思決定を手放せるのか",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "人間がどの意思決定を手放せるかを問う発表資料。AIや自動化への委譲を、作業ではなく判断の境界設計として捉える題材になる。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "手放せないのは作業か、それとも責任か"
+    },
+    {
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/17/news006.html",
+      "title": "「APIキーは.envに」はもはや通用しない AIエージェントの“内通者化”をどう防ぐ？",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIエージェントが環境変数の秘密情報へアクセスできる構成の危険性を扱う記事。従来の秘密管理が、ツールを操作するエージェント時代には十分でないという設計課題を示す。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": ".envを守るだけでは、エージェントを守れない"
+    },
+    {
+      "url": "https://gigazine.net/news/20260916-safari-extension-apple-intelligence/",
+      "title": "iOS 27でSafariに追加された「AIに言葉で説明するだけで自分好みの機能拡張を即座に開発する」機能が便利、文字色変更やスクロールボタン追加などをサイトごとに設定可能",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "自然言語でSafariの機能拡張を作り、サイトごとに見た目や操作を変えられる機能を紹介する記事。小さな不便を利用者自身がソフトウェア化する流れの例として扱える。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "アプリを探す前に、自分で機能を生やす時代"
+    },
+    {
+      "url": "https://type.jp/et/feature/31685/",
+      "title": "「次にクビになるのは俺やろ」と思った牛尾剛がAI時代に見つけた“いちばん安全な働き方” - エンジニアtype | 転職type",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AI時代の雇用不安を起点に、エンジニアが選ぶ働き方を扱うインタビュー記事。AIから距離を置くのではなく、変化へ近づくことが安全につながるという逆説を議論できる。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "AI時代の安全地帯は、変化のいちばん近くにある"
+    },
+    {
+      "url": "https://gigazine.net/news/20260916-capsule/",
+      "title": "AIで作ったアプリをUIもデータも単一ファイルで持ち運べる無料ツール「Capsule」、クラウド不要で完全オフラインで動作",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIで作ったアプリのUIとデータを単一ファイルにまとめ、オフラインで動かすツールを紹介する記事。生成アプリの配布や所有をクラウドから切り離す選択肢として参考になる。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "AIアプリをクラウドではなく、ファイルとして持ち歩く"
+    },
+    {
+      "url": "https://speakerdeck.com/m3m0r7/thinking-about-tech-debt-in-ai-era",
+      "title": "AI 時代のスタートアップエコシステ厶から考究する技術的負債との向き合い方",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AI時代のスタートアップ環境から、技術的負債との向き合い方を考える発表資料。実装速度が上がるほど負債の生成と返済をどう設計するかが重要になる。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "コードが速く増えるなら、負債も速く増える"
+    },
+    {
+      "url": "https://developer.feedforce.jp/entry/2026/09/15/122838",
+      "title": "障害対応で Claude Code に調査を任せてみたら便利だった話 - Feedforce Developer Blog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "障害対応の調査をClaude Codeへ任せた実践例。緊急時に調査を並列化できる利点と、出力をどう検証して判断責任を保つかをセットで考えられる。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "障害対応でAIに任せるのは、修正ではなく調査から"
+    },
+    {
+      "url": "https://gihyo.jp/article/2026/09/jev-early-access",
+      "title": "TypeSafe AI、AIモデル「Jev」の早期提供を開始 ——判断結果を構造化データで高速出力、ソフトウェアでの活用を想定 | gihyo.jp",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "判断結果を構造化データとして高速出力するAIモデルJevの早期提供を伝える記事。自然言語の会話より、ソフトウェアへ組み込みやすい出力形式に焦点を当てた動きとして参考になる。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "AIの答えは、文章より構造で受け取る"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/devinmacosmacdevinappstore.html",
+      "title": "Devinが仮想環境でmacOSの提供開始。Macの実機不要でDevinがコード生成、テスト、デバッグ、実行、AppStore配信前のベータ公開まで実行",
+      "source": "Publickey",
+      "lang": "ja",
+      "summary": "Devinが仮想macOS上で生成からテスト、デバッグ、ベータ公開まで扱えるようになったことを伝える記事。AIエージェントの担当範囲がコード作成から配布工程へ広がる例になる。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A",
+      "hook": "AIエージェントの仕事は、コミットの先まで伸びる"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/javaai.html",
+      "title": "オラクル、Javaのセキュリティパッチを毎月提供開始、AIが脆弱性の発見を加速しているとして",
+      "source": "Publickey",
+      "lang": "ja",
+      "summary": "オラクルがJavaのセキュリティパッチを毎月提供すると伝える記事。AIが脆弱性発見を加速させることで、修正や配布のリズムも変わるという運用上の示唆がある。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A",
+      "hook": "AIが攻撃を速めるなら、パッチ周期も速くなる"
+    },
+    {
+      "url": "https://zenn.dev/simplex/articles/2dd4c86adaef49",
+      "title": "AI-DLCを通じて、チームの開発プロセスが変わり始めた話",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "AI-DLCの導入を通じて、チームの開発プロセスが変化した事例。個人の生成速度ではなく、チームの合意形成や工程がどう変わるかを語れる。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "AI導入の本当の変化は、個人よりチームに出る"
+    },
+    {
+      "url": "https://zenn.dev/dress_code/articles/fc3d9e985a1a8c",
+      "title": "プロダクトエンジニアに必要な「いい感じ」に作る能力",
+      "source": "Zenn(アジャイル)",
+      "lang": "ja",
+      "summary": "プロダクトエンジニアに必要な、要件を具体的な形へ落とす『いい感じ』の能力を扱う記事。暗黙知に見える判断を、設計や対話の技能として捉え直す材料になる。",
+      "topics": ["design", "agile"],
+      "neta": "A",
+      "hook": "『いい感じ』は才能ではなく、分解できる能力か"
+    },
+    {
+      "url": "https://zenn.dev/tmasuyama1114/articles/claude_code_curated_skills",
+      "title": "【Claude Code】半年使い続けている自作スキル8個を、痛み別に紹介する",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Claude Codeを半年使う中で作った8個のスキルを、解消したい痛みごとに紹介する記事。機能起点ではなく、繰り返す問題から自動化を設計する事例として参考になる。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "便利なスキルは、機能一覧ではなく痛みから生まれる"
+    },
+    {
+      "url": "https://zenn.dev/blackmose/articles/c5eee066bc59e2",
+      "title": "「0774ってどこ？」市外局番だけで日本のどこかを当てるゲームを、実作業4時間で公開した話",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "市外局番を題材にしたゲームを、実作業4時間で公開した開発記。AI駆動開発で小さな着想を公開物まで持っていく速度の事例になる。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "4時間あれば、思いつきを公開まで運べる"
+    },
+    {
+      "url": "https://zenn.dev/dss_studio/articles/eca2593a500cc2",
+      "title": "AIで実装する前に何を決めるか――受注取消をDDDで考える",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "受注取消を題材に、AIで実装する前に決めるべきことをDDDで考える記事。生成速度を上げる前に、業務概念と境界を人間が定義する重要性を示す。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "AIに速く作らせる前に、言葉を決める"
+    },
+    {
+      "url": "https://zenn.dev/canly/articles/2a9002ac195232",
+      "title": "AI-DLCで設計してみたら、自分たちが決めていなかったことに気づいた",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AI-DLCで設計する過程から、チーム内で未決定だった事項が見えた事例。AIを答えの生成器ではなく、曖昧さを発見する鏡として使う話につながる。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "AIが出したのは答えではなく、未決定事項だった"
+    },
+    {
+      "url": "https://zenn.dev/nenene01/articles/ai-development-readiness-a-times-b",
+      "title": "AI駆動開発では、実装の前に「a × b」を設計する",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AI駆動開発で実装前に『a × b』を設計するという枠組みを提示する記事。式の具体的な定義は本文未確認だが、準備状態を掛け合わせで捉える入口になる。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "AI開発の成否は、実装前の掛け算で決まる"
+    },
+    {
+      "url": "https://qiita.com/Toriumi-desu/items/8843398d4ba88f118866",
+      "title": "勉強会の感想 〜現場で効いたAI駆動開発の実践知: 越境を支える体制と仕組みづくり〜",
+      "source": "Qiita(アジャイル)",
+      "lang": "ja",
+      "summary": "AI駆動開発の実践知と、職能を越える動きを支える体制・仕組みに関する勉強会の感想。ツール導入だけでなく、越境を許容する組織設計を考える参考になる。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A",
+      "hook": "AIで越境を促すなら、組織側にも足場が要る"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.16338",
+      "title": "Breaking the 1.58-bit Barrier for Ternary LLMs",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "三値LLMにおける1.58ビットの壁を扱う研究論文。手法や結果の詳細は本文未確認であり、モデル効率化の動向を追う参考情報として留める。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://rohanbansal.com/qorl",
+      "title": "Training a 4B model to produce 81% faster query plans than Postgres",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "40億パラメータのモデルを訓練し、Postgresより81%高速なクエリプランを生成したと題する記事。AIがコード補完ではなく、既存ソフトウェアの最適化器へ入る事例として注目できる。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "AIはSQLを書くより、実行計画を選ぶ方が効く？"
+    },
+    {
+      "url": "https://claude.com/blog/cowork-is-now-claude",
+      "title": "Claude Cowork and chat are now one Claude",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "ClaudeのCoworkとチャットが一つの体験へ統合されたことを伝える公式記事。会話と作業エージェントの境界が薄くなる製品動向として参考になる。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "チャットに頼むことと、仕事を任せることが一つになる"
+    },
+    {
+      "url": "https://will-keleher.com/posts/small-programming-tricks-matter/",
+      "title": "Small programming tricks",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "小さなプログラミング上の工夫を扱う記事。具体的な内容は本文未確認だが、派手な技術より日々の小技が開発体験を積み上げるという話題に使える。",
+      "topics": ["xp", "worklife"],
+      "neta": "A",
+      "hook": "大きな生産性改善は、小さな工夫の総和かもしれない"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.14858",
+      "title": "Dream-RSI: Recursive Self-Improvement through Evolving Worlds",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "進化する環境を通じた再帰的自己改善を扱う研究論文。方法や有効性は本文未確認であり、自己改善型AI研究の参考情報として扱う。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/09/microsoft-taugrid-open-source/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Microsoft Open-Sources TauGrid to Simplify AI Workload Management on Kubernetes",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "MicrosoftがKubernetes上のAIワークロード管理を簡素化するTauGridを公開したと伝える記事。具体的な仕組みは本文未確認で、AI基盤運用の参考情報として留める。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/09/dropbox-riviera-ai-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Dropbox Evolves Riviera Content Processing Platform to Support AI Workloads",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "Dropboxがコンテンツ処理基盤RivieraをAIワークロードへ対応させた事例を紹介する記事。詳細は本文未確認であり、既存基盤をAI用途へ拡張する参考情報として扱う。",
+      "topics": ["ai-dev", "design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/09/shopify-drops-react-native/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Shopify Drops React Native for Swift and Kotlin as AI Changes Cross-Platform Development Tradeoffs",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "ShopifyがReact NativeからSwiftとKotlinへ移行し、AIによってクロスプラットフォーム開発の損得が変わったと伝える記事。コード生成が安くなると、共通化の価値まで変わり得るという逆転を議論できる。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "AIでコードが安くなると、共通化は割高になる？"
+    },
+    {
+      "url": "https://www.infoq.com/articles/next-dsl-author-language-model/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Article: Your Next DSL Author Is a Language Model",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "次のDSL作者は言語モデルになるという主張を掲げる記事。人間向けの汎用言語だけでなく、AIが目的別の言語を生成する開発像を考える題材になる。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "AIにコードを書かせる次は、言語そのものを作らせる"
+    },
+    {
+      "url": "https://www.infoq.com/presentations/duolingo-ai-literacy-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Presentation: Teaching Engineers, Trusting AI: How Education Enabled Autonomous Code Review",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "教育を通じて自律的なAIコードレビューを可能にした取り組みを扱う発表。AIへの信頼をモデル性能だけでなく、使う側の学習と運用設計から作る点が題材になる。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "AIレビューを信頼する前に、人間を教育する"
+    }
+  ],
+  "rejected_count": 0,
+  "capped_count": 72,
+  "failures": []
+}
