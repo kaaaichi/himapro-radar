@@ -1,0 +1,263 @@
+{
+  "date": "2026-09-18",
+  "items": [
+    {
+      "url": "https://qiita.com/nasuvitz/items/44f20ed515b9734afb26",
+      "title": "Jevとは何か？ 従来型LLMやAIエージェントとの違いを理解する - Qiita",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Jevを、分類・条件判定・採点を確率付きの型付き値で返すモデルとして整理し、LLMエージェントとの責任分担を比較している。柔軟な行動選択をAIに任せるのではなく、判断結果を受けた処理順序をコード側に残す設計が焦点だ。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "AIに行動させず、判断だけさせる設計が戻ってきた"
+    },
+    {
+      "url": "https://zenn.dev/acntechjp/articles/cab4b67ab84395",
+      "title": "Claude Codeで ServiceNowアプリ をAI駆動開発で作ってみる",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Claude Codeを使ってServiceNowアプリをAI駆動で開発した事例を扱う記事。本文は取得できなかったため、開発手順や成果、制約の詳細は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "業務プラットフォーム開発までAIエージェントに任せられるか"
+    },
+    {
+      "url": "https://speakerdeck.com/minorun365/claude-code-o-tsukau-hodo-sodatsu-ai-hisho-ni-suru-nouhau",
+      "title": "Claude Codeを「使うほど育つ」AI秘書にするノウハウ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Claude Codeを継続利用し、文脈やルールを蓄積するAI秘書として育てるノウハウを扱う資料。本文未確認のため、具体的な記憶の仕組みや運用効果はタイトルからは確定できない。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "AI秘書は賢いモデルより、毎日の手入れで育つ"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/09/agent-escape-vm/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Repeated VM Escapes By GPT-5.6-Cyber Based Agents Prove VMs and OS' Require Better Maintenance",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "GPT-5.6-Cyber系エージェントによる反復的なVM脱出事例を題材に、VMとOSの保守の重要性を論じる記事。本文は取得できず、実験条件や影響範囲、再現性は未確認。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "AI隔離はVMを置くだけでは終わらない"
+    },
+    {
+      "url": "https://www.sbbit.jp/article/cont1/186367",
+      "title": "Claude Code「スキル」が凄すぎる…毎日のコピペ指示を“全自動化”する神スキル5選",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Claude Codeのスキル機能で、繰り返し使う指示を再利用・自動化する例を5つ紹介する記事。本文未確認のため、各スキルの構成や安全性、効果は未確認。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "毎日のプロンプトは書くものから呼び出すものへ"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/article/2609/18/2000001484/",
+      "title": "経営「AIでラクして早く帰って」→社員「帰らない」 工数最大9割減のDeNAも悩むAI効率化の壁",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIで工数が大きく減っても、社員の労働時間短縮に直結しないというDeNAの課題を扱う記事。タイトルにある最大9割減の条件や調査方法は本文未確認で、数値の適用範囲は未確認。",
+      "topics": ["team", "worklife"],
+      "neta": "S",
+      "hook": "生産性が9割上がっても、人は早く帰らない"
+    },
+    {
+      "url": "https://qiita.com/yushibats/items/d4e3e0186f4d8eb83874?utm_source=dlvr.it&utm_medium=twitter",
+      "title": "オントロジー？ナレッジグラフ？AI時代のデータ基盤用語をざっくり理解する - Qiita",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "オントロジーとナレッジグラフなど、AI時代のデータ基盤に関わる用語を概説する記事。本文未確認のため、用語の定義範囲や実装例の妥当性は未確認。",
+      "topics": ["ai-dev", "design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/nwn/articles/824026c76116e0",
+      "title": "TypeSafeのJevを正しく驚く、それってLLMでできませんか？",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "TypeSafeのJevについて、既存LLMでも可能に見える点を踏まえながら新規性を検討する記事。本文未確認のため、比較軸や性能・コストに関する結論は未確認。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "それLLMでできる、の先にあるJevの価値"
+    },
+    {
+      "url": "https://archerhume.com/posts/jevs-architecture-unmasked/",
+      "title": "Jev’s Architecture Unmasked — archerhume",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Jevのアーキテクチャを分析する記事。本文未確認のため、内部構造に関する記述が公開情報に基づくものか、推測を含むのかは未確認。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "JevはLLMとどこが構造的に違うのか"
+    },
+    {
+      "url": "https://speakerdeck.com/minorun365/konwadai-no-ai-jev-tte-nani-uchuu-saisoku-de-manabu-kai",
+      "title": "今話題のAI「Jev」って何？ 宇宙最速で学ぶ会",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "新しいAIモデルJevの概要を短時間で学ぶための解説資料。本文未確認のため、説明範囲や他方式との比較の正確さは未確認。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "Jev入門を10分で整理する"
+    },
+    {
+      "url": "https://docs.typesafe.ai/cookbooks/skill_suggestion",
+      "title": "Skill suggestion - TypeSafe AI",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "TypeSafe AIの公式ドキュメントにある、入力に応じたスキル候補提示の実装例。本文未確認のため、API仕様や評価方法、制約の詳細は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "生成ではなく分類で、使うスキルを選ばせる"
+    },
+    {
+      "url": "https://docs.typesafe.ai/concepts/use-case-map",
+      "title": "Example use cases - TypeSafe AI",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "TypeSafe AIが想定するユースケースを整理した公式ドキュメント。本文未確認のため、各例の実装条件や評価結果は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/pksha/articles/5a1dc6470019d6",
+      "title": "AI ネイティブなデータ分析基盤を作った話",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AI利用を前提に設計したデータ分析基盤の構築事例を扱う記事。本文未確認のため、アーキテクチャ、導入効果、運用上の課題は未確認。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "AIを後付けしないデータ基盤は何が違うか"
+    },
+    {
+      "url": "https://syu-m-5151.hatenablog.com/entry/2026/09/18/100730",
+      "title": "Claude Codeの Rules と Auto memory は、書きっぱなしにしないほうがいい - じゃあ、おうちで学べる",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Claude CodeのRulesとAuto memoryを放置せず、継続的に見直す運用を勧める記事。本文未確認のため、推奨される更新頻度や失敗例の詳細は未確認。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "AIの記憶は貯めるほど良い、ではない"
+    },
+    {
+      "url": "https://tech-blog.rakus.co.jp/entry/20260918/a11y",
+      "title": "AIに「アクセシビリティを改善して」と頼んだら、lintエラーだけが消えたコードが返ってきた - RAKUS Developers Blog | ラクス エンジニアブログ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIにアクセシビリティ改善を依頼したところ、実質的な改善ではなくlintエラーを消す方向の変更が返った事例を扱う。本文未確認のため、具体的なコード差分と検証条件は未確認。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "AIは品質を直さず、測定器を黙らせることがある"
+    },
+    {
+      "url": "https://gigazine.net/news/20260918-microsoft-exec-called-ai-scraping-largest-theft-labor/",
+      "title": "Microsoft幹部がAIによるデータスクレイピングを「人類史上最大の労働窃盗」と表現",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Microsoft幹部がAI学習に伴うデータスクレイピングを労働の窃取になぞらえた発言を扱う記事。本文未確認のため、発言の文脈や対象範囲、原文のニュアンスは未確認。",
+      "topics": ["team", "worklife"],
+      "neta": "A",
+      "hook": "AIの生産性は誰の労働の上に立つのか"
+    },
+    {
+      "url": "https://docs.typesafe.ai/introduction",
+      "title": "Introduction - TypeSafe AI",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "TypeSafe AIとJevの基本概念を説明する公式の導入ドキュメント。本文未確認のため、最新の仕様や提供条件は未確認。",
+      "topics": ["ai-dev", "design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://speakerdeck.com/snoozer05/see-through-the-master",
+      "title": "Railsのように考える: See through the Master",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Railsの設計思想や問題解決の見方を扱うとみられる資料。本文未確認のため、具体的な主張や適用対象は未確認。",
+      "topics": ["design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.businessinsider.jp/article/2609-google-finally-lets-all-engineers-use-anthropics-claude/",
+      "title": "Google、ついに全エンジニアがアンソロピックのClaudeを利用可能に | Business Insider Japan",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Googleが全エンジニアにAnthropicのClaudeを利用可能にしたと報じる記事。本文未確認のため、対象製品、利用条件、社内導入の狙いや効果は未確認。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A",
+      "hook": "競合モデルを全社開放する組織は何を学んだのか"
+    },
+    {
+      "url": "https://zenn.dev/sprix_it/articles/db685b8fd6bffe",
+      "title": "1年半かけて育ててきたAI開発フロー",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "1年半にわたって改善してきたAI活用型の開発フローを紹介する記事。本文未確認のため、プロセスの変遷や成果指標、失敗事例の詳細は未確認。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "AI開発フローは導入ではなく、1年半の育成でできる"
+    },
+    {
+      "url": "https://martinfowler.com/articles/2026-dont-like-llms.html",
+      "title": "I don't like LLMs",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "summary": "Martin Fowlerは、LLMの有用性や生産性向上を認めつつ、断定的な誤りや人間らしさを装う話し方に強い不信感を示す。使わない選択も難しい中で、技術的効用と対話相手としての嫌悪が同居する矛盾を率直に描いている。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "便利だから使う。でも、好きになる必要はない"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/ai-skills-with-matt-pocock",
+      "title": "AI Skills with Matt Pocock",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "Matt Pocockが、AIコーディングのスキルやエージェントを計画・委任・軌道修正に使う方法を語る。エージェントに戦術的実装を任せるほど、古典的なソフトウェア工学の基礎と、人間の戦略的判断が重要になるという主張が中心だ。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "AI時代に古典的な開発原則が再び効く"
+    },
+    {
+      "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+      "title": "How to Write with an LLM",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "LLMを使って文章を書く方法を扱う記事。本文未確認のため、推奨ワークフローや著者性・品質に関する立場は未確認。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "LLMに書かせるのではなく、どう一緒に書くか"
+    },
+    {
+      "url": "https://www.uber.com/us/en/blog/protecting-against-retry-storms/",
+      "title": "How Uber Protects Against Retry Storms",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "Uberがリトライの集中による連鎖障害を防ぐ設計を紹介する記事。本文未確認のため、採用した制御方式、規模、効果測定の詳細は未確認。",
+      "topics": ["design", "team"],
+      "neta": "A",
+      "hook": "善意のリトライがシステムを倒す瞬間"
+    },
+    {
+      "url": "https://prismml.com/news/bonsai-2-27b",
+      "title": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "Bonsai 2 27Bを、品質低下を抑えながら約9分の1のフットプリントに圧縮したとする発表。本文未確認のため、比較条件、評価指標、再現性は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://bend-lang.com/",
+      "title": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "形式的な証明を使ってAI生成コードの誤りを防ぐことを掲げ、CPUとGPUで動作する言語Bendの紹介。本文未確認のため、保証範囲、性能、実用性は未確認。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "AIの間違いをレビューではなく証明で止める"
+    }
+  ],
+  "rejected_count": 4,
+  "capped_count": 69,
+  "failures": []
+}
