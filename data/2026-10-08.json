@@ -1,0 +1,304 @@
+{
+  "date": "2026-10-08",
+  "items": [
+    {
+      "url": "https://qiita.com/kazuki_ogawa/items/f1a15a199d9f91fe6080",
+      "title": "文章で要件定義するのをやめた。AIでモックを先に作ったら、認識ズレが実装前に全部見つかった - Qiita",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "文章による要件定義をやめ、AIで先に画面モックを作って関係者と確認したところ、実装前に認識のズレが見つかったという実践記事。本文未確認のため、プロジェクト規模や「全部見つかった」の具体的な範囲は未確認。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「要件定義書を書くのをやめたら、要件が固まった」"
+    },
+    {
+      "url": "https://zenn.dev/headwaters/articles/974a14dc8f9ecf",
+      "title": "AI駆動開発でスクラムはどう変わる？短くなるサイクルとレトロの役割",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "AI駆動開発で実装サイクルが短くなる中、スクラムのイベント、特にレトロスペクティブの役割がどう変わるかを考察する記事。本文未確認のため、具体的な提案内容は未確認。",
+      "topics": ["ai-dev", "scrum"],
+      "neta": "S",
+      "hook": "「AIで速くなるほど、振り返りの価値が上がる」"
+    },
+    {
+      "url": "https://zenn.dev/lsa/articles/a26ea586c07340",
+      "title": "AI時代にチームワークは必要か？",
+      "source": "Zenn(アジャイル)",
+      "lang": "ja",
+      "summary": "AIで個人の生産性が上がる時代に、チームで働く意味が残るのかを問う記事。本文未確認のため、筆者の結論は未確認。",
+      "topics": ["team", "ai-dev"],
+      "neta": "S",
+      "hook": "「一人+AIで足りるなら、チームは何のためにある？」"
+    },
+    {
+      "url": "https://zenn.dev/numarn/articles/prompt-politeness-tip-phrases-handson",
+      "title": "AIに「200ドルのチップをお支払いします」と足しても答えは変わらなかった。60回とも正解で、増えたのは22トークンだけ",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "プロンプトにチップを払う旨や丁寧な言い回しを加えると回答が良くなるという俗説を、60回の試行で検証した記事。タイトルによれば正答率は変わらず、トークン数が22増えただけだった。検証条件(モデル・課題)は本文未確認。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「AIにチップを払っても、賢くはならなかった」"
+    },
+    {
+      "url": "https://zenn.dev/numarn/articles/claude-md-pointer-vs-inline-rules-handson",
+      "title": "AIへの指示書を別ファイルに追い出したら、最初の入力は8230トークン減った。でも合計は最大1.86倍に増えた",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "CLAUDE.md などの指示書を別ファイルへの参照に分けると初回の入力は減るが、参照ファイルの読み込みで合計トークンが増えうることを測った検証記事。数値はタイトル記載のもので、計測条件は本文未確認。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "「指示書をダイエットさせたら、総量が太った」"
+    },
+    {
+      "url": "https://qiita.com/Maku-Inc/items/27d193a1ae9c20b1eb8b",
+      "title": "ベロシティ至上主義スクラムの末路：チームが壊れる3つの兆候",
+      "source": "Qiita(スクラム)",
+      "lang": "ja",
+      "summary": "ベロシティを目標として追い求めるスクラム運用がチームを壊していく兆候を3つ挙げる記事。本文未確認のため、挙げられた兆候の中身は未確認。",
+      "topics": ["scrum", "team"],
+      "neta": "S",
+      "hook": "「ベロシティが上がり続けるチームほど危ない」"
+    },
+    {
+      "url": "https://qiita.com/Itomadooon/items/7ebb21813bda3f7d3165",
+      "title": "朝会は進捗報告ではなく、問題を見つける場だった",
+      "source": "Qiita(スクラム)",
+      "lang": "ja",
+      "summary": "デイリースクラム(朝会)を進捗報告の場から、障害や問題を見つける場へと捉え直した経験を語る記事。本文未確認のため、具体的な運用の変更点は未確認。",
+      "topics": ["scrum", "team"],
+      "neta": "S",
+      "hook": "「朝会で『順調です』が続くチームは、実は危ない」"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-end-of-coding-by-hand",
+      "title": "The Pulse: RoR creator sparks new “death of coding by hand” debate",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "Ruby on Rails 作者の DHH が Rails World の基調講演で、37signals ではコードを手で書く時代は終わったと述べ、エージェントがほぼ全コードを生成する方向へ移ったことを取り上げた記事。筆者はこの流れが止められないものかを問う。有料記事のため確認できたのは冒頭部分のみ。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "「Railsの生みの親が『もう手でコードは書かない』と言った」"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/10/survey-complex-codebases-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Survey Finds AI-Generated Code Increases Debugging and Failure Rates and Creates a Comprehension Gap",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "AI生成コードによってデバッグ作業や障害率が増え、開発者がコードを理解しきれない「理解のギャップ」が生じているという調査結果を報じるニュース。本文未確認のため、調査の主体・規模・数値は未確認。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "「AIで速く書けたぶん、読むのが遅くなった」"
+    },
+    {
+      "url": "https://www.infoq.com/presentations/agentic-dev-teams/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Presentation: The Reinvention of the Dev Team",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "Hannah Foxwell が、エージェント型コーディングの普及に合わせて開発チームのあり方を見直すべきだと論じた講演。価値あるものを作る、自動化・段階的リリース・エラーバジェットで速さと安全を両立する、人を大切にする、の3つを指針とし、大きめのチーム構成や長期ロードマップ、必須のコードレビューを見直す実験を提案している。",
+      "topics": ["team", "ai-dev"],
+      "neta": "S",
+      "hook": "「必須のコードレビュー、AI時代にもまだ必須？」"
+    },
+    {
+      "url": "https://addyosmani.com/blog/agentic-skill-decay/",
+      "title": "Agentic Skill Decay",
+      "source": "Addy Osmani",
+      "lang": "en",
+      "summary": "エージェントが失敗・デバッグ・レビューといった従来の「練習」を肩代わりするため、熟達には意図的な実践が必要だと説く記事。仮説を立ててから指示する、差分を読む、あえて手で解くといった工夫を挙げ、AIを使ったグループの理解度テストの点数が低かったという Anthropic の研究にも触れている(研究そのものは未確認、孫引き)。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "「AIに任せるほど、自分の腕は落ちていく」"
+    },
+    {
+      "url": "https://tech.kickflow.co.jp/entry/2026/10/06/105939",
+      "title": "手動テストを渡すだけでE2Eが完成する仕組みを作りました - kickflow Tech Blog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "手動テストの手順を渡すとE2Eテストが自動で作られる仕組みを社内で作った事例。本文未確認のため、使っているツールやAIの関わり方は未確認。",
+      "topics": ["ai-dev", "xp"],
+      "neta": "A",
+      "hook": "「テストケースを書く人が、テストコードを書かなくなる」"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/fdeai7fde.html",
+      "title": "FDE（フォワードデプロイドエンジニアリング）によって開発されたAIエージェントの7割は使われず、FDEの名前で単なるコンサルティングが販売されるようになる危険が高まるとガートナーが予測",
+      "source": "Publickey",
+      "lang": "ja",
+      "summary": "顧客の現場に入り込んで開発するFDEで作られたAIエージェントの7割は使われず、FDEの名で単なるコンサルティングが売られる危険が高まるとガートナーが予測した、と報じる記事。ガートナーの一次資料は未確認。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A",
+      "hook": "「現場に入り込んで作ったAIエージェントの7割が使われない」"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/state_of_devs_2026_ai.html",
+      "title": "世界中のソフトウェア開発者の実態を調べた「State of Devs 2026」公開。何歳？ 年収は？ モニタは何枚？ AIにどのくらいコードを書かせている？ 趣味は？ など集計結果",
+      "source": "Publickey",
+      "lang": "ja",
+      "summary": "世界の開発者の年齢・年収・作業環境・AIにコードを書かせている割合・趣味などを集計した調査「State of Devs 2026」の結果を紹介する記事。具体的な数値は本文未確認。",
+      "topics": ["worklife", "ai-dev"],
+      "neta": "A",
+      "hook": "「世界の開発者は、もうどれだけAIに書かせているのか」"
+    },
+    {
+      "url": "https://zenn.dev/hansodeeeeee/articles/8cf6cb26304445",
+      "title": "「目立つ活躍をした人にしか、感謝の声は集まりませんでした」小さな貢献にも感謝が届くようにしたチームの試行錯誤（トナリノ）",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "感謝が目立つ活躍にばかり集まる状況を変え、小さな貢献にも感謝が届くようにしたチームの試行錯誤を紹介する記事。同じタイトルの記事が Qiita にも投稿されている。具体的な施策は本文未確認。",
+      "topics": ["team"],
+      "neta": "A",
+      "hook": "「感謝を増やしたら、地味な仕事がもっと見えなくなった」"
+    },
+    {
+      "url": "https://zenn.dev/boy_techblog/articles/leadtime-bottleneck-moved",
+      "title": "リードタイム短縮が頭打ちになったので内訳を見たら、「レビュー待ち」の正体は2種類あった話",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "リードタイム短縮が頭打ちになり内訳を分析したところ、「レビュー待ち」が2種類の性質の違う待ちでできていたと分かった話。2種類の中身は本文未確認。",
+      "topics": ["team", "agile"],
+      "neta": "A",
+      "hook": "「レビュー待ちは、レビューを待っていなかった」"
+    },
+    {
+      "url": "https://zenn.dev/headwaters/articles/7903fd35ac5727",
+      "title": "目的で選ぶレトロスペクティブ8手法とレーン構成",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "振り返りの目的に合わせて選べるレトロスペクティブの8手法と、それぞれのボードのレーン構成を整理した記事。どの8手法かは本文未確認。",
+      "topics": ["scrum", "agile"],
+      "neta": "A",
+      "hook": "「KPTしか知らないチームのためのレトロ手法カタログ」"
+    },
+    {
+      "url": "https://zenn.dev/gorinvestor/articles/7c0cc42d5a81ea",
+      "title": "要件定義書を書かずに、Claude Codeと「引き継ぎ.md」1枚だけでアジャイルに個人開発を回している話",
+      "source": "Zenn(アジャイル)",
+      "lang": "ja",
+      "summary": "要件定義書を作らず、Claude Code と「引き継ぎ.md」というファイル1枚だけで個人開発をアジャイルに回している事例。ファイルの書き方や運用の詳細は本文未確認。",
+      "topics": ["ai-dev", "agile"],
+      "neta": "A",
+      "hook": "「仕様書の代わりに、引き継ぎメモを1枚だけ書く」"
+    },
+    {
+      "url": "https://zenn.dev/appbrew/articles/72aae24be14bfa",
+      "title": "人間のPRレビューを資産にする - チームの投票でRulesを育てる",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "人間によるPRレビューの指摘をAI向けのルール(Rules)にまとめ、チームの投票で採用を決めて育てる取り組み。投票の仕組みや効果は本文未確認。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A",
+      "hook": "「レビューコメントは、その場で消える使い捨てだった」"
+    },
+    {
+      "url": "https://zenn.dev/kk1/articles/98234219b8bc0c",
+      "title": "チームで AI 駆動開発を始めたら詰まったのはエージェントの外側だった",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "チームでAI駆動開発を始めたところ、つまずいたのはエージェント自体ではなく、その周りの運用や環境だったという振り返り。具体的なつまずきは本文未確認。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A",
+      "hook": "「AIは問題なかった。問題は人間の側にあった」"
+    },
+    {
+      "url": "https://qiita.com/kimdev/items/00e334e6a0e4d2c96287",
+      "title": "「優先度：高」が増えすぎたプロジェクトで起きること",
+      "source": "Qiita(アジャイル)",
+      "lang": "ja",
+      "summary": "「優先度：高」のタスクが増えすぎたプロジェクトで何が起きるかを述べる記事。本文未確認のため、挙げられた現象や対策は未確認。",
+      "topics": ["agile", "worklife"],
+      "neta": "A",
+      "hook": "「全部が最優先なら、何も優先されていない」"
+    },
+    {
+      "url": "https://qiita.com/io0323/items/5e540e15062e7b2665df",
+      "title": "【書評】ダイナミックリチーミング 第2版 ―5つのパターンによる効果的なチーム編成",
+      "source": "Qiita(アジャイル)",
+      "lang": "ja",
+      "summary": "チーム編成を変え続けることを前提にした書籍『ダイナミックリチーミング 第2版』の書評。書籍が示す5つのチーム編成パターンを紹介していると見られるが、本文未確認。",
+      "topics": ["team"],
+      "neta": "A",
+      "hook": "「チームは固定するもの、という前提を疑う」"
+    },
+    {
+      "url": "https://qiita.com/HiroyukiHonda/items/7c1b5c0cdbda2b07f21b",
+      "title": "AI時代に、なぜ組織設計から考えるのか ― Org Topologies Consultant研修で学んだこと",
+      "source": "Qiita(アジャイル)",
+      "lang": "ja",
+      "summary": "Org Topologies のコンサルタント研修で学んだことから、AI時代に組織設計から考える理由を述べる記事。本文未確認のため、主張の詳細は未確認。",
+      "topics": ["team", "ai-dev"],
+      "neta": "A",
+      "hook": "「AIを入れる前に、組織図を書き直せ」"
+    },
+    {
+      "url": "https://martinfowler.com/articles/healthy-peer-feedback.html",
+      "title": "Healthy Feedback",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "summary": "フィードバックの目的は相手の成長にあるとして、チーム内で対等に日常的に交換することを勧める記事。事実に基づく観察を、相手の事情を聞きながら非公開でその場で伝え、解決策は一緒に考える。評価面談と結びつける、サンドイッチ法、公開の360度フィードバックは逆効果だとしている。",
+      "topics": ["team", "worklife"],
+      "neta": "A",
+      "hook": "「褒めて・指摘して・褒める、は逆効果」"
+    },
+    {
+      "url": "https://newsletter.kentbeck.com/p/tools-arent-here-to-make-us-feel",
+      "title": "Tools Aren’t Here to Make Us Feel Good",
+      "source": "Kent Beck / Tidy First",
+      "lang": "en",
+      "summary": "Kent Beck が、AIコーディングツールは開発者に不快感を与えており、性能ではなく人間のニーズを中心に作り直すべきだと論じる記事。「ツールは人を喜ばせるためのものではない」という反論に同意しつつ、不快さそのものが何かがおかしいサインだと指摘する。有料記事のため確認できたのは冒頭部分のみ。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "「AIツールを使っていてモヤモヤするのは、正しい感覚」"
+    },
+    {
+      "url": "https://zenn.dev/ryu_ssss/articles/9a7f8b77b681e9",
+      "title": "エクストリームプログラミング（XP）を読んで考えたこと",
+      "source": "Zenn(アジャイル)",
+      "lang": "ja",
+      "summary": "書籍『エクストリームプログラミング』を読んで考えたことをまとめた読書記事。本文未確認のため、どの点を取り上げているかは未確認。",
+      "topics": ["xp"],
+      "neta": "A",
+      "hook": "「AI時代に、XPを読み直す」"
+    },
+    {
+      "url": "https://zenn.dev/uragasumi25/articles/a4e167e0ec53a9",
+      "title": "【技術屋の思考ログ#40】現場で活きるスクラムの本質",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "筆者のシリーズ記事の1本で、現場で役立つスクラムの本質を考える内容。本文未確認のため、主張の詳細は未確認。",
+      "topics": ["scrum"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/rojoudotcom/books/agile-manifesto-17-people",
+      "title": "アジャイルソフトウェア開発宣言の17人",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "アジャイルソフトウェア開発宣言に署名した17人を紹介するZennの本。本文未確認のため、構成や内容の詳細は未確認。",
+      "topics": ["agile"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/rojoudotcom/articles/scrum-background-stoicism",
+      "title": "スクラムの背景にあるもの〜ストア哲学について",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "スクラムの背景にある考え方をストア哲学と結びつけて論じる記事。本文未確認のため、両者の関係をどう説明しているかは未確認。",
+      "topics": ["scrum"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/koukibuu3/articles/dcb3335e8acad4",
+      "title": "スクラムイベント、毎回ゼロから準備する必要ある？",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "スクラムイベントの準備を毎回ゼロからやる手間を減らす工夫を扱う記事と見られる。本文未確認のため、具体的な方法は未確認。",
+      "topics": ["scrum"],
+      "neta": "B"
+    }
+  ],
+  "rejected_count": 0,
+  "capped_count": 143,
+  "failures": []
+}
