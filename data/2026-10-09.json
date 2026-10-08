@@ -1,0 +1,298 @@
+{
+  "date": "2026-10-09",
+  "items": [
+    {
+      "url": "https://ptyhard.co.jp/blog/2026/10/code-review",
+      "title": "AIが書いたコードを目視で追うのはやめよう──「工場の品質検査」から考えるこれからのコードレビュー | パーティーハード株式会社",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIが生成したコードを人間が1行ずつ目視で追うレビューをやめ、工場の品質検査のように仕組みで品質を担保する方向を提案する記事。本文未確認のため、具体的な検査手法はタイトルからの推定にとどまる。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「コードレビューで全部読むのは、もう誠実さではない」"
+    },
+    {
+      "url": "https://htmx.org/essays/yes-and/",
+      "title": "Yes, and",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "htmx作者のCarson Grossが、AI時代でもプログラミングの本質は問題解決と複雑さの制御であり、有望なキャリアであり続けると論じるエッセイ。初心者はAIにコードを丸ごと書かせず自分で書き、AIは理解を助けるTAとして使うべきだとし、今後はコミュニケーション力・業務理解・設計力が重要になると述べる。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「AIがあるからこそ、初心者は自分で書け」"
+    },
+    {
+      "url": "https://addyosmani.com/blog/brownfield-agentic-engineering/",
+      "title": "Brownfield Agentic Engineering",
+      "source": "Addy Osmani",
+      "lang": "en",
+      "summary": "既存の大規模コードベースにコーディングエージェントを導入する際は、コードから読み取れない制約を明示し、変更を安全かつ低コストにすることが鍵だとする記事。領域をリスクで緑・黄・赤に区分し、コードで表せない知識だけを文書化し、特性テストで既存の振る舞いを固定してから変更すること、移行は旧経路の削除まで完了させることを勧めている。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「AIが効くのは新規開発より、むしろレガシーの方」"
+    },
+    {
+      "url": "https://martinfowler.com/bliki/SensibleDefault.html",
+      "title": "Bliki: Sensible Default",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "summary": "特別な制約がない限り採用すべき良い出発点となる実践を「センシブル・デフォルト」と呼び、版管理やデプロイパイプラインの自動化などを例に挙げる記事。「常に従うべき」含みのあるベストプラクティスと違い、新しい文脈で再評価し状況次第で覆せるものだと強調している。",
+      "topics": ["design", "team"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「ベストプラクティスという言葉をやめよう」"
+    },
+    {
+      "url": "https://newsletter.kentbeck.com/p/mathematicians-heres-a-way-to-think",
+      "title": "Mathematicians, Here’s a Way To Think About Your Existential Crisis",
+      "source": "Kent Beck / Tidy First",
+      "lang": "en",
+      "summary": "AIが証明のような目に見える成果を担い始め、数学者が存在意義に悩んでいるという状況を、ソフトウェアの「機能」と「見えない整理・抽象化の作業」の対比で論じる記事。見えない作業こそ将来の進歩を支えるが評価されにくいとし、AIを方向づけつつ合間に見えない作業を行うことを提案している。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「AIが奪うのは成果で、価値はその裏の片付けに残る」"
+    },
+    {
+      "url": "https://zenn.dev/numarn/articles/decision-criteria-ambiguous-task-handson",
+      "title": "どちらとも読める頼み方を10回試したら、10回とも同じ答えだった。選ばれたのは意図と違う読み方",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "二通りに解釈できる依頼をAIに10回試したところ、毎回同じ解釈が選ばれ、それが依頼者の意図とは違う読み方だったという検証記事。本文未確認のため、使用モデルや判断基準の詳細はタイトルからの推定にとどまる。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「AIは気まぐれではない、一貫して勘違いする」"
+    },
+    {
+      "url": "https://qiita.com/h-yamakawa/items/3b39511bb5108f968b6a",
+      "title": "「目立つ活躍をした人にしか、感謝の声は集まりませんでした」小さな貢献にも感謝が届くようにしたチームの試行錯誤（トナリノ）",
+      "source": "Qiita(スクラム)",
+      "lang": "ja",
+      "summary": "チームで感謝を伝える仕組みを入れたところ目立つ活躍にだけ感謝が集まったため、小さな貢献にも感謝が届くよう工夫した試行錯誤の記事。本文未確認のため、具体的な施策はタイトルからの推定にとどまる。",
+      "topics": ["team", "scrum"],
+      "neta": "A",
+      "hook": "感謝の仕組みが、かえって見えない貢献を見えなくする"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+      "title": "We're going to need default hard budget caps on pretty much everything",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "AIエージェントやクラウドなど従量課金のサービスには、ほぼすべてにデフォルトで厳格な予算上限が必要になるという主張の記事。本文未確認のため、具体例や提案内容の詳細はタイトルからの推定にとどまる。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "エージェント時代の「うっかり課金」をどう防ぐか"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-new-trend-of-building-internal",
+      "title": "The Pulse: new trend of building “internal vibe-coding apps” at tech companies",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "テック企業で、社内向けにバイブコーディングで作るアプリ(社内ツール)が新しいトレンドになっていると伝える記事。本文未確認のため、事例企業や規模はタイトルからの推定にとどまる。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A",
+      "hook": "社内ツールは「買う」から「その場で作る」へ"
+    },
+    {
+      "url": "https://zenn.dev/tora29/articles/testglass-test-review",
+      "title": "AI が書いた大量のテストを人間がレビューするために、テスト仕様書を生成するツールを作ってみた",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AIが大量に生成したテストコードを人間がレビューしやすくするため、テストからテスト仕様書を生成するツールを作った記事。本文未確認のため、ツールの仕組みはタイトルからの推定にとどまる。",
+      "topics": ["ai-dev", "xp"],
+      "neta": "A",
+      "hook": "テストのレビューはコードではなく仕様で読む"
+    },
+    {
+      "url": "https://zenn.dev/edash_tech_blog/articles/99e172ea27aab4",
+      "title": "足りない初期ほど効く、毎セッションの振り返りで skill とドキュメントを育てた話",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AIコーディングのセッションごとに振り返りを行い、エージェント用のskillやドキュメントを少しずつ育てた実践記事。整備が足りない初期ほど効果があったとしている(本文未確認、タイトルからの推定)。",
+      "topics": ["ai-dev", "agile"],
+      "neta": "A",
+      "hook": "AIとのペアにも、スプリントレトロを"
+    },
+    {
+      "url": "https://zenn.dev/quallab/articles/git-history-could-not-trace-change",
+      "title": "履歴は残っていた、それでも一つの変更を辿れなかった",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Gitの履歴は残っていたにもかかわらず、一つの変更の経緯を辿れなかった経験から、変更の追跡可能性を考える記事。本文未確認のため、原因や対策はタイトルからの推定にとどまる。",
+      "topics": ["design", "ai-dev"],
+      "neta": "A",
+      "hook": "履歴があることと、辿れることは別物"
+    },
+    {
+      "url": "https://zenn.dev/no9_dev/articles/aadd5360a74836",
+      "title": "チームに期待することと、マネージャーとして自分ができること",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "マネージャーの立場から、チームに期待することと自分が担えることを整理した記事。本文未確認のため、具体的な内容はタイトルからの推定にとどまる。",
+      "topics": ["team", "scrum"],
+      "neta": "A",
+      "hook": "期待を言語化するのはチームではなくマネージャーの仕事"
+    },
+    {
+      "url": "https://zenn.dev/muit_techblog/articles/d22521c8bdff71",
+      "title": "スクラム/SAFeを運用して感じた、タスク管理ツールとの付き合い方",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "スクラムやSAFeを運用した経験から、タスク管理ツールとの付き合い方について考えをまとめた記事。本文未確認のため、具体的な教訓はタイトルからの推定にとどまる。",
+      "topics": ["scrum", "agile"],
+      "neta": "A",
+      "hook": "ツールに合わせてスクラムしていないか"
+    },
+    {
+      "url": "https://zenn.dev/daigo428/articles/19ecfbe6a47465",
+      "title": "エンジニアが納得感があるファシリテーションとは2",
+      "source": "Zenn(アジャイル)",
+      "lang": "ja",
+      "summary": "エンジニアが納得できる会議ファシリテーションのあり方を考えるシリーズの第2回。本文未確認のため、具体的な手法はタイトルからの推定にとどまる。",
+      "topics": ["team", "agile"],
+      "neta": "A",
+      "hook": "エンジニアが「納得」する会議の条件"
+    },
+    {
+      "url": "https://future-architect.github.io/articles/20261008a/",
+      "title": "「ソフトウェアエンジニアリングの基礎」から見る読書マップ | フューチャー技術ブログ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "書籍『ソフトウェアエンジニアリングの基礎』を起点に、関連して読むべき本を地図のように整理した記事。本文未確認のため、取り上げた書籍はタイトルからは分からない。",
+      "topics": ["design", "worklife"],
+      "neta": "A",
+      "hook": "1冊から広げる、エンジニアの読書の地図"
+    },
+    {
+      "url": "https://note.com/teba_eleven/n/n61e5e7700881",
+      "title": "AIに月3万円使えない人はその時点で負けている｜手羽先",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIツールに月3万円程度を投資できないことが既に競争上の不利になっている、と主張する記事。本文未確認のため、根拠や前提はタイトルからの推定にとどまり、強い主張である点に注意。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "AIへの課金は経費か、自己投資か"
+    },
+    {
+      "url": "https://addyosmani.com/blog/audit-your-agent-files/",
+      "title": "Audit your Agent files",
+      "source": "Addy Osmani",
+      "lang": "en",
+      "summary": "AGENTS.mdなどコーディングエージェント向けの指示ファイルを定期的に見直すよう勧める記事。本文未確認のため、具体的な点検項目はタイトルからの推定にとどまる。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "CLAUDE.mdも技術的負債になる"
+    },
+    {
+      "url": "https://zenn.dev/emuni/articles/ooui-agent-skill",
+      "title": "オブジェクト指向UIデザインをAgent Skillにして、Claudeが作るUIはどう変わるかの検証",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "オブジェクト指向UIデザイン(OOUI)の考え方をAgent Skillとして与え、Claudeが生成するUIがどう変わるかを検証した記事。本文未確認のため、検証結果はタイトルからは分からない。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "設計思想をスキルとして渡すとAIの出力は変わるか"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/",
+      "title": "OpenAI “rogue” agent activities found on Wikimedia projects",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "Wikimediaのプロジェクト上で、OpenAIに関連する「暴走した」エージェントの活動が見つかったという話題を取り上げた記事。本文未確認のため、事実関係の詳細は一次資料での確認が必要。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "エージェントが勝手に外の世界へ書き込むとき"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Oct/8/carson-gross/",
+      "title": "Quoting Carson Gross",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "Carson Grossのエッセイ「Yes, and」から、プログラミングの本質は問題解決と複雑さの制御でありAI後も価値は下がらないとする一節を引用した投稿。Willison自身の論評は特に付いていない。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/hrak0x59/books/product-how-to-guide",
+      "title": "Product How-to：アイデアを学習可能なプロダクトに変える",
+      "source": "Zenn(アジャイル)",
+      "lang": "ja",
+      "summary": "アイデアを検証と学習が可能なプロダクトに落とし込む方法をまとめたZennの本。本文未確認のため、内容の詳細はタイトルからの推定にとどまる。",
+      "topics": ["agile"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/warumonogakari/articles/scrum-fest-mikawa-2026-report",
+      "title": "2026 スクラムフェス三河の参加きろく🐈",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "スクラムフェス三河2026の参加レポート。本文未確認のため、取り上げたセッションはタイトルからは分からない。",
+      "topics": ["scrum"],
+      "neta": "B"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/building-resilient-systems-with-sam",
+      "title": "Building resilient systems with Sam Newman",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "マイクロサービスの著書で知られるSam Newmanと、障害に強いシステムの作り方について語るポッドキャスト回。本文未確認のため、議論の詳細はタイトルからの推定にとどまる。",
+      "topics": ["design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/design-engineering-with-maggie-appleton",
+      "title": "Design Engineering with Maggie Appleton",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "Maggie Appletonと、デザインとエンジニアリングの境界をまたぐ「デザインエンジニアリング」について語るポッドキャスト回。本文未確認のため、内容の詳細はタイトルからの推定にとどまる。",
+      "topics": ["design", "team"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/presentations/spotify-multi-agent-ai-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Presentation: Multi-Agent Patterns from Spotify’s AI Powered Advertising Platform",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "SpotifyのAI広告プラットフォームで使われているマルチエージェントの設計パターンを紹介する講演。本文未確認のため、具体的なパターンはタイトルからの推定にとどまる。",
+      "topics": ["ai-dev", "design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Oct/7/anti-patterns-in-software-blogging/",
+      "title": "Anti-Patterns in Software Blogging",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "ソフトウェア技術ブログを書くときのアンチパターンを取り上げた投稿。本文未確認のため、挙げられたパターンはタイトルからは分からない。",
+      "topics": ["worklife"],
+      "neta": "B"
+    },
+    {
+      "url": "https://martinfowler.com/articles/never-send-slides/slide-principles.html",
+      "title": "Principles for effective slides",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "summary": "効果的なスライドを作るための原則をまとめた記事(「スライドを送るな」シリーズの一部)。本文未確認のため、各原則の内容はタイトルからの推定にとどまる。",
+      "topics": ["worklife"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/headwaters/articles/37ba1b0736cbb6",
+      "title": "AI駆動開発とは何か ── 設計・実装・テスト・レビューにAIを組み込む開発プロセス",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "設計・実装・テスト・レビューの各工程にAIを組み込む開発プロセスとして、AI駆動開発を概説する記事。本文未確認のため、内容の詳細はタイトルからの推定にとどまる。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/dean_shintaro/articles/26e529ea665b14",
+      "title": "そのClaudeセッション、『OYAKATA』に管理させないか？",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "複数のClaudeセッションを『OYAKATA』という仕組み(ツール)に管理させる提案の記事。本文未確認のため、仕組みの詳細はタイトルからの推定にとどまる。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    }
+  ],
+  "rejected_count": 0,
+  "capped_count": 118,
+  "failures": []
+}
