@@ -1,0 +1,264 @@
+{
+  "date": "2026-10-10",
+  "items": [
+    {
+      "url": "https://newsletter.kentbeck.com/p/thinkie-fix-time-flex-scope",
+      "title": "Thinkie: Fix Time, Flex Scope",
+      "source": "Kent Beck / Tidy First",
+      "lang": "en",
+      "summary": "Kent Beckが、フィードバックループを長くするほど大きな成果が出るように錯覚してしまうパターンを取り上げた記事。対策として、ループの時間を固定し、その中に収めるスコープを段階的に広げていく考え方を提案している。人間のニーズを軸にAugmented Codingを捉え直す過程で得た発想だと述べている。",
+      "topics": ["xp", "ai-dev"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「AIで速くなったなら、一度に大きく作ればいい…は逆」"
+    },
+    {
+      "url": "https://mtlynch.io/why-are-coding-agents-so-dumb/",
+      "title": "Why Are Coding Agents So Dumb?",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "モデルは進化したのに、Claude CodeやCodexなどのコーディングエージェント自体は2025年頃からほとんど改善していないと主張する記事。並列化できない、作業に合うモデルを選べない、確認待ちで止まる、サンドボックスが不十分といった不満を挙げ、理想のエージェント像を示している。AI企業がデモやベンチマークを優先して実用性を軽視しているのでは、という推測も述べている(筆者の見解)。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「賢くなったのはモデルで、エージェントは賢くなっていない」"
+    },
+    {
+      "url": "https://tech.stmn.co.jp/entry/2026/10/09/121328",
+      "title": "RailsプロダクトにおけるDDD試験導入のリアル - stmn tech blog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "RailsのAPIで約3ヶ月、ドメインルールが重要な箇所に限ってDDDを試験導入した結果、ActiveRecordとの二重モデル化や認知負荷の高さから本格採用を見送った事例。現在はActiveRecordを軸にUseCaseでユースケースの流れを管理し、concernで関心事を分割する設計を標準にしている。",
+      "topics": ["design", "team"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「DDDを入れてみて、やめた。それが正解だった話」"
+    },
+    {
+      "url": "https://www.infoq.com/podcasts/building-trust-feedback-alignment/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Podcast: The Minimum Viable Manager: Building Trust, Feedback, and Alignment",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "初めて管理職になる人が最低限身につけるべき基礎として、信頼の構築・期待値の明確化・フィードバックを取り上げるポッドキャスト。フィードバックは、まず自分が求める習慣をつけ、良い行動の強化、行動の修正の順に、観察可能な行動に基づいて行うべきだとする。AIの普及でチームのアラインメントがより重要になり、人間的なマネジメントスキルの価値がむしろ高まると論じている。",
+      "topics": ["team", "worklife"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「フィードバックは『する』前に『もらう』から始める」"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/10/github-copilot-rust-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Github Migrates Copilot Runtime to Rust with AI-Assisted Rewrite",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "GitHubがCopilotのランタイムを、AIの支援を受けながらRustへ書き直したと報じるInfoQのニュース。本文未確認のため、移行の規模や手法はタイトルからの推定にとどまる。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "「AIでリライト」は大規模移行の常識を変えるのか"
+    },
+    {
+      "url": "https://zenn.dev/shikamaru/articles/ef90e326ab8163",
+      "title": "LLMを使用した Web システムの単体テスト自動化について",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "LLMを使ってWebシステムの単体テストを自動化する取り組みについての記事。本文未確認のため、具体的な手法や結果はタイトルからの推定にとどまる。",
+      "topics": ["ai-dev", "xp"],
+      "neta": "A",
+      "hook": "テストをAIに書かせると、テストは何を保証するものになるのか"
+    },
+    {
+      "url": "https://www.47news.jp/15060645.html",
+      "title": "【速報】AIで調べた判例実在せず書籍絶版",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIで調べて書籍に載せた判例が実在しなかったことが判明し、その書籍が絶版になったと伝える速報。本文未確認のため、書籍名や経緯の詳細はタイトルからの推定にとどまる。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "AIの出力を「確認した」と言えるのはどこまでか"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/the-state-of-the-tech-industry-in",
+      "title": "The state of the tech industry in 2026",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "Gergely Oroszによる、2026年のテック業界の状況をまとめた記事。本文未確認のため、採用動向やAIの影響などの具体的な内容はタイトルからの推定にとどまる。",
+      "topics": ["worklife"],
+      "neta": "A",
+      "hook": "2026年のエンジニア市場を一言で言うと?"
+    },
+    {
+      "url": "https://blog.bawolf.com/p/you-might-want-to-try-being-less",
+      "title": "You might want to try being less creative",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "完璧なオリジナルにこだわって作品を完成させられなかった筆者が、他の曲の要素を大胆に借りて素早くスケッチを重ねる友人との音楽制作から学んだことを綴るエッセイ。部分ではなく全体のために判断し、制約の中で力を注ぐ箇所を絞れば、表現の幅が狭くても作品は自分のものになると結論づけている。",
+      "topics": ["worklife"],
+      "neta": "A",
+      "hook": "逆転型で入るなら「独創的であろうとするほど、完成しない」"
+    },
+    {
+      "url": "https://zenn.dev/uguisu_blog/articles/d345f5bedae163",
+      "title": "TAKTで長時間ワークフローを流して、設定の躓きを3つに分類した",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "TAKTというツールでAIの長時間ワークフローを実行し、設定でつまずいた点を3つに分類した記事。本文未確認のため、分類の中身はタイトルからの推定にとどまる。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "AIに長時間任せたとき、どこでつまずくのか"
+    },
+    {
+      "url": "https://zenn.dev/erin_the_black/articles/55d7037fedc9bb",
+      "title": "寝ている間に小人が働く — GraphOps オートパイロットの夜",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "寝ている間にAIエージェントに作業を進めさせる「GraphOps オートパイロット」の運用を描いた記事。本文未確認のため、仕組みや成果の詳細はタイトルからの推定にとどまる。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "「寝ている間にAIが働く」は本当にうれしいのか"
+    },
+    {
+      "url": "https://zenn.dev/ktsm/articles/95f83d30511adb",
+      "title": "AIで何でも作れる時代に、AWSを0から学んだ理由",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "AIで何でも作れる時代にあえてAWSを基礎から学んだ理由を語る記事。本文未確認のため、筆者の具体的な理由はタイトルからの推定にとどまる。",
+      "topics": ["worklife", "ai-dev"],
+      "neta": "A",
+      "hook": "逆転型で入るなら「AIがあるから、基礎を学ぶ」"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/",
+      "title": "A new feature for my blog, built using my voice",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "Simon Willisonが、自分のブログの新機能を音声でAIに指示して作った経験を紹介する記事。本文未確認のため、使ったツールや手順はタイトルからの推定にとどまる。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "キーボードを使わずに開発する日は来るのか"
+    },
+    {
+      "url": "https://qiita.com/songodinfo1/items/9bb9e458ae42cd306aed",
+      "title": "PMP試験のアジャイル／ハイブリッド論点を7つに整理する",
+      "source": "Qiita(アジャイル)",
+      "lang": "ja",
+      "summary": "PMP試験で問われるアジャイル・ハイブリッド型の論点を7つに整理した記事。本文未確認のため、各論点の内容はタイトルからの推定にとどまる。",
+      "topics": ["agile"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/gob7ppcsvx/articles/ae6d8fc5ca495b",
+      "title": "【202610版】 Webアプリ開発初心者がKiroでAI駆動開発をしてみた",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Webアプリ開発の初心者がKiroを使ってAI駆動開発を試した体験記。本文未確認のため、感想や成果物の詳細はタイトルからの推定にとどまる。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://martinfowler.com/fragments/2026-10-04.html",
+      "title": "Fragments: October 4",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "summary": "Martin Fowlerが気になった記事や考えを短くまとめる「Fragments」の10月4日分。本文未確認のため、扱っている話題は不明。",
+      "topics": ["design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://martinfowler.com/fragments/2026-09-29.html",
+      "title": "Fragments: September 29",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "summary": "Martin Fowlerの短信「Fragments」の9月29日分。本文未確認のため、扱っている話題は不明。",
+      "topics": ["design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://martinfowler.com/fragments/2026-09-24.html",
+      "title": "Fragments: September 24",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "summary": "Martin Fowlerの短信「Fragments」の9月24日分。本文未確認のため、扱っている話題は不明。",
+      "topics": ["design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://martinfowler.com/fragments/2026-09-16.html",
+      "title": "Fragments: September 16",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "summary": "Martin Fowlerの短信「Fragments」の9月16日分。本文未確認のため、扱っている話題は不明。",
+      "topics": ["design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://martinfowler.com/fragments/2026-09-08.html",
+      "title": "Fragments: September 8",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "summary": "Martin Fowlerの短信「Fragments」の9月8日分。本文未確認のため、扱っている話題は不明。",
+      "topics": ["design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/google_cloudgoogle_cloud_developer_plugin_for_ai_coding_agents.html",
+      "title": "コーディングエージェントにGoogle Cloudの専門知識とツールを組み込む「Google Cloud Developer Plugin for AI Coding Agents」発表",
+      "source": "Publickey",
+      "lang": "ja",
+      "summary": "Google Cloudが、コーディングエージェントにGoogle Cloudの専門知識とツールを組み込むプラグインを発表したというニュース。対応エージェントなどの詳細は本文未確認。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/awsaistrandsllm.html",
+      "title": "AWS、AIエージェントを自作できるツール「Strandsハーネス」をオープンソースで公開。特定のLLMに依存せず入れ替え可能、任意のコンテナ環境にデプロイ",
+      "source": "Publickey",
+      "lang": "ja",
+      "summary": "AWSがAIエージェントを自作するためのツール「Strandsハーネス」をオープンソースで公開したというニュース。タイトルによれば、LLMを入れ替え可能で、任意のコンテナ環境にデプロイできる。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/vs_codeaiaihydrafusion.html",
+      "title": "マイクロソフト、VS CodeにAIモデルのオーケストレーションで高品質低コストなAIを実現する「HydraFusion」をプレビュー実装",
+      "source": "Publickey",
+      "lang": "ja",
+      "summary": "マイクロソフトがVS Codeに、複数のAIモデルを組み合わせて高品質かつ低コストなAIを実現する「HydraFusion」をプレビュー実装したというニュース。仕組みの詳細は本文未確認。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/shopify-native-mobile",
+      "title": "Why has Shopify dropped React Native?",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "ShopifyがなぜReact Nativeをやめたのかを掘り下げる記事。本文未確認のため、判断の理由はタイトルからの推定にとどまる。",
+      "topics": ["design", "team"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/kurouna/articles/elec16-virtual-cpu-with-claude-code",
+      "title": "16ビットRISC CPU「E16」の自作からポケコンと携帯ゲーム機まで — Claude Codeで作った仮想機械の設計",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Claude Codeを使って16ビットRISC CPU「E16」の仮想機械を自作し、ポケコンや携帯ゲーム機まで作った設計の記録。本文未確認のため、詳細はタイトルからの推定にとどまる。",
+      "topics": ["ai-dev", "design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+      "title": "An opt-in vulnerability-finding service for open-source software",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "en",
+      "summary": "Anthropicが、オープンソースプロジェクトが任意で申し込める脆弱性発見サービスを始めたという発表。本文未確認のため、対象や条件の詳細はタイトルと関連報道からの推定にとどまる。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-firebases-global-outage",
+      "title": "The Pulse: Firebase’s global outage & poor response",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "Firebaseの世界的な障害と、その対応のまずさを取り上げる記事。本文未確認のため、障害の原因や対応の問題点はタイトルからの推定にとどまる。",
+      "topics": ["team"],
+      "neta": "B"
+    }
+  ],
+  "rejected_count": 3,
+  "capped_count": 96,
+  "failures": []
+}
