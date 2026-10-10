@@ -1,0 +1,243 @@
+{
+  "date": "2026-10-11",
+  "items": [
+    {
+      "url": "https://speakerdeck.com/terurou/ai-kudou-kaihatsu-no-jidai-ni-nata-node-toyota-seisan-houshiki-kara-minaosu",
+      "title": "AI駆動開発の時代になったのでトヨタ生産方式から見直す",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIでコーディングが製造業に近づき、プログラマーはAIに指示して成果物をレビューする管理者的な役割になりつつある、という前提のスライド。トヨタ生産方式のジャスト・イン・タイムと自働化を当てはめ、AIで生産量を増やすより「作りすぎのムダ」や滞留レビューを減らし、自動テストやCIで品質を担保すべきだと主張している。",
+      "topics": ["ai-dev", "xp"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「AIで速く作れるほど、ムダも速く作れてしまう」"
+    },
+    {
+      "url": "https://ghuntley.com/replaced/",
+      "title": "if your team is too busy doing their 'normal job' to experiment with AI, you're preparing them to be replaced",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "en",
+      "summary": "Geoffrey Huntleyが、ソフトウェア開発でのAI活用はもはや任意ではなく業界標準になったと主張する記事。通常業務に追われてAIを試す時間がないチームは、代替される準備をしているのと同じだとし、マネージャーはメンバーのAI習熟を優先すべき、採用でもコーディングエージェントの仕組みの理解を重視すべきだと述べている。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「忙しくて学べないチームこそ、一番危ない」"
+    },
+    {
+      "url": "https://buildersbox.corp-sansan.com/entry/2026/10/09/130000",
+      "title": "AI時代に、あえて「一人で全部」をやめる。SansanがPdMを5つの専門ロールに分ける理由 - Sansan Tech Blog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Sansanが、AIで一人がこなせる範囲が広がる時代に、あえてPdMを5つの専門ロールに分けている理由を説明する記事(タイトルからの推定。本文未確認)。AIによる「一人で全部」の流れとは逆の組織設計として、役割分担の考え方が語られていると見られる。",
+      "topics": ["team", "ai-dev"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「AIで何でもできる時代に、あえて分業する」"
+    },
+    {
+      "url": "https://zenn.dev/numarn/articles/mcp-server-vs-cli-script-handson",
+      "title": "同じ機能をMCPとコマンドの両方で渡したら、AIは10回ともMCPを選んだ。速くて安いのはコマンド側だった",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "同じ機能をMCPサーバーとCLIコマンドの両方でAIエージェントに提供し、どちらを選ぶかと実行コストを比べたハンズオン記事(タイトルからの要約)。AIは10回ともMCPを選んだ一方、速度とコストではコマンド側が優れていたという結果が示されている。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「AIが好む道具と、得する道具は違う」"
+    },
+    {
+      "url": "https://zenn.dev/nozeon/articles/unit-test-minimum-understanding",
+      "title": "結局、単体テストってどうやって書くの？ AIに任せても要件がぶれにくい書き方",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "単体テストの最低限の考え方を整理し、AIにテストを任せても要件がぶれにくい書き方を紹介する記事(タイトルからの要約)。初級者向けにテストの役割を見直す内容と見られる。",
+      "topics": ["xp", "ai-dev"],
+      "neta": "A",
+      "hook": "「テストはAIへの仕様書になる」"
+    },
+    {
+      "url": "https://enterprisezine.jp/article/detail/25178",
+      "title": "ゼロトラストを導入していたはずのデジタル庁に不正アクセス……原因は導入後の「見えない借金」にあった",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "ゼロトラストを導入していたデジタル庁で起きた不正アクセスについて、原因を導入後に積み上がった「見えない借金」に求める解説記事(タイトルからの要約。本文未確認)。導入して終わりではなく、運用で生じる負債の扱いが論点になっていると見られる。",
+      "topics": ["design", "team"],
+      "neta": "A",
+      "hook": "「導入した瞬間から借金が始まる」"
+    },
+    {
+      "url": "https://enterprisecraftsmanship.com/posts/domain-model-purity-completeness/",
+      "title": "Domain model purity vs. domain model completeness (DDD Trilemma)",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "en",
+      "summary": "Vladimir Khorikovによる2023年の記事で、ドメインモデルの純粋性・完全性・パフォーマンスの3つを同時には満たせない「DDDトリレンマ」を論じている(タイトルと既知の内容からの要約。本文未確認)。今回はてなブックマークで再び話題になった。",
+      "topics": ["design"],
+      "neta": "A",
+      "hook": "「良い設計の3条件は、同時には満たせない」"
+    },
+    {
+      "url": "https://zenn.dev/m16_llc/articles/cc-sdd-spec-driven-development-guide",
+      "title": "【Claude Code】cc-sdd 入門 〜Kiro 風の仕様駆動開発を Claude Code に入れて、承認ゲートで回す〜",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Kiro風の仕様駆動開発(SDD)をClaude Codeに導入するcc-sddの入門記事(タイトルからの要約)。要件・設計・タスクの各段階に人間の承認ゲートを置いて開発を回す流れを紹介していると見られる。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "「AIに任せるほど、人間の承認ゲートが要る」"
+    },
+    {
+      "url": "https://zenn.dev/muit_techblog/articles/6ea28887c79457",
+      "title": "若手エンジニアに必要だと感じた「AIを使う力」",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "若手エンジニアに必要だと筆者が感じた「AIを使う力」について述べる記事(タイトルからの要約。本文未確認)。AI時代の若手育成やスキルの捉え方が論点と見られる。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "「AIを使う力は、AIを疑う力」という切り口"
+    },
+    {
+      "url": "https://epoch.ai/publications/innovationeval",
+      "title": "Recent AI models struggled to match a human algorithmic innovation",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "Epoch AIが、AIエージェントが機械学習の新手法を自律的に発見できるかを「InnovationEval」で検証した研究。人間が考案した後学習手法(SDPO)に相当する革新を再現させたところ、評価したどのモデルも元の成果に匹敵できず、現時点ではAI研究のエンドツーエンド自動化は実現していないと結論づけている。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "「AIはコードは書けても、発明はまだできない」"
+    },
+    {
+      "url": "https://github.com/oh-my-mermaid/oh-my-mermaid",
+      "title": "GitHub - oh-my-mermaid/oh-my-mermaid: Turn complex codebases into clear, navigable architecture diagrams with Claude Code.",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Claude Codeを使って複雑なコードベースからたどれるアーキテクチャ図(Mermaid)を生成するOSS(リポジトリ説明からの要約)。既存コードの設計把握にAIを使う事例。",
+      "topics": ["ai-dev", "design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://future-architect.github.io/articles/20261009a/",
+      "title": "bpmn.io で始める AI-Ready な業務フロー管理 | フューチャー技術ブログ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "BPMNのモデリングツールbpmn.ioを使い、AIが扱いやすい形で業務フローを管理する方法を紹介するフューチャーの技術ブログ(タイトルからの要約)。",
+      "topics": ["design", "ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://speakerdeck.com/pei0804/data-engineering-for-ai-ready-business",
+      "title": "事業活動を AI Ready にする攻めと守りのデータエンジニアリング / data-engineering-for-ai-ready-business",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "事業活動をAI Readyにするためのデータエンジニアリングを「攻め」と「守り」の両面から整理したスライド(タイトルからの要約)。",
+      "topics": ["ai-dev", "design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://speakerdeck.com/kakehashi/democratizing-data-with-metadata",
+      "title": "分析の民主化を支えるメタデータ整備の実践",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "カケハシによる、誰でもデータ分析できる状態(分析の民主化)を支えるメタデータ整備の実践を紹介するスライド(タイトルからの要約)。",
+      "topics": ["team"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/10/android-bench-2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Android Bench 2 Adds Support for Long-Horizon Tasks, Agentic Evaluation, and Continuous Scoring",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "Android開発向けベンチマーク「Android Bench 2」が、長時間タスク、エージェント型評価、連続的なスコアリングに対応したというInfoQのニュース(タイトルからの要約)。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/10/clef-decision-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Cloudflare Open Sources Decision Models for AI Agents",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "CloudflareがAIエージェント向けの判断モデル(decision models)をオープンソース化したというInfoQのニュース(タイトルからの要約)。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/presentations/netflix-observability-aiops-ontology-scale/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Presentation: Ontology‐Driven Observability: Building the E2E Knowledge Graph at Netflix Scale",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "Netflixが、オントロジーに基づくエンドツーエンドのナレッジグラフを構築して大規模な可観測性とAIOpsを実現した事例発表(タイトルからの要約)。",
+      "topics": ["design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/z_maruhira/articles/claude-code-mod-touch-map",
+      "title": "Claude Codeのmodで「Claudeがどこまで読んだか」を可視化した",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Claude Codeのmod機能で、Claudeがコードベースのどこまでを読んだかを可視化した記事(タイトルからの要約)。AIの作業範囲を人間が把握するための工夫。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/z_maruhira/articles/claude-code-mod-copy-blocks",
+      "title": "Claude Codeの引用・コードブロックにコピーボタンを付けるmod",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Claude Codeの引用やコードブロックにコピーボタンを付けるmodを作った記事(タイトルからの要約)。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/articledx/articles/8390e8f61d2764",
+      "title": "RR 第5回｜Functionは、いつ「使える資産」になるのか",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "連載「RR」の第5回で、Function(関数・機能)がいつ再利用可能な「資産」になるのかを論じる記事(タイトルからの要約。連載の文脈は未確認)。",
+      "topics": ["design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
+      "title": "Claude Haiku 5.5",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "AnthropicのClaude Haiku 5.5についてのSimon Willisonの投稿(タイトルからの要約)。軽量モデルの新版に関する情報。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
+      "title": "Quoting Anthropic Frontier Red Team",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "Anthropic Frontier Red TeamによるGLM-5.3とClaude Mythos Previewのサイバー攻撃能力評価からの引用。内部のバイナリ・エクスプロイトベンチマーク100タスクで、それぞれ4%・6%の試行で制御フローの乗っ取りに成功し、旧モデルは成功しなかったことから「意味のある閾値を越えた」と結論づけている。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
+      "title": "Quoting Felix Rieseberg",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "AnthropicのFelix Rieseberg氏の投稿からの引用。Claude Coworkの新版では推論と仮想マシンをクラウドで実行し、ローカルアプリはファイルアクセスを担う構成に変わり、バッテリー負担の軽減やノートPCを閉じても作業が続く点が改善されたと説明している。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://ghuntley.com/unikernels/",
+      "title": "Unikernels were hard. key word: were",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "Geoffrey Huntleyによる、かつて難しかったユニカーネルが今はそうではない、と示唆する記事(タイトルからの推定。AIエージェントの活用が背景にあるかは本文未確認)。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/windows-and-ai",
+      "title": "How will AI change operating systems? Part 2: Windows",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "The Pragmatic Engineerの連載で、AIがOSをどう変えるかをWindowsを題材に考察する第2回(タイトルからの要約)。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    }
+  ],
+  "rejected_count": 5,
+  "capped_count": 77,
+  "failures": []
+}
