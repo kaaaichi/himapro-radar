@@ -1,0 +1,246 @@
+{
+  "date": "2026-10-12",
+  "items": [
+    {
+      "url": "https://zenn.dev/idealog/articles/a3e9cf4299b1cf",
+      "title": "AIで浮いた時間を「もっと作る」に使っていませんか",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "AIで作業のスピードと量は上がったが、空いた時間をさらに作ることに使っても事業成果にはつながりにくい、と問題提起する記事。エンジニアが事業数値に向き合い、事業側がテックに頼っていた領域に踏み込むことでチームの総合力が上がると主張している。役割を失う人が出る可能性にも触れ、上位の課題解決に挑む機会と捉えるべきだとしている。",
+      "topics": ["worklife", "team"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「AIで生まれた時間で、もっと作ってはいけない」"
+    },
+    {
+      "url": "https://zenn.dev/shimitaro/articles/eb45d8d63c7bd1",
+      "title": "オートパイロットは外せる人間を前提にしている — AI時代のエンジニア技能維持を航空業界に学ぶ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "タイトルによれば、航空業界のオートパイロット運用を手がかりに、AIに任せる時代のエンジニアが手作業の技能をどう維持するかを論じる記事。自動化は「いざという時に外して自分で操縦できる人間」を前提にしている、という視点が中心と見られる(本文未確認)。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「AIに任せるほど、手で書ける力が必要になる」"
+    },
+    {
+      "url": "https://zenn.dev/numarn/articles/claude-compact-tool-history-cost-handson",
+      "title": "AIに読ませたファイルは次の質問にも19,152トークン乗っていた。要約したら料金は3.8倍になった",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "タイトルによれば、AIエージェントに読ませたファイル内容がその後の質問にもコンテキストとして毎回乗り続けることを実測し、さらに会話履歴を要約(compact)したら料金がかえって3.8倍になったというハンズオン記事。要約が節約になるとは限らない、という直感に反する結果を扱っている(本文未確認)。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「コンテキストを要約したら、かえって高くついた」"
+    },
+    {
+      "url": "https://itsallaboutthebit.com/i-am-sorry-but-you-still-have-to-think/",
+      "title": "I'm sorry, but you still have to think",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "DHHがAIエージェントでCampfireをRustなどに書き換えた事例を題材に、プロンプトが曖昧だと互換性・遅延・メモリ使用量などの重要な判断が偶然任せになると指摘する記事。Rust版の非同期処理の誤用や比較ベンチマークの偏りにも触れ、単一の指標で言語の優劣を断じる危うさを説く。コーディングがAIで「解決」されたわけではなく、トレードオフや制約を設計する思考は依然不可欠だと結論づけている。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「AIが書いてくれても、考えるのはやめられない」"
+    },
+    {
+      "url": "https://togetter.com/li/2756939",
+      "title": "「AIに指示するだけでひとりでそこそこのゲームが作れてしまいます」ゲームクリエイター・堀井雄二氏がAIを使い30分ほどでゲームを作成し、様々な反応が寄せられる",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "タイトルによれば、ゲームクリエイターの堀井雄二氏がAIを使って30分ほどでゲームを作り、「AIに指示するだけでひとりでそこそこのゲームが作れてしまう」と発信したことへの反応をまとめたTogetter。非エンジニアのベテラン作り手がAI駆動開発に触れた事例として話題になっている(本文未確認)。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "「ドラクエの生みの親が30分でゲームを作った」で入る"
+    },
+    {
+      "url": "https://boristane.com/blog/self-improving-software-is-inevitable/",
+      "title": "Boris Tane",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "en",
+      "summary": "エージェントがコードの大半を書く今も、本番のログ・トレース・ユーザー行動・サポートチケットといったシグナルは人間が手作業でエージェントに戻している、と指摘する記事(題: Self-improving software is inevitable)。想定外の問題を拾うには、アプリがシグナルを読んで自ら改善する「自己改善型ソフトウェア」が不可避だと主張する。人間の役割は改善判断そのものから「何を良しとするか」という評価指標の定義へ移るとしている。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "「人間の仕事はコードを直すことから、良さを定義することへ」"
+    },
+    {
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/10/11/012014",
+      "title": "AnthropicのAIモデルが米国政府サイトへ意図しない送信を行っていた事案についてまとめてみた - piyolog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "タイトルによれば、AnthropicのAIモデルが米国政府サイトへ意図しない送信を行っていた事案について、piyologが公開情報を整理した記事。事案の詳細・原因・影響範囲は本文と一次発表で確認が必要(本文未確認)。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "「AIエージェントが勝手に外へ送信していたら?」で入る"
+    },
+    {
+      "url": "https://speakerdeck.com/sugimotokei/phpkanhuarensuguan-xi-2025-ji-diao-jiang-yan",
+      "title": "PHPカンファレンス関西2025 基調講演",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "設計とデザインは分離できず、ひとつのデザインの二つの面にすぎないと主張する基調講演スライド。アーキテクチャを構造そのものではなく、問題領域と解決領域をつなぐ「見立てと枠組み」と捉え直している。エンジニアはドメインを深く理解してこそ良いアーキテクチャを生み出せる、と結論づけている。",
+      "topics": ["design"],
+      "neta": "A",
+      "hook": "「アーキテクチャは構造ではなく『見立て』だ」"
+    },
+    {
+      "url": "https://www.ryuzee.com/contents/blog/14626",
+      "title": "生成AIの練習をするなら自分が欲しいアプリを作れという話",
+      "source": "Ryuzee.com",
+      "lang": "ja",
+      "summary": "タイトルによれば、生成AIを使った開発を練習するなら、題材は自分が本当に欲しいアプリにすべきだと勧める吉羽龍太郎氏のブログ記事。自分がユーザーだと要求や良し悪しを判断しやすい、という趣旨と見られる(本文未確認)。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "「AIの練習台は、チュートリアルではなく自分の欲しいもの」"
+    },
+    {
+      "url": "https://zenn.dev/yoshihiko555/articles/e9801e0ad1efb8",
+      "title": "デザインハーネスを個人開発で組んだ — AI が作る画面のずれを止めるまで",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "タイトルによれば、AIが生成する画面のデザインがぶれる問題に対し、個人開発で「デザインハーネス」(AIの出力を一定の型に縛る仕組み)を組んで、ずれを止めるまでの過程をまとめた記事(本文未確認)。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "「AIに画面を作らせると毎回ちょっとずつ違う問題」"
+    },
+    {
+      "url": "https://www.inc.com/chloe-rosenberg/a-remote-employee-refused-160-webcam-photos-a-day-her-employer-fired-her/91415963",
+      "title": "A Remote Employee Refused 160 Webcam Photos a Day. Her Employer Fired Her",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "タイトルによれば、1日160枚のウェブカメラ撮影による監視を拒否したリモート社員が解雇された事例を報じるInc.の記事。リモートワークでの監視と信頼のあり方が議論になっている(本文未確認)。",
+      "topics": ["team", "worklife"],
+      "neta": "A",
+      "hook": "「1日160枚の自撮りで、生産性は測れるのか」"
+    },
+    {
+      "url": "https://twitter.com/karpathy/status/2109361546505966046",
+      "title": "The gap in shared understanding of LLM capability is widening",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "タイトルによれば、Andrej KarpathyがLLMの能力についての人々の共通理解のギャップが広がっていると指摘した投稿。使い込む人とそうでない人で、AIに何ができるかの認識が大きくずれつつあるという論点と見られる(本文未確認)。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "「同じAIの話をしているのに、見えているものが違う」"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
+      "title": "Dwarf Fortress uses version control now",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "Dwarf Fortressの開発者Tarn Adamsが2013年・2016年時点ではバージョン管理を使っていないと語っていたが、2023年のインタビューではバージョン管理に取り組んでいると述べていた、と紹介するSimon Willisonの短文。複雑なコードベースほどバージョン管理の恩恵が大きい、という観点でコメントしている。",
+      "topics": ["xp", "team"],
+      "neta": "A",
+      "hook": "逆転型で入るなら「名作はバージョン管理なしで20年作られていた」"
+    },
+    {
+      "url": "https://speakerdeck.com/yutobara/gekkan-100-mannin-no-sabisu-sasshin-de-gijutsu-sentei-o-hono-ni-furikita-hanashi-e49c651f-8130-48bb-b6ef-eac3cc9f358a",
+      "title": "月間100万人のサービス刷新で、 技術選定をHonoに振り切った話",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "タイトルによれば、月間100万人規模のサービスを刷新する際に、技術選定でWebフレームワークHonoを全面採用した経緯を語るスライド(本文未確認)。",
+      "topics": ["design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://gihyo.jp/book/2026/978-4-297-16033-3",
+      "title": "AI×アーキテクト | 技術評論社",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "技術評論社の書籍『AI×アーキテクト』の紹介ページ。タイトルから、AI時代のソフトウェアアーキテクトの役割や設計を扱う本と見られる(本文未確認)。",
+      "topics": ["design", "ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://kawarimidoll.com/posts/202610051/",
+      "title": "エージェントにコミット整理を教えるgit-surgeonが良さげかも | kawarimidoll.com",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "タイトルによれば、AIエージェントにGitのコミット整理を行わせるためのツール「git-surgeon」を試した紹介記事(本文未確認)。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://note.com/kenichiota0711/n/n7c8035175167",
+      "title": "AIで仕組みを作るための「27 Rules Starter Skill（for Claude Code）」を配布します｜太田 賢一／Design Mgr",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "タイトルによれば、AIで業務の仕組みを作るための27のルールをClaude Code用のスキルとしてまとめ、配布するnote記事(本文未確認)。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "B"
+    },
+    {
+      "url": "https://duckdb.org/2026/10/09/agent-mode",
+      "title": "Agent Mode in the DuckDB CLI",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "en",
+      "summary": "タイトルによれば、DuckDBのCLIにAIエージェントモードが加わったことを告知する公式ブログ記事(本文未確認)。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://speakerdeck.com/sakajunquality/sre-next-2026-bakuraku-sakajunquality",
+      "title": "AIと共生する開発者プラットフォーム：バクラクのモノレポ×マイクロサービス基盤",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "タイトルによれば、SRE NEXT 2026での発表スライドで、バクラクのモノレポとマイクロサービスを組み合わせた開発者プラットフォームを、AIとの共生という観点で紹介している(本文未確認)。",
+      "topics": ["ai-dev", "design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/cloudflare_containersai6.html",
+      "title": "Cloudflare ContainersがAIエージェント向けに刷新。起動が6倍速、ファイルシステムのスナップショット機能など",
+      "source": "Publickey",
+      "lang": "ja",
+      "summary": "タイトルによれば、Cloudflare ContainersがAIエージェント向けに刷新され、起動の6倍高速化やファイルシステムのスナップショット機能などが加わったと報じるPublickeyの記事(本文未確認)。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/hogehugabar/articles/github-custom-assets-overview",
+      "title": "GitHub Copilot 用に .github 配下へカスタムアセットを一式作ってみた",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "タイトルによれば、GitHub Copilot向けのカスタム指示などのアセットを.githubディレクトリ配下に一式作成し、その構成を紹介する記事(本文未確認)。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/m16_llc/articles/vlm-vs-ocr-difference-guide",
+      "title": "【LLMプロダクト】VLM と OCR は何が違うのか 〜「文字を写す」と「画像を見て答える」を整理する〜",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "タイトルによれば、文字を書き写すOCRと、画像を見て質問に答えるVLM(視覚言語モデル)の違いを、LLMプロダクト開発の観点から整理した解説記事(本文未確認)。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/distributed-databases-with-peter",
+      "title": "Distributed databases with Peter Mattis",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "タイトルによれば、The Pragmatic Engineerのエピソードで、CockroachDB共同創業者として知られるPeter Mattis氏と分散データベースについて語る回(本文未確認)。",
+      "topics": ["design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/10/context-language-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Context Language Models: Self-Managing Context to Improve Performance and Reduce Compute Costs",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "タイトルによれば、モデル自身がコンテキストを管理することで性能向上と計算コスト削減を狙う「Context Language Models」という手法を紹介するInfoQのニュース(本文未確認)。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/10/gremlin-foresight-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Foresight AI Brings Gremlin Agents to Reliability Engineering",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "タイトルによれば、カオスエンジニアリングで知られるGremlinが「Foresight AI」として信頼性エンジニアリングにAIエージェントを導入したと報じるInfoQのニュース(本文未確認)。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    }
+  ],
+  "rejected_count": 5,
+  "capped_count": 69,
+  "failures": []
+}
