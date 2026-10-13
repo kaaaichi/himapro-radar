@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-14",
+  "items": [
+    {
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "title": "Redesigning source control at Anthropic",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Anthropicのエンジニアリングブログによれば、Claudeによるコード生成の急増でモノレポのマージ数が2026年5月の1日約2,500件から9月には3万件超に増え、gitがボトルネックになった。同社はエージェントが常時オンラインである前提の独自バージョン管理システム「Scion」を開発し、5か月で移行。インフラ負荷は従来比約200分の1、CIのチェックアウトは数分から数秒になったとしている(数値は同記事の自己申告)。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「AIがコードを書きすぎて、git の方が先に壊れた」"
+    },
+    {
+      "url": "https://zenn.dev/fastdoctor/articles/grok-bot-coworker-incidents",
+      "title": "botが同僚になったら、同僚っぽい事故が起きはじめた",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "Slackに組み込んだbotが開発依頼の大半を担い、夜間も作業が進むようになった一方で、指示の伝わり方の問題、人間の判断を飛ばした行動、担当重複やメンション漏れ、bot同士の調整といった「同僚らしい事故」が起き始めたという実践記。人間の役割は実行から「それは誰が決めたのか」の確認へ移りつつあり、進捗管理をGitHubのプロジェクトボードに寄せたことも紹介している。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "「AIを同僚にしたら、人間の同僚と同じ事故が起きた」"
+    },
+    {
+      "url": "https://zenn.dev/uragasumi25/articles/c3a11a50d71ef2",
+      "title": "【技術屋の思考ログ #41】スクラムの開発チームは「6人（偶数）」がいい。AI時代に効くペア作業の魔法",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "summary": "タイトルによれば、スクラムの開発チームは6人(偶数)が良く、AI時代にはペア作業が効く、と主張する記事(本文未確認)。チーム人数を奇数で考えがちな通念に対し、ペアを組みやすい偶数構成を推す論点と読める。",
+      "topics": ["scrum", "xp"],
+      "neta": "S",
+      "hook": "「スクラムチームは奇数じゃなくて偶数がいい?」"
+    },
+    {
+      "url": "https://martinfowler.com/articles/are-harnesses-worth-the-cost.html",
+      "title": "Are Harnesses Worth the Cost?",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "summary": "Naresh Jainが、同じAPIサービスを振る舞い検証用のハーネス(ガイドとセンサー)の有無で作らせた実験を報告。上位モデルはどちらでも全評価に合格したが、低コストモデルはハーネスなしで10回中3回しか成功せず、ハーネスありでは10回すべて成功し、コストも上位モデルより約33%低かったという。単一の小規模実験であり一般化には慎重であるべき、と著者自身が述べている。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "「高いモデルを買うより、安いモデルに検証ハーネスを付けた方が安くて確実」"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
+      "title": "Quoting Geoffrey Huntley",
+      "source": "Simon Willison",
+      "lang": "en",
+      "summary": "Geoffrey Huntleyの発言の引用。AGENTS.mdに規約を書くだけでは守られずに乖離するため、診断ライブラリを迂回する変更をgit diffで検出してコミットを失敗させるpre-commitフックを書き、エージェントに正しいライブラリを使わせた、という内容。",
+      "topics": ["ai-dev", "xp"],
+      "neta": "A",
+      "hook": "「AIへのお願いはドキュメントに書くより、コミットで落とせ」"
+    },
+    {
+      "url": "https://martinfowler.com/articles/practitioner-voice.html#TheCraftOfPractitionerVoice",
+      "title": "The Craft of Practitioner Voice",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "summary": "Jim Highsmithが、実務者が経験に基づく判断を見せながら書く文章スタイル「Practitioner Voice」を提唱。学術的文章やソートリーダーシップ型の文章では著者自身が消えてしまうと批判し、AIは流暢な文章を作れても結果への責任は負えないので、初稿の素材に留めて判断と声は著者が保持すべきだと論じる。",
+      "topics": ["worklife", "ai-dev"],
+      "neta": "A",
+      "hook": "「AIは文章を書けても、その文章の責任は取れない」"
+    },
+    {
+      "url": "https://newsletter.kentbeck.com/p/decompose-run-on-tests",
+      "title": "Decompose Run-On Tests",
+      "source": "Kent Beck / Tidy First",
+      "lang": "en",
+      "summary": "タイトルによれば、Kent Beckが「だらだら続く(run-on)テスト」を分解することを勧める回(本文未確認)。1つのテストに複数の検証や手順が詰め込まれた状態を、小さなテストに分けて読みやすく保つというTidy First系の話題と推測される。",
+      "topics": ["xp", "design"],
+      "neta": "A",
+      "hook": "「長い一文が読みにくいように、長いテストも読みにくい」"
+    },
+    {
+      "url": "https://zenn.dev/xneshuk/articles/60ca9eaad23c7d",
+      "title": "【特別編1】AI駆動開発でセキュリティ対策を入れるより難しいこと――大改修のたびに防御を外さないための回帰契約",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "タイトルによれば、AI駆動開発ではセキュリティ対策を入れること自体より、大改修のたびに入れた防御が外れないよう維持することの方が難しく、そのための「回帰契約」を論じる記事(本文未確認)。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "「AIはセキュリティ対策を入れてくれる。でも次の改修で外してくる」"
+    },
+    {
+      "url": "https://zenn.dev/bpr_prot/articles/c3c58f88e594ef",
+      "title": "Claude Code に .env を読ませない設定を入れても、読めてしまう場面があった（Codex と比較）",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "タイトルによれば、Claude Codeに.envを読ませない設定を入れても読めてしまう場面があったことを、Codexと比較しながら検証した記事(本文未確認)。エージェントの権限設定を過信しない注意喚起として読める。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "「読ませない設定をしたのに、AIは読めてしまった」"
+    },
+    {
+      "url": "https://togetter.com/li/2757810",
+      "title": "高校生から「生成AIについて質問に答えてほしい」とメールが来たが、高校名も氏名も教員名も無かったので、研究室の学生に「依頼メールとして何が足りないか」考えてもらった",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "タイトルによれば、名乗りや所属のない高校生からの質問依頼メールを題材に、研究室の学生に「依頼メールとして何が足りないか」を考えさせたという話題のまとめ(本文未確認)。依頼の際に相手が判断するための情報をどう渡すかという仕事術の話として扱える。",
+      "topics": ["worklife"],
+      "neta": "A",
+      "hook": "「AIへのプロンプトも人への依頼メールも、足りないものは同じ」"
+    },
+    {
+      "url": "https://parsimony.lasu.dev/",
+      "title": "Show HN: Parsimony – an open-source benchmark for how much code AI models add",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "タイトルによれば、AIモデルがタスクに対してどれだけ余分なコードを足すかを測るオープンソースのベンチマーク「Parsimony」の紹介(本文未確認)。正しさだけでなく「書きすぎ」を評価軸にする発想。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "「AIの実力は、書いたコードより書かなかったコードで測る」"
+    },
+    {
+      "url": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
+      "title": "How to engineer an AI harness for game development",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "タイトルによれば、Claude Codeを使ったゲーム開発のためにAIハーネスをどう設計するかを解説した記事(本文未確認)。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/explaza/articles/aaa8763a20f017",
+      "title": "AIエージェント同士で記憶を共有させる──deja-vuでCodexとClaude Codeの履歴を横断検索する",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "タイトルによれば、deja-vuというツールでCodexとClaude Codeの作業履歴を横断検索し、エージェント間で記憶を共有させる方法の紹介(本文未確認)。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/nenene01/articles/html-report-design-for-ai-driven-development",
+      "title": "AI生成資料を会議に出せるHTMLへ整える、html-report-designの使い方",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "タイトルによれば、AIが生成した資料を会議に出せる体裁のHTMLに整えるhtml-report-designの使い方を紹介する記事(本文未確認)。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/hogehugabar/articles/github-custom-assets-design-notes",
+      "title": ".github 配下のカスタムアセットで工夫したこと",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "summary": "タイトルとカテゴリから、.github配下に置くAIエージェント向けのカスタム指示などのアセットを設計する際の工夫をまとめた記事と推測される(本文未確認)。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://qiita.com/mochikoici/items/361a27ade40ac9cc80c8",
+      "title": "【予想問題20問を無料公開】アジャイルソフトウェア開発技術者検定試験 Lv.1（公式テキスト対応）4つの出題形式の問題と解説",
+      "source": "Qiita(アジャイル)",
+      "lang": "ja",
+      "summary": "タイトルによれば、アジャイルソフトウェア開発技術者検定試験Lv.1の予想問題20問を4つの出題形式で解説付きで公開した記事(本文未確認)。",
+      "topics": ["agile"],
+      "neta": "B"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/building-resilient-systems",
+      "title": "Building resilient AI-powered software, and planning for when things go wrong",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "summary": "タイトルによれば、AIを組み込んだソフトウェアを障害に強く作り、うまくいかなかったときに備えて計画する方法を扱う回(本文未確認)。",
+      "topics": ["ai-dev", "design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/10/qcon-ai-newyork-2026-sessionsv2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Production Patterns for Agents, Evals, and LLM Costs: QCon AI New York 2026",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "タイトルによれば、QCon AI New York 2026で語られたエージェント、評価(evals)、LLMコストに関する本番運用パターンのまとめ記事(本文未確認)。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://cloud.watch.impress.co.jp/docs/column/techwatch/2147521.html",
+      "title": "【海外テックWatch】 乱立するエージェント標準の本命になれるか MetaとSierraが主導する「Personal Agent Protocol」",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "タイトルによれば、MetaとSierraが主導するエージェント間標準「Personal Agent Protocol」が、乱立するエージェント標準の本命になれるかを論じるコラム(本文未確認)。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://blog.shibayu36.org/entry/2026/10/13/173000",
+      "title": "私物Macと仕事Macのdotfilesとアプリ管理をmise bootstrapで管理しやすくした - $shibayu36->blog;",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "タイトルによれば、私物Macと仕事Macのdotfilesとアプリ管理をmise bootstrapで扱いやすくした個人の環境整備記(本文未確認)。",
+      "topics": ["worklife"],
+      "neta": "B"
+    }
+  ],
+  "rejected_count": 10,
+  "capped_count": 73,
+  "failures": []
+}

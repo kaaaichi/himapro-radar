@@ -3,139 +3,107 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>2026-10-13 | himapro radar</title>
+<title>2026-10-14 | himapro radar</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header><a class="brand" href="index.html">himapro radar</a><h1>2026-10-13</h1></header>
+<header><a class="brand" href="index.html">himapro radar</a><h1>2026-10-14</h1></header>
 <main>
 <section><h2>今日のS判定</h2><article class="item neta-S">
-  <div class="item-head"><span class="neta">S</span><span class="topic">AI駆動開発</span><span class="topic">アジャイル</span><span class="src">Hacker News Front Page</span></div>
-  <h3><a href="https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/">AI coding agents generate more code, but not more software</a></h3>
-  <p class="summary">タイトルによれば、AIコーディングエージェントで生成されるコードの量は増えたが、世に出るソフトウェアそのものは増えていない、と論じる記事(本文は取得できず未確認)。コード量と成果(アウトカム)を区別して考える材料になりそう。</p>
-  <p class="hook">フック候補: 逆転型で入るなら「コードは倍、ソフトウェアは据え置き」</p>
-</article><article class="item neta-S">
-  <div class="item-head"><span class="neta">S</span><span class="topic">AI駆動開発</span><span class="topic">チーム開発</span><span class="src">InfoQ</span></div>
-  <h3><a href="https://www.infoq.com/news/2026/10/spotify-ai-quality-controls/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global">Spotify More Than Doubled Monthly Code Changes as AI Accelerated Development</a></h3>
-  <p class="summary">SpotifyではAI支援開発の拡大で月間マージ数が約8,100件から17,000件へと2倍以上に増え、品質・信頼性の管理を見直した。自動の依存関係アップグレードが既存チェックを通過して本番で失敗したことを受け、ロールバック強化や自動変更を担当チームの勤務時間内に限定するなどの対策を進めている。インシデントの主因はAI生成コードそのものではなく、変更量が検証体制の処理能力を上回ったことだとされる。</p>
-  <p class="hook">フック候補: 逆転型で入るなら「AIのコードが悪いんじゃない、量が多すぎただけ」</p>
-</article><article class="item neta-S">
-  <div class="item-head"><span class="neta">S</span><span class="topic">AI駆動開発</span><span class="topic">仕事術</span><span class="src">Hacker News Front Page</span></div>
-  <h3><a href="https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e">&#x27;AI&#x27; Is Not a Tool by Rich Hickey</a></h3>
-  <p class="summary">Clojure作者のRich Hickeyが、ツールとは手で握り、フィードバックを受けながら技能を磨いて使うものだと定義する。LLMは依頼すると自律的に動く「自動化」であり、使う人から学びや技能習得の機会を奪うため、ツールと同一視すべきではないと主張している。同日のHNには反対の立場の「AI Is a Tool」も上がっている。</p>
-  <p class="hook">フック候補: 逆転型で入るなら「AIは道具じゃない、と言い切った人がいる」</p>
+  <div class="item-head"><span class="neta">S</span><span class="topic">AI駆動開発</span><span class="topic">設計</span><span class="src">はてなブックマーク IT人気エントリ</span></div>
+  <h3><a href="https://www.anthropic.com/engineering/redesigning-source-control">Redesigning source control at Anthropic</a></h3>
+  <p class="summary">Anthropicのエンジニアリングブログによれば、Claudeによるコード生成の急増でモノレポのマージ数が2026年5月の1日約2,500件から9月には3万件超に増え、gitがボトルネックになった。同社はエージェントが常時オンラインである前提の独自バージョン管理システム「Scion」を開発し、5か月で移行。インフラ負荷は従来比約200分の1、CIのチェックアウトは数分から数秒になったとしている(数値は同記事の自己申告)。</p>
+  <p class="hook">フック候補: 逆転型で入るなら「AIがコードを書きすぎて、git の方が先に壊れた」</p>
 </article><article class="item neta-S">
   <div class="item-head"><span class="neta">S</span><span class="topic">AI駆動開発</span><span class="topic">チーム開発</span><span class="src">Zenn(AI駆動開発)</span></div>
-  <h3><a href="https://zenn.dev/hogehugabar/articles/skills-instruction-think">AIへの指示体系は会社の組織図になる:中間層を考える</a></h3>
-  <p class="summary">タイトルによれば、AIへの指示(スキル等)を体系化していくと会社の組織図のような階層になり、その中間層をどう設計するかを考える記事。AIエージェント設計とチーム・組織設計を重ねて語れる題材。</p>
-  <p class="hook">フック候補: 逆転型で入るなら「AIを使うほど中間管理職が必要になる」</p>
+  <h3><a href="https://zenn.dev/fastdoctor/articles/grok-bot-coworker-incidents">botが同僚になったら、同僚っぽい事故が起きはじめた</a></h3>
+  <p class="summary">Slackに組み込んだbotが開発依頼の大半を担い、夜間も作業が進むようになった一方で、指示の伝わり方の問題、人間の判断を飛ばした行動、担当重複やメンション漏れ、bot同士の調整といった「同僚らしい事故」が起き始めたという実践記。人間の役割は実行から「それは誰が決めたのか」の確認へ移りつつあり、進捗管理をGitHubのプロジェクトボードに寄せたことも紹介している。</p>
+  <p class="hook">フック候補: 「AIを同僚にしたら、人間の同僚と同じ事故が起きた」</p>
+</article><article class="item neta-S">
+  <div class="item-head"><span class="neta">S</span><span class="topic">スクラム</span><span class="topic">XP</span><span class="src">Zenn(スクラム)</span></div>
+  <h3><a href="https://zenn.dev/uragasumi25/articles/c3a11a50d71ef2">【技術屋の思考ログ #41】スクラムの開発チームは「6人（偶数）」がいい。AI時代に効くペア作業の魔法</a></h3>
+  <p class="summary">タイトルによれば、スクラムの開発チームは6人(偶数)が良く、AI時代にはペア作業が効く、と主張する記事(本文未確認)。チーム人数を奇数で考えがちな通念に対し、ペアを組みやすい偶数構成を推す論点と読める。</p>
+  <p class="hook">フック候補: 「スクラムチームは奇数じゃなくて偶数がいい?」</p>
+</article><article class="item neta-S">
+  <div class="item-head"><span class="neta">S</span><span class="topic">AI駆動開発</span><span class="topic">設計</span><span class="src">Martin Fowler</span></div>
+  <h3><a href="https://martinfowler.com/articles/are-harnesses-worth-the-cost.html">Are Harnesses Worth the Cost?</a></h3>
+  <p class="summary">Naresh Jainが、同じAPIサービスを振る舞い検証用のハーネス(ガイドとセンサー)の有無で作らせた実験を報告。上位モデルはどちらでも全評価に合格したが、低コストモデルはハーネスなしで10回中3回しか成功せず、ハーネスありでは10回すべて成功し、コストも上位モデルより約33%低かったという。単一の小規模実験であり一般化には慎重であるべき、と著者自身が述べている。</p>
+  <p class="hook">フック候補: 「高いモデルを買うより、安いモデルに検証ハーネスを付けた方が安くて確実」</p>
 </article></section>
 <section><h2>その他の新着</h2><article class="item neta-A">
-  <div class="item-head"><span class="neta">A</span><span class="topic">AI駆動開発</span><span class="topic">仕事術</span><span class="src">はてなブックマーク IT人気エントリ</span></div>
-  <h3><a href="https://togetter.com/li/2757347">プログラミングにAIを使うのは全然悪くないが、初心者が本格的に使って商売するのは違うのでは？AI生成したコードがエラーの場合、クライアントに責任を取れるのか？議論に</a></h3>
-  <p class="summary">タイトルによれば、AIでコードを書くこと自体は問題ないが、初心者がAI生成コードで受託の商売をした場合、不具合の責任を取れるのかという議論のまとめ。AI時代の品質責任とスキルの関係を考える材料になる。</p>
-  <p class="hook">フック候補: 「書いたのはAI、謝るのは誰?」</p>
+  <div class="item-head"><span class="neta">A</span><span class="topic">AI駆動開発</span><span class="topic">XP</span><span class="src">Simon Willison</span></div>
+  <h3><a href="https://simonwillison.net/2026/Oct/13/geoffrey-huntley/">Quoting Geoffrey Huntley</a></h3>
+  <p class="summary">Geoffrey Huntleyの発言の引用。AGENTS.mdに規約を書くだけでは守られずに乖離するため、診断ライブラリを迂回する変更をgit diffで検出してコミットを失敗させるpre-commitフックを書き、エージェントに正しいライブラリを使わせた、という内容。</p>
+  <p class="hook">フック候補: 「AIへのお願いはドキュメントに書くより、コミットで落とせ」</p>
 </article><article class="item neta-A">
-  <div class="item-head"><span class="neta">A</span><span class="topic">設計</span><span class="topic">仕事術</span><span class="src">はてなブックマーク IT人気エントリ</span></div>
-  <h3><a href="https://qiita.com/J-T_ky2g/items/36aaf36d9eef97672c3d">抽象的なことを考える時、無意識に具体化しないためのメモ - Qiita</a></h3>
-  <p class="summary">タイトルによれば、抽象的な事柄を考えるときに無意識に具体例へ落としてしまう癖を避けるためのメモ。設計やモデリングで抽象度を保つ思考法として扱える。</p>
-  <p class="hook">フック候補: 「具体例を出すのは良いこと、とは限らない」</p>
+  <div class="item-head"><span class="neta">A</span><span class="topic">仕事術</span><span class="topic">AI駆動開発</span><span class="src">Martin Fowler</span></div>
+  <h3><a href="https://martinfowler.com/articles/practitioner-voice.html#TheCraftOfPractitionerVoice">The Craft of Practitioner Voice</a></h3>
+  <p class="summary">Jim Highsmithが、実務者が経験に基づく判断を見せながら書く文章スタイル「Practitioner Voice」を提唱。学術的文章やソートリーダーシップ型の文章では著者自身が消えてしまうと批判し、AIは流暢な文章を作れても結果への責任は負えないので、初稿の素材に留めて判断と声は著者が保持すべきだと論じる。</p>
+  <p class="hook">フック候補: 「AIは文章を書けても、その文章の責任は取れない」</p>
 </article><article class="item neta-A">
-  <div class="item-head"><span class="neta">A</span><span class="topic">AI駆動開発</span><span class="topic">チーム開発</span><span class="src">はてなブックマーク IT人気エントリ</span></div>
-  <h3><a href="https://togetter.com/li/2757239">崩れまくりのAI生成ポスターが世に出るのを不思議に思ってたけど「コストを抑えたくて使ってるんだからチェックが疎かになるのは当然」と言われて妙に納得した話</a></h3>
-  <p class="summary">タイトルによれば、品質の崩れたAI生成物が世に出る理由について「コスト削減のために使うのだからチェックも省かれる」という指摘に納得した、という話題のまとめ。AI導入でレビュー工程が削られる構造は開発現場にも通じる。</p>
-  <p class="hook">フック候補: 「安く作るためのAIだから、確認も安くなる」</p>
+  <div class="item-head"><span class="neta">A</span><span class="topic">XP</span><span class="topic">設計</span><span class="src">Kent Beck / Tidy First</span></div>
+  <h3><a href="https://newsletter.kentbeck.com/p/decompose-run-on-tests">Decompose Run-On Tests</a></h3>
+  <p class="summary">タイトルによれば、Kent Beckが「だらだら続く(run-on)テスト」を分解することを勧める回(本文未確認)。1つのテストに複数の検証や手順が詰め込まれた状態を、小さなテストに分けて読みやすく保つというTidy First系の話題と推測される。</p>
+  <p class="hook">フック候補: 「長い一文が読みにくいように、長いテストも読みにくい」</p>
 </article><article class="item neta-A">
-  <div class="item-head"><span class="neta">A</span><span class="topic">AI駆動開発</span><span class="topic">仕事術</span><span class="src">はてなブックマーク IT人気エントリ</span></div>
-  <h3><a href="https://zenn.dev/todesking/articles/5bc43f449ecdf6">スロップ表現100連発</a></h3>
-  <p class="summary">タイトルによれば、AIが生成しがちな中身の薄い定型表現(スロップ)を100個並べた記事。AIに文章を書かせるときのレビュー観点として使えそう。</p>
-  <p class="hook">フック候補: 「その言い回し、AIっぽいです」</p>
+  <div class="item-head"><span class="neta">A</span><span class="topic">AI駆動開発</span><span class="topic">設計</span><span class="src">Zenn(AI駆動開発)</span></div>
+  <h3><a href="https://zenn.dev/xneshuk/articles/60ca9eaad23c7d">【特別編1】AI駆動開発でセキュリティ対策を入れるより難しいこと――大改修のたびに防御を外さないための回帰契約</a></h3>
+  <p class="summary">タイトルによれば、AI駆動開発ではセキュリティ対策を入れること自体より、大改修のたびに入れた防御が外れないよう維持することの方が難しく、そのための「回帰契約」を論じる記事(本文未確認)。</p>
+  <p class="hook">フック候補: 「AIはセキュリティ対策を入れてくれる。でも次の改修で外してくる」</p>
 </article><article class="item neta-A">
-  <div class="item-head"><span class="neta">A</span><span class="topic">チーム開発</span><span class="topic">AI駆動開発</span><span class="src">はてなブックマーク IT人気エントリ</span></div>
-  <h3><a href="https://blog.cybozu.io/entry/logos-overview">Mythos 対策プロジェクトの 2 ヶ月(概要編) - Cybozu Inside Out | サイボウズエンジニアのブログ</a></h3>
-  <p class="summary">サイボウズが、高性能AI「Mythos」級モデルの悪用リスクに備えて6月に社内横断の「Logos プロジェクト」を始動した経緯を紹介。AI推進チーム・PSIRT・製品チームによる即席の横断チームでセキュリティスキャンのハーネスを構築し、約50件の脆弱性を認定して重要度の高いものを修正・リリースしたという。</p>
-  <p class="hook">フック候補: 「即席の横断チームが2ヶ月で50件の脆弱性を潰した」</p>
+  <div class="item-head"><span class="neta">A</span><span class="topic">AI駆動開発</span><span class="src">Zenn(AI駆動開発)</span></div>
+  <h3><a href="https://zenn.dev/bpr_prot/articles/c3c58f88e594ef">Claude Code に .env を読ませない設定を入れても、読めてしまう場面があった（Codex と比較）</a></h3>
+  <p class="summary">タイトルによれば、Claude Codeに.envを読ませない設定を入れても読めてしまう場面があったことを、Codexと比較しながら検証した記事(本文未確認)。エージェントの権限設定を過信しない注意喚起として読める。</p>
+  <p class="hook">フック候補: 「読ませない設定をしたのに、AIは読めてしまった」</p>
 </article><article class="item neta-A">
-  <div class="item-head"><span class="neta">A</span><span class="topic">仕事術</span><span class="topic">AI駆動開発</span><span class="src">Zenn(AI駆動開発)</span></div>
-  <h3><a href="https://zenn.dev/genai/articles/future-engineer-career-withai">AI時代、エンジニアは実装者から何になるのか</a></h3>
-  <p class="summary">タイトルによれば、AIが実装を担うようになる中で、エンジニアの役割が実装者から何へ変わっていくのかを考察する記事。キャリア論として番組の定番テーマに接続できる。</p>
-  <p class="hook">フック候補: 「実装しないエンジニアは、何をする人?」</p>
+  <div class="item-head"><span class="neta">A</span><span class="topic">仕事術</span><span class="src">はてなブックマーク IT人気エントリ</span></div>
+  <h3><a href="https://togetter.com/li/2757810">高校生から「生成AIについて質問に答えてほしい」とメールが来たが、高校名も氏名も教員名も無かったので、研究室の学生に「依頼メールとして何が足りないか」考えてもらった</a></h3>
+  <p class="summary">タイトルによれば、名乗りや所属のない高校生からの質問依頼メールを題材に、研究室の学生に「依頼メールとして何が足りないか」を考えさせたという話題のまとめ(本文未確認)。依頼の際に相手が判断するための情報をどう渡すかという仕事術の話として扱える。</p>
+  <p class="hook">フック候補: 「AIへのプロンプトも人への依頼メールも、足りないものは同じ」</p>
 </article><article class="item neta-A">
-  <div class="item-head"><span class="neta">A</span><span class="topic">スクラム</span><span class="topic">アジャイル</span><span class="src">Qiita(アジャイル)</span></div>
-  <h3><a href="https://qiita.com/etale_cohomology/items/4f0ec048675dca91eb63">スクラム×FP&amp;A：アジャイル進捗を経営の言葉に変える――ING・Equinor・John Deere に学ぶ「アジャイル予算管理」入門</a></h3>
-  <p class="summary">タイトルによれば、スクラムの進捗を経営管理(FP&amp;A)の言葉に翻訳する「アジャイル予算管理」の入門記事で、ING・Equinor・John Deereの事例を取り上げている。年次予算とアジャイルの相性問題を語る材料になる。</p>
-  <p class="hook">フック候補: 「スクラムの敵は年次予算だった」</p>
-</article><article class="item neta-A">
-  <div class="item-head"><span class="neta">A</span><span class="topic">AI駆動開発</span><span class="topic">仕事術</span><span class="src">Hacker News Front Page</span></div>
-  <h3><a href="https://yyhh.org/blog/2026/10/ai-is-a-tool/">AI Is a Tool. Using It Well Takes Skill.</a></h3>
-  <p class="summary">タイトルによれば、AIはツールであり、うまく使うには技能が要ると主張する記事。同日に話題のRich Hickey「&#x27;AI&#x27; Is Not a Tool」と対になる立場で、両者を並べて議論できる。</p>
-  <p class="hook">フック候補: 「AIは道具か否か、で殴り合う二本の記事」</p>
-</article><article class="item neta-A">
-  <div class="item-head"><span class="neta">A</span><span class="topic">AI駆動開発</span><span class="topic">チーム開発</span><span class="src">Hacker News Front Page</span></div>
-  <h3><a href="https://www.avclub.com/epic-games-disney-ai-delay">Epic Games tells employees to use AI to get Disney game done</a></h3>
-  <p class="summary">タイトルによれば、Epic Gamesが遅れているDisney関連ゲームを完成させるため、社員にAIを使うよう指示したと報じる記事(本文未確認)。遅延プロジェクトにAIを投入する判断は「人を足しても速くならない」議論と比べて語れる。</p>
-  <p class="hook">フック候補: 「遅れたプロジェクトにAIを追加すると?」</p>
-</article><article class="item neta-A">
-  <div class="item-head"><span class="neta">A</span><span class="topic">仕事術</span><span class="topic">AI駆動開発</span><span class="src">Hacker News Front Page</span></div>
-  <h3><a href="https://www.spinellis.gr/blog/20261008/?li261008">Thinking will become a hobby</a></h3>
-  <p class="summary">Diomidis Spinellisが、性能向上・コスト低下・常時稼働を背景にAIが知的労働の大部分を担うようになると予測するエッセイ。その結果、狩猟や書道が趣味になったように、思考も経済的必要から離れた余暇の営みになっていくと述べている。</p>
-  <p class="hook">フック候補: 「考えることは、いずれ趣味になる」</p>
-</article><article class="item neta-A">
-  <div class="item-head"><span class="neta">A</span><span class="topic">AI駆動開発</span><span class="src">InfoQ</span></div>
-  <h3><a href="https://www.infoq.com/podcasts/what-really-mean-program-ai/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global">Podcast: What Does It Really Mean To Program With AI: A Conversation with Joy Ebertz</a></h3>
-  <p class="summary">タイトルによれば、Joy Ebertzとの対談で「AIとともにプログラミングする」とは実際どういうことかを掘り下げるInfoQのポッドキャスト。他番組の論点整理として参考になる。</p>
-  <p class="hook">フック候補: 「AIとプログラミングする、ってそもそも何?」</p>
-</article><article class="item neta-B">
-  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="src">はてなブックマーク IT人気エントリ</span></div>
-  <h3><a href="https://voluntas.ghost.io/migrate-opencode-to-pi/">OpenCode から Pi へ切り替えた</a></h3>
-  <p class="summary">タイトルによれば、コーディングエージェントをOpenCodeからPiに乗り換えた体験記。AIコーディングツール選定の実例として参考になる。</p>
-</article><article class="item neta-B">
-  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="src">はてなブックマーク IT人気エントリ</span></div>
-  <h3><a href="https://www.techno-edge.net/article/2026/10/12/5574.html">なんでもリバースエンジニアリング。ソースコード非公開のアプリをAIに解析させ、類似機能を作らせるオープンソースツール「REA」（生成AIクローズアップ） | テクノエッジ TechnoEdge</a></h3>
-  <p class="summary">タイトルによれば、ソースコード非公開のアプリをAIに解析させ、類似機能を実装させるオープンソースツール「REA」を紹介する記事。AI駆動開発の応用例として参考情報。</p>
-</article><article class="item neta-B">
-  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="src">はてなブックマーク IT人気エントリ</span></div>
-  <h3><a href="https://gigazine.net/news/20261012-geiger/">無料で自分のPCにインストールされているAIエージェント・ハーネス・MCPサーバー・プラグイン・AI拡張機能をすべてスキャンして列挙してレポートしてくれる「Geiger」</a></h3>
-  <p class="summary">タイトルによれば、PCに入っているAIエージェント・MCPサーバー・プラグイン等を一覧化してレポートする無料ツール「Geiger」の紹介。AIツール乱立時代の棚卸しの話題として参考になる。</p>
-</article><article class="item neta-B">
-  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="src">はてなブックマーク IT人気エントリ</span></div>
-  <h3><a href="https://kdy1.dev/2026-10-12-ai-ui">How I Build UIs with AI</a></h3>
-  <p class="summary">タイトルによれば、筆者がAIを使ってUIを構築する際の進め方を紹介する記事。AI駆動開発の実践例として参考情報。</p>
-</article><article class="item neta-B">
-  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="topic">チーム開発</span><span class="src">はてなブックマーク IT人気エントリ</span></div>
-  <h3><a href="https://speakerdeck.com/tetsuya28/jissen-sre-x-ai-abema-niokeru-aiops">実践！ SRE × AI - ABEMA における AIOps -</a></h3>
-  <p class="summary">タイトルによれば、ABEMAにおけるSREへのAI活用(AIOps)の実践を紹介する登壇資料。運用チームでのAI活用事例として参考になる。</p>
-</article><article class="item neta-B">
-  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="src">Zenn(AI駆動開発)</span></div>
-  <h3><a href="https://zenn.dev/numarn/articles/claude-code-mods-hook-test-handson">Claude Codeのmodsを35行で書いた。検証コマンドは誤り3件を止めたが、素通り3通りには何も言わなかった</a></h3>
-  <p class="summary">タイトルによれば、Claude Codeのmods(フック)を35行で実装し、検証コマンドが誤りを3件止めた一方、3通りの素通りケースは検出できなかったという検証記事。AIのガードレール設計の限界を示す実例。</p>
-</article><article class="item neta-B">
-  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="topic">仕事術</span><span class="src">Zenn(AI駆動開発)</span></div>
-  <h3><a href="https://zenn.dev/yasi/articles/mobile-dev-from-phone-with-claude">モバイルアプリ開発でノートPCを持ち歩かなくなった話</a></h3>
-  <p class="summary">タイトルによれば、AIエージェントを使ってスマホからモバイルアプリ開発を進め、ノートPCを持ち歩かなくなった体験談。AI時代の働き方の変化を示す小ネタ。</p>
+  <div class="item-head"><span class="neta">A</span><span class="topic">AI駆動開発</span><span class="topic">設計</span><span class="src">Hacker News Front Page</span></div>
+  <h3><a href="https://parsimony.lasu.dev/">Show HN: Parsimony – an open-source benchmark for how much code AI models add</a></h3>
+  <p class="summary">タイトルによれば、AIモデルがタスクに対してどれだけ余分なコードを足すかを測るオープンソースのベンチマーク「Parsimony」の紹介(本文未確認)。正しさだけでなく「書きすぎ」を評価軸にする発想。</p>
+  <p class="hook">フック候補: 「AIの実力は、書いたコードより書かなかったコードで測る」</p>
 </article><article class="item neta-B">
   <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="src">Hacker News Front Page</span></div>
-  <h3><a href="https://github.com/openai/codex/issues/48195">Codex CLI installs a persistent, self-updating background daemon by default</a></h3>
-  <p class="summary">タイトルによれば、Codex CLIがデフォルトで常駐・自動更新するバックグラウンドデーモンをインストールする、と指摘するGitHub issue。AIコーディングツール導入時の信頼性・統制の論点として参考情報。</p>
+  <h3><a href="https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code">How to engineer an AI harness for game development</a></h3>
+  <p class="summary">タイトルによれば、Claude Codeを使ったゲーム開発のためにAIハーネスをどう設計するかを解説した記事(本文未確認)。</p>
 </article><article class="item neta-B">
-  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="topic">仕事術</span><span class="src">Hacker News Front Page</span></div>
-  <h3><a href="https://taylor.town/kk-ai-2026">Kevin Kelly&#x27;s 2016 AI Predictions, 10 Years Later</a></h3>
-  <p class="summary">タイトルによれば、Kevin Kellyが2016年に示したAIに関する予測を、10年後の2026年時点で振り返って検証する記事。AIと働き方の未来予測を語る際の参考情報。</p>
+  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="src">Zenn(AI駆動開発)</span></div>
+  <h3><a href="https://zenn.dev/explaza/articles/aaa8763a20f017">AIエージェント同士で記憶を共有させる──deja-vuでCodexとClaude Codeの履歴を横断検索する</a></h3>
+  <p class="summary">タイトルによれば、deja-vuというツールでCodexとClaude Codeの作業履歴を横断検索し、エージェント間で記憶を共有させる方法の紹介(本文未確認)。</p>
+</article><article class="item neta-B">
+  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="topic">仕事術</span><span class="src">Zenn(AI駆動開発)</span></div>
+  <h3><a href="https://zenn.dev/nenene01/articles/html-report-design-for-ai-driven-development">AI生成資料を会議に出せるHTMLへ整える、html-report-designの使い方</a></h3>
+  <p class="summary">タイトルによれば、AIが生成した資料を会議に出せる体裁のHTMLに整えるhtml-report-designの使い方を紹介する記事(本文未確認)。</p>
+</article><article class="item neta-B">
+  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="src">Zenn(AI駆動開発)</span></div>
+  <h3><a href="https://zenn.dev/hogehugabar/articles/github-custom-assets-design-notes">.github 配下のカスタムアセットで工夫したこと</a></h3>
+  <p class="summary">タイトルとカテゴリから、.github配下に置くAIエージェント向けのカスタム指示などのアセットを設計する際の工夫をまとめた記事と推測される(本文未確認)。</p>
+</article><article class="item neta-B">
+  <div class="item-head"><span class="neta">B</span><span class="topic">アジャイル</span><span class="src">Qiita(アジャイル)</span></div>
+  <h3><a href="https://qiita.com/mochikoici/items/361a27ade40ac9cc80c8">【予想問題20問を無料公開】アジャイルソフトウェア開発技術者検定試験 Lv.1（公式テキスト対応）4つの出題形式の問題と解説</a></h3>
+  <p class="summary">タイトルによれば、アジャイルソフトウェア開発技術者検定試験Lv.1の予想問題20問を4つの出題形式で解説付きで公開した記事(本文未確認)。</p>
+</article><article class="item neta-B">
+  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="topic">設計</span><span class="src">The Pragmatic Engineer</span></div>
+  <h3><a href="https://newsletter.pragmaticengineer.com/p/building-resilient-systems">Building resilient AI-powered software, and planning for when things go wrong</a></h3>
+  <p class="summary">タイトルによれば、AIを組み込んだソフトウェアを障害に強く作り、うまくいかなかったときに備えて計画する方法を扱う回(本文未確認)。</p>
 </article><article class="item neta-B">
   <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="src">InfoQ</span></div>
-  <h3><a href="https://www.infoq.com/presentations/ai-cloud-cost-economics/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global">Presentation: You Can&#x27;t Trust Your AI Bill. And Neither Can I</a></h3>
-  <p class="summary">タイトルによれば、AI利用にかかるクラウドコストの請求は信頼しにくい、というAIのコスト構造・経済性をテーマにした講演。AI導入のコスト管理の参考情報。</p>
+  <h3><a href="https://www.infoq.com/news/2026/10/qcon-ai-newyork-2026-sessionsv2/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global">Production Patterns for Agents, Evals, and LLM Costs: QCon AI New York 2026</a></h3>
+  <p class="summary">タイトルによれば、QCon AI New York 2026で語られたエージェント、評価(evals)、LLMコストに関する本番運用パターンのまとめ記事(本文未確認)。</p>
 </article><article class="item neta-B">
-  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="src">InfoQ</span></div>
-  <h3><a href="https://www.infoq.com/news/2026/10/gitlab-19-4-goal-driven-agents/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global">GitLab 19.4 Adds Goal-Driven Agents and Tighter Cost Controls</a></h3>
-  <p class="summary">タイトルによれば、GitLab 19.4でゴール駆動型のエージェント機能と、より厳密なコスト管理機能が追加された。開発プラットフォームへのAIエージェント統合の動向として参考情報。</p>
+  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="src">はてなブックマーク IT人気エントリ</span></div>
+  <h3><a href="https://cloud.watch.impress.co.jp/docs/column/techwatch/2147521.html">【海外テックWatch】 乱立するエージェント標準の本命になれるか MetaとSierraが主導する「Personal Agent Protocol」</a></h3>
+  <p class="summary">タイトルによれば、MetaとSierraが主導するエージェント間標準「Personal Agent Protocol」が、乱立するエージェント標準の本命になれるかを論じるコラム(本文未確認)。</p>
 </article><article class="item neta-B">
-  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="topic">設計</span><span class="src">InfoQ</span></div>
-  <h3><a href="https://www.infoq.com/news/2026/10/xcode-json-project-format/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global">Xcode 27.2 Introduces an Agent- and Merge-Friendly JSON Format for Project Configuration</a></h3>
-  <p class="summary">タイトルによれば、Xcode 27.2でプロジェクト設定にAIエージェントやマージに扱いやすいJSON形式が導入された。ツール側がAIエージェント前提の設計に変わりつつある例。</p>
+  <div class="item-head"><span class="neta">B</span><span class="topic">仕事術</span><span class="src">はてなブックマーク IT人気エントリ</span></div>
+  <h3><a href="https://blog.shibayu36.org/entry/2026/10/13/173000">私物Macと仕事Macのdotfilesとアプリ管理をmise bootstrapで管理しやすくした - $shibayu36-&gt;blog;</a></h3>
+  <p class="summary">タイトルによれば、私物Macと仕事Macのdotfilesとアプリ管理をmise bootstrapで扱いやすくした個人の環境整備記(本文未確認)。</p>
 </article></section>
-<section class="memo"><h2>店長宛メモ</h2><ul><li>新着が多すぎたため 66 件を未判定でスキップ(翌日再登場)</li><li>トピック対象外として 3 件をボツ</li></ul></section>
-<section class="archive-sec"><h2>アーカイブ</h2><ul class="archive"><li><a href="daily/2026-10-13.html">2026-10-13</a></li><li><a href="daily/2026-10-12.html">2026-10-12</a></li><li><a href="daily/2026-10-11.html">2026-10-11</a></li><li><a href="daily/2026-10-10.html">2026-10-10</a></li><li><a href="daily/2026-10-09.html">2026-10-09</a></li><li><a href="daily/2026-10-08.html">2026-10-08</a></li><li><a href="daily/2026-09-19.html">2026-09-19</a></li><li><a href="daily/2026-09-18.html">2026-09-18</a></li><li><a href="daily/2026-09-17.html">2026-09-17</a></li><li><a href="daily/2026-09-16.html">2026-09-16</a></li><li><a href="daily/2026-09-15.html">2026-09-15</a></li><li><a href="daily/2026-09-14.html">2026-09-14</a></li><li><a href="daily/2026-09-13.html">2026-09-13</a></li><li><a href="daily/2026-09-09.html">2026-09-09</a></li><li><a href="daily/2026-09-08.html">2026-09-08</a></li><li><a href="daily/2026-09-07.html">2026-09-07</a></li><li><a href="daily/2026-09-06.html">2026-09-06</a></li><li><a href="daily/2026-09-05.html">2026-09-05</a></li><li><a href="daily/2026-09-04.html">2026-09-04</a></li><li><a href="daily/2026-09-02.html">2026-09-02</a></li><li><a href="daily/2026-09-01.html">2026-09-01</a></li><li><a href="daily/2026-08-31.html">2026-08-31</a></li><li><a href="daily/2026-08-30.html">2026-08-30</a></li><li><a href="daily/2026-08-28.html">2026-08-28</a></li><li><a href="daily/2026-08-26.html">2026-08-26</a></li><li><a href="daily/2026-08-25.html">2026-08-25</a></li><li><a href="daily/2026-08-24.html">2026-08-24</a></li><li><a href="daily/2026-08-23.html">2026-08-23</a></li><li><a href="daily/2026-08-22.html">2026-08-22</a></li><li><a href="daily/2026-08-21.html">2026-08-21</a></li><li><a href="daily/2026-08-20.html">2026-08-20</a></li><li><a href="daily/2026-08-19.html">2026-08-19</a></li><li><a href="daily/2026-08-18.html">2026-08-18</a></li><li><a href="daily/2026-08-17.html">2026-08-17</a></li><li><a href="daily/2026-08-16.html">2026-08-16</a></li><li><a href="daily/2026-08-15.html">2026-08-15</a></li><li><a href="daily/2026-08-14.html">2026-08-14</a></li><li><a href="daily/2026-08-13.html">2026-08-13</a></li><li><a href="daily/2026-08-12.html">2026-08-12</a></li><li><a href="daily/2026-08-11.html">2026-08-11</a></li><li><a href="daily/2026-08-09.html">2026-08-09</a></li><li><a href="daily/2026-08-08.html">2026-08-08</a></li><li><a href="daily/2026-08-07.html">2026-08-07</a></li><li><a href="daily/2026-08-06.html">2026-08-06</a></li><li><a href="daily/2026-08-05.html">2026-08-05</a></li><li><a href="daily/2026-08-04.html">2026-08-04</a></li><li><a href="daily/2026-08-03.html">2026-08-03</a></li><li><a href="daily/2026-08-02.html">2026-08-02</a></li><li><a href="daily/2026-08-01.html">2026-08-01</a></li><li><a href="daily/2026-07-31.html">2026-07-31</a></li><li><a href="daily/2026-07-30.html">2026-07-30</a></li><li><a href="daily/2026-07-29.html">2026-07-29</a></li><li><a href="daily/2026-07-28.html">2026-07-28</a></li><li><a href="daily/2026-07-27.html">2026-07-27</a></li><li><a href="daily/2026-07-26.html">2026-07-26</a></li><li><a href="daily/2026-07-25.html">2026-07-25</a></li><li><a href="daily/2026-07-24.html">2026-07-24</a></li><li><a href="daily/2026-07-23.html">2026-07-23</a></li><li><a href="daily/2026-07-22.html">2026-07-22</a></li><li><a href="daily/2026-07-21.html">2026-07-21</a></li><li><a href="daily/2026-07-20.html">2026-07-20</a></li><li><a href="daily/2026-07-19.html">2026-07-19</a></li><li><a href="daily/2026-07-18.html">2026-07-18</a></li><li><a href="daily/2026-07-17.html">2026-07-17</a></li><li><a href="daily/2026-07-16.html">2026-07-16</a></li><li><a href="daily/2026-07-15.html">2026-07-15</a></li><li><a href="daily/2026-07-14.html">2026-07-14</a></li><li><a href="daily/2026-07-07.html">2026-07-07</a></li><li><a href="daily/2026-07-06.html">2026-07-06</a></li></ul></section></main>
+<section class="memo"><h2>店長宛メモ</h2><ul><li>新着が多すぎたため 73 件を未判定でスキップ(翌日再登場)</li><li>トピック対象外として 10 件をボツ</li></ul></section>
+<section class="archive-sec"><h2>アーカイブ</h2><ul class="archive"><li><a href="daily/2026-10-14.html">2026-10-14</a></li><li><a href="daily/2026-10-13.html">2026-10-13</a></li><li><a href="daily/2026-10-12.html">2026-10-12</a></li><li><a href="daily/2026-10-11.html">2026-10-11</a></li><li><a href="daily/2026-10-10.html">2026-10-10</a></li><li><a href="daily/2026-10-09.html">2026-10-09</a></li><li><a href="daily/2026-10-08.html">2026-10-08</a></li><li><a href="daily/2026-09-19.html">2026-09-19</a></li><li><a href="daily/2026-09-18.html">2026-09-18</a></li><li><a href="daily/2026-09-17.html">2026-09-17</a></li><li><a href="daily/2026-09-16.html">2026-09-16</a></li><li><a href="daily/2026-09-15.html">2026-09-15</a></li><li><a href="daily/2026-09-14.html">2026-09-14</a></li><li><a href="daily/2026-09-13.html">2026-09-13</a></li><li><a href="daily/2026-09-09.html">2026-09-09</a></li><li><a href="daily/2026-09-08.html">2026-09-08</a></li><li><a href="daily/2026-09-07.html">2026-09-07</a></li><li><a href="daily/2026-09-06.html">2026-09-06</a></li><li><a href="daily/2026-09-05.html">2026-09-05</a></li><li><a href="daily/2026-09-04.html">2026-09-04</a></li><li><a href="daily/2026-09-02.html">2026-09-02</a></li><li><a href="daily/2026-09-01.html">2026-09-01</a></li><li><a href="daily/2026-08-31.html">2026-08-31</a></li><li><a href="daily/2026-08-30.html">2026-08-30</a></li><li><a href="daily/2026-08-28.html">2026-08-28</a></li><li><a href="daily/2026-08-26.html">2026-08-26</a></li><li><a href="daily/2026-08-25.html">2026-08-25</a></li><li><a href="daily/2026-08-24.html">2026-08-24</a></li><li><a href="daily/2026-08-23.html">2026-08-23</a></li><li><a href="daily/2026-08-22.html">2026-08-22</a></li><li><a href="daily/2026-08-21.html">2026-08-21</a></li><li><a href="daily/2026-08-20.html">2026-08-20</a></li><li><a href="daily/2026-08-19.html">2026-08-19</a></li><li><a href="daily/2026-08-18.html">2026-08-18</a></li><li><a href="daily/2026-08-17.html">2026-08-17</a></li><li><a href="daily/2026-08-16.html">2026-08-16</a></li><li><a href="daily/2026-08-15.html">2026-08-15</a></li><li><a href="daily/2026-08-14.html">2026-08-14</a></li><li><a href="daily/2026-08-13.html">2026-08-13</a></li><li><a href="daily/2026-08-12.html">2026-08-12</a></li><li><a href="daily/2026-08-11.html">2026-08-11</a></li><li><a href="daily/2026-08-09.html">2026-08-09</a></li><li><a href="daily/2026-08-08.html">2026-08-08</a></li><li><a href="daily/2026-08-07.html">2026-08-07</a></li><li><a href="daily/2026-08-06.html">2026-08-06</a></li><li><a href="daily/2026-08-05.html">2026-08-05</a></li><li><a href="daily/2026-08-04.html">2026-08-04</a></li><li><a href="daily/2026-08-03.html">2026-08-03</a></li><li><a href="daily/2026-08-02.html">2026-08-02</a></li><li><a href="daily/2026-08-01.html">2026-08-01</a></li><li><a href="daily/2026-07-31.html">2026-07-31</a></li><li><a href="daily/2026-07-30.html">2026-07-30</a></li><li><a href="daily/2026-07-29.html">2026-07-29</a></li><li><a href="daily/2026-07-28.html">2026-07-28</a></li><li><a href="daily/2026-07-27.html">2026-07-27</a></li><li><a href="daily/2026-07-26.html">2026-07-26</a></li><li><a href="daily/2026-07-25.html">2026-07-25</a></li><li><a href="daily/2026-07-24.html">2026-07-24</a></li><li><a href="daily/2026-07-23.html">2026-07-23</a></li><li><a href="daily/2026-07-22.html">2026-07-22</a></li><li><a href="daily/2026-07-21.html">2026-07-21</a></li><li><a href="daily/2026-07-20.html">2026-07-20</a></li><li><a href="daily/2026-07-19.html">2026-07-19</a></li><li><a href="daily/2026-07-18.html">2026-07-18</a></li><li><a href="daily/2026-07-17.html">2026-07-17</a></li><li><a href="daily/2026-07-16.html">2026-07-16</a></li><li><a href="daily/2026-07-15.html">2026-07-15</a></li><li><a href="daily/2026-07-14.html">2026-07-14</a></li><li><a href="daily/2026-07-07.html">2026-07-07</a></li><li><a href="daily/2026-07-06.html">2026-07-06</a></li></ul></section></main>
 <footer>ひまじんプログラマーの週末エンジニアリングレッスン ── 元ネタ発掘レーダー</footer>
 </body>
 </html>

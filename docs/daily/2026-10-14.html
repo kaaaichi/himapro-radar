@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2026-10-14 | himapro radar</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header><a class="brand" href="../index.html">himapro radar</a><h1>2026-10-14</h1></header>
+<main>
+<section><h2>今日のS判定</h2><article class="item neta-S">
+  <div class="item-head"><span class="neta">S</span><span class="topic">AI駆動開発</span><span class="topic">設計</span><span class="src">はてなブックマーク IT人気エントリ</span></div>
+  <h3><a href="https://www.anthropic.com/engineering/redesigning-source-control">Redesigning source control at Anthropic</a></h3>
+  <p class="summary">Anthropicのエンジニアリングブログによれば、Claudeによるコード生成の急増でモノレポのマージ数が2026年5月の1日約2,500件から9月には3万件超に増え、gitがボトルネックになった。同社はエージェントが常時オンラインである前提の独自バージョン管理システム「Scion」を開発し、5か月で移行。インフラ負荷は従来比約200分の1、CIのチェックアウトは数分から数秒になったとしている(数値は同記事の自己申告)。</p>
+  <p class="hook">フック候補: 逆転型で入るなら「AIがコードを書きすぎて、git の方が先に壊れた」</p>
+</article><article class="item neta-S">
+  <div class="item-head"><span class="neta">S</span><span class="topic">AI駆動開発</span><span class="topic">チーム開発</span><span class="src">Zenn(AI駆動開発)</span></div>
+  <h3><a href="https://zenn.dev/fastdoctor/articles/grok-bot-coworker-incidents">botが同僚になったら、同僚っぽい事故が起きはじめた</a></h3>
+  <p class="summary">Slackに組み込んだbotが開発依頼の大半を担い、夜間も作業が進むようになった一方で、指示の伝わり方の問題、人間の判断を飛ばした行動、担当重複やメンション漏れ、bot同士の調整といった「同僚らしい事故」が起き始めたという実践記。人間の役割は実行から「それは誰が決めたのか」の確認へ移りつつあり、進捗管理をGitHubのプロジェクトボードに寄せたことも紹介している。</p>
+  <p class="hook">フック候補: 「AIを同僚にしたら、人間の同僚と同じ事故が起きた」</p>
+</article><article class="item neta-S">
+  <div class="item-head"><span class="neta">S</span><span class="topic">スクラム</span><span class="topic">XP</span><span class="src">Zenn(スクラム)</span></div>
+  <h3><a href="https://zenn.dev/uragasumi25/articles/c3a11a50d71ef2">【技術屋の思考ログ #41】スクラムの開発チームは「6人（偶数）」がいい。AI時代に効くペア作業の魔法</a></h3>
+  <p class="summary">タイトルによれば、スクラムの開発チームは6人(偶数)が良く、AI時代にはペア作業が効く、と主張する記事(本文未確認)。チーム人数を奇数で考えがちな通念に対し、ペアを組みやすい偶数構成を推す論点と読める。</p>
+  <p class="hook">フック候補: 「スクラムチームは奇数じゃなくて偶数がいい?」</p>
+</article><article class="item neta-S">
+  <div class="item-head"><span class="neta">S</span><span class="topic">AI駆動開発</span><span class="topic">設計</span><span class="src">Martin Fowler</span></div>
+  <h3><a href="https://martinfowler.com/articles/are-harnesses-worth-the-cost.html">Are Harnesses Worth the Cost?</a></h3>
+  <p class="summary">Naresh Jainが、同じAPIサービスを振る舞い検証用のハーネス(ガイドとセンサー)の有無で作らせた実験を報告。上位モデルはどちらでも全評価に合格したが、低コストモデルはハーネスなしで10回中3回しか成功せず、ハーネスありでは10回すべて成功し、コストも上位モデルより約33%低かったという。単一の小規模実験であり一般化には慎重であるべき、と著者自身が述べている。</p>
+  <p class="hook">フック候補: 「高いモデルを買うより、安いモデルに検証ハーネスを付けた方が安くて確実」</p>
+</article></section>
+<section><h2>その他の新着</h2><article class="item neta-A">
+  <div class="item-head"><span class="neta">A</span><span class="topic">AI駆動開発</span><span class="topic">XP</span><span class="src">Simon Willison</span></div>
+  <h3><a href="https://simonwillison.net/2026/Oct/13/geoffrey-huntley/">Quoting Geoffrey Huntley</a></h3>
+  <p class="summary">Geoffrey Huntleyの発言の引用。AGENTS.mdに規約を書くだけでは守られずに乖離するため、診断ライブラリを迂回する変更をgit diffで検出してコミットを失敗させるpre-commitフックを書き、エージェントに正しいライブラリを使わせた、という内容。</p>
+  <p class="hook">フック候補: 「AIへのお願いはドキュメントに書くより、コミットで落とせ」</p>
+</article><article class="item neta-A">
+  <div class="item-head"><span class="neta">A</span><span class="topic">仕事術</span><span class="topic">AI駆動開発</span><span class="src">Martin Fowler</span></div>
+  <h3><a href="https://martinfowler.com/articles/practitioner-voice.html#TheCraftOfPractitionerVoice">The Craft of Practitioner Voice</a></h3>
+  <p class="summary">Jim Highsmithが、実務者が経験に基づく判断を見せながら書く文章スタイル「Practitioner Voice」を提唱。学術的文章やソートリーダーシップ型の文章では著者自身が消えてしまうと批判し、AIは流暢な文章を作れても結果への責任は負えないので、初稿の素材に留めて判断と声は著者が保持すべきだと論じる。</p>
+  <p class="hook">フック候補: 「AIは文章を書けても、その文章の責任は取れない」</p>
+</article><article class="item neta-A">
+  <div class="item-head"><span class="neta">A</span><span class="topic">XP</span><span class="topic">設計</span><span class="src">Kent Beck / Tidy First</span></div>
+  <h3><a href="https://newsletter.kentbeck.com/p/decompose-run-on-tests">Decompose Run-On Tests</a></h3>
+  <p class="summary">タイトルによれば、Kent Beckが「だらだら続く(run-on)テスト」を分解することを勧める回(本文未確認)。1つのテストに複数の検証や手順が詰め込まれた状態を、小さなテストに分けて読みやすく保つというTidy First系の話題と推測される。</p>
+  <p class="hook">フック候補: 「長い一文が読みにくいように、長いテストも読みにくい」</p>
+</article><article class="item neta-A">
+  <div class="item-head"><span class="neta">A</span><span class="topic">AI駆動開発</span><span class="topic">設計</span><span class="src">Zenn(AI駆動開発)</span></div>
+  <h3><a href="https://zenn.dev/xneshuk/articles/60ca9eaad23c7d">【特別編1】AI駆動開発でセキュリティ対策を入れるより難しいこと――大改修のたびに防御を外さないための回帰契約</a></h3>
+  <p class="summary">タイトルによれば、AI駆動開発ではセキュリティ対策を入れること自体より、大改修のたびに入れた防御が外れないよう維持することの方が難しく、そのための「回帰契約」を論じる記事(本文未確認)。</p>
+  <p class="hook">フック候補: 「AIはセキュリティ対策を入れてくれる。でも次の改修で外してくる」</p>
+</article><article class="item neta-A">
+  <div class="item-head"><span class="neta">A</span><span class="topic">AI駆動開発</span><span class="src">Zenn(AI駆動開発)</span></div>
+  <h3><a href="https://zenn.dev/bpr_prot/articles/c3c58f88e594ef">Claude Code に .env を読ませない設定を入れても、読めてしまう場面があった（Codex と比較）</a></h3>
+  <p class="summary">タイトルによれば、Claude Codeに.envを読ませない設定を入れても読めてしまう場面があったことを、Codexと比較しながら検証した記事(本文未確認)。エージェントの権限設定を過信しない注意喚起として読める。</p>
+  <p class="hook">フック候補: 「読ませない設定をしたのに、AIは読めてしまった」</p>
+</article><article class="item neta-A">
+  <div class="item-head"><span class="neta">A</span><span class="topic">仕事術</span><span class="src">はてなブックマーク IT人気エントリ</span></div>
+  <h3><a href="https://togetter.com/li/2757810">高校生から「生成AIについて質問に答えてほしい」とメールが来たが、高校名も氏名も教員名も無かったので、研究室の学生に「依頼メールとして何が足りないか」考えてもらった</a></h3>
+  <p class="summary">タイトルによれば、名乗りや所属のない高校生からの質問依頼メールを題材に、研究室の学生に「依頼メールとして何が足りないか」を考えさせたという話題のまとめ(本文未確認)。依頼の際に相手が判断するための情報をどう渡すかという仕事術の話として扱える。</p>
+  <p class="hook">フック候補: 「AIへのプロンプトも人への依頼メールも、足りないものは同じ」</p>
+</article><article class="item neta-A">
+  <div class="item-head"><span class="neta">A</span><span class="topic">AI駆動開発</span><span class="topic">設計</span><span class="src">Hacker News Front Page</span></div>
+  <h3><a href="https://parsimony.lasu.dev/">Show HN: Parsimony – an open-source benchmark for how much code AI models add</a></h3>
+  <p class="summary">タイトルによれば、AIモデルがタスクに対してどれだけ余分なコードを足すかを測るオープンソースのベンチマーク「Parsimony」の紹介(本文未確認)。正しさだけでなく「書きすぎ」を評価軸にする発想。</p>
+  <p class="hook">フック候補: 「AIの実力は、書いたコードより書かなかったコードで測る」</p>
+</article><article class="item neta-B">
+  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="src">Hacker News Front Page</span></div>
+  <h3><a href="https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code">How to engineer an AI harness for game development</a></h3>
+  <p class="summary">タイトルによれば、Claude Codeを使ったゲーム開発のためにAIハーネスをどう設計するかを解説した記事(本文未確認)。</p>
+</article><article class="item neta-B">
+  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="src">Zenn(AI駆動開発)</span></div>
+  <h3><a href="https://zenn.dev/explaza/articles/aaa8763a20f017">AIエージェント同士で記憶を共有させる──deja-vuでCodexとClaude Codeの履歴を横断検索する</a></h3>
+  <p class="summary">タイトルによれば、deja-vuというツールでCodexとClaude Codeの作業履歴を横断検索し、エージェント間で記憶を共有させる方法の紹介(本文未確認)。</p>
+</article><article class="item neta-B">
+  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="topic">仕事術</span><span class="src">Zenn(AI駆動開発)</span></div>
+  <h3><a href="https://zenn.dev/nenene01/articles/html-report-design-for-ai-driven-development">AI生成資料を会議に出せるHTMLへ整える、html-report-designの使い方</a></h3>
+  <p class="summary">タイトルによれば、AIが生成した資料を会議に出せる体裁のHTMLに整えるhtml-report-designの使い方を紹介する記事(本文未確認)。</p>
+</article><article class="item neta-B">
+  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="src">Zenn(AI駆動開発)</span></div>
+  <h3><a href="https://zenn.dev/hogehugabar/articles/github-custom-assets-design-notes">.github 配下のカスタムアセットで工夫したこと</a></h3>
+  <p class="summary">タイトルとカテゴリから、.github配下に置くAIエージェント向けのカスタム指示などのアセットを設計する際の工夫をまとめた記事と推測される(本文未確認)。</p>
+</article><article class="item neta-B">
+  <div class="item-head"><span class="neta">B</span><span class="topic">アジャイル</span><span class="src">Qiita(アジャイル)</span></div>
+  <h3><a href="https://qiita.com/mochikoici/items/361a27ade40ac9cc80c8">【予想問題20問を無料公開】アジャイルソフトウェア開発技術者検定試験 Lv.1（公式テキスト対応）4つの出題形式の問題と解説</a></h3>
+  <p class="summary">タイトルによれば、アジャイルソフトウェア開発技術者検定試験Lv.1の予想問題20問を4つの出題形式で解説付きで公開した記事(本文未確認)。</p>
+</article><article class="item neta-B">
+  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="topic">設計</span><span class="src">The Pragmatic Engineer</span></div>
+  <h3><a href="https://newsletter.pragmaticengineer.com/p/building-resilient-systems">Building resilient AI-powered software, and planning for when things go wrong</a></h3>
+  <p class="summary">タイトルによれば、AIを組み込んだソフトウェアを障害に強く作り、うまくいかなかったときに備えて計画する方法を扱う回(本文未確認)。</p>
+</article><article class="item neta-B">
+  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="src">InfoQ</span></div>
+  <h3><a href="https://www.infoq.com/news/2026/10/qcon-ai-newyork-2026-sessionsv2/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global">Production Patterns for Agents, Evals, and LLM Costs: QCon AI New York 2026</a></h3>
+  <p class="summary">タイトルによれば、QCon AI New York 2026で語られたエージェント、評価(evals)、LLMコストに関する本番運用パターンのまとめ記事(本文未確認)。</p>
+</article><article class="item neta-B">
+  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="src">はてなブックマーク IT人気エントリ</span></div>
+  <h3><a href="https://cloud.watch.impress.co.jp/docs/column/techwatch/2147521.html">【海外テックWatch】 乱立するエージェント標準の本命になれるか MetaとSierraが主導する「Personal Agent Protocol」</a></h3>
+  <p class="summary">タイトルによれば、MetaとSierraが主導するエージェント間標準「Personal Agent Protocol」が、乱立するエージェント標準の本命になれるかを論じるコラム(本文未確認)。</p>
+</article><article class="item neta-B">
+  <div class="item-head"><span class="neta">B</span><span class="topic">仕事術</span><span class="src">はてなブックマーク IT人気エントリ</span></div>
+  <h3><a href="https://blog.shibayu36.org/entry/2026/10/13/173000">私物Macと仕事Macのdotfilesとアプリ管理をmise bootstrapで管理しやすくした - $shibayu36-&gt;blog;</a></h3>
+  <p class="summary">タイトルによれば、私物Macと仕事Macのdotfilesとアプリ管理をmise bootstrapで扱いやすくした個人の環境整備記(本文未確認)。</p>
+</article></section>
+<section class="memo"><h2>店長宛メモ</h2><ul><li>新着が多すぎたため 73 件を未判定でスキップ(翌日再登場)</li><li>トピック対象外として 10 件をボツ</li></ul></section>
+</main>
+<footer>ひまじんプログラマーの週末エンジニアリングレッスン ── 元ネタ発掘レーダー</footer>
+</body>
+</html>
