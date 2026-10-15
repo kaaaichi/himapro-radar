@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-16",
+  "items": [
+    {"url": "https://speakerdeck.com/kyuridenamida/ai-no-supido-ni-makenai-tame-no-kaihatsu-furo", "title": "AIのスピードに負けないための開発フロー", "source": "はてなブックマーク IT人気エントリ", "lang": "ja",
+     "summary": "AIで実装は速くなったが、人間の判断と確認が律速になって開発全体は速くならない、という問題意識のスライド。estieでは、指示書・規約・決定的な検査・PRごとのPreview・MCP連携などでAIが自分でコンテキストを取れる環境を整え、人は「何を作るか」と「正しいか」の判断に時間を使う形にした。月間PR数が6月の42本から9月に146本へ増えたと報告している(筆者の自己評価)。",
+     "topics": ["ai-dev", "team"], "neta": "S", "hook": "逆転型で入るなら「AIで実装は爆速、なのに開発は速くならない。ボトルネックは人間だった」"},
+    {"url": "https://zenn.dev/bpr_prot/articles/05e1f38802ec15", "title": "AIに「エラーを直して」と30回頼んだら、安全装置は外さなかったが、誰でも呼べる有料APIができていた", "source": "Zenn(AI駆動開発)", "lang": "ja",
+     "summary": "AIにエラー修正を繰り返し依頼した結果、明示的な安全装置は残ったものの、誰でも呼び出せる有料APIが出来上がっていたという体験記(タイトルからの判断で、本文は未確認)。「直して」の積み重ねが局所最適を生み、セキュリティ上の穴につながる過程を扱っているとみられる。",
+     "topics": ["ai-dev"], "neta": "S", "hook": "逆転型で入るなら「AIは安全装置を外さなかった。それでも事故は起きた」"},
+    {"url": "https://felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-humans-with-models/", "title": "How to be more ambitious: A tutorial for humans with models", "source": "はてなブックマーク IT人気エントリ", "lang": "en",
+     "summary": "AIモデルの能力は分野によってむらがあり、多くの人は価値を引き出しきれていないので、もっと野心的に使うべきだというエッセイ。野心をスピード・高度(タスクより成果を見る)・深さ(一流の専門家のやり方)・幅(複数分野の活用)の4種類に分け、自己効力感の考え方や「1マイル4分の壁」を例に、できると信じる範囲が成果を制限すると論じる。",
+     "topics": ["ai-dev", "worklife"], "neta": "A", "hook": "AIの限界より先に「自分の想像力の限界」が来ている"},
+    {"url": "https://www.infoq.com/presentations/agentic-ai-developer-trust-adoption/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global", "title": "Presentation: What 25 Trillion Tokens Reveal About How Developers Actually Adopt AI Agents", "source": "InfoQ", "lang": "en",
+     "summary": "Kilo Codeのゲートウェイデータをもとに、開発者はベンチマークのスコアではなく「補完→チャット→単一エージェント→マルチエージェント」という信頼のはしごを登って採用していくと分析した講演。つまずきやすいのはコンテキスト構築・モデルの使い分け・フィードバックループの3点。4月にモデルを手動で選んだ開発者の68%が2社以上のモデルを使い、45%が1時間以内にモデルを切り替えていたという(アーリーアダプター寄りのサンプル)。",
+     "topics": ["ai-dev"], "neta": "A", "hook": "最強モデルを1つ選ぶ時代は終わり、上級者ほど何社ものモデルを使い分けている"},
+    {"url": "https://www.infoq.com/news/2026/10/optimize-software-workflow/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global", "title": "Optimizing Software Workflow: Exploring Fundamental Impacts in Technology", "source": "InfoQ", "lang": "en",
+     "summary": "Titus Wintersは、ソフトウェアはリリースして初めて価値を生むので、速く信頼できるリリースサイクルが重要であり、開発・デプロイ・運用にはそれぞれ別の考え方と指標が必要だと語った。プロダクトの成功・計算資源・エンジニアの工数・戦略的イノベーションの4つの影響をあわせて見るべきだとし、AIのトークン消費量を人の工数の代わりの指標として使う案にも触れている。AIはエンジニアを減らすのではなく、解く問題の理解へ重心を移すという見方を示した。",
+     "topics": ["team", "worklife"], "neta": "A", "hook": "AIでエンジニアは減らない。仕事の重心が「書く」から「問題を理解する」へ移るだけ"},
+    {"url": "https://martinfowler.com/articles/software-meets-hardware.html", "title": "When Software Meets Hardware", "source": "Martin Fowler", "lang": "en",
+     "summary": "3,000店舗にある約80万台の電池式IoTセンサー群を近代化した事例。速いフィードバック・テスト・可観測性といった原則はそのまま通用するが、実際のデフォルトは変える必要があったと論じる。物理ラボ、仮想デバイスのエミュレーター、自己診断するファームウェア、復旧を前提にした段階的なロールアウトを用意し、電池残量と断続的な接続も設計上の制約として扱った。",
+     "topics": ["design", "xp"], "neta": "A", "hook": "原則は変わらない、変わるのはデフォルトだけ"},
+    {"url": "https://note.com/shiba_program/n/nd2d72747f8c5", "title": "有名企業や一流開発者のノウハウをそのまま持ち込める、Claude Codeスキル11選｜苦しんでプログラミングを学んだ柴犬（くるしば）", "source": "はてなブックマーク IT人気エントリ", "lang": "ja",
+     "summary": "企業や著名な開発者が公開しているClaude Codeのスキルを11個紹介する記事(タイトルからの判断)。他者の開発ノウハウをスキルとして取り込み、AIエージェントの振る舞いをそろえる使い方の参考になる。",
+     "topics": ["ai-dev"], "neta": "B"},
+    {"url": "https://www.infoq.com/news/2026/10/instagram-compose-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global", "title": "Instagram Modernized Its UI with an AI-Native Architecture, Cutting Token Costs by 33%", "source": "InfoQ", "lang": "en",
+     "summary": "InstagramがUIを「AIネイティブ」なアーキテクチャで刷新し、トークンコストを33%削減したというニュース(タイトルからの判断で、本文は未確認)。AIエージェントが扱いやすいコード構造にすることが、移行の効率にも影響するという観点の事例とみられる。",
+     "topics": ["ai-dev", "design"], "neta": "B"},
+    {"url": "https://www.watch.impress.co.jp/docs/news/2148391.html", "title": "「自分のためのアプリ」をAIで作成、Google Play経由で実行可能に", "source": "はてなブックマーク IT人気エントリ", "lang": "ja",
+     "summary": "AIで作った個人用アプリをGoogle Play経由で実行できるようになるというニュース(タイトルからの判断)。開発者ではない人が自分のためにアプリを作る流れが、プラットフォーム側でも後押しされつつあることを示している。",
+     "topics": ["ai-dev"], "neta": "B"},
+    {"url": "https://pc.watch.impress.co.jp/docs/column/macinfo/2148205.html", "title": "【Mac Info】 Safariの機能拡張が文章で作れる！macOS 27の新機能", "source": "はてなブックマーク IT人気エントリ", "lang": "ja",
+     "summary": "macOS 27で、Safariの機能拡張を自然言語の文章から作れるようになったという紹介記事(タイトルからの判断)。OSに標準で組み込まれた、自然言語でのツール作成の例。",
+     "topics": ["ai-dev"], "neta": "B"},
+    {"url": "https://eiji.page/blog/nb-memo-cli-intro", "title": "エンジニアのためのメモ管理CLIツールnbの使い方", "source": "はてなブックマーク IT人気エントリ", "lang": "ja",
+     "summary": "ターミナルで動くメモ管理CLIツール「nb」の使い方を紹介する記事(タイトルからの判断)。エンジニアの日々のメモやナレッジ管理の参考になる。",
+     "topics": ["worklife"], "neta": "B"}
+  ],
+  "rejected_count": 19,
+  "capped_count": 36,
+  "failures": [
+    {"name": "Hacker News Front Page", "error": "<urlopen error timed out>"}
+  ]
+}
