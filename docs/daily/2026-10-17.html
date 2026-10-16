@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2026-10-17 | himapro radar</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header><a class="brand" href="../index.html">himapro radar</a><h1>2026-10-17</h1></header>
+<main>
+<section><h2>今日のS判定</h2><article class="item neta-S">
+  <div class="item-head"><span class="neta">S</span><span class="topic">AI駆動開発</span><span class="topic">チーム開発</span><span class="src">Hacker News Front Page</span></div>
+  <h3><a href="https://claude.dev/blog/solving-code-review-at-anthropic/">How the Claude Code team does code review</a></h3>
+  <p class="summary">コードの約9割をClaudeが書くClaude Codeチームが、人間のレビュー時間をリバートやインシデントを増やさない範囲で最小化する仕組みを紹介した記事。全PRへの複数エージェントによるAIレビュー、リスクに応じて0〜2人の承認を求める段階的承認、フラグや段階的リリースでの被害抑制を組み合わせている。6〜9月にマージPRが2倍以上、リバート率は40%以上低下したと報告している(提供元の自己報告)。</p>
+  <p class="hook">フック候補: 逆転型で入るなら「レビューを減らしたら、品質が上がった」</p>
+</article><article class="item neta-S">
+  <div class="item-head"><span class="neta">S</span><span class="topic">AI駆動開発</span><span class="topic">仕事術</span><span class="src">Hacker News Front Page</span></div>
+  <h3><a href="https://www.mercor.com/research/labor-index/benchmark-map/">90% of US working hours are spent on tasks not covered well by AI benchmarks</a></h3>
+  <p class="summary">Mercorが、O*NETの923職種・18,797タスクに対して29のAIベンチマークのカバー範囲を分析した調査。米国の労働時間の約9割は、ベンチマークでほとんど評価されていないタスクに費やされていると推定している。選定したベンチマークに基づく暫定的な結果だと本文で断っている。</p>
+  <p class="hook">フック候補: 逆転型で入るなら「AIのベンチマークは、私たちの仕事の9割を測っていない」</p>
+</article></section>
+<section><h2>その他の新着</h2><article class="item neta-A">
+  <div class="item-head"><span class="neta">A</span><span class="topic">AI駆動開発</span><span class="src">はてなブックマーク IT人気エントリ</span></div>
+  <h3><a href="https://zenn.dev/babarot/articles/claude-code-session-recall">Claude Codeに過去の会話を思い出させる</a></h3>
+  <p class="summary">Claude Codeのセッション記録をSQLite(FTS5)に保存し、過去の会話を検索・再開できるツール「claude-recall」の紹介。記憶を自動要約して注入する方式ではなく、必要なときに原文を引く「pull型」を選んだ設計判断を説明している。</p>
+  <p class="hook">フック候補: AIに記憶を「持たせる」か「引かせる」か、という設計の分かれ道</p>
+</article><article class="item neta-A">
+  <div class="item-head"><span class="neta">A</span><span class="topic">AI駆動開発</span><span class="topic">チーム開発</span><span class="src">InfoQ</span></div>
+  <h3><a href="https://www.infoq.com/news/2026/10/ai-systems-production/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global">AI in Production: Panellists Highlight Silent Failures, Harness Engineering, and Agent Governance</a></h3>
+  <p class="summary">AIの本番運用をテーマにしたパネルの記事。ヘルスチェックをすり抜ける「もっともらしい誤り」や埋め込みモデルの無通知更新による劣化を例に、評価を継続的な仕組みとして回す必要を説いている。定型チェックはCI/CDに任せて人は設計や業務意図の確認に集中する、エージェントに専用IDと段階的な権限を与える、といった提言もある。</p>
+  <p class="hook">フック候補: 「落ちないAIほど怖い」——静かに間違えるシステムの監視</p>
+</article><article class="item neta-A">
+  <div class="item-head"><span class="neta">A</span><span class="topic">AI駆動開発</span><span class="topic">設計</span><span class="src">InfoQ</span></div>
+  <h3><a href="https://www.infoq.com/news/2026/10/grafana-slo-ai-agent/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global">Grafana Applies SLOs and Error Budgets to AI Agent Behaviour</a></h3>
+  <p class="summary">Grafana Labsが、AIエージェントの振る舞いにSLOとエラーバジェットを当てはめる考え方を提案した記事。回答の根拠性や依頼の達成度などを評価で判定してSLIとし、「30日間で会話の95%が要件を満たす」のようなSLOを置く。バジェットの消費速度を見ることで、単発の失敗では見えない緩やかな劣化を捉えるという。</p>
+  <p class="hook">フック候補: AIの「5%の失敗」を予算として認めるという発想</p>
+</article><article class="item neta-A">
+  <div class="item-head"><span class="neta">A</span><span class="topic">設計</span><span class="src">InfoQ</span></div>
+  <h3><a href="https://www.infoq.com/minibooks/evolutionary-architecture/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global">Mini book: Evolutionary Architecture in Practice</a></h3>
+  <p class="summary">InfoQが進化的アーキテクチャの実践をテーマにしたミニブック(電子冊子)を公開したもの(タイトルからの判断で、本文は未確認)。変化を前提にアーキテクチャを段階的に育てる考え方の事例集とみられる。</p>
+  <p class="hook">フック候補: 「最初に完璧な設計をしない」設計論</p>
+</article><article class="item neta-A">
+  <div class="item-head"><span class="neta">A</span><span class="topic">アジャイル</span><span class="topic">チーム開発</span><span class="src">Qiita(アジャイル)</span></div>
+  <h3><a href="https://qiita.com/io0323/items/fcba1b347765c95a0b11">【書評】 Lean UX 第3版 ―アジャイルなチームによるプロダクト開発</a></h3>
+  <p class="summary">『Lean UX 第3版』の書評記事(タイトルからの判断で、本文は未確認)。仮説検証を軸に、アジャイルなチームでUXとプロダクト開発を回す方法を扱った本の読みどころを紹介しているとみられる。</p>
+  <p class="hook">フック候補: 「作る前に検証する」はアジャイルとどう噛み合うか</p>
+</article><article class="item neta-A">
+  <div class="item-head"><span class="neta">A</span><span class="topic">AI駆動開発</span><span class="src">はてなブックマーク IT人気エントリ</span></div>
+  <h3><a href="https://gigazine.net/news/20261016-openrouter-armor/">AIエージェントの危険な操作を別のAIが検出してブロックする「Armor」をOpenRouterがリリース</a></h3>
+  <p class="summary">OpenRouterが、AIエージェントの危険な操作を別のAIが検出してブロックする「Armor」を公開したというニュース(タイトルからの判断で、本文は未確認)。エージェントの安全対策を、プロンプトではなく外側の監視役に任せる流れの一例。</p>
+  <p class="hook">フック候補: AIの暴走を止めるのも、またAI</p>
+</article><article class="item neta-B">
+  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="src">InfoQ</span></div>
+  <h3><a href="https://www.infoq.com/news/2026/10/chainguard-workspaces-checks/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global">Chainguard Launches Secure Workspaces and Checks for AI Coding Agents</a></h3>
+  <p class="summary">Chainguardが、AIコーディングエージェント向けの安全な作業環境とチェック機能を発表したというニュース(タイトルからの判断で、本文は未確認)。エージェントの実行環境や依存関係の安全性を担保する製品とみられる。</p>
+</article><article class="item neta-B">
+  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="src">InfoQ</span></div>
+  <h3><a href="https://www.infoq.com/news/2026/10/aws-strands-agents/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global">AWS Introduces Strands Decider 2B and Strands Box for AI Agent Development</a></h3>
+  <p class="summary">AWSが、AIエージェント開発向けに「Strands Decider 2B」と「Strands Box」を発表したというニュース(タイトルからの判断で、本文は未確認)。エージェントSDK「Strands」周辺の判断用モデルと実行環境の追加とみられる。</p>
+</article><article class="item neta-B">
+  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="src">InfoQ</span></div>
+  <h3><a href="https://www.infoq.com/news/2026/10/envharness-self-evolving-agents/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global">Google EnvHarness Enables Self-Evolving Agents to Learn in Dynamics Environments</a></h3>
+  <p class="summary">Googleの「EnvHarness」が、変化する環境の中でエージェントが自ら学習・改善していくことを可能にするという研究紹介(タイトルからの判断で、本文は未確認)。</p>
+</article><article class="item neta-B">
+  <div class="item-head"><span class="neta">B</span><span class="topic">設計</span><span class="src">InfoQ</span></div>
+  <h3><a href="https://www.infoq.com/news/2026/10/uber-automated-dependency/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global">Uber Automates Dependency Analysis Across Its Service Mesh</a></h3>
+  <p class="summary">Uberが、サービスメッシュ全体のサービス間依存関係の分析を自動化した事例(タイトルからの判断で、本文は未確認)。大規模マイクロサービスで依存を把握し続けるための取り組みとみられる。</p>
+</article><article class="item neta-B">
+  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="src">はてなブックマーク IT人気エントリ</span></div>
+  <h3><a href="https://research.google/blog/analyzing-technical-documents-with-deep-review/">Analyzing technical documents with Deep Review</a></h3>
+  <p class="summary">Googleが、技術文書や論文の矛盾・誤りを見つけるAI「Deep Review」を紹介したブログ記事(タイトルと関連報道からの判断で、本文は未確認)。文書レビューをAIで補助する取り組み。</p>
+</article><article class="item neta-B">
+  <div class="item-head"><span class="neta">B</span><span class="topic">設計</span><span class="src">はてなブックマーク IT人気エントリ</span></div>
+  <h3><a href="https://unitis.jp/articles/24665/">徳丸浩氏に聞く、タイムズカー事案から考えるユーザーデータ管理 保管場所と漏えいリスクの移転・回避、消去の判断体制</a></h3>
+  <p class="summary">タイムズカーの免許証画像漏えいを題材に、徳丸浩氏がユーザーデータの保管場所、漏えいリスクの移転・回避、消去を判断する体制について語るインタビュー(タイトルからの判断で、本文は未確認)。「持たない」という設計判断の重要性を扱っているとみられる。</p>
+</article></section>
+<section class="memo"><h2>店長宛メモ</h2><ul><li>新着が多すぎたため 46 件を未判定でスキップ(翌日再登場)</li><li>トピック対象外として 16 件をボツ</li></ul></section>
+</main>
+<footer>ひまじんプログラマーの週末エンジニアリングレッスン ── 元ネタ発掘レーダー</footer>
+</body>
+</html>

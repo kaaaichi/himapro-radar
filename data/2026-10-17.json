@@ -1,0 +1,142 @@
+{
+  "date": "2026-10-17",
+  "items": [
+    {
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "title": "How the Claude Code team does code review",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "コードの約9割をClaudeが書くClaude Codeチームが、人間のレビュー時間をリバートやインシデントを増やさない範囲で最小化する仕組みを紹介した記事。全PRへの複数エージェントによるAIレビュー、リスクに応じて0〜2人の承認を求める段階的承認、フラグや段階的リリースでの被害抑制を組み合わせている。6〜9月にマージPRが2倍以上、リバート率は40%以上低下したと報告している(提供元の自己報告)。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「レビューを減らしたら、品質が上がった」"
+    },
+    {
+      "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+      "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "summary": "Mercorが、O*NETの923職種・18,797タスクに対して29のAIベンチマークのカバー範囲を分析した調査。米国の労働時間の約9割は、ベンチマークでほとんど評価されていないタスクに費やされていると推定している。選定したベンチマークに基づく暫定的な結果だと本文で断っている。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「AIのベンチマークは、私たちの仕事の9割を測っていない」"
+    },
+    {
+      "url": "https://zenn.dev/babarot/articles/claude-code-session-recall",
+      "title": "Claude Codeに過去の会話を思い出させる",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Claude Codeのセッション記録をSQLite(FTS5)に保存し、過去の会話を検索・再開できるツール「claude-recall」の紹介。記憶を自動要約して注入する方式ではなく、必要なときに原文を引く「pull型」を選んだ設計判断を説明している。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "AIに記憶を「持たせる」か「引かせる」か、という設計の分かれ道"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/10/ai-systems-production/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "AI in Production: Panellists Highlight Silent Failures, Harness Engineering, and Agent Governance",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "AIの本番運用をテーマにしたパネルの記事。ヘルスチェックをすり抜ける「もっともらしい誤り」や埋め込みモデルの無通知更新による劣化を例に、評価を継続的な仕組みとして回す必要を説いている。定型チェックはCI/CDに任せて人は設計や業務意図の確認に集中する、エージェントに専用IDと段階的な権限を与える、といった提言もある。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A",
+      "hook": "「落ちないAIほど怖い」——静かに間違えるシステムの監視"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/10/grafana-slo-ai-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Grafana Applies SLOs and Error Budgets to AI Agent Behaviour",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "Grafana Labsが、AIエージェントの振る舞いにSLOとエラーバジェットを当てはめる考え方を提案した記事。回答の根拠性や依頼の達成度などを評価で判定してSLIとし、「30日間で会話の95%が要件を満たす」のようなSLOを置く。バジェットの消費速度を見ることで、単発の失敗では見えない緩やかな劣化を捉えるという。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "AIの「5%の失敗」を予算として認めるという発想"
+    },
+    {
+      "url": "https://www.infoq.com/minibooks/evolutionary-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Mini book: Evolutionary Architecture in Practice",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "InfoQが進化的アーキテクチャの実践をテーマにしたミニブック(電子冊子)を公開したもの(タイトルからの判断で、本文は未確認)。変化を前提にアーキテクチャを段階的に育てる考え方の事例集とみられる。",
+      "topics": ["design"],
+      "neta": "A",
+      "hook": "「最初に完璧な設計をしない」設計論"
+    },
+    {
+      "url": "https://qiita.com/io0323/items/fcba1b347765c95a0b11",
+      "title": "【書評】 Lean UX 第3版 ―アジャイルなチームによるプロダクト開発",
+      "source": "Qiita(アジャイル)",
+      "lang": "ja",
+      "summary": "『Lean UX 第3版』の書評記事(タイトルからの判断で、本文は未確認)。仮説検証を軸に、アジャイルなチームでUXとプロダクト開発を回す方法を扱った本の読みどころを紹介しているとみられる。",
+      "topics": ["agile", "team"],
+      "neta": "A",
+      "hook": "「作る前に検証する」はアジャイルとどう噛み合うか"
+    },
+    {
+      "url": "https://gigazine.net/news/20261016-openrouter-armor/",
+      "title": "AIエージェントの危険な操作を別のAIが検出してブロックする「Armor」をOpenRouterがリリース",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "OpenRouterが、AIエージェントの危険な操作を別のAIが検出してブロックする「Armor」を公開したというニュース(タイトルからの判断で、本文は未確認)。エージェントの安全対策を、プロンプトではなく外側の監視役に任せる流れの一例。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "AIの暴走を止めるのも、またAI"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/10/chainguard-workspaces-checks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Chainguard Launches Secure Workspaces and Checks for AI Coding Agents",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "Chainguardが、AIコーディングエージェント向けの安全な作業環境とチェック機能を発表したというニュース(タイトルからの判断で、本文は未確認)。エージェントの実行環境や依存関係の安全性を担保する製品とみられる。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/10/aws-strands-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "AWS Introduces Strands Decider 2B and Strands Box for AI Agent Development",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "AWSが、AIエージェント開発向けに「Strands Decider 2B」と「Strands Box」を発表したというニュース(タイトルからの判断で、本文は未確認)。エージェントSDK「Strands」周辺の判断用モデルと実行環境の追加とみられる。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/10/envharness-self-evolving-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Google EnvHarness Enables Self-Evolving Agents to Learn in Dynamics Environments",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "Googleの「EnvHarness」が、変化する環境の中でエージェントが自ら学習・改善していくことを可能にするという研究紹介(タイトルからの判断で、本文は未確認)。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/10/uber-automated-dependency/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Uber Automates Dependency Analysis Across Its Service Mesh",
+      "source": "InfoQ",
+      "lang": "en",
+      "summary": "Uberが、サービスメッシュ全体のサービス間依存関係の分析を自動化した事例(タイトルからの判断で、本文は未確認)。大規模マイクロサービスで依存を把握し続けるための取り組みとみられる。",
+      "topics": ["design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
+      "title": "Analyzing technical documents with Deep Review",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "Googleが、技術文書や論文の矛盾・誤りを見つけるAI「Deep Review」を紹介したブログ記事(タイトルと関連報道からの判断で、本文は未確認)。文書レビューをAIで補助する取り組み。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://unitis.jp/articles/24665/",
+      "title": "徳丸浩氏に聞く、タイムズカー事案から考えるユーザーデータ管理 保管場所と漏えいリスクの移転・回避、消去の判断体制",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "summary": "タイムズカーの免許証画像漏えいを題材に、徳丸浩氏がユーザーデータの保管場所、漏えいリスクの移転・回避、消去を判断する体制について語るインタビュー(タイトルからの判断で、本文は未確認)。「持たない」という設計判断の重要性を扱っているとみられる。",
+      "topics": ["design"],
+      "neta": "B"
+    }
+  ],
+  "rejected_count": 16,
+  "capped_count": 46,
+  "failures": []
+}
