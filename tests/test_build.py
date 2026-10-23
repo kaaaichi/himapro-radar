@@ -113,3 +113,33 @@ def test_render_item_blocks_dangerous_uri_schemes():
                      "summary": "s", "topics": ["design"], "neta": "B"}]
     html = render_day(day)
     assert "javascript:" not in html
+
+
+def test_render_item_shows_published_date():
+    day = dict(DAY)
+    day["items"] = [dict(DAY["items"][0], published="2026-07-05")]
+    html = render_day(day)
+    assert '<time class="pub" datetime="2026-07-05">2026-07-05</time>' in html
+
+
+def test_render_item_omits_missing_or_malformed_published():
+    day = dict(DAY)
+    day["items"] = [dict(DAY["items"][0], published='"><script>x</script>'), DAY["items"][1]]
+    html = render_day(day)
+    assert 'class="pub"' not in html
+    assert "<script>x" not in html
+
+
+def test_render_item_has_pin_button_and_url_attr():
+    html = render_day(DAY)
+    assert 'data-url="https://ex.com/s"' in html
+    assert 'data-day="2026-07-06"' in html
+    assert 'class="pin"' in html
+    assert '<script src="../pin.js" defer></script>' in html
+
+
+def test_render_index_has_pins_section_and_rewrites_script_src():
+    html = render_index(["2026-07-06"], render_day(DAY))
+    assert 'id="pins"' in html
+    assert '<script src="pin.js" defer></script>' in html
+    assert html.index('id="pins"') < html.index("今日のS判定")

@@ -34,7 +34,7 @@ description: ひまプロ Podcast 元ネタ発掘の日次レーダー。固定�
    ```json
    {
      "date": "YYYY-MM-DD",
-     "items": [{"url": "...", "title": "...", "source": "...", "lang": "ja",
+     "items": [{"url": "...", "title": "...", "source": "...", "lang": "ja", "published": "YYYY-MM-DD",
                 "summary": "...", "topics": ["scrum"], "neta": "S", "hook": "..."}],
      "rejected_count": 0,
      "capped_count": 0,
@@ -43,6 +43,7 @@ description: ひまプロ Podcast 元ネタ発掘の日次レーダー。固定�
    ```
 
    `failures` は inbox.json の failures をそのまま転記する
+   `published` は inbox.json の同じアイテムの `published` をそのまま転記する(空なら項目ごと省く。推測で埋めない)。一覧に記事の公開日として表示される
    新着ゼロの日も `items: []` で必ずこのファイルを書く(ループ生存の証跡になる)
 5. **seen 更新**: 判定した全URL(採用+ボツ)を `state/seen.json` に `{url: "YYYY-MM-DD"}` 形式で追加する。スキップ(capped)分は入れない
 6. **描画(決定的)**: `python3 scripts/build.py` を実行する

@@ -37,6 +37,16 @@ h2 {
 .item.neta-S .neta { background: var(--red); }
 .topic { border: 1px solid var(--dim); color: var(--dim); padding: 0 8px; border-radius: 3px; }
 .src { margin-left: auto; color: var(--dim); }
+.pub { color: var(--dim); font-variant-numeric: tabular-nums; }
+.pin {
+  background: none; border: none; cursor: pointer; padding: 0 2px;
+  font-size: 1.05rem; line-height: 1; color: var(--gold);
+}
+.pin[aria-pressed="true"] { color: var(--red); }
+.pin:focus-visible { outline: 2px solid var(--red); outline-offset: 2px; }
+.pins-sec h2 { border-bottom-color: var(--gold); }
+.pin-day { margin: 6px 0 0; font-size: 0.75rem; }
+.pin-day a { color: var(--dim); }
 .item h3 { margin: 6px 0 4px; font-size: 1rem; }
 .item a { color: var(--dark); }
 .summary { margin: 0; font-size: 0.9rem; }

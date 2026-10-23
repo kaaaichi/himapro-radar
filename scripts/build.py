@@ -33,13 +33,14 @@ TOPIC_LABELS = {
     "worklife": "仕事術",
 }
 NETA_ORDER = {"S": 0, "A": 1, "B": 2}
+DATE_RE = re.compile(r"\d{4}-\d{2}-\d{2}")
 
 
 def esc(s):
     return html_mod.escape(s or "", quote=True)
 
 
-def render_item(it):
+def render_item(it, day_date=""):
     url = it.get("url", "")
     if not url.startswith(("http://", "https://")):
         url = ""
@@ -47,11 +48,15 @@ def render_item(it):
         f'<span class="topic">{esc(TOPIC_LABELS.get(t, t))}</span>'
         for t in it.get("topics", [])
     )
+    pub = it.get("published") or ""
+    pub_html = ""
+    if DATE_RE.fullmatch(pub):
+        pub_html = f'<time class="pub" datetime="{pub}">{pub}</time>'
     hook = ""
     if it.get("hook"):
         hook = f'\n  <p class="hook">フック候補: {esc(it["hook"])}</p>'
-    return f'''<article class="item neta-{esc(it.get("neta", "B"))}">
-  <div class="item-head"><span class="neta">{esc(it.get("neta", "B"))}</span>{topics}<span class="src">{esc(it.get("source", ""))}</span></div>
+    return f'''<article class="item neta-{esc(it.get("neta", "B"))}" data-url="{esc(url)}" data-day="{esc(day_date)}">
+  <div class="item-head"><span class="neta">{esc(it.get("neta", "B"))}</span>{topics}<span class="src">{esc(it.get("source", ""))}</span>{pub_html}<button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
   <h3><a href="{esc(url)}">{esc(it.get("title", ""))}</a></h3>
   <p class="summary">{esc(it.get("summary", ""))}</p>{hook}
 </article>'''
@@ -71,8 +76,9 @@ def render_day(day):
         memo_lines.append("本日の新着なし(ループは正常稼働)")
     memo = "".join(f"<li>{line}</li>" for line in memo_lines) or "<li>特になし</li>"
 
-    s_html = "".join(render_item(i) for i in s_items) or '<p class="empty">本日のS判定はありません</p>'
-    rest_html = "".join(render_item(i) for i in rest) or '<p class="empty">なし</p>'
+    d = day.get("date", "")
+    s_html = "".join(render_item(i, d) for i in s_items) or '<p class="empty">本日のS判定はありません</p>'
+    rest_html = "".join(render_item(i, d) for i in rest) or '<p class="empty">なし</p>'
 
     return f'''<!DOCTYPE html>
 <html lang="ja">
@@ -81,6 +87,7 @@ def render_day(day):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(day["date"])} | himapro radar</title>
 <link rel="stylesheet" href="../style.css">
+<script src="../pin.js" defer></script>
 </head>
 <body>
 <header><a class="brand" href="../index.html">himapro radar</a><h1>{esc(day["date"])}</h1></header>
@@ -96,7 +103,9 @@ def render_day(day):
 
 def render_index(days, latest_html):
     archive = "".join(f'<li><a href="daily/{esc(d)}.html">{esc(d)}</a></li>' for d in days)
-    body = latest_html.replace('href="../', 'href="')
+    body = latest_html.replace('href="../', 'href="').replace('src="../', 'src="')
+    pins = '<section class="pins-sec" hidden><h2>ピン留め</h2><div id="pins"></div></section>'
+    body = body.replace("<main>\n", f"<main>\n{pins}\n", 1)
     return body.replace(
         "</main>",
         f'<section class="archive-sec"><h2>アーカイブ</h2><ul class="archive">{archive}</ul></section></main>',
