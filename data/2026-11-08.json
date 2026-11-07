@@ -1,0 +1,221 @@
+{
+  "date": "2026-11-08",
+  "items": [
+    {
+      "url": "https://kn.itmedia.co.jp/kn/article/2611/06/2000002925/",
+      "title": "デキるプログラマーほど「AI任せ」を嫌う、エージェント型開発のちょっと怖い話：904th Lap",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-06",
+      "summary": "動くコードを作ることと本番で安定稼働・保守し続けられるものを作ることの間には大きな隔たりがあり、熟練者ほど実装の全面委任に慎重になる、という論を紹介する記事。根拠として、Thoughtworksの欧州CTOらが人間はコードを書かずエージェントに任せた1週間の実験が挙げられ、時間の約3分の2が検討、約3分の1が検証の仕組みづくりに費やされ、ビルドは頻繁に失敗したという。ファウラー氏は現在のエージェント型開発を「未知の雪山」に例えていると記事は伝えている。",
+      "topics": ["ai-dev", "xp"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「AIに書かせたら、人間の仕事は“書く”から“検証の仕組みづくり”に変わった」"
+    },
+    {
+      "url": "https://qiita.com/zucky-quest/items/5f41c8d908dd495fa075",
+      "title": "SMがいなかったチームのスクラムを、PSM Iの学びで立て直した - 20スプリントのbeforeとafter",
+      "source": "Qiita(スクラム)",
+      "lang": "ja",
+      "published": "2026-11-07",
+      "summary": "SMのいないチームで、イベントの時間はあっても目的が共有されず、リファインメントやレトロが形だけになっていたという体験記。筆者はSMに立候補しPSM Iに合格したうえで、スプリントを1週間に固定、毎回ゴールを設定、デイリーを1時間から15分に短縮、レトロの改善を実施まで追うなどを行った。20スプリントでデイリーは15分に収まり、約20個の改善アクションを実施できたとしている。",
+      "topics": ["scrum", "team"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「イベントを全部やっているのに、スクラムになっていなかった」"
+    },
+    {
+      "url": "https://www.pospome.work/entry/2026/11/07/192125",
+      "title": "AI時代に求められる優秀なTechLeadの振る舞い - pospomeのプログラミング日記",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-07",
+      "summary": "生成AIで開発のあり方が変わる中、TechLeadがどんな価値を生むべきかを考えた登壇資料の紹介記事。筆者はIC→TechLead→VPoEと役割を変えてきた経験から、AI時代のTechLeadの役割と振る舞いを論じている。具体的な振る舞いの項目はブログ本文では確認できず、スライド側(同日の speakerdeck)を見る必要がある。",
+      "topics": ["team", "ai-dev"],
+      "neta": "A",
+      "hook": "「AIがコードを書くなら、TechLeadは何をリードするのか」"
+    },
+    {
+      "url": "https://gibberishlab.com/blog/oss-ai-agent-harness-philosophy",
+      "title": "ハーネスエンジニアリングを有名OSSはどう組んでいるのか？AIへの信頼で比べる5事例",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-07",
+      "summary": "タイトルによれば、有名OSSがAIエージェント向けのハーネス(ルール・ガードレール・検証の仕組み)をどう組んでいるかを、AIへの信頼度という軸で5事例比較した記事。本文は未確認。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "「AIをどこまで信じるかで、プロジェクトの作法が変わる」"
+    },
+    {
+      "url": "https://sizu.me/laiso/posts/k59is4cnd77f",
+      "title": "ISUCON2026をClaude Codeが優勝したらしい｜laiso",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-07",
+      "summary": "タイトルによれば、ISUCON2026でClaude Code(を使った参加者またはエージェント)が優勝したという話題を取り上げた記事。タイトル自体が「らしい」と伝聞の形で、優勝の経緯や人間の関与の度合いは本文・公式発表で要確認。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "逆転型で入るなら「チューニングコンテストの優勝者が、人間じゃなかった?」(事実関係は要確認)"
+    },
+    {
+      "url": "https://www.ipa.go.jp/digital/kaihatsu/youkyu-kanri.html",
+      "title": "AI時代の要求管理ハンドブック ～経営・現場・開発がともに描く、問いから実現への道筋～ | 社会・産業のデジタル変革 | IPA 独立行政法人 情報処理推進機構",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-05",
+      "summary": "IPAが公開した、AI時代の要求管理をテーマにしたハンドブックのページ。タイトルからは、経営・現場・開発が一緒に「問い」から要求を描き実現までつなぐ道筋を扱う内容とみられる。中身は未確認。",
+      "topics": ["design", "agile"],
+      "neta": "A",
+      "hook": "「AIが作れるようになるほど、“何を作るか”が難しくなる」"
+    },
+    {
+      "url": "https://zenn.dev/stock_inc/articles/ai-daily-security-check-criteria",
+      "title": "毎朝のセキュリティ確認をAIに任せたら、判定の基準が「人が動く必要があるか」に変わった",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-07",
+      "summary": "タイトルによれば、毎朝のセキュリティ確認業務をAIに任せた結果、判定基準が「危険かどうか」から「人が動く必要があるか」に変わったという実践記。本文は未確認。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "逆転型で入るなら「AIに任せたら、問いそのものが変わった」"
+    },
+    {
+      "url": "https://ai-heartland.com/explain/proof-driven-development/",
+      "title": "証明駆動開発（PDD Kit）とは｜エージェントのコードを行ごとに読まずに信頼する GitHub Next の試み",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-07",
+      "summary": "タイトルによれば、GitHub Nextの「証明駆動開発(PDD Kit)」を解説する記事で、エージェントが書いたコードを人間が1行ずつ読まずに信頼するための試みとされる。仕組みの詳細は本文およびGitHub Nextの一次資料で要確認。",
+      "topics": ["ai-dev", "xp"],
+      "neta": "A",
+      "hook": "「コードレビューで全部読む時代は終わるのか」"
+    },
+    {
+      "url": "https://president.jp/articles/-/121455",
+      "title": "上司に｢クビだ｣と罵られた設計で\"日本人初受賞\"…ホンダジェット開発者が30年かけて覆した｢飛行機の常識｣",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-06",
+      "summary": "タイトルによれば、上司に否定された設計を貫き、30年かけて飛行機の常識を覆したホンダジェット開発者の話。ソフトウェアではないが、常識に逆らう設計判断と粘り強さの事例として番組の仕事術トークに使える可能性がある。本文は未確認。",
+      "topics": ["design", "worklife"],
+      "neta": "A",
+      "hook": "逆転型で入るなら「“クビだ”と言われた設計が、賞を取った」"
+    },
+    {
+      "url": "https://zenn.dev/rescuenow/articles/4c03a548cd6589",
+      "title": "タスク管理までAIエージェントに任せたら、確認待ちに答えるだけになった",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-06",
+      "summary": "タイトルによれば、タスク管理までAIエージェントに任せた結果、人間の仕事がエージェントの確認待ちに答えるだけになったという体験記。肯定的な効率化の話か、懸念の話かは本文で要確認。",
+      "topics": ["worklife", "ai-dev"],
+      "neta": "A",
+      "hook": "「仕事を任せたら、人間は“承認ボタン係”になった」"
+    },
+    {
+      "url": "https://zenn.dev/numarn/articles/subagent-fork-context-inherit-handson",
+      "title": "同じ依頼文でも、素のサブエージェントは合言葉を0/5回、forkは5/5回答えた",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "published": "2026-11-07",
+      "summary": "タイトルによれば、同じ依頼文を渡しても、親の文脈を引き継がない素のサブエージェントは「合言葉」を5回中0回しか答えられず、文脈を引き継ぐforkは5回中5回答えたというハンズオン検証。サブエージェントへの依頼文に必要な情報を書く重要性を示す例とみられる。本文は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "「AIに“さっきの件”は通じない」"
+    },
+    {
+      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "published": "2026-11-07",
+      "summary": "タイトルによれば、Claude Codeの「Don't Ask Again」(以後確認しない)で許可したコマンドが設定ファイルに保存され、その中のパスワードなどが公開GitHubリポジトリ1,122ファイルで露出していたとするApiiroの記事。本文は取得できず(403)、仕組みや件数は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "「“毎回聞かないで”が、秘密情報を公開していた」(要一次確認)"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/11/grab-ai-generated-code-safety/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "How Grab Improved Mobile App Stability by Safely Handling Surge in AI-Generated Code Changes",
+      "source": "InfoQ",
+      "lang": "en",
+      "published": "2026-11-07",
+      "summary": "Grabでは、AIコーディング支援の普及でコード変更量が増え、バグやクラッシュが混入しやすくなったとするInfoQの記事。リリース前は静的解析・テスト・社内早期配信、リリース時は段階的ロールアウトと機能フラグ、リリース後はクラッシュ監視と原因特定、という多層防御で安定性を保っていると伝えている。",
+      "topics": ["ai-dev", "xp"],
+      "neta": "A",
+      "hook": "「AIでコードが増えたら、守りの仕組みを増やすしかない」"
+    },
+    {
+      "url": "https://www.famitsu.com/article/202611/93352",
+      "title": "桜井政博氏、生成AIへの考えかたを示す。「いまのところは使っていない」し、「どこかへの搾取になってはいけない」。一方で現在の“大変すぎるゲーム開発”への懸念も【ファミ通40周年フェス】 | ゲーム・エンタメ最新情報のファミ通.com",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-07",
+      "summary": "タイトルによれば、桜井政博氏がイベントで生成AIについて「いまのところは使っていない」「どこかへの搾取になってはいけない」と述べ、一方で現在のゲーム開発の大変さへの懸念も示したという記事。本文は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://speakerdeck.com/pospome/ai-jidai-ni-motomerareru-yuushuuna-techlead-no-furumai-2",
+      "title": "AI時代に求められる優秀なTechLeadの振る舞い",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-07",
+      "summary": "pospome氏の同名ブログ記事で紹介されている登壇スライド本体。AI時代のTechLeadの役割と振る舞いの具体的な項目はこちらに載っているとみられる。中身は未確認。",
+      "topics": ["team", "ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://tech.timee.co.jp/entry/2026/11/05/101407",
+      "title": "運用しながら改善する LLM-as-a-Judge の構築 - Timee Product Team Blog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-06",
+      "summary": "タイトルによれば、タイミーのプロダクトチームが、LLMに評価を担わせるLLM-as-a-Judgeを運用しながら改善していく構築方法を紹介した記事。本文は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+      "title": "Inside GitHub's new Git storage architecture",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-06",
+      "summary": "タイトルによれば、GitHubが新しいGitストレージのアーキテクチャを解説したエンジニアリングブログ記事。大規模システムの設計事例として参考になる可能性がある。本文は未確認。",
+      "topics": ["design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://forest.watch.impress.co.jp/docs/news/2154238.html",
+      "title": "OpenAI、セキュリティ特化AIモデル「GPT-6 Cyber」を発表、一部顧客に限定提供／Firefox、Linuxカーネル、Brotliの脆弱性発見・検証に活躍",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-06",
+      "summary": "タイトルによれば、OpenAIがセキュリティ特化モデル「GPT-6 Cyber」を発表し一部顧客に限定提供、Firefox・Linuxカーネル・Brotliの脆弱性の発見・検証に使われたと報じる記事。本文・OpenAIの一次発表は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://github.com/soudai/postgresql-use-improve-agents-skill",
+      "title": "GitHub - soudai/postgresql-use-improve-agents-skill",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-06",
+      "summary": "リポジトリ名からは、PostgreSQLの使い方を改善するためのAIエージェント向けスキルを公開したGitHubリポジトリとみられる。中身は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
+      "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "published": "2026-11-07",
+      "summary": "タイトルによれば、コーディングエージェントのベンチマークスコア(DeepSWE)の信頼性に疑問を投げかけ、新しいベンチマーク「MaxxBench」を提案する記事。本文は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    }
+  ],
+  "rejected_count": 10,
+  "capped_count": 35,
+  "failures": []
+}
