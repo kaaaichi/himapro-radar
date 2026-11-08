@@ -1,0 +1,199 @@
+{
+  "date": "2026-11-09",
+  "items": [
+    {
+      "url": "https://dev.ponkotsu.dev/entry/claude-code-settings-local-secrets",
+      "title": "Claude Codeの「今後確認しない」が秘密情報をGitHubに漏らす — 1,122件の公開ファイルに1,379件の秘密情報 - Dev & Gadget Note",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-08",
+      "summary": "Claude Codeの許可ダイアログで「今後確認しない」を選ぶと、そのコマンドがローカル設定ファイルに記録され、そこに含まれた秘密情報がGitHubに公開されてしまう問題を調べた記事とみられる。タイトルによれば、公開されている1,122件の設定ファイルから1,379件の秘密情報が見つかったという(本文未確認、数値は記事の主張)。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「確認を減らす便利ボタンが、いちばん危ない漏洩口だった」"
+    },
+    {
+      "url": "https://ttmmjm.hatenablog.com/entry/2026/11/06/135935",
+      "title": "仕事、ドパ越えて利益 - オイオイオイ書くわアイツ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-06",
+      "summary": "AIで調査や依存更新が爆速になり、アウトプットが増えて達成感(ドーパミン)は大きいが、AI利用料やレビュー工数を考えると会社の利益になっているかは確信が持てない、という問題提起のブログ。筆者は「会社の金で趣味をやっている」状態になりかねないと警告し、顧客対応や信頼関係といったアウトカムまで責任を持つべきだと結んでいる。",
+      "topics": ["worklife", "ai-dev"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「AIで仕事は爆速になった。で、会社は儲かってる?」"
+    },
+    {
+      "url": "https://zenn.dev/fitness_densuke/articles/2026-11-08-where-to-put-human-review",
+      "title": "人のレビューをどこに置くか ― 成果の式から考える",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "published": "2026-11-08",
+      "summary": "成果を「打席 ×(打率 × インパクト − 事故率 × 1件あたりの被害)」で捉え、被害が成果全体を上回る事故は「0件にする」制約として扱うべきだと論じる記事。筆者は、人のレビューは差分のバグ探しにはあまり効かないとし、人を呼ぶのは戻せない変更や守るべきものに触れる変更に限って判定は機械に任せ、人の時間は書かれていない約束を早めに見つけることに使うべきだと主張している。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「人のレビューは、バグ探しにはほとんど効いていない」"
+    },
+    {
+      "url": "https://hiraoku.dev/blog/mcp-cli-cloud/",
+      "title": "MCPはなぜ復権したのか：CLIが支持された理由と、流れを変えた仕様変更 | Hiraoku.dev",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-08",
+      "summary": "AIエージェントの外部連携で一時はMCPよりCLIが支持された理由と、その後MCPが再評価されるきっかけになった仕様変更を整理した記事とみられる(本文未確認、タイトルからの推定)。ツール連携方式の選び方を考える材料になる。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "「一度は“CLIで十分”と言われたMCPが、なぜ戻ってきたのか」"
+    },
+    {
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/08/news001.html",
+      "title": "【図解あり】マルチエージェント設計「15のパターン」 GitHub、Google、Siemensの知見を一気に整理",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-08",
+      "summary": "GitHub、Google、Siemensなどの知見をもとに、マルチエージェントシステムの設計パターン15種を図解で整理した記事とみられる(本文未確認、タイトルからの推定)。エージェント構成を設計するときの見取り図として使える。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "「エージェントを増やす前に、まず“組み方の型”を知る」"
+    },
+    {
+      "url": "https://note.com/dora_e_m/n/n021d6063d284",
+      "title": "スクラムマスターは、いつまでスクラムマスターでいられるのか｜dora_e_m",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-07",
+      "summary": "年齢そのものがスクラムマスターを続ける障害になる根拠は乏しい一方、定型業務はAIで自動化されうるため、専任の役職としてのスクラムマスターが残るとは限らない、という論考。筆者は「定年までSMでいられるか」ではなく、この役割で得た能力が変化する組織で価値を持ち続けるかを問うべきだとし、アジャイルコーチや組織開発へ領域を広げることを勧めている。",
+      "topics": ["scrum", "worklife"],
+      "neta": "A",
+      "hook": "「問うべきは“SMを続けられるか”ではなく“SMで得た力が通用し続けるか”」"
+    },
+    {
+      "url": "https://zenn.dev/dyamada/articles/cbe15d43b37d41",
+      "title": "AIに行わせる開発プロセスにスクラムの役割やイベントを組み込んでみた",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "published": "2026-11-08",
+      "summary": "AIエージェントに任せる開発プロセスに、スクラムの役割(PO・SM・開発者など)やイベントを組み込んでみた実践記とみられる(本文未確認、タイトルからの推定)。人間向けのフレームワークをAIの作業管理にどう転用できるかの事例。",
+      "topics": ["ai-dev", "scrum"],
+      "neta": "A",
+      "hook": "「AIだけのチームにも、スクラムマスターは要るのか」"
+    },
+    {
+      "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+      "title": "How I Fight AI Brain Fry",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "published": "2026-11-08",
+      "summary": "Claude CodeやCodexを複数のターミナルで同時に動かすと注意が分散して疲弊する「AI脳疲労」への対策を紹介する記事。筆者は、チケットをGit内のMarkdownファイルとして管理するキューを作り、エージェントが周期的に処理して人間の判断が必要なものだけを「オーナー受信箱」に集め、人間は一度に1件ずつ判断してGitに戻す運用をしているという。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "「エージェントを並列に増やすほど、人間の脳が詰まる」"
+    },
+    {
+      "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "title": "Goldman Sachs Is Pulling Claude Code from Its Bankers and Traders",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "published": "2026-11-08",
+      "summary": "Bloombergの報道として、ゴールドマン・サックスが10月に社内ガイダンスを更新し、Claude CodeとGitHubの利用をエンジニアに限定したため、大半のトレーダーやバンカーが使えなくなったと伝える記事(孫引き、一次報道は未確認)。理由は生産性とリスクへの懸念に関する見直しと報じられ、一部トレーダーは不満を示しているという。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A",
+      "hook": "「非エンジニアにコーディングAIを配ったら、回収された」"
+    },
+    {
+      "url": "http://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html",
+      "title": "Writing as a thinking tool",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "published": "2026-11-08",
+      "summary": "書くことを考えるための道具として捉える、研究者ブログのエッセイとみられる(本文未確認、タイトルからの推定)。AIに文章を任せる流れの中で、自分で書くことの意味を考える材料になる。",
+      "topics": ["worklife"],
+      "neta": "A",
+      "hook": "「書くのは、考えた結果を残すためではなく、考えるため」"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/11/entire-git-forge-coding-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Entire's Git Forge Rethinks Git Collaboration for Coding Agents",
+      "source": "InfoQ",
+      "lang": "en",
+      "published": "2026-11-08",
+      "summary": "Entireが、コーディングエージェントを前提にGitでの協働の仕組みを見直したGitフォージ(ホスティング基盤)を出したと伝えるニュースとみられる(本文未確認、タイトルからの推定)。人間向けに作られたPRやレビューの流れが、エージェント時代にどう変わるかの一例。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A",
+      "hook": "「プルリクエストは、エージェント時代にも人間向けのままでいいのか」"
+    },
+    {
+      "url": "https://github.com/DIYgod/pinky",
+      "title": "GitHub - DIYgod/pinky: Let AI agents use your phone, with you in the loop.",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-08",
+      "summary": "人間が確認を挟みながら、AIエージェントにスマートフォンを操作させるためのOSSとリポジトリ説明に書かれている(機能の詳細は未確認)。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://japan.cnet.com/article/35254548/",
+      "title": "Claudeの性能向上ペース、約2倍に加速--「AIを使ってAIを開発」が要因か",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-07",
+      "summary": "Claudeの性能向上のペースが約2倍に加速しており、AIを使ってAIを開発していることが要因ではないかと伝える記事とみられる(本文未確認、タイトルからの推定。要因は記事側も推測の形で書いている)。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://speakerdeck.com/takuros/jaws-festa-2026-public",
+      "title": "生成AI時代のIAMのマニアックな話",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-07",
+      "summary": "JAWS FESTA 2026での発表資料で、生成AIやエージェントを使う時代のAWS IAM(権限管理)の細かな論点を扱ったものとみられる(本文未確認、タイトルとURLからの推定)。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/mcpmcpruby_sdkmcp_sdk_tier_1.html",
+      "title": "MCP仕様を完全にサポートしたMCP公式のRuby SDKが登場。「MCP SDK Tier 1」に到達と",
+      "source": "Publickey",
+      "lang": "ja",
+      "published": "2026-11-08",
+      "summary": "MCPの仕様を完全にサポートした公式Ruby SDKが登場し、「MCP SDK Tier 1」に到達したと伝えるニュース(本文未確認、タイトルからの要約)。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/numarn/articles/mcp-tasks-elicitation-sdk-support-handson",
+      "title": "MCPの「Elicitations」は6/6回cancel、「Tasks」はClaude Codeが名乗らなかった",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "published": "2026-11-08",
+      "summary": "MCPの新しい仕様要素であるElicitations(ユーザーへの入力要求)とTasksについて、クライアント側の対応状況を手を動かして確かめた検証記とみられる。タイトルによれば、Elicitationsは6回中6回キャンセルされ、TasksはClaude Codeが対応を名乗らなかったという(本文未確認)。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/ojisan_ai_lab/articles/claude-code-block-writes-outside-20261108",
+      "title": "Claude Codeは作業フォルダの外を書き換える？ 新設定1行で、4つのモードとも Write は止まりました",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "published": "2026-11-08",
+      "summary": "Claude Codeが作業フォルダの外のファイルを書き換えるかを検証し、新しい設定を1行加えると4つの権限モードすべてでWriteが止まったと報告する記事とみられる(本文未確認、タイトルからの推定)。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.lorekit.io/blog/open-agent-memory-format",
+      "title": "Agent memory needs its OpenTelemetry moment",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "published": "2026-11-08",
+      "summary": "AIエージェントの記憶(メモリ)にも、観測分野のOpenTelemetryのような共通フォーマットが必要だと主張する記事とみられる(本文未確認、タイトルとURLからの推定。発信元は関連ツールの提供者とみられる)。",
+      "topics": ["ai-dev", "design"],
+      "neta": "B"
+    }
+  ],
+  "rejected_count": 12,
+  "capped_count": 41,
+  "failures": []
+}
