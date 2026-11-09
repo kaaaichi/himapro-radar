@@ -1,0 +1,206 @@
+{
+  "date": "2026-11-10",
+  "items": [
+    {
+      "url": "https://zenn.dev/hacobell_dev/articles/redesign-refinement-in-ai-era",
+      "title": "AI時代のリファインメントを再設計する〜仕様を実装前に詰めきり、見積もりをやめた〜",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "published": "2026-11-09",
+      "summary": "AIで実装が速くなった結果、仕様の漏れによる手戻りが目立つようになったチームが、リファインメントを「実装前に仕様と設計を詰めきる場」に再設計した事例。Epicの不明瞭点をコード根拠つきで洗い出す仕組みを入れ、人間によるPBIの見積もりはやめてAIの見積もりに任せたという。スプリントに載せる量の判断や顧客への納期提示は検証中の課題として残っている、と書かれている。",
+      "topics": ["scrum", "ai-dev"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「AIで実装が速くなったら、見積もりをやめた」"
+    },
+    {
+      "url": "https://gigazine.net/news/20261109-goldman-sachs-restricts-ai/",
+      "title": "ゴールドマン・サックスは銀行員やトレーダーによるAIコーディングエージェントの使用を制限している、なぜか？",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-09",
+      "summary": "Bloombergが入手した社内ガイドラインの報道によると、ゴールドマン・サックスはClaude CodeやGitHubの利用を一部の従業員に限定したとされる。エンジニアの訓練を受けていない従業員が顧客情報を扱うネットワーク上でソフトウェアを動かすことへのセキュリティ懸念が主な理由と報じられている。記事はGIGAZINEによる二次報道で、ガイドライン本文は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「AI投資に積極的な金融大手が、AIエージェントは絞っている」"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/3/hn-50354278/",
+      "title": "AI is destroying my CS degree",
+      "source": "Simon Willison",
+      "lang": "en",
+      "published": "2026-11-03",
+      "summary": "タイトルは「AIが自分のCS（計算機科学）の学位を壊している」で、Simon WillisonがHacker Newsの議論を紹介したリンク記事とみられる。AIの普及で学生の学び方や学位の価値がどう揺らいでいるかが論点と考えられるが、本文は未確認。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「AIで速く書けるほど、学ぶ力が育たない？」"
+    },
+    {
+      "url": "https://tech.timee.co.jp/entry/2026/11/09/120755",
+      "title": "Devinはソフトウェアファクトリーのフレームワークになった - Timee Product Team Blog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-09",
+      "summary": "Devinには起動の自動化、レビュー、自動承認、学習用のメモリといった部品がそろい、「ソフトウェアファクトリー」を組むためのフレームワークになったとする記事。筆者は、これらを組み合わせれば人間がトリガーしなくても開発作業が回る形に段階的に近づけられると説明している。AI活用が進んでいない企業ほど一気に導入しやすい、という見立ても書かれている。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "「人間がトリガーしない開発」はどこまで現実か"
+    },
+    {
+      "url": "https://zenn.dev/herp_inc/articles/90d6052024a30f",
+      "title": "記事は短くていい",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-09",
+      "summary": "技術ブログの執筆ノルマを抱える人に向けて、生成AIで記事を水増しする必要はないと主張する記事。LLMで文章を大量に作れても読む側のコストは減らず、長い文章ほど伝えたいことが届きにくくなるという。独自の知見を高密度に発信することがこれからの発信のあり方だ、と結んでいる。",
+      "topics": ["worklife", "ai-dev"],
+      "neta": "A",
+      "hook": "逆転型で入るなら「AIで何でも書ける時代こそ、短く書け」"
+    },
+    {
+      "url": "https://newsletter.kentbeck.com/p/thinkie-what-fact",
+      "title": "Thinkie: What Fact?",
+      "source": "Kent Beck / Tidy First",
+      "lang": "en",
+      "published": "2026-11-09",
+      "summary": "Kent Beckの思考法シリーズ「Thinkie」の一編。筋が通らない状況に出会ったとき、「どんな事実が真なら、この状況は説明がつくか」と自問して、欠けている事実を逆算するという方法を紹介している。記事の後半は有料のため、具体的な適用例は未確認。",
+      "topics": ["worklife", "xp"],
+      "neta": "A",
+      "hook": "「わからない状況」を解く問いの立て方"
+    },
+    {
+      "url": "https://zenn.dev/karamage/articles/f59f4109030d93",
+      "title": "危ないPRだけ人間が見て、レビューはAIにお任せ。AI自動レビューツール作りました",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-09",
+      "summary": "タイトルによると、PRのリスクを判定して危ないものだけ人間がレビューし、それ以外はAIに任せる自動レビューツールを作った記事。AI時代のコードレビューの分担をどう設計するかが論点になる。本文は未確認。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A",
+      "hook": "「全部のPRを人間が見る」はもう前提ではない？"
+    },
+    {
+      "url": "https://gigazine.net/news/20261109-maia-zyphra-multiplayer-ai-agent/",
+      "title": "チームでの複数人同時利用を前提としたAIエージェント「MAIA」が登場",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-09",
+      "summary": "タイトルによると、チームの複数人が同時に使うことを前提にしたAIエージェント「MAIA」が登場した。個人が1対1で使う形が中心だったAIエージェントを、チーム単位でどう使うかという論点につながる。機能の詳細は本文未確認。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A",
+      "hook": "AIエージェントは「個人の道具」から「チームの一員」へ"
+    },
+    {
+      "url": "https://zenn.dev/takakiriy/articles/c43ec80072a171",
+      "title": "ループ エンジニアリングの前に、会話でハーネスを育てる — 高速フォルダー サイズ ビューアーの制作記録",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "published": "2026-11-08",
+      "summary": "フォルダーサイズを高速に表示するツールの制作記録。タイトルによると、AIエージェントを自律ループで回す前に、会話を通じてハーネス（AIの作業環境や制約）を育てる進め方を紹介している。本文は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "いきなり自律ループではなく「まず会話で育てる」"
+    },
+    {
+      "url": "https://zenn.dev/fitness_densuke/articles/2026-11-08-thinking-about-projects",
+      "title": "プロジェクトを変数で考える ― 何が止めているかを見つけて手を打つ",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "published": "2026-11-08",
+      "summary": "タイトルによると、プロジェクトをいくつかの変数の組み合わせとして捉え、進行を止めている要因を見つけて手を打つ考え方を紹介する記事。本文は未確認。",
+      "topics": ["worklife", "team"],
+      "neta": "A",
+      "hook": "「頑張る」の前に、何が止めているかを特定する"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+      "title": "Hide your slop PR descriptions behind <details><summary>",
+      "source": "Simon Willison",
+      "lang": "en",
+      "published": "2026-11-09",
+      "summary": "タイトルは「AIが書いた冗長なPR説明は<details><summary>で折りたたもう」という提案。AI生成の長いPR説明がレビュアーの負担になる問題への、軽い対処法を述べた投稿とみられる。本文は未確認。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A",
+      "hook": "AIが書いたPR説明、レビュアーは読んでいるか"
+    },
+    {
+      "url": "https://wirelesswire.jp/2026/11/94903/",
+      "title": "ソフトウェア産業が消滅する日──小さなローカルAIが暴く「プログラムを売る」という商売の終焉",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-09",
+      "summary": "タイトルによると、小さなローカルAIでもプログラムを作れるようになることで、「プログラムを売る」ビジネスが成り立たなくなるという論考。筆者の主張であり、根拠は本文未確認。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "逆転型で入るなら「ソフトウェアを売る商売が終わる？」"
+    },
+    {
+      "url": "https://togetter.com/li/2768439",
+      "title": "「ITエンジニアの仕事を探しています」実務経験25年の50歳のエンジニアが書類選考を全く通過できずにXで求職活動した投稿が話題に「年齢足切りとAIのダブルパンチか」",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-09",
+      "summary": "実務経験25年の50歳のエンジニアが書類選考を通過できず、Xで求職したという投稿が話題になったことをまとめたTogetter。反応として、年齢による足切りとAIの影響を挙げる声が紹介されている。個人の投稿とその反応のまとめであり、業界全体の傾向を示すデータではない。",
+      "topics": ["worklife"],
+      "neta": "A",
+      "hook": "ベテランの経験はAI時代にどう評価されるのか"
+    },
+    {
+      "url": "https://zenn.dev/takayuki_lab/articles/techleadconf-2026-autumn-aidd-mindset",
+      "title": "TechLead Conference 2026 Autumn 参加レポート",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "published": "2026-11-08",
+      "summary": "TechLead Conference 2026 Autumnの参加レポート。URLからはAI駆動開発のマインドセットが主な論点とみられるが、本文は未確認。",
+      "topics": ["ai-dev", "team"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/articles/agentic-ai-architecture-challenges-opportunities/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Article: Agentic AI Architecture: Current Challenges and Future Opportunities",
+      "source": "InfoQ",
+      "lang": "en",
+      "published": "2026-11-09",
+      "summary": "InfoQの記事で、タイトルは「エージェント型AIのアーキテクチャ：現在の課題と今後の可能性」。AIエージェントを組み込むシステムの設計上の課題を扱う内容とみられるが、本文は未確認。",
+      "topics": ["ai-dev", "design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://github.com/meta/astryx",
+      "title": "GitHub - meta/astryx: An open source design system that's fully customizable and agent ready",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-08",
+      "summary": "リポジトリの説明によると、Metaが公開した、カスタマイズ可能で「AIエージェント対応」をうたうオープンソースのデザインシステム。エージェント対応の具体的な中身は未確認。",
+      "topics": ["design", "ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/googlekubernetes10aiagent_sustrategvisorcncf.html",
+      "title": "Google、Kubernetesで10倍高密度にAIエージェントを実行可能にする「Agent Sustrate」と「gVisor」、オープンソースとしてCNCFに寄贈と発表",
+      "source": "Publickey",
+      "lang": "ja",
+      "published": "2026-11-09",
+      "summary": "タイトルによると、GoogleがKubernetes上でAIエージェントを従来の10倍の密度で動かせるとする仕組みとgVisorを、オープンソースとしてCNCFに寄贈すると発表した。AIエージェントの実行基盤に関するインフラ側のニュース。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://sizu.me/taea/posts/2cw9xvxtshtv",
+      "title": "🦀 2026-11-09: 大江戸Ruby会議11でカニの話した → 一人反省会｜taea",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-09",
+      "summary": "大江戸Ruby会議11で登壇した筆者による、発表の一人反省会。登壇の振り返りの仕方として参考になりうるが、本文は未確認。",
+      "topics": ["worklife"],
+      "neta": "B"
+    }
+  ],
+  "rejected_count": 12,
+  "capped_count": 31,
+  "failures": [
+    {
+      "name": "Hacker News Front Page",
+      "error": "<urlopen error timed out>"
+    }
+  ]
+}
