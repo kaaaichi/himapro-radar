@@ -1,0 +1,279 @@
+{
+  "date": "2026-11-11",
+  "items": [
+    {
+      "url": "https://www.ryuzee.com/contents/blog/14628",
+      "title": "【資料公開】「自分の仕事はここまで」はどこから来るのか",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-10",
+      "summary": "「自分の仕事はここまで」という態度を、本人の性格や意欲ではなく、目標設定・評価制度・意思決定の仕組みが生む症状として捉える資料。線を引くのは環境への合理的な適応なので、呼びかけや研修では変わらないと論じている。決定者を1人に明確にすること、線は説明責任と権限の範囲に限り、関心はプロダクトゴールのような上位目標でつなぐことを提言している。",
+      "topics": ["team", "agile"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「『自分の仕事はここまで』は性格じゃなく、仕組みが作っている」"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/11/google-agent-distraction/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Google Finds that Technical Debt Can Derail Coding Agents Through \"Agent Distraction\"",
+      "source": "InfoQ",
+      "lang": "en",
+      "published": "2026-11-10",
+      "summary": "Googleの研究者が、古いTODOコメントや廃れたバグ参照といった技術的負債にAIコーディングエージェントが脱線させられる「agent distraction」を調べたというInfoQの記事。記事によると、約13%のセッションでTODO/FIXME参照に触れ、そのうち6%で指示にない参照先のバグに手を出し、その場合のステップ数・トークン・待ち時間が大きく増えたという。対策として古い参照を掃除するスキャナーエージェントを作り、数千件を削除したと紹介されている。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「放置したTODOコメントが、AIの気を散らしてトークンを食う」"
+    },
+    {
+      "url": "https://martinfowler.com/articles/durable-execution-agents.html",
+      "title": "Long-horizon agents and durable execution",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "published": "2026-11-10",
+      "summary": "martinfowler.com に掲載された Kiran Prakash の記事。人や外部システムを数週間待つような長期タスクをエージェントに任せる場合、各外部ステップを記録して再実行できる「durable execution」でクラッシュに耐えられると説明する。一方で「落ちないこと」と「正しいこと」は別で、待っている間に古くなる事実や、コード変更・履歴の肥大化・信頼できない入力への手当てが別途必要だと強調している。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "逆転型で入るなら「落ちないエージェントは、正しいエージェントではない」"
+    },
+    {
+      "url": "https://martinfowler.com/fragments/2026-11-10.html",
+      "title": "Fragments: November 10",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "published": "2026-11-10",
+      "summary": "Martin Fowler の短信集。Thoughtworks Technology Radar 11月版がAI関連で占められていること、エージェントを組織規模に広げるときの共有コンテキスト・トークン費用・レビュー負荷の問題などを取り上げている。エージェントの出力を作るより検証するほうにトークン予算の大半を使っている、という報告も紹介されている。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A",
+      "hook": "逆転型で入るなら「AIのトークンは、生成より検証に消えていく」"
+    },
+    {
+      "url": "https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html",
+      "title": "Life on Claude Nine",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "published": "2026-11-10",
+      "summary": "Igor Babuschkin による短編小説。メールの自動化をAIに手伝わせたソフトウェアエンジニアが、仕事や判断、生活まで少しずつ任せていき、最終的にその最適化が世界中のインフラに広がっていく話。結末で夢だったと明かされ、主人公はまた同じ自動化に取りかかる。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "逆転型で入るなら「便利だからと任せ続けたら、どこで止まるのか」"
+    },
+    {
+      "url": "https://gigazine.net/news/20261110-claude-opus-nerf/",
+      "title": "Claude Opus 5.5の推論能力が11月3日から急激に低下したとの指摘、1400件の利用履歴から変化が判明",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-10",
+      "summary": "タイトルによると、1400件の利用履歴をもとにClaude Opus 5.5の推論能力が11月3日から急に落ちたとする指摘を紹介する記事。本文は未確認で、指摘の妥当性やAnthropic側の見解は確認していない。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "逆転型で入るなら「同じモデル名でも、昨日と同じAIとは限らない」"
+    },
+    {
+      "url": "https://zenn.dev/ojisan_ai_lab/articles/claude-fable-5-1-vs-5-2-20261110",
+      "title": "Claude Fable 5.2は本当に2割安い？ 表示額は$0.39→$0.31、でも大きく動かしたのはキャッシュでした",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "published": "2026-11-10",
+      "summary": "タイトルによると、Claude Fable 5.1と5.2で同じ作業の表示額を比べ、$0.39から$0.31に下がったものの、差を大きく生んだのはキャッシュだったと検証した記事。本文は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "逆転型で入るなら「安くなったのは単価じゃなく、キャッシュだった」"
+    },
+    {
+      "url": "https://levtech.jp/media/detail_965/",
+      "title": "大学1年生がつくったOSSがGitHub Star 1万超。AIに渡す「画面の設計図」はどう生まれた？ - レバテックLAB",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-10",
+      "summary": "タイトルによると、大学1年生が作り GitHub Star が1万を超えたOSSについて、AIに渡す「画面の設計図」という発想がどう生まれたかを聞いたインタビュー記事。本文は未確認。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "逆転型で入るなら「AIに渡すべきは画面そのものじゃなく、設計図」"
+    },
+    {
+      "url": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
+      "title": "Safely scaling multi-agent teams with Claude Fable 5.2 / claude.dev Blog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-09",
+      "summary": "タイトルによると、Claude Fable 5.2でマルチエージェントのチームを安全に規模拡大する方法を扱うブログ記事。本文は未確認。",
+      "topics": ["ai-dev", "team"],
+      "neta": "A",
+      "hook": "逆転型で入るなら「AIエージェントにも、チームの設計が要る」"
+    },
+    {
+      "url": "https://github.com/GoogleChrome/modern-web-guidance",
+      "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "published": "2026-11-10",
+      "summary": "タイトルによると、コーディングエージェントが2019年ごろのJavaScriptの書き方に寄りがちなのを、現代のWeb標準機能を使うよう導くためのガイダンス集。GitHubの GoogleChrome 組織のリポジトリとして公開されている。本文は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "逆転型で入るなら「最新のAIが書くコードは、意外と数年前の流儀」"
+    },
+    {
+      "url": "https://zenn.dev/oikon/articles/claude-code-recipe",
+      "title": "Claude Codeで最近使っているTips【2026/11】",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-10",
+      "summary": "タイトルによると、筆者が2026年11月時点でClaude Codeで使っているTipsをまとめた記事。本文は未確認。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "逆転型で入るなら「AIツールのTipsは、毎月書き直しになる」"
+    },
+    {
+      "url": "https://www.gizmodo.jp/article/2611-claude-fable-5-2-release/",
+      "title": "Anthropicが新AI「Claude Fable 5.2」をリリース。ぶっちぎりの高性能、実用例はもはや異次元 | ギズモード・ジャパン",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-10",
+      "summary": "タイトルによると、AnthropicのClaude Fable 5.2リリースを紹介する記事。性能評価の内容は本文未確認のため、一次資料での確認が必要。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://forest.watch.impress.co.jp/docs/news/2154982.html",
+      "title": "Anthropic、「Claude Fable 5.2」「Claude Mythos 5.2」を発表 ～最強モデルがより高速・安価に／ほぼすべての評価で「Opus 5.5」を凌駕、物理学の未解決問題を解いた実績も",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-10",
+      "summary": "タイトルによると、AnthropicがClaude Fable 5.2とClaude Mythos 5.2を発表したことを伝える窓の杜の記事。評価結果などの主張は本文未確認。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
+      "title": "Quoting Prompting Claude Fable 5.2",
+      "source": "Simon Willison",
+      "lang": "en",
+      "published": "2026-11-10",
+      "summary": "タイトルによると、Claude Fable 5.2のプロンプトの書き方に関する資料から Simon Willison が一節を引用した投稿。本文は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/numarn/articles/ask-user-question-headless-handson",
+      "title": "AskUserQuestion は本体に77件あるのに、claude -p が名乗る道具39件に無かった",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "published": "2026-11-10",
+      "summary": "タイトルによると、Claude Codeのヘッドレス実行（claude -p）で使えるツール一覧にAskUserQuestionが含まれていなかったことを手を動かして調べた記事。本文は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/watany/articles/342b9815dd0553",
+      "title": "退屈なCoding AgentはMuseにやらせよう",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-10",
+      "summary": "タイトルによると、退屈なコーディングエージェント作業をMuseに任せようと提案する記事。本文は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+      "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+      "source": "Simon Willison",
+      "lang": "en",
+      "published": "2026-11-10",
+      "summary": "タイトルによると、小型で効率重視のモデル「Muse Ember」の発表を Simon Willison が取り上げた投稿。本文は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/knowledgesense/articles/bd917ed6829121",
+      "title": "NVIDIAの「長文コンテキスト不要」論文",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-10",
+      "summary": "タイトルによると、長文コンテキストは不要だとするNVIDIAの論文を解説する記事。論文の内容は本文未確認。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://engineering.nature.global/entry/2026/11/mcp-architecture-patterns",
+      "title": "MCP を組み込んだアプリを手元で複数動かすための構成パターン - Nature Engineering Blog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-10",
+      "summary": "タイトルによると、MCPを組み込んだアプリをローカルで複数同時に動かすための構成パターンを紹介するNatureのエンジニアリングブログ記事。本文は未確認。",
+      "topics": ["design", "ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://forest.watch.impress.co.jp/docs/serial/yaaiwatch/2154854.html",
+      "title": "OpenAIも参入、企業システムを変える「判断特化型AI」が急成長 ～なぜ今、文章を生成しないAIが求められているのか【柳谷智宣のAI ウォッチ！】",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-10",
+      "summary": "タイトルによると、文章を生成せず判断に特化したAIが企業システム向けに伸びている背景を解説する連載記事。本文は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/mixi/articles/b0ea64fded9503",
+      "title": "なぜ mixi2 は iPhone Duo の発売初日から最適化できたのか？",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-09",
+      "summary": "タイトルによると、mixi2が新端末 iPhone Duo の発売初日から最適化対応できた理由を開発チームが説明する記事。本文は未確認。",
+      "topics": ["design", "team"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/article/2611/10/2000003069/",
+      "title": "サイバー攻撃急増で「人の手では対応しきれない」──ソフトバンク宮川社長、終わりの見えないパッチ修正に「疲弊しきっている」と吐露",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-10",
+      "summary": "タイトルによると、ソフトバンクの宮川社長がサイバー攻撃の急増で終わりの見えないパッチ対応に現場が疲弊していると述べたことを伝える記事。本文は未確認。",
+      "topics": ["team", "worklife"],
+      "neta": "B"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/software-correctness",
+      "title": "Software correctness & supply chain security, with Sean Allen",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "published": "2026-11-10",
+      "summary": "タイトルによると、Sean Allen をゲストに、ソフトウェアの正しさとサプライチェーンセキュリティを話すThe Pragmatic Engineerの回。本文は未確認。",
+      "topics": ["design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/articles/llm-reliability-layers-limits-accuracy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Article: LLM Reliability Layers Under Test: Accuracy, Yield, and the Limits of Verification",
+      "source": "InfoQ",
+      "lang": "en",
+      "published": "2026-11-10",
+      "summary": "タイトルによると、LLMの出力に重ねる信頼性向上の仕組みを、精度・歩留まり・検証の限界という観点で試したInfoQの記事。本文は未確認。",
+      "topics": ["ai-dev", "design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/presentations/scaling-multi-agent-llm-batch/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Presentation: Batch Intelligence at Scale: Cost-Efficient Multi-Agent LLM Workflows with Built-In Resilience",
+      "source": "InfoQ",
+      "lang": "en",
+      "published": "2026-11-10",
+      "summary": "タイトルによると、障害への耐性を組み込んだマルチエージェントLLMのバッチ処理を低コストで大規模に回す方法についての講演。本文は未確認。",
+      "topics": ["ai-dev", "design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+      "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "published": "2026-11-10",
+      "summary": "タイトルによると、Claude Whiteboards・Claude Sheets・Claude Dataという機能を紹介するAnthropic側の記事。本文は未確認。",
+      "topics": ["worklife", "ai-dev"],
+      "neta": "B"
+    }
+  ],
+  "rejected_count": 4,
+  "capped_count": 50,
+  "failures": []
+}
