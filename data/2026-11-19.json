@@ -1,0 +1,291 @@
+{
+  "date": "2026-11-19",
+  "items": [
+    {
+      "url": "https://zenn.dev/hiromoo/articles/reading-less-preparing-more",
+      "title": "最近、コードを真面目に読まなくなった",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-18",
+      "summary": "AI が出すコードがおおむね正しくなったため、差分を毎回精読するのをやめ、動作確認やテストで判断して影響の大きい箇所だけ深く読む方針に変えたという筆者の体験記。その代わり、使用言語や完成の基準など AI が推測しきれない前提を要件や Skill に明文化し、実装前に考える時間を増やすべきだと主張している。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「コードを読まなくなった人ほど、書く前に考えている」"
+    },
+    {
+      "url": "https://zenn.dev/fitness_densuke/articles/2026-11-14-removing-human-review",
+      "title": "人のレビューを、どこまで無くすか ― 事故1件で失う物から決める",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "published": "2026-11-17",
+      "summary": "人のレビューをどこまで減らすかを「事故1件で失うもの」と「人が見ることで減る当たり」の比較で決めようという記事。直せば済むずれと、他人の情報が見えるような戻せない事故を分けて考え、他人の情報やお金を扱う部分は人が見る対象に残す。検査やテストの土台を先に整え、基準が固まった判断から AI に渡し、最後に残る責任はチームの合意で引き受けると書かれている。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「レビューを減らす基準は、品質ではなく事故の重さ」"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/software-factories-and-code-reviews",
+      "title": "Software factories and code reviews with Harjot Gill",
+      "source": "The Pragmatic Engineer",
+      "lang": "en",
+      "published": "2026-11-18",
+      "summary": "CodeRabbit CEO の Harjot Gill 氏が出演したポッドキャスト回。紹介文によると、同社は月5,000件以上のプルリクエストを出荷し AI に月約25万ドルを投じているという。エージェントが書いたコードを人が1件ずつ査読する従来のコードレビューは役目を終えつつあり、計画や複数リリースをまとめて確認する形が中心になると主張している。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「AIレビューの会社の CEO が、コードレビューは終わると言う」"
+    },
+    {
+      "url": "https://qiita.com/ruui/items/7f5692b58c295959ab48",
+      "title": "ソフトウェアは生き物である。",
+      "source": "Qiita(アジャイル)",
+      "lang": "ja",
+      "published": "2026-11-18",
+      "summary": "ソフトウェアを完成品の機械ではなく、環境に適応しながら育つ生き物として捉える論考。XP やアジャイルの源流に、トップダウンの設計図を批判し小さな修復の積み重ねで秩序を育てようとした建築家クリストファー・アレグザンダーの思想があると紹介する。建築では物理的制約で難しかった理想が、やり直しの容易なソフトウェアではテストやリファクタリングで実現できたと筆者は主張している。",
+      "topics": ["xp", "design"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「アジャイルの元ネタは、建築で失敗した理想だった」"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
+      "title": "Quoting Daniel Stenberg",
+      "source": "Simon Willison",
+      "lang": "en",
+      "published": "2026-11-18",
+      "summary": "curl 作者 Daniel Stenberg 氏の発言を Simon Willison 氏が紹介した短い投稿。AI エージェントで C から Rust に書き換えた curl のクローンが多数作られる一方、本家は同じ期間に300件超のコミットと約200件のバグ修正、脆弱性対応を重ねていると指摘しており、AI による移植が本家の保守ペースに追いつけるのかを問いかけている。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "逆転型で入るなら「AIで書き直すのは一瞬、追いかけ続けるのが本番」"
+    },
+    {
+      "url": "https://speakerdeck.com/minorun365/2026-11-lab-datsubotorunekku-ningen",
+      "title": "認知負荷の減らし方 ～開発にも日常業務にも活かせるノウハウ～",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-18",
+      "summary": "開発と日常業務の両方で認知負荷を減らすノウハウをまとめた登壇資料(Speaker Deck)。URL からは「人間がボトルネック」という問題意識の発表とみられるが、本文は未確認で、具体的な手法はスライドで確認が必要。",
+      "topics": ["worklife", "team"],
+      "neta": "A",
+      "hook": "逆転型で入るなら「AI時代のボトルネックは人間の頭の容量」"
+    },
+    {
+      "url": "https://qiita.com/nuco_d/items/b279477cbcdbe5921abd",
+      "title": "部下がClaudeっぽいスライドしか出してこなくてウンザリしてる上司はこれを使わせなさい - Qiita",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-17",
+      "summary": "AI 生成のスライドが似た見た目になってしまう問題に対し、何らかのツールや指示の工夫を勧める記事とみられる。タイトルのみからの判断で、紹介されている手法の中身は未確認。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "逆転型で入るなら「AIで資料が速くなるほど、全部同じ顔になる」"
+    },
+    {
+      "url": "https://posfie.com/@_Mammal_/p/SHE9Pud",
+      "title": "左：よく見るAI臭すごいやつ 右：工夫したやつ 同じAIで作ってます→『AI臭の方は「美しい」。工夫の方は「可愛い」。』",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-17",
+      "summary": "同じ AI で作った「AI 臭い」成果物と工夫した成果物を並べた投稿への反応をまとめた Posfie のまとめ。タイトルによれば、AI 臭い方は「美しい」、工夫した方は「可愛い」と評されている。具体的な工夫の内容は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "逆転型で入るなら「AI臭さの正体は、整いすぎていること」"
+    },
+    {
+      "url": "https://note.com/wakabame/n/nc76b65a187bb",
+      "title": "ソフトウェアエンジニアの黄昏期をこう過ごそうと思う｜わかばめ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-17",
+      "summary": "AI の普及でソフトウェアエンジニアという職業が「黄昏期」に入ったという認識のもと、筆者がこれからの過ごし方を考えた note 記事とみられる。本文は未確認。",
+      "topics": ["worklife", "ai-dev"],
+      "neta": "A",
+      "hook": "逆転型で入るなら「エンジニアの黄昏は、終わりではなく働き方の夕方」"
+    },
+    {
+      "url": "https://zenn.dev/dip_techblog/articles/6a1faea00e53d5",
+      "title": "[Agile Japan 2026 参加レポート] AIで「作る速さ」が爆上がりした今、私たちは何に時間を使うべきか？",
+      "source": "Zenn(アジャイル)",
+      "lang": "ja",
+      "published": "2026-11-18",
+      "summary": "Agile Japan 2026 の参加レポート。AI で作る速さが大きく上がった今、チームは何に時間を使うべきかという問いを軸に講演内容をまとめているとみられる。本文は未確認。",
+      "topics": ["agile", "ai-dev"],
+      "neta": "A",
+      "hook": "逆転型で入るなら「作るのが速くなったら、何を作るかで迷う時間が増えた」"
+    },
+    {
+      "url": "https://zenn.dev/handa_lab/articles/11-rules-placement-table",
+      "title": "Claude Code のルールの置き場を判定表で決めた。3か月後に数えたら、増え方は止まっていなかった",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "published": "2026-11-18",
+      "summary": "Claude Code に与えるルールの置き場所を判定表で決める運用を始め、3か月後に数えてみたらルールの増加は止まっていなかったという振り返り記事とみられる。本文は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "逆転型で入るなら「置き場所を決めても、ルールは増え続ける」"
+    },
+    {
+      "url": "https://zenn.dev/minewo/articles/claude-code-hook-fail-open",
+      "title": "危険コマンドを止める Claude Code hook を書いたのに、素通ししていた",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "published": "2026-11-17",
+      "summary": "危険なコマンドを止めるための Claude Code の hook を書いたのに、実際には素通ししていたという失敗談。URL の「fail-open」から、エラー時に許可側に倒れる設計が原因だったとみられるが、本文は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "逆転型で入るなら「安全装置は、壊れたときに開くと意味がない」"
+    },
+    {
+      "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+      "title": "AI agents ask better questions than KPMG accountants in audit trial",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "published": "2026-11-18",
+      "summary": "監査の試験運用で、AI エージェントが KPMG の会計士より良い質問をしたと報じる記事(タイトルより)。試験の条件や評価方法は本文未確認のため、結果の解釈には注意が必要。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "逆転型で入るなら「AIの強みは答えより質問だった」"
+    },
+    {
+      "url": "https://pc.watch.impress.co.jp/docs/news/2157394.html",
+      "title": "同じ仕事を少ないトークンで。GPT-6.2 AstraとSolが登場",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-18",
+      "summary": "OpenAI の新モデル GPT-6.2 Astra と Sol の登場を伝えるニュース。タイトルによれば、同じ仕事をより少ないトークンでこなせる点が打ち出されている。詳細は本文未確認。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://forest.watch.impress.co.jp/docs/news/2157510.html",
+      "title": "「Google Apps Script」のコードをGeminiで開発する機能が一般提供開始／専門知識なしで業務自動化が可能に",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-18",
+      "summary": "Google Apps Script のコードを Gemini で開発する機能が一般提供になったというニュース。専門知識なしで業務自動化ができる点が打ち出されている(タイトルより)。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "B"
+    },
+    {
+      "url": "https://github.com/AnIT012/nihongo",
+      "title": "GitHub - AnIT012/nihongo: AIが書く日本語を、人が書く文に近づけるエージェントスキル。Claude、ChatGPT、Claude Code、Codexなどで使えます。",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-17",
+      "summary": "AI が書く日本語を人が書く文に近づけるためのエージェントスキルを公開した GitHub リポジトリ。説明文によれば Claude、ChatGPT、Claude Code、Codex などで使える。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/port_inc/articles/ff974c7456f4db",
+      "title": "ローカルLLM入門",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-17",
+      "summary": "ローカル環境で LLM を動かすための入門記事とみられる。本文は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.publickey1.jp/blog/26/aicopilot_managed_runtime.html",
+      "title": "マイクロソフト、AIが生成したアプリを企業内で安全に実行するランタイム「Copilot Managed Runtime」正式リリース",
+      "source": "Publickey",
+      "lang": "ja",
+      "published": "2026-11-18",
+      "summary": "マイクロソフトが、AI が生成したアプリを企業内で安全に実行するためのランタイム「Copilot Managed Runtime」を正式リリースしたというニュース(タイトルより)。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/ikenohotori/articles/37cbe45c807ac2",
+      "title": "『アジャイルサムライ』を読んでいく（第1～2章）",
+      "source": "Zenn(アジャイル)",
+      "lang": "ja",
+      "published": "2026-11-18",
+      "summary": "書籍『アジャイルサムライ』の第1〜2章を読んだ読書メモ記事とみられる。本文は未確認。",
+      "topics": ["agile"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/kanepion/articles/f58670d96b6b4f",
+      "title": "AIが書いたAPI、動作確認まで完走させる（テスト自動生成と自己修正）",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "published": "2026-11-18",
+      "summary": "AI が書いた API について、テストの自動生成と自己修正を組み合わせて動作確認まで AI に完走させる方法を紹介する記事とみられる。本文は未確認。",
+      "topics": ["ai-dev", "xp"],
+      "neta": "B"
+    },
+    {
+      "url": "https://qiita.com/monet-inc/items/165de4a8b9f315f4d1f1",
+      "title": "Kizuna に AI を入れられるか（1）AI に進行役を任せてみた",
+      "source": "Qiita(アジャイル)",
+      "lang": "ja",
+      "published": "2026-11-18",
+      "summary": "「Kizuna」という取り組み(詳細は未確認)の進行役を AI に任せてみた連載の第1回とみられる。本文は未確認。",
+      "topics": ["team", "ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://martinfowler.com/articles/data-contracts.html",
+      "title": "Data Contracts",
+      "source": "Martin Fowler",
+      "lang": "en",
+      "published": "2026-11-18",
+      "summary": "martinfowler.com に掲載された「Data Contracts(データコントラクト)」についての記事。データの提供側と利用側の間の取り決めを扱う設計テーマとみられるが、本文は未確認。",
+      "topics": ["design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50549188",
+      "title": "Launch HN: Maritime (YC F26) – A managed cloud for production AI agents",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "published": "2026-11-18",
+      "summary": "本番運用の AI エージェント向けマネージドクラウド「Maritime」(YC F26)のローンチ投稿(タイトルより)。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50548660",
+      "title": "Show HN: Mastra Factory, the open-source software factory we use to build Mastra",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "published": "2026-11-18",
+      "summary": "Mastra の開発に使っている「ソフトウェア工場」を Mastra Factory としてオープンソース公開したという Show HN 投稿(タイトルより)。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/presentations/bookingcom-ml-data-platform-evolution/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Presentation: Behind Booking.com's AI Evolution: The Unpolished Story",
+      "source": "InfoQ",
+      "lang": "en",
+      "published": "2026-11-18",
+      "summary": "Booking.com の AI・ML データ基盤の変遷を、きれいごとではない裏側として語る InfoQ の講演(タイトルと URL より)。本文は未確認。",
+      "topics": ["ai-dev", "design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/11/vercel-ui-sdk/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Vercel Releases UI SDK for Agents to Compose UI from Reusable Behaviors",
+      "source": "InfoQ",
+      "lang": "en",
+      "published": "2026-11-18",
+      "summary": "Vercel が、エージェントが再利用可能な振る舞いを組み合わせて UI を構成できる UI SDK を公開したというニュース(タイトルより)。",
+      "topics": ["ai-dev", "design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+      "title": "External sandboxes for coding agents",
+      "source": "Simon Willison",
+      "lang": "en",
+      "published": "2026-11-17",
+      "summary": "コーディングエージェントを外部のサンドボックスで動かすことについての Simon Willison 氏の投稿(タイトルより)。本文は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    }
+  ],
+  "rejected_count": 3,
+  "capped_count": 67,
+  "failures": []
+}

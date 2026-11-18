@@ -3,114 +3,139 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>2026-11-18 | himapro radar</title>
+<title>2026-11-19 | himapro radar</title>
 <link rel="stylesheet" href="style.css">
 <script src="pin.js" defer></script>
 </head>
 <body>
-<header><a class="brand" href="index.html">himapro radar</a><h1>2026-11-18</h1></header>
+<header><a class="brand" href="index.html">himapro radar</a><h1>2026-11-19</h1></header>
 <main>
 <section class="pins-sec" hidden><h2>ピン留め</h2><div id="pins"></div></section>
-<section><h2>今日のS判定</h2><article class="item neta-S" data-url="https://zenn.dev/mizchi/articles/mutation-test-quality" data-day="2026-11-18">
-  <div class="item-head"><span class="neta">S</span><span class="topic">XP</span><span class="topic">AI駆動開発</span><span class="src">はてなブックマーク IT人気エントリ</span><time class="pub" datetime="2026-11-17">2026-11-17</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
-  <h3><a href="https://zenn.dev/mizchi/articles/mutation-test-quality">おい、 Mutation Test をやれ。テスト品質を、測るために</a></h3>
-  <p class="summary">テストカバレッジは有用だが95%を超えると「テストのためのテスト」になりがちだとして、コードを意図的に書き換えたミュータントをテストが検出できるかで品質を測るミューテーションテストを勧める記事。書き換えても通ってしまう箇所を検査不足として見直す。実行が重いため CI ではなくリファクタリング用に使い、筆者作の mizchi/mutator では差分実行やキャッシュで高速化している。</p>
-  <p class="hook">フック候補: 逆転型で入るなら「カバレッジを上げてもテストは強くならない」</p>
-</article><article class="item neta-S" data-url="https://zenn.dev/andoshin11/articles/ba68b39ef9a8ce" data-day="2026-11-18">
-  <div class="item-head"><span class="neta">S</span><span class="topic">AI駆動開発</span><span class="topic">仕事術</span><span class="src">はてなブックマーク IT人気エントリ</span><time class="pub" datetime="2026-11-17">2026-11-17</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
-  <h3><a href="https://zenn.dev/andoshin11/articles/ba68b39ef9a8ce">毎月6,000 AI Agentsを捌くためにキーボードを捨てた話</a></h3>
-  <p class="summary">AI エージェントを月6,000セッション規模で回すため、キーボード入力をやめてワンタップで指示できる環境を作ったという体験記。Claude Code のタスク進捗表示や質問の自動検知、AI に次のアクションを選択肢で提案させる仕組みを組み合わせ、iPhone や Apple Watch からも操作できるようにしている。1日200セッション前後、500〜600コミットの日もあったと書かれている。</p>
-  <p class="hook">フック候補: 逆転型で入るなら「AIを使いこなすほどキーボードは要らなくなる」</p>
-</article><article class="item neta-S" data-url="https://qiita.com/Munise/items/55751d6f5ccb4c5ea96c" data-day="2026-11-18">
-  <div class="item-head"><span class="neta">S</span><span class="topic">スクラム</span><span class="topic">チーム開発</span><span class="src">Qiita(スクラム)</span><time class="pub" datetime="2026-11-17">2026-11-17</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
-  <h3><a href="https://qiita.com/Munise/items/55751d6f5ccb4c5ea96c">朝会をやめて夕会にしたら、朝イチから全員フルスロットルになった — 6人チームのアジャイル×AI運用</a></h3>
-  <p class="summary">6人チームで朝会を15分ほどの夕会に変えたところ、翌朝から迷わず作業に入れるようになったという実践記。詰まりを一晩抱えずに済み、リーダーが翌日の支援を計画できる利点を挙げ、根拠としてツァイガルニク効果や終業時の計画に関する研究を引いている。プロジェクト情報を AI に渡してタスク分解させ、仕様にない事情は人間が補う運用も紹介している。</p>
-  <p class="hook">フック候補: 逆転型で入るなら「朝会をやめたら朝が速くなった」</p>
-</article><article class="item neta-S" data-url="https://newsletter.posthog.com/p/decision-models" data-day="2026-11-18">
-  <div class="item-head"><span class="neta">S</span><span class="topic">AI駆動開発</span><span class="topic">設計</span><span class="src">Hacker News Front Page</span><time class="pub" datetime="2026-11-17">2026-11-17</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
-  <h3><a href="https://newsletter.posthog.com/p/decision-models">Not Everything Needs an LLM</a></h3>
-  <p class="summary">単純な判断には LLM ではなく、確率付きの構造化された答えを返す「決定モデル」を使うべきだと主張する PostHog の記事。個人情報を含むセッション要約の検出では98.7%で LLM 呼び出しを省けたなどの事例を挙げ、高価な LLM の前段フィルタ、安いモデルへの振り分け、入力を整えて単発判定にする、の3つの使い方を勧めている。多段の推論や大量のコンテキストが要る場面は LLM に任せるとしている。</p>
-  <p class="hook">フック候補: 逆転型で入るなら「AI活用の上手さは、LLMを呼ばない判断で決まる」</p>
+<section><h2>今日のS判定</h2><article class="item neta-S" data-url="https://zenn.dev/hiromoo/articles/reading-less-preparing-more" data-day="2026-11-19">
+  <div class="item-head"><span class="neta">S</span><span class="topic">AI駆動開発</span><span class="topic">仕事術</span><span class="src">はてなブックマーク IT人気エントリ</span><time class="pub" datetime="2026-11-18">2026-11-18</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
+  <h3><a href="https://zenn.dev/hiromoo/articles/reading-less-preparing-more">最近、コードを真面目に読まなくなった</a></h3>
+  <p class="summary">AI が出すコードがおおむね正しくなったため、差分を毎回精読するのをやめ、動作確認やテストで判断して影響の大きい箇所だけ深く読む方針に変えたという筆者の体験記。その代わり、使用言語や完成の基準など AI が推測しきれない前提を要件や Skill に明文化し、実装前に考える時間を増やすべきだと主張している。</p>
+  <p class="hook">フック候補: 逆転型で入るなら「コードを読まなくなった人ほど、書く前に考えている」</p>
+</article><article class="item neta-S" data-url="https://zenn.dev/fitness_densuke/articles/2026-11-14-removing-human-review" data-day="2026-11-19">
+  <div class="item-head"><span class="neta">S</span><span class="topic">AI駆動開発</span><span class="topic">チーム開発</span><span class="src">Zenn(AI駆動開発)</span><time class="pub" datetime="2026-11-17">2026-11-17</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
+  <h3><a href="https://zenn.dev/fitness_densuke/articles/2026-11-14-removing-human-review">人のレビューを、どこまで無くすか ― 事故1件で失う物から決める</a></h3>
+  <p class="summary">人のレビューをどこまで減らすかを「事故1件で失うもの」と「人が見ることで減る当たり」の比較で決めようという記事。直せば済むずれと、他人の情報が見えるような戻せない事故を分けて考え、他人の情報やお金を扱う部分は人が見る対象に残す。検査やテストの土台を先に整え、基準が固まった判断から AI に渡し、最後に残る責任はチームの合意で引き受けると書かれている。</p>
+  <p class="hook">フック候補: 逆転型で入るなら「レビューを減らす基準は、品質ではなく事故の重さ」</p>
+</article><article class="item neta-S" data-url="https://newsletter.pragmaticengineer.com/p/software-factories-and-code-reviews" data-day="2026-11-19">
+  <div class="item-head"><span class="neta">S</span><span class="topic">AI駆動開発</span><span class="topic">チーム開発</span><span class="src">The Pragmatic Engineer</span><time class="pub" datetime="2026-11-18">2026-11-18</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
+  <h3><a href="https://newsletter.pragmaticengineer.com/p/software-factories-and-code-reviews">Software factories and code reviews with Harjot Gill</a></h3>
+  <p class="summary">CodeRabbit CEO の Harjot Gill 氏が出演したポッドキャスト回。紹介文によると、同社は月5,000件以上のプルリクエストを出荷し AI に月約25万ドルを投じているという。エージェントが書いたコードを人が1件ずつ査読する従来のコードレビューは役目を終えつつあり、計画や複数リリースをまとめて確認する形が中心になると主張している。</p>
+  <p class="hook">フック候補: 逆転型で入るなら「AIレビューの会社の CEO が、コードレビューは終わると言う」</p>
+</article><article class="item neta-S" data-url="https://qiita.com/ruui/items/7f5692b58c295959ab48" data-day="2026-11-19">
+  <div class="item-head"><span class="neta">S</span><span class="topic">XP</span><span class="topic">設計</span><span class="src">Qiita(アジャイル)</span><time class="pub" datetime="2026-11-18">2026-11-18</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
+  <h3><a href="https://qiita.com/ruui/items/7f5692b58c295959ab48">ソフトウェアは生き物である。</a></h3>
+  <p class="summary">ソフトウェアを完成品の機械ではなく、環境に適応しながら育つ生き物として捉える論考。XP やアジャイルの源流に、トップダウンの設計図を批判し小さな修復の積み重ねで秩序を育てようとした建築家クリストファー・アレグザンダーの思想があると紹介する。建築では物理的制約で難しかった理想が、やり直しの容易なソフトウェアではテストやリファクタリングで実現できたと筆者は主張している。</p>
+  <p class="hook">フック候補: 逆転型で入るなら「アジャイルの元ネタは、建築で失敗した理想だった」</p>
 </article></section>
-<section><h2>その他の新着</h2><article class="item neta-A" data-url="https://tech.layerx.co.jp/entry/haro-alert-loop" data-day="2026-11-18">
-  <div class="item-head"><span class="neta">A</span><span class="topic">AI駆動開発</span><span class="topic">チーム開発</span><span class="src">はてなブックマーク IT人気エントリ</span><time class="pub" datetime="2026-11-17">2026-11-17</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
-  <h3><a href="https://tech.layerx.co.jp/entry/haro-alert-loop">内製 Background Agent “haro”に アラート対応を任せたら 回すたびに賢くなっていった - LayerX エンジニアブログ</a></h3>
-  <p class="summary">LayerX が社内のバックグラウンドエージェント「haro」に勤怠サービスのアラート巡回を平日1時間おきに任せた事例。通知を「要対応／要確認／対応不要」に振り分け、ログとコードで原因を調べ、直し方が明確なものは draft PR を作る。約3週間半で PR 29本中18本が merge され、巡回用 Wiki に学びを書き戻してルールに格上げする仕組みで同じ失敗を減らしたと述べている。</p>
-  <p class="hook">フック候補: 逆転型で入るなら「AIは任せっぱなしより、書き戻しで育つ」</p>
-</article><article class="item neta-A" data-url="https://zenn.dev/uragasumi25/articles/fa8828a5cfe861" data-day="2026-11-18">
-  <div class="item-head"><span class="neta">A</span><span class="topic">アジャイル</span><span class="src">Zenn(スクラム)</span><time class="pub" datetime="2026-11-17">2026-11-17</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
-  <h3><a href="https://zenn.dev/uragasumi25/articles/fa8828a5cfe861">【技術屋の思考ログ #46】AI時代だからこそ響く「アジャイルの原典」。ツールよりも対話を重んじる哲学</a></h3>
-  <p class="summary">タイトルによれば、AI 時代だからこそアジャイルソフトウェア開発宣言の「プロセスやツールよりも個人と対話を」という価値観が響くと論じるエッセイ。本文は未確認。</p>
-  <p class="hook">フック候補: 逆転型で入るなら「AIが進むほど、ツールより対話が効く」</p>
-</article><article class="item neta-A" data-url="https://zenn.dev/sadano/articles/tsumiki-dev-auto-two-services" data-day="2026-11-18">
-  <div class="item-head"><span class="neta">A</span><span class="topic">AI駆動開発</span><span class="src">Zenn(AI駆動開発)</span><time class="pub" datetime="2026-11-16">2026-11-16</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
-  <h3><a href="https://zenn.dev/sadano/articles/tsumiki-dev-auto-two-services">人間はモックアップを承認するだけ。Claude Code で Web サービスを 2 つ、1 か月半で作って公開した</a></h3>
-  <p class="summary">タイトルによれば、人間はモックアップの承認だけを担い、Claude Code で Web サービスを2つ、1か月半で作って公開した体験記。本文は未確認。</p>
-  <p class="hook">フック候補: 逆転型で入るなら「人間の仕事は作ることではなく承認すること」</p>
-</article><article class="item neta-A" data-url="https://www.infoq.com/news/2026/11/google-sre-book-ai-era/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" data-day="2026-11-18">
-  <div class="item-head"><span class="neta">A</span><span class="topic">チーム開発</span><span class="topic">設計</span><span class="src">InfoQ</span><time class="pub" datetime="2026-11-17">2026-11-17</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
-  <h3><a href="https://www.infoq.com/news/2026/11/google-sre-book-ai-era/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global">Ten Years On, Google Updates the SRE Book for the AI Era</a></h3>
-  <p class="summary">タイトルによれば、Google が SRE 本の初版から約10年を経て、AI 時代に合わせた改訂を行ったことを伝える InfoQ のニュース。改訂の具体的な内容は本文未確認。</p>
-  <p class="hook">フック候補: 10年前の運用の常識のうち、AIで何が変わったか</p>
-</article><article class="item neta-B" data-url="https://forest.watch.impress.co.jp/docs/news/2156904.html" data-day="2026-11-18">
+<section><h2>その他の新着</h2><article class="item neta-A" data-url="https://simonwillison.net/2026/Nov/18/daniel-stenberg/" data-day="2026-11-19">
+  <div class="item-head"><span class="neta">A</span><span class="topic">AI駆動開発</span><span class="topic">設計</span><span class="src">Simon Willison</span><time class="pub" datetime="2026-11-18">2026-11-18</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
+  <h3><a href="https://simonwillison.net/2026/Nov/18/daniel-stenberg/">Quoting Daniel Stenberg</a></h3>
+  <p class="summary">curl 作者 Daniel Stenberg 氏の発言を Simon Willison 氏が紹介した短い投稿。AI エージェントで C から Rust に書き換えた curl のクローンが多数作られる一方、本家は同じ期間に300件超のコミットと約200件のバグ修正、脆弱性対応を重ねていると指摘しており、AI による移植が本家の保守ペースに追いつけるのかを問いかけている。</p>
+  <p class="hook">フック候補: 逆転型で入るなら「AIで書き直すのは一瞬、追いかけ続けるのが本番」</p>
+</article><article class="item neta-A" data-url="https://speakerdeck.com/minorun365/2026-11-lab-datsubotorunekku-ningen" data-day="2026-11-19">
+  <div class="item-head"><span class="neta">A</span><span class="topic">仕事術</span><span class="topic">チーム開発</span><span class="src">はてなブックマーク IT人気エントリ</span><time class="pub" datetime="2026-11-18">2026-11-18</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
+  <h3><a href="https://speakerdeck.com/minorun365/2026-11-lab-datsubotorunekku-ningen">認知負荷の減らし方 ～開発にも日常業務にも活かせるノウハウ～</a></h3>
+  <p class="summary">開発と日常業務の両方で認知負荷を減らすノウハウをまとめた登壇資料(Speaker Deck)。URL からは「人間がボトルネック」という問題意識の発表とみられるが、本文は未確認で、具体的な手法はスライドで確認が必要。</p>
+  <p class="hook">フック候補: 逆転型で入るなら「AI時代のボトルネックは人間の頭の容量」</p>
+</article><article class="item neta-A" data-url="https://qiita.com/nuco_d/items/b279477cbcdbe5921abd" data-day="2026-11-19">
+  <div class="item-head"><span class="neta">A</span><span class="topic">AI駆動開発</span><span class="topic">仕事術</span><span class="src">はてなブックマーク IT人気エントリ</span><time class="pub" datetime="2026-11-17">2026-11-17</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
+  <h3><a href="https://qiita.com/nuco_d/items/b279477cbcdbe5921abd">部下がClaudeっぽいスライドしか出してこなくてウンザリしてる上司はこれを使わせなさい - Qiita</a></h3>
+  <p class="summary">AI 生成のスライドが似た見た目になってしまう問題に対し、何らかのツールや指示の工夫を勧める記事とみられる。タイトルのみからの判断で、紹介されている手法の中身は未確認。</p>
+  <p class="hook">フック候補: 逆転型で入るなら「AIで資料が速くなるほど、全部同じ顔になる」</p>
+</article><article class="item neta-A" data-url="https://posfie.com/@_Mammal_/p/SHE9Pud" data-day="2026-11-19">
+  <div class="item-head"><span class="neta">A</span><span class="topic">AI駆動開発</span><span class="src">はてなブックマーク IT人気エントリ</span><time class="pub" datetime="2026-11-17">2026-11-17</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
+  <h3><a href="https://posfie.com/@_Mammal_/p/SHE9Pud">左：よく見るAI臭すごいやつ 右：工夫したやつ 同じAIで作ってます→『AI臭の方は「美しい」。工夫の方は「可愛い」。』</a></h3>
+  <p class="summary">同じ AI で作った「AI 臭い」成果物と工夫した成果物を並べた投稿への反応をまとめた Posfie のまとめ。タイトルによれば、AI 臭い方は「美しい」、工夫した方は「可愛い」と評されている。具体的な工夫の内容は未確認。</p>
+  <p class="hook">フック候補: 逆転型で入るなら「AI臭さの正体は、整いすぎていること」</p>
+</article><article class="item neta-A" data-url="https://note.com/wakabame/n/nc76b65a187bb" data-day="2026-11-19">
+  <div class="item-head"><span class="neta">A</span><span class="topic">仕事術</span><span class="topic">AI駆動開発</span><span class="src">はてなブックマーク IT人気エントリ</span><time class="pub" datetime="2026-11-17">2026-11-17</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
+  <h3><a href="https://note.com/wakabame/n/nc76b65a187bb">ソフトウェアエンジニアの黄昏期をこう過ごそうと思う｜わかばめ</a></h3>
+  <p class="summary">AI の普及でソフトウェアエンジニアという職業が「黄昏期」に入ったという認識のもと、筆者がこれからの過ごし方を考えた note 記事とみられる。本文は未確認。</p>
+  <p class="hook">フック候補: 逆転型で入るなら「エンジニアの黄昏は、終わりではなく働き方の夕方」</p>
+</article><article class="item neta-A" data-url="https://zenn.dev/dip_techblog/articles/6a1faea00e53d5" data-day="2026-11-19">
+  <div class="item-head"><span class="neta">A</span><span class="topic">アジャイル</span><span class="topic">AI駆動開発</span><span class="src">Zenn(アジャイル)</span><time class="pub" datetime="2026-11-18">2026-11-18</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
+  <h3><a href="https://zenn.dev/dip_techblog/articles/6a1faea00e53d5">[Agile Japan 2026 参加レポート] AIで「作る速さ」が爆上がりした今、私たちは何に時間を使うべきか？</a></h3>
+  <p class="summary">Agile Japan 2026 の参加レポート。AI で作る速さが大きく上がった今、チームは何に時間を使うべきかという問いを軸に講演内容をまとめているとみられる。本文は未確認。</p>
+  <p class="hook">フック候補: 逆転型で入るなら「作るのが速くなったら、何を作るかで迷う時間が増えた」</p>
+</article><article class="item neta-A" data-url="https://zenn.dev/handa_lab/articles/11-rules-placement-table" data-day="2026-11-19">
+  <div class="item-head"><span class="neta">A</span><span class="topic">AI駆動開発</span><span class="src">Zenn(AI駆動開発)</span><time class="pub" datetime="2026-11-18">2026-11-18</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
+  <h3><a href="https://zenn.dev/handa_lab/articles/11-rules-placement-table">Claude Code のルールの置き場を判定表で決めた。3か月後に数えたら、増え方は止まっていなかった</a></h3>
+  <p class="summary">Claude Code に与えるルールの置き場所を判定表で決める運用を始め、3か月後に数えてみたらルールの増加は止まっていなかったという振り返り記事とみられる。本文は未確認。</p>
+  <p class="hook">フック候補: 逆転型で入るなら「置き場所を決めても、ルールは増え続ける」</p>
+</article><article class="item neta-A" data-url="https://zenn.dev/minewo/articles/claude-code-hook-fail-open" data-day="2026-11-19">
+  <div class="item-head"><span class="neta">A</span><span class="topic">AI駆動開発</span><span class="src">Zenn(AI駆動開発)</span><time class="pub" datetime="2026-11-17">2026-11-17</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
+  <h3><a href="https://zenn.dev/minewo/articles/claude-code-hook-fail-open">危険コマンドを止める Claude Code hook を書いたのに、素通ししていた</a></h3>
+  <p class="summary">危険なコマンドを止めるための Claude Code の hook を書いたのに、実際には素通ししていたという失敗談。URL の「fail-open」から、エラー時に許可側に倒れる設計が原因だったとみられるが、本文は未確認。</p>
+  <p class="hook">フック候補: 逆転型で入るなら「安全装置は、壊れたときに開くと意味がない」</p>
+</article><article class="item neta-A" data-url="https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/" data-day="2026-11-19">
+  <div class="item-head"><span class="neta">A</span><span class="topic">AI駆動開発</span><span class="topic">仕事術</span><span class="src">Hacker News Front Page</span><time class="pub" datetime="2026-11-18">2026-11-18</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
+  <h3><a href="https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/">AI agents ask better questions than KPMG accountants in audit trial</a></h3>
+  <p class="summary">監査の試験運用で、AI エージェントが KPMG の会計士より良い質問をしたと報じる記事(タイトルより)。試験の条件や評価方法は本文未確認のため、結果の解釈には注意が必要。</p>
+  <p class="hook">フック候補: 逆転型で入るなら「AIの強みは答えより質問だった」</p>
+</article><article class="item neta-B" data-url="https://pc.watch.impress.co.jp/docs/news/2157394.html" data-day="2026-11-19">
+  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="src">はてなブックマーク IT人気エントリ</span><time class="pub" datetime="2026-11-18">2026-11-18</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
+  <h3><a href="https://pc.watch.impress.co.jp/docs/news/2157394.html">同じ仕事を少ないトークンで。GPT-6.2 AstraとSolが登場</a></h3>
+  <p class="summary">OpenAI の新モデル GPT-6.2 Astra と Sol の登場を伝えるニュース。タイトルによれば、同じ仕事をより少ないトークンでこなせる点が打ち出されている。詳細は本文未確認。</p>
+</article><article class="item neta-B" data-url="https://forest.watch.impress.co.jp/docs/news/2157510.html" data-day="2026-11-19">
+  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="topic">仕事術</span><span class="src">はてなブックマーク IT人気エントリ</span><time class="pub" datetime="2026-11-18">2026-11-18</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
+  <h3><a href="https://forest.watch.impress.co.jp/docs/news/2157510.html">「Google Apps Script」のコードをGeminiで開発する機能が一般提供開始／専門知識なしで業務自動化が可能に</a></h3>
+  <p class="summary">Google Apps Script のコードを Gemini で開発する機能が一般提供になったというニュース。専門知識なしで業務自動化ができる点が打ち出されている(タイトルより)。</p>
+</article><article class="item neta-B" data-url="https://github.com/AnIT012/nihongo" data-day="2026-11-19">
   <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="src">はてなブックマーク IT人気エントリ</span><time class="pub" datetime="2026-11-17">2026-11-17</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
-  <h3><a href="https://forest.watch.impress.co.jp/docs/news/2156904.html">AIが時代遅れのWebサイトを書くのを防ぐスキル「Modern Web Guidance」が安定版に／「Edge」「Firefox」も参加、Webサイトのモダナイズにも</a></h3>
-  <p class="summary">タイトルによれば、AI が古い書き方の Web サイトを生成するのを防ぐスキル「Modern Web Guidance」が安定版になり、Edge や Firefox の関係者も参加したというニュース。既存サイトのモダナイズにも使えるとしている。本文は未確認。</p>
-</article><article class="item neta-B" data-url="https://japan.cnet.com/article/35254992/" data-day="2026-11-18">
+  <h3><a href="https://github.com/AnIT012/nihongo">GitHub - AnIT012/nihongo: AIが書く日本語を、人が書く文に近づけるエージェントスキル。Claude、ChatGPT、Claude Code、Codexなどで使えます。</a></h3>
+  <p class="summary">AI が書く日本語を人が書く文に近づけるためのエージェントスキルを公開した GitHub リポジトリ。説明文によれば Claude、ChatGPT、Claude Code、Codex などで使える。</p>
+</article><article class="item neta-B" data-url="https://zenn.dev/port_inc/articles/ff974c7456f4db" data-day="2026-11-19">
   <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="src">はてなブックマーク IT人気エントリ</span><time class="pub" datetime="2026-11-17">2026-11-17</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
-  <h3><a href="https://japan.cnet.com/article/35254992/">ChatGPTやClaudeがMacを操作する時代に--Appleが「macOS 27.3」で対応強化</a></h3>
-  <p class="summary">タイトルによれば、Apple が macOS 27.3 で ChatGPT や Claude などの AI が Mac を操作するための対応を強化したというニュース。具体的な機能は本文未確認。</p>
-</article><article class="item neta-B" data-url="https://zenn.dev/factory_dx_eng/articles/ai-handson-veteran-autonomy" data-day="2026-11-18">
-  <div class="item-head"><span class="neta">B</span><span class="topic">仕事術</span><span class="topic">チーム開発</span><span class="src">はてなブックマーク IT人気エントリ</span><time class="pub" datetime="2026-11-14">2026-11-14</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
-  <h3><a href="https://zenn.dev/factory_dx_eng/articles/ai-handson-veteran-autonomy">製造業のベテランにAIを教えて見えた、自走を分けるもの</a></h3>
-  <p class="summary">タイトルによれば、製造業のベテラン社員に AI の使い方を教えた経験から、自分で使いこなせるようになる人とそうでない人を分ける要因を考察した記事。本文は未確認。</p>
-</article><article class="item neta-B" data-url="https://www.publickey1.jp/blog/26/aimai_code_2mai_code_2_flash.html" data-day="2026-11-18">
-  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="src">Publickey</span><time class="pub" datetime="2026-11-17">2026-11-17</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
-  <h3><a href="https://www.publickey1.jp/blog/26/aimai_code_2mai_code_2_flash.html">［速報］マイクロソフト、コーディング用AIモデルとして高性能かつ低価格「MAI Code 2」「MAI Code 2 Flash」発表</a></h3>
-  <p class="summary">タイトルによれば、マイクロソフトがコーディング向け AI モデル「MAI Code 2」と「MAI Code 2 Flash」を高性能かつ低価格なモデルとして発表した速報。性能や価格の詳細は本文未確認。</p>
-</article><article class="item neta-B" data-url="https://zenn.dev/tree_and_tree/articles/ai-driven-discord-info-server" data-day="2026-11-18">
-  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="topic">仕事術</span><span class="src">Zenn(AI駆動開発)</span><time class="pub" datetime="2026-11-16">2026-11-16</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
-  <h3><a href="https://zenn.dev/tree_and_tree/articles/ai-driven-discord-info-server">AI駆動開発で自分用の情報収集Discordサーバーを作る</a></h3>
-  <p class="summary">タイトルによれば、AI 駆動開発で自分用の情報収集 Discord サーバーを作った過程を紹介する記事。本文は未確認。</p>
-</article><article class="item neta-B" data-url="https://zenn.dev/matubo/articles/a90c69a515e266" data-day="2026-11-18">
-  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="src">Zenn(AI駆動開発)</span><time class="pub" datetime="2026-11-16">2026-11-16</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
-  <h3><a href="https://zenn.dev/matubo/articles/a90c69a515e266">LaravelエンジニアがGoとAIでボードゲームWebアプリを作った話</a></h3>
-  <p class="summary">タイトルによれば、普段 Laravel を使うエンジニアが、不慣れな Go と AI を使ってボードゲームの Web アプリを作った体験記。本文は未確認。</p>
-</article><article class="item neta-B" data-url="https://qiita.com/io0323/items/dec860c8f2981a2e41a6" data-day="2026-11-18">
-  <div class="item-head"><span class="neta">B</span><span class="topic">アジャイル</span><span class="src">Qiita(アジャイル)</span><time class="pub" datetime="2026-11-17">2026-11-17</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
-  <h3><a href="https://qiita.com/io0323/items/dec860c8f2981a2e41a6">【書評】 プロダクトマネジメント ―ビルドトラップを避け顧客に価値を届ける</a></h3>
-  <p class="summary">書籍『プロダクトマネジメント ―ビルドトラップを避け顧客に価値を届ける』の書評記事。機能を作ること自体が目的化する「ビルドトラップ」を避け、顧客への価値に焦点を当てるという同書のテーマを扱っていると見られる。本文は未確認。</p>
-</article><article class="item neta-B" data-url="https://martinfowler.com/articles/deterministic-simulation-testing.html" data-day="2026-11-18">
-  <div class="item-head"><span class="neta">B</span><span class="topic">設計</span><span class="topic">XP</span><span class="src">Martin Fowler</span><time class="pub" datetime="2026-11-17">2026-11-17</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
-  <h3><a href="https://martinfowler.com/articles/deterministic-simulation-testing.html">Deterministic Simulation Testing</a></h3>
-  <p class="summary">martinfowler.com に掲載された、決定論的シミュレーションテスト(分散システムなどを再現可能な形でシミュレーションしてテストする手法)についての記事。具体的な内容は本文未確認。</p>
-</article><article class="item neta-B" data-url="https://newsletter.pragmaticengineer.com/p/inference-engineering-for-software-engineers" data-day="2026-11-18">
-  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="src">The Pragmatic Engineer</span><time class="pub" datetime="2026-11-17">2026-11-17</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
-  <h3><a href="https://newsletter.pragmaticengineer.com/p/inference-engineering-for-software-engineers">Inference engineering for software engineers</a></h3>
-  <p class="summary">タイトルによれば、ソフトウェアエンジニア向けに LLM の推論(inference)を扱うエンジニアリングを解説する The Pragmatic Engineer の記事。本文は未確認。</p>
-</article><article class="item neta-B" data-url="https://starsling.dev" data-day="2026-11-18">
-  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="src">Hacker News Front Page</span><time class="pub" datetime="2026-11-17">2026-11-17</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
-  <h3><a href="https://starsling.dev">Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos</a></h3>
-  <p class="summary">タイトルによれば、AI エージェントが大量の変更を出すリポジトリ向けに、自己改善する CI を提供するスタートアップ StarSling のローンチ告知。本文は未確認。</p>
-</article><article class="item neta-B" data-url="https://openai.com/index/introducing-gpt-6-2-astra-sol/" data-day="2026-11-18">
-  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="src">Hacker News Front Page</span><time class="pub" datetime="2026-11-17">2026-11-17</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
-  <h3><a href="https://openai.com/index/introducing-gpt-6-2-astra-sol/">GPT‑6.2 Astra and Sol</a></h3>
-  <p class="summary">タイトルによれば、OpenAI が新モデル「GPT-6.2 Astra」と「GPT-6.2 Sol」を発表したことを伝える公式ページ。性能や用途は本文未確認。</p>
-</article><article class="item neta-B" data-url="https://www.infoq.com/news/2026/11/shopify-remote-ai-dev/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" data-day="2026-11-18">
-  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="topic">チーム開発</span><span class="src">InfoQ</span><time class="pub" datetime="2026-11-17">2026-11-17</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
-  <h3><a href="https://www.infoq.com/news/2026/11/shopify-remote-ai-dev/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global">How Shopify Orchestrates AI-Powered Mobile App Development Without Overloading Developers&#x27; Machines</a></h3>
-  <p class="summary">タイトルによれば、Shopify が開発者のマシンに負荷をかけずに AI を使ったモバイルアプリ開発を回す仕組みを紹介する InfoQ のニュース。本文は未確認。</p>
-</article><article class="item neta-B" data-url="https://www.infoq.com/news/2026/11/datadog-ai-agent-observability/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" data-day="2026-11-18">
-  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="src">InfoQ</span><time class="pub" datetime="2026-11-17">2026-11-17</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
-  <h3><a href="https://www.infoq.com/news/2026/11/datadog-ai-agent-observability/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global">Datadog Brings Production Experimentation to AI Agent Observability</a></h3>
-  <p class="summary">タイトルによれば、Datadog が AI エージェントの可観測性の機能に、本番環境での実験(比較検証)を持ち込んだことを伝える InfoQ のニュース。本文は未確認。</p>
-</article><article class="item neta-B" data-url="https://simonwillison.net/2026/Nov/17/go-proverbs/" data-day="2026-11-18">
-  <div class="item-head"><span class="neta">B</span><span class="topic">設計</span><span class="src">Simon Willison</span><time class="pub" datetime="2026-11-17">2026-11-17</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
-  <h3><a href="https://simonwillison.net/2026/Nov/17/go-proverbs/">Quoting Go Proverbs</a></h3>
-  <p class="summary">Simon Willison のブログで、Go 言語の設計哲学を短い格言にまとめた「Go Proverbs」から一節を引用した投稿。どの格言を取り上げたかは本文未確認。</p>
+  <h3><a href="https://zenn.dev/port_inc/articles/ff974c7456f4db">ローカルLLM入門</a></h3>
+  <p class="summary">ローカル環境で LLM を動かすための入門記事とみられる。本文は未確認。</p>
+</article><article class="item neta-B" data-url="https://www.publickey1.jp/blog/26/aicopilot_managed_runtime.html" data-day="2026-11-19">
+  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="src">Publickey</span><time class="pub" datetime="2026-11-18">2026-11-18</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
+  <h3><a href="https://www.publickey1.jp/blog/26/aicopilot_managed_runtime.html">マイクロソフト、AIが生成したアプリを企業内で安全に実行するランタイム「Copilot Managed Runtime」正式リリース</a></h3>
+  <p class="summary">マイクロソフトが、AI が生成したアプリを企業内で安全に実行するためのランタイム「Copilot Managed Runtime」を正式リリースしたというニュース(タイトルより)。</p>
+</article><article class="item neta-B" data-url="https://zenn.dev/ikenohotori/articles/37cbe45c807ac2" data-day="2026-11-19">
+  <div class="item-head"><span class="neta">B</span><span class="topic">アジャイル</span><span class="src">Zenn(アジャイル)</span><time class="pub" datetime="2026-11-18">2026-11-18</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
+  <h3><a href="https://zenn.dev/ikenohotori/articles/37cbe45c807ac2">『アジャイルサムライ』を読んでいく（第1～2章）</a></h3>
+  <p class="summary">書籍『アジャイルサムライ』の第1〜2章を読んだ読書メモ記事とみられる。本文は未確認。</p>
+</article><article class="item neta-B" data-url="https://zenn.dev/kanepion/articles/f58670d96b6b4f" data-day="2026-11-19">
+  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="topic">XP</span><span class="src">Zenn(AI駆動開発)</span><time class="pub" datetime="2026-11-18">2026-11-18</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
+  <h3><a href="https://zenn.dev/kanepion/articles/f58670d96b6b4f">AIが書いたAPI、動作確認まで完走させる（テスト自動生成と自己修正）</a></h3>
+  <p class="summary">AI が書いた API について、テストの自動生成と自己修正を組み合わせて動作確認まで AI に完走させる方法を紹介する記事とみられる。本文は未確認。</p>
+</article><article class="item neta-B" data-url="https://qiita.com/monet-inc/items/165de4a8b9f315f4d1f1" data-day="2026-11-19">
+  <div class="item-head"><span class="neta">B</span><span class="topic">チーム開発</span><span class="topic">AI駆動開発</span><span class="src">Qiita(アジャイル)</span><time class="pub" datetime="2026-11-18">2026-11-18</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
+  <h3><a href="https://qiita.com/monet-inc/items/165de4a8b9f315f4d1f1">Kizuna に AI を入れられるか（1）AI に進行役を任せてみた</a></h3>
+  <p class="summary">「Kizuna」という取り組み(詳細は未確認)の進行役を AI に任せてみた連載の第1回とみられる。本文は未確認。</p>
+</article><article class="item neta-B" data-url="https://martinfowler.com/articles/data-contracts.html" data-day="2026-11-19">
+  <div class="item-head"><span class="neta">B</span><span class="topic">設計</span><span class="src">Martin Fowler</span><time class="pub" datetime="2026-11-18">2026-11-18</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
+  <h3><a href="https://martinfowler.com/articles/data-contracts.html">Data Contracts</a></h3>
+  <p class="summary">martinfowler.com に掲載された「Data Contracts(データコントラクト)」についての記事。データの提供側と利用側の間の取り決めを扱う設計テーマとみられるが、本文は未確認。</p>
+</article><article class="item neta-B" data-url="https://news.ycombinator.com/item?id=50549188" data-day="2026-11-19">
+  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="src">Hacker News Front Page</span><time class="pub" datetime="2026-11-18">2026-11-18</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
+  <h3><a href="https://news.ycombinator.com/item?id=50549188">Launch HN: Maritime (YC F26) – A managed cloud for production AI agents</a></h3>
+  <p class="summary">本番運用の AI エージェント向けマネージドクラウド「Maritime」(YC F26)のローンチ投稿(タイトルより)。</p>
+</article><article class="item neta-B" data-url="https://news.ycombinator.com/item?id=50548660" data-day="2026-11-19">
+  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="src">Hacker News Front Page</span><time class="pub" datetime="2026-11-18">2026-11-18</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
+  <h3><a href="https://news.ycombinator.com/item?id=50548660">Show HN: Mastra Factory, the open-source software factory we use to build Mastra</a></h3>
+  <p class="summary">Mastra の開発に使っている「ソフトウェア工場」を Mastra Factory としてオープンソース公開したという Show HN 投稿(タイトルより)。</p>
+</article><article class="item neta-B" data-url="https://www.infoq.com/presentations/bookingcom-ml-data-platform-evolution/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" data-day="2026-11-19">
+  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="topic">設計</span><span class="src">InfoQ</span><time class="pub" datetime="2026-11-18">2026-11-18</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
+  <h3><a href="https://www.infoq.com/presentations/bookingcom-ml-data-platform-evolution/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global">Presentation: Behind Booking.com&#x27;s AI Evolution: The Unpolished Story</a></h3>
+  <p class="summary">Booking.com の AI・ML データ基盤の変遷を、きれいごとではない裏側として語る InfoQ の講演(タイトルと URL より)。本文は未確認。</p>
+</article><article class="item neta-B" data-url="https://www.infoq.com/news/2026/11/vercel-ui-sdk/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" data-day="2026-11-19">
+  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="topic">設計</span><span class="src">InfoQ</span><time class="pub" datetime="2026-11-18">2026-11-18</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
+  <h3><a href="https://www.infoq.com/news/2026/11/vercel-ui-sdk/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global">Vercel Releases UI SDK for Agents to Compose UI from Reusable Behaviors</a></h3>
+  <p class="summary">Vercel が、エージェントが再利用可能な振る舞いを組み合わせて UI を構成できる UI SDK を公開したというニュース(タイトルより)。</p>
+</article><article class="item neta-B" data-url="https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/" data-day="2026-11-19">
+  <div class="item-head"><span class="neta">B</span><span class="topic">AI駆動開発</span><span class="src">Simon Willison</span><time class="pub" datetime="2026-11-17">2026-11-17</time><button class="pin" type="button" aria-pressed="false" title="ピン留め">☆</button></div>
+  <h3><a href="https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/">External sandboxes for coding agents</a></h3>
+  <p class="summary">コーディングエージェントを外部のサンドボックスで動かすことについての Simon Willison 氏の投稿(タイトルより)。本文は未確認。</p>
 </article></section>
-<section class="memo"><h2>店長宛メモ</h2><ul><li>新着が多すぎたため 64 件を未判定でスキップ(翌日再登場)</li><li>トピック対象外として 8 件をボツ</li></ul></section>
-<section class="archive-sec"><h2>アーカイブ</h2><ul class="archive"><li><a href="daily/2026-11-18.html">2026-11-18</a></li><li><a href="daily/2026-11-17.html">2026-11-17</a></li><li><a href="daily/2026-11-16.html">2026-11-16</a></li><li><a href="daily/2026-11-15.html">2026-11-15</a></li><li><a href="daily/2026-11-14.html">2026-11-14</a></li><li><a href="daily/2026-11-13.html">2026-11-13</a></li><li><a href="daily/2026-11-12.html">2026-11-12</a></li><li><a href="daily/2026-11-11.html">2026-11-11</a></li><li><a href="daily/2026-11-10.html">2026-11-10</a></li><li><a href="daily/2026-11-09.html">2026-11-09</a></li><li><a href="daily/2026-11-08.html">2026-11-08</a></li><li><a href="daily/2026-11-07.html">2026-11-07</a></li><li><a href="daily/2026-11-06.html">2026-11-06</a></li><li><a href="daily/2026-11-05.html">2026-11-05</a></li><li><a href="daily/2026-11-04.html">2026-11-04</a></li><li><a href="daily/2026-11-03.html">2026-11-03</a></li><li><a href="daily/2026-11-02.html">2026-11-02</a></li><li><a href="daily/2026-11-01.html">2026-11-01</a></li><li><a href="daily/2026-10-31.html">2026-10-31</a></li><li><a href="daily/2026-10-30.html">2026-10-30</a></li><li><a href="daily/2026-10-29.html">2026-10-29</a></li><li><a href="daily/2026-10-28.html">2026-10-28</a></li><li><a href="daily/2026-10-27.html">2026-10-27</a></li><li><a href="daily/2026-10-26.html">2026-10-26</a></li><li><a href="daily/2026-10-25.html">2026-10-25</a></li><li><a href="daily/2026-10-24.html">2026-10-24</a></li><li><a href="daily/2026-10-22.html">2026-10-22</a></li><li><a href="daily/2026-10-21.html">2026-10-21</a></li><li><a href="daily/2026-10-20.html">2026-10-20</a></li><li><a href="daily/2026-10-19.html">2026-10-19</a></li><li><a href="daily/2026-10-18.html">2026-10-18</a></li><li><a href="daily/2026-10-17.html">2026-10-17</a></li><li><a href="daily/2026-10-16.html">2026-10-16</a></li><li><a href="daily/2026-10-15.html">2026-10-15</a></li><li><a href="daily/2026-10-14.html">2026-10-14</a></li><li><a href="daily/2026-10-13.html">2026-10-13</a></li><li><a href="daily/2026-10-12.html">2026-10-12</a></li><li><a href="daily/2026-10-11.html">2026-10-11</a></li><li><a href="daily/2026-10-10.html">2026-10-10</a></li><li><a href="daily/2026-10-09.html">2026-10-09</a></li><li><a href="daily/2026-10-08.html">2026-10-08</a></li><li><a href="daily/2026-09-19.html">2026-09-19</a></li><li><a href="daily/2026-09-18.html">2026-09-18</a></li><li><a href="daily/2026-09-17.html">2026-09-17</a></li><li><a href="daily/2026-09-16.html">2026-09-16</a></li><li><a href="daily/2026-09-15.html">2026-09-15</a></li><li><a href="daily/2026-09-14.html">2026-09-14</a></li><li><a href="daily/2026-09-13.html">2026-09-13</a></li><li><a href="daily/2026-09-09.html">2026-09-09</a></li><li><a href="daily/2026-09-08.html">2026-09-08</a></li><li><a href="daily/2026-09-07.html">2026-09-07</a></li><li><a href="daily/2026-09-06.html">2026-09-06</a></li><li><a href="daily/2026-09-05.html">2026-09-05</a></li><li><a href="daily/2026-09-04.html">2026-09-04</a></li><li><a href="daily/2026-09-02.html">2026-09-02</a></li><li><a href="daily/2026-09-01.html">2026-09-01</a></li><li><a href="daily/2026-08-31.html">2026-08-31</a></li><li><a href="daily/2026-08-30.html">2026-08-30</a></li><li><a href="daily/2026-08-28.html">2026-08-28</a></li><li><a href="daily/2026-08-26.html">2026-08-26</a></li><li><a href="daily/2026-08-25.html">2026-08-25</a></li><li><a href="daily/2026-08-24.html">2026-08-24</a></li><li><a href="daily/2026-08-23.html">2026-08-23</a></li><li><a href="daily/2026-08-22.html">2026-08-22</a></li><li><a href="daily/2026-08-21.html">2026-08-21</a></li><li><a href="daily/2026-08-20.html">2026-08-20</a></li><li><a href="daily/2026-08-19.html">2026-08-19</a></li><li><a href="daily/2026-08-18.html">2026-08-18</a></li><li><a href="daily/2026-08-17.html">2026-08-17</a></li><li><a href="daily/2026-08-16.html">2026-08-16</a></li><li><a href="daily/2026-08-15.html">2026-08-15</a></li><li><a href="daily/2026-08-14.html">2026-08-14</a></li><li><a href="daily/2026-08-13.html">2026-08-13</a></li><li><a href="daily/2026-08-12.html">2026-08-12</a></li><li><a href="daily/2026-08-11.html">2026-08-11</a></li><li><a href="daily/2026-08-09.html">2026-08-09</a></li><li><a href="daily/2026-08-08.html">2026-08-08</a></li><li><a href="daily/2026-08-07.html">2026-08-07</a></li><li><a href="daily/2026-08-06.html">2026-08-06</a></li><li><a href="daily/2026-08-05.html">2026-08-05</a></li><li><a href="daily/2026-08-04.html">2026-08-04</a></li><li><a href="daily/2026-08-03.html">2026-08-03</a></li><li><a href="daily/2026-08-02.html">2026-08-02</a></li><li><a href="daily/2026-08-01.html">2026-08-01</a></li><li><a href="daily/2026-07-31.html">2026-07-31</a></li><li><a href="daily/2026-07-30.html">2026-07-30</a></li><li><a href="daily/2026-07-29.html">2026-07-29</a></li><li><a href="daily/2026-07-28.html">2026-07-28</a></li><li><a href="daily/2026-07-27.html">2026-07-27</a></li><li><a href="daily/2026-07-26.html">2026-07-26</a></li><li><a href="daily/2026-07-25.html">2026-07-25</a></li><li><a href="daily/2026-07-24.html">2026-07-24</a></li><li><a href="daily/2026-07-23.html">2026-07-23</a></li><li><a href="daily/2026-07-22.html">2026-07-22</a></li><li><a href="daily/2026-07-21.html">2026-07-21</a></li><li><a href="daily/2026-07-20.html">2026-07-20</a></li><li><a href="daily/2026-07-19.html">2026-07-19</a></li><li><a href="daily/2026-07-18.html">2026-07-18</a></li><li><a href="daily/2026-07-17.html">2026-07-17</a></li><li><a href="daily/2026-07-16.html">2026-07-16</a></li><li><a href="daily/2026-07-15.html">2026-07-15</a></li><li><a href="daily/2026-07-14.html">2026-07-14</a></li><li><a href="daily/2026-07-07.html">2026-07-07</a></li><li><a href="daily/2026-07-06.html">2026-07-06</a></li></ul></section></main>
+<section class="memo"><h2>店長宛メモ</h2><ul><li>新着が多すぎたため 67 件を未判定でスキップ(翌日再登場)</li><li>トピック対象外として 3 件をボツ</li></ul></section>
+<section class="archive-sec"><h2>アーカイブ</h2><ul class="archive"><li><a href="daily/2026-11-19.html">2026-11-19</a></li><li><a href="daily/2026-11-18.html">2026-11-18</a></li><li><a href="daily/2026-11-17.html">2026-11-17</a></li><li><a href="daily/2026-11-16.html">2026-11-16</a></li><li><a href="daily/2026-11-15.html">2026-11-15</a></li><li><a href="daily/2026-11-14.html">2026-11-14</a></li><li><a href="daily/2026-11-13.html">2026-11-13</a></li><li><a href="daily/2026-11-12.html">2026-11-12</a></li><li><a href="daily/2026-11-11.html">2026-11-11</a></li><li><a href="daily/2026-11-10.html">2026-11-10</a></li><li><a href="daily/2026-11-09.html">2026-11-09</a></li><li><a href="daily/2026-11-08.html">2026-11-08</a></li><li><a href="daily/2026-11-07.html">2026-11-07</a></li><li><a href="daily/2026-11-06.html">2026-11-06</a></li><li><a href="daily/2026-11-05.html">2026-11-05</a></li><li><a href="daily/2026-11-04.html">2026-11-04</a></li><li><a href="daily/2026-11-03.html">2026-11-03</a></li><li><a href="daily/2026-11-02.html">2026-11-02</a></li><li><a href="daily/2026-11-01.html">2026-11-01</a></li><li><a href="daily/2026-10-31.html">2026-10-31</a></li><li><a href="daily/2026-10-30.html">2026-10-30</a></li><li><a href="daily/2026-10-29.html">2026-10-29</a></li><li><a href="daily/2026-10-28.html">2026-10-28</a></li><li><a href="daily/2026-10-27.html">2026-10-27</a></li><li><a href="daily/2026-10-26.html">2026-10-26</a></li><li><a href="daily/2026-10-25.html">2026-10-25</a></li><li><a href="daily/2026-10-24.html">2026-10-24</a></li><li><a href="daily/2026-10-22.html">2026-10-22</a></li><li><a href="daily/2026-10-21.html">2026-10-21</a></li><li><a href="daily/2026-10-20.html">2026-10-20</a></li><li><a href="daily/2026-10-19.html">2026-10-19</a></li><li><a href="daily/2026-10-18.html">2026-10-18</a></li><li><a href="daily/2026-10-17.html">2026-10-17</a></li><li><a href="daily/2026-10-16.html">2026-10-16</a></li><li><a href="daily/2026-10-15.html">2026-10-15</a></li><li><a href="daily/2026-10-14.html">2026-10-14</a></li><li><a href="daily/2026-10-13.html">2026-10-13</a></li><li><a href="daily/2026-10-12.html">2026-10-12</a></li><li><a href="daily/2026-10-11.html">2026-10-11</a></li><li><a href="daily/2026-10-10.html">2026-10-10</a></li><li><a href="daily/2026-10-09.html">2026-10-09</a></li><li><a href="daily/2026-10-08.html">2026-10-08</a></li><li><a href="daily/2026-09-19.html">2026-09-19</a></li><li><a href="daily/2026-09-18.html">2026-09-18</a></li><li><a href="daily/2026-09-17.html">2026-09-17</a></li><li><a href="daily/2026-09-16.html">2026-09-16</a></li><li><a href="daily/2026-09-15.html">2026-09-15</a></li><li><a href="daily/2026-09-14.html">2026-09-14</a></li><li><a href="daily/2026-09-13.html">2026-09-13</a></li><li><a href="daily/2026-09-09.html">2026-09-09</a></li><li><a href="daily/2026-09-08.html">2026-09-08</a></li><li><a href="daily/2026-09-07.html">2026-09-07</a></li><li><a href="daily/2026-09-06.html">2026-09-06</a></li><li><a href="daily/2026-09-05.html">2026-09-05</a></li><li><a href="daily/2026-09-04.html">2026-09-04</a></li><li><a href="daily/2026-09-02.html">2026-09-02</a></li><li><a href="daily/2026-09-01.html">2026-09-01</a></li><li><a href="daily/2026-08-31.html">2026-08-31</a></li><li><a href="daily/2026-08-30.html">2026-08-30</a></li><li><a href="daily/2026-08-28.html">2026-08-28</a></li><li><a href="daily/2026-08-26.html">2026-08-26</a></li><li><a href="daily/2026-08-25.html">2026-08-25</a></li><li><a href="daily/2026-08-24.html">2026-08-24</a></li><li><a href="daily/2026-08-23.html">2026-08-23</a></li><li><a href="daily/2026-08-22.html">2026-08-22</a></li><li><a href="daily/2026-08-21.html">2026-08-21</a></li><li><a href="daily/2026-08-20.html">2026-08-20</a></li><li><a href="daily/2026-08-19.html">2026-08-19</a></li><li><a href="daily/2026-08-18.html">2026-08-18</a></li><li><a href="daily/2026-08-17.html">2026-08-17</a></li><li><a href="daily/2026-08-16.html">2026-08-16</a></li><li><a href="daily/2026-08-15.html">2026-08-15</a></li><li><a href="daily/2026-08-14.html">2026-08-14</a></li><li><a href="daily/2026-08-13.html">2026-08-13</a></li><li><a href="daily/2026-08-12.html">2026-08-12</a></li><li><a href="daily/2026-08-11.html">2026-08-11</a></li><li><a href="daily/2026-08-09.html">2026-08-09</a></li><li><a href="daily/2026-08-08.html">2026-08-08</a></li><li><a href="daily/2026-08-07.html">2026-08-07</a></li><li><a href="daily/2026-08-06.html">2026-08-06</a></li><li><a href="daily/2026-08-05.html">2026-08-05</a></li><li><a href="daily/2026-08-04.html">2026-08-04</a></li><li><a href="daily/2026-08-03.html">2026-08-03</a></li><li><a href="daily/2026-08-02.html">2026-08-02</a></li><li><a href="daily/2026-08-01.html">2026-08-01</a></li><li><a href="daily/2026-07-31.html">2026-07-31</a></li><li><a href="daily/2026-07-30.html">2026-07-30</a></li><li><a href="daily/2026-07-29.html">2026-07-29</a></li><li><a href="daily/2026-07-28.html">2026-07-28</a></li><li><a href="daily/2026-07-27.html">2026-07-27</a></li><li><a href="daily/2026-07-26.html">2026-07-26</a></li><li><a href="daily/2026-07-25.html">2026-07-25</a></li><li><a href="daily/2026-07-24.html">2026-07-24</a></li><li><a href="daily/2026-07-23.html">2026-07-23</a></li><li><a href="daily/2026-07-22.html">2026-07-22</a></li><li><a href="daily/2026-07-21.html">2026-07-21</a></li><li><a href="daily/2026-07-20.html">2026-07-20</a></li><li><a href="daily/2026-07-19.html">2026-07-19</a></li><li><a href="daily/2026-07-18.html">2026-07-18</a></li><li><a href="daily/2026-07-17.html">2026-07-17</a></li><li><a href="daily/2026-07-16.html">2026-07-16</a></li><li><a href="daily/2026-07-15.html">2026-07-15</a></li><li><a href="daily/2026-07-14.html">2026-07-14</a></li><li><a href="daily/2026-07-07.html">2026-07-07</a></li><li><a href="daily/2026-07-06.html">2026-07-06</a></li></ul></section></main>
 <footer>ひまじんプログラマーの週末エンジニアリングレッスン ── 元ネタ発掘レーダー</footer>
 </body>
 </html>
