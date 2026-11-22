@@ -1,0 +1,261 @@
+{
+  "date": "2026-11-23",
+  "items": [
+    {
+      "url": "https://zenn.dev/karamage/articles/73027ee36796dc",
+      "title": "【TLA+】AIにテストケースを書かせるな。ルールを書け",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-22",
+      "summary": "フリーランスエンジニアkaramage氏のZenn記事。AIに実装もテストも書かせると同じ見落としを引き継いだ「自作自演の満点」になりやすく、人間はテストケースではなく不変条件（ルール）を書き、状態探索はモデル検査に任せるべきだと主張する。チケット販売の例では、AIが書いたテスト3件はすべて通った一方、Quintが割り込みによる超過販売（在庫-1）を検出したと記事は述べている。単純な画面や入力チェックならテストケースで十分とも補足している。",
+      "topics": ["ai-dev", "xp"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「AIにテストを書かせるほど、テストは嘘をつく」"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/11/claude-code-leaking-secrets/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Claude Code Has Been Leaking Secrets through its \"Don't Ask Again\" Feature",
+      "source": "InfoQ",
+      "lang": "en",
+      "published": "2026-11-22",
+      "summary": "InfoQの記事。Claude Codeで「Don't Ask Again」を選ぶと承認したシェルコマンドが.claude/settings.local.jsonに保存され、そこに認証情報が含まれてリポジトリ経由で漏れる事例があると報じる。Apiiroは63組織で1,000件超のシークレットを検出し、GitGuardianは公開GitHub上の同ファイルから31,088件（うち5,343件が検出時点で有効）を見つけたとしている。対策としてファイルの追跡解除と.gitignore追加、認証情報のローテーション、環境変数経由での参照を挙げている。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「確認を減らす便利ボタンが、いちばん危ない設定ファイルを作っていた」"
+    },
+    {
+      "url": "https://zenn.dev/kakami21/articles/8f951607410737",
+      "title": "AI時代の開発はウォーターフォールに回帰するのか？ 仕様駆動開発（SDD）とおすすめツール比較",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "published": "2026-11-22",
+      "summary": "SIerでシステム開発に携わるkakami21氏のZenn記事。AIで実装コストが下がるほど要件定義や設計の比重が上がるのではと問い、全体要件は先に整理し機能単位で詳細仕様→実装→テストを回す、ウォーターフォールとアジャイルの中間の進め方を提案する。仕様駆動開発ツールとしてOpenSpec、cc-sdd、GitHub Spec Kit、Kiro、BMAD Methodを小規模開発向けに比較している。内容は仮説段階で定量的な検証はないと本文で示されている。",
+      "topics": ["ai-dev", "agile"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「AIでアジャイルが加速すると思ったら、ウォーターフォールに戻っていた？」"
+    },
+    {
+      "url": "https://speakerdeck.com/bengo4com/20261122-jsconfjp2026-coverage-100",
+      "title": "フロントエンドのテストカバレッジは 100%強制がいい",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-22",
+      "summary": "弁護士ドットコムのJSConf JP 2026登壇資料（Speaker Deck）。タイトルによれば、フロントエンドのテストカバレッジを100%で強制する運用を勧める内容。本文は未確認のため、根拠や運用方法はスライドで要確認。",
+      "topics": ["xp", "team"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「カバレッジ100%は無意味、の常識をひっくり返す」"
+    },
+    {
+      "url": "https://zenn.dev/peki/articles/ai-driven-development-architecture",
+      "title": "AI駆動開発でも設計原則は必要なのか？ トークン消費と手戻りから考える",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "published": "2026-11-22",
+      "summary": "peki氏のZenn記事。AIがコードを書く時代でも単一責任・疎結合・依存関係逆転などの設計原則に価値は残るが、小規模CRUDに層を増やすのは負担になると論じる。一回の生成トークンではなく、変更ごとの理解・検証・手戻りを含む総コストを最小化すべきという思考モデルを示しているが、実測に基づくものではないと本文で明記している。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "逆転型で入るなら「設計原則はAIのためにある：トークン代で考える設計」"
+    },
+    {
+      "url": "https://anil.recoil.org/notes/software-too-complex-for-humans",
+      "title": "Was software just always too complex for humans?",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "published": "2026-11-22",
+      "summary": "anil.recoil.org（Anil Madhavapeddy氏のサイトとみられる）の短いノート。リーマン予想のAI支援証明の報告をきっかけに、人間が書いたコードのバグがソフトウェア展開の速さに追いつけていないと論じる。形式仕様から実装を導くことと、エージェントで多様な実装を作り単一バグの影響を減らすことを提案し、モデルやハーネスの改善だけでは低品質コードが増えるだけだと述べている。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "逆転型で入るなら「ソフトウェアは最初から人間には複雑すぎた」"
+    },
+    {
+      "url": "https://speakerdeck.com/azukiazusa1/slide-ca142a4a-9ec4-4750-91c1-07892c44a423",
+      "title": "ワークフローからハーネスへ — Web フレームワークの作者たちが AI エージェントに向かう理由",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-22",
+      "summary": "azukiazusa氏の登壇資料（Speaker Deck）。タイトルによれば、Webフレームワークの作者たちがAIエージェントのハーネス開発に向かっている背景を、ワークフローからハーネスへの移行という観点で解説する内容。本文は未確認。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "フレームワーク作者がエージェントに向かう＝「次のフレームワークはハーネスだ」"
+    },
+    {
+      "url": "https://aws.amazon.com/jp/blogs/news/aidm-introducing-reverse-spec-flow/",
+      "title": "[AI-Driven Modernization] 既存コードからAIエージェント向けの仕様書を起こす「Reverse Spec Flow」を公開しました | Amazon Web Services",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-21",
+      "summary": "AWSの公式ブログ。タイトルによれば、既存コードからAIエージェント向けの仕様書を起こす手法「Reverse Spec Flow」を公開したという告知。レガシーコードの仕様駆動開発への取り込みに関わる内容とみられるが、詳細は本文で要確認。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "仕様書から書くのではなく「コードから仕様書を逆算する」"
+    },
+    {
+      "url": "https://zenn.dev/ojisan_ai_lab/articles/claude-code-compact-stack-20261122",
+      "title": "Claude Codeの /compact を重ねると何が消える？ 決まり10個は残り、最初の表30行は作業を挟むと2回目で0行でした",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "published": "2026-11-22",
+      "summary": "Zennの検証記事。タイトルによれば、Claude Codeの/compactを繰り返したとき、決まりごと10個は残った一方、最初に渡した表30行は作業を挟むと2回目の圧縮で0行になったという。本文は未確認のため、検証条件は記事で要確認。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "「AIは覚えている」は幻想？ 圧縮で消える情報・残る情報"
+    },
+    {
+      "url": "https://zenn.dev/kanae_chaika/articles/ai-requirements-docs-workflow",
+      "title": "AI 駆動開発の要件定義書は、AI が書いて AI が読む——「メモして」から始まった文書づくり",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "published": "2026-11-22",
+      "summary": "Zennの記事。タイトルによれば、AI駆動開発で要件定義書をAIが書きAIが読む運用を、「メモして」という指示から始めた文書づくりの経験として紹介する内容。本文は未確認。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "逆転型で入るなら「要件定義書の読者は、もう人間じゃない」"
+    },
+    {
+      "url": "https://zenn.dev/fitness_densuke/articles/2026-11-20-what-to-decide-in-an-epic",
+      "title": "Epic では、後のリリースが前提にする物だけを決める ― 線を引き、何を作るか → どう守るか → 分け方の順に決める",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "published": "2026-11-21",
+      "summary": "Zennの記事。タイトルによれば、Epicの段階では後のリリースが前提にするものだけを決め、「何を作るか→どう守るか→分け方」の順で決めるべきだと説く内容。本文は未確認。",
+      "topics": ["agile", "scrum"],
+      "neta": "A",
+      "hook": "Epicで決めすぎない：「決めるのは後から変えられないものだけ」"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/article/2611/22/2000003388/",
+      "title": "Anthropicの数学者、「Claude」と共同で「リーマン予想」を証明したと主張 Leanコミュニティが「正しい」と認定",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-21",
+      "summary": "ITmediaの記事。タイトルによれば、Anthropicの数学者がClaudeと共同でリーマン予想を証明したと主張し、Leanコミュニティが正しいと認定したと報じている。専門家の評価は割れている可能性があり（NHKも専門家の受け止めを報道）、証明の評価については一次情報で要確認。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "数学の難問もAIと人間の「ペアプロ」で解く時代？"
+    },
+    {
+      "url": "https://qiita.com/yamamoto_a_genee/items/76562c5c80032ad9e962",
+      "title": "Agent Harnessを理解するために、150行ほどのPythonで自作してみた - Qiita",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-22",
+      "summary": "Qiitaの記事。タイトルによれば、AIエージェントのハーネスの仕組みを理解するために、約150行のPythonで自作してみた内容。本文は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "エージェントの中身はたった150行？ 魔法を分解してみる"
+    },
+    {
+      "url": "https://speakerdeck.com/timakin/definitive-and-pluggable-software-factory",
+      "title": "プラガブルで宣言的なソフトウェアファクトリーを支えるTypeScript",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-22",
+      "summary": "timakin氏の登壇資料（Speaker Deck）。タイトルによれば、AIで開発を自動化するソフトウェアファクトリーを、プラガブルかつ宣言的に構成するためのTypeScript活用を扱う内容。本文は未確認。",
+      "topics": ["ai-dev", "design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/akahmys/articles/454a729a00401f",
+      "title": "Rust で疎ボリュームのライブラリ brodo を Claude Code と作った",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-09",
+      "summary": "Zennの記事。タイトルによれば、Rustの疎ボリュームライブラリ「brodo」をClaude Codeと共に開発した経験談。本文は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://github.com/awslabs/codekb",
+      "title": "GitHub - awslabs/codekb",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-21",
+      "summary": "AWS Labsが公開したGitHubリポジトリ「codekb」。名称からはコードベースの知識化に関わるツールとみられるが、本文は未確認のため用途はリポジトリで要確認。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/gagambo/articles/bbff2d98e89ea9",
+      "title": "Androidアプリ未経験がAIを駆使して、1週間でAndroidアプリを作成した話",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "published": "2026-11-22",
+      "summary": "Zennの記事。タイトルによれば、Androidアプリ開発未経験の筆者がAIを活用して1週間でアプリを作った体験談。本文は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://qiita.com/the_tech_news/items/fdb03bda7d8b76b0f592",
+      "title": "【PSM I 受験記】AWSなどの他資格と違う！受験前に知っておくべき注意点まとめ",
+      "source": "Qiita(スクラム)",
+      "lang": "ja",
+      "published": "2026-11-22",
+      "summary": "Qiitaの記事。タイトルによれば、スクラムマスター資格PSM Iの受験記で、AWSなど他の資格試験との違いや受験前の注意点をまとめた内容。本文は未確認。",
+      "topics": ["scrum"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.oreilly.com/radar/what-happened-to-silicon-valley/",
+      "title": "What Happened to Silicon Valley?",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "published": "2026-11-22",
+      "summary": "O'Reilly Radarの記事。タイトルによれば、シリコンバレーの変化を問う論考。本文は未確認のため、論点（文化・働き方・AI投資など）は記事で要確認。",
+      "topics": ["worklife"],
+      "neta": "B"
+    },
+    {
+      "url": "https://github.com/gulivan/worker755",
+      "title": "Show HN: I built a game where you are an LLM's subagent",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "published": "2026-11-22",
+      "summary": "Hacker NewsのShow HN投稿。タイトルによれば、プレイヤーがLLMのサブエージェント役になるゲームを作ったという。本文は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/21/muru/",
+      "title": "Muru – AI-assisted Rust server for Python apps by mod_WSGI's creator",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "published": "2026-11-22",
+      "summary": "Simon Willison氏のブログ投稿。タイトルによれば、mod_wsgiの作者がAIの支援を受けて開発した、Pythonアプリ向けのRust製サーバー「Muru」を紹介している。本文は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/11/google-agent-compute-engine/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Google Announces Agent Compute Engine for Secure AI Agent Execution",
+      "source": "InfoQ",
+      "lang": "en",
+      "published": "2026-11-22",
+      "summary": "InfoQの記事。タイトルによれば、GoogleがAIエージェントを安全に実行するための基盤「Agent Compute Engine」を発表した。本文は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://sre-magazine.net/articles/7/aoto/",
+      "title": "Google が実践する最先端の SRE",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2025-03-24",
+      "summary": "SRE Magazineの記事（公開は2025年3月）。タイトルによれば、Googleが実践している最新のSREの取り組みを紹介する内容。本文は未確認。",
+      "topics": ["team"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+      "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "published": "2026-11-22",
+      "summary": "GPU Partnerのブログ記事。タイトルによれば、Inkling・Qwen・Unslothを使ってローカルでAIを動かすための初心者向けガイド。本文は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    }
+  ],
+  "rejected_count": 6,
+  "capped_count": 55,
+  "failures": []
+}
