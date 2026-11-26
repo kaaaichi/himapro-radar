@@ -1,0 +1,233 @@
+{
+  "date": "2026-11-27",
+  "items": [
+    {
+      "url": "https://www.infoq.com/news/2026/11/qcon-sf-26-kill-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "QCon San Francisco 2026: How to Kill the Code Review",
+      "source": "InfoQ",
+      "lang": "en",
+      "published": "2026-11-26",
+      "summary": "記事によると、QCon SF 2026 で Aviator CEO の Ankit Jain が「行単位のコードレビューは多くのチームで事実上死んでいる」と主張し、レビューの実態は欠陥発見より知識共有だとする Microsoft・Google の調査や、PR の中央値が640行に膨らみ「レビュー劇場」化しているという数字を挙げた（数値は登壇者の発言として報じられたもので一次資料は未確認）。代替として、意図と受け入れ基準の添付、繰り返す指摘の不変条件化、証拠の提示、人間は diff ではなく判断を議論する、などの6層を提示し、自社ではレビューコメントから64個の不変条件を抽出したという。結びは「思考は外注できても、理解は外注できない」（要約は取得ツールの要約に依拠）。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「コードレビューは、もう誰もちゃんとやっていない」"
+    },
+    {
+      "url": "https://note.com/assuredjp/n/n6ec5f6544e0c",
+      "title": "理解をあきらめないAI駆動開発 ——開発の流れに「理解の工程」を織り込む6つの実践｜株式会社アシュアード",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-26",
+      "summary": "アシュアードの田所氏がアーキテクチャカンファレンス2026の登壇内容をまとめた記事。AI がコードを書くことで「書くことで理解する」流れが切れ、認知負債が見えにくく溜まるため、理解を開発フローに意図的に組み込むべきだと主張する。計画の根拠の可視化、1画面1問で設計を問うスキル、つまずき起点の5分レッスン、理解しやすい順に並べ替えるレビュー、スプリント後の学び直し、チームでの設計書コメントの6つの実践を紹介している（要約は取得ツールの要約に依拠）。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「AIで速くなった分、わざわざ遅くする工程を入れる」"
+    },
+    {
+      "url": "https://speakerdeck.com/kaminashi/domain-modeling-with-the-whole-service-team",
+      "title": "サービスチーム全員で2年半続けているドメインモデリングのリアル / domain-modeling-with-the-whole-service-team",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-26",
+      "summary": "カミナシの設備保全サービスチームが、PdM・デザイナー・エンジニア全員で続けてきたドメインモデリングの実践をまとめたスライド。具体的な値を書いたオブジェクトモデルとユースケースを行き来する進め方で手戻りがほぼなくなった一方、人とプロダクトの成長に加え AI で実装が速くなったことで、モデリング自体が開発のボトルネックになったという。対策として基本の徹底と、録画・文字起こし・用語集を使った AI への下準備の委任を挙げ、何を作り何と呼ぶかの判断はチームで行うとしている（要約は取得ツールの要約に依拠）。",
+      "topics": ["design", "team"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「AIで実装が速くなったら、今度は話し合いが詰まった」"
+    },
+    {
+      "url": "https://zenn.dev/fitness_densuke/articles/2026-11-24-humans-look-down-to-components",
+      "title": "保守性は、外からは確かめられない ― だから、モジュールの分け方だけは人が見る",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "published": "2026-11-26",
+      "summary": "品質特性のうち機能や性能は動かせば外から確かめられるが、保守性だけは受け入れテストが全部通っても保証できない、と著者は述べる。AI 駆動開発でコード内部の読みやすさの重要度は下がったが、変更が増えた分モジュール性や依存の向きはむしろ重要になり、「ここを変えると何が起きるか」に人が答えるためにそこだけは人が見るべきだとする。作る前に「物」同士の関係と矢印の向きを図で確認し、作った後は機械が抽出した実際の依存と差分を見る手順を提案している（要約は取得ツールの要約に依拠）。",
+      "topics": ["ai-dev", "design"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「コードは読まなくていい、でも分け方だけは読め」"
+    },
+    {
+      "url": "https://anond.hatelabo.jp/20261126144022",
+      "title": "CLAUDE.md / AGENTS.md を Claude Codeに継続的に書かせる",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-26",
+      "summary": "タイトルによると、Claude Code の設定ファイル（CLAUDE.md / AGENTS.md）を人が書くのではなく、Claude Code 自身に継続的に更新させる運用についての匿名ダイアリーの投稿。本文は未確認のため、具体的な手順や効果は元記事で確認が必要。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "AIへの指示書をAI自身に書かせると何が起きるか"
+    },
+    {
+      "url": "https://zenn.dev/shibata/articles/d9c1e1b47b093f",
+      "title": "レトロスペ苦ティブを変えたかった話",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "published": "2026-11-26",
+      "summary": "タイトルによると、苦痛になっていたレトロスペクティブ（ふりかえり）を改善しようとした経験談。本文は未確認のため、どんな工夫をしたかは元記事で確認が必要。",
+      "topics": ["scrum", "team"],
+      "neta": "A",
+      "hook": "ふりかえりが「苦」になるのはなぜか"
+    },
+    {
+      "url": "https://zenn.dev/yoshipon_tech/articles/a0e13c3dbd2f7d",
+      "title": "個人の目標設定に悩んでいたら、アジャイルが言葉を定義し直すきっかけをくれた話",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "published": "2026-11-26",
+      "summary": "タイトルによると、個人の目標設定に悩んでいた筆者が、アジャイルの考え方をきっかけに目標に関する言葉を定義し直した経験談。本文は未確認。",
+      "topics": ["agile", "worklife"],
+      "neta": "A",
+      "hook": "アジャイルを個人の目標設定に持ち込むと"
+    },
+    {
+      "url": "https://zenn.dev/techu_jp/articles/027ddae7030ac4",
+      "title": "Excelの画面設計書をHTMLにしてみた — AI駆動開発に向けた「触って確認できる設計書」",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "published": "2026-11-26",
+      "summary": "タイトルによると、Excel で書いていた画面設計書を、触って確認できる HTML 形式に置き換えた取り組みで、AI 駆動開発を見据えた設計書の形を探る記事。本文は未確認。",
+      "topics": ["ai-dev", "design"],
+      "neta": "A",
+      "hook": "Excel方眼紙の設計書はAI時代に生き残るか"
+    },
+    {
+      "url": "https://speakerdeck.com/tonkotsuboy_com/index-1f2ed0d2-597d-459d-abf2-db8db109c5d6",
+      "title": "【Claude Code】鹿野さんが実践するエンジニアの日常業務を爆速にする最新推しツール 大公開",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-26",
+      "summary": "タイトルによると、鹿野壮氏が Claude Code を中心に日常業務を効率化するツールを紹介するスライド。具体的なツール名や使い方は未確認。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "AIで「爆速」になるのはコードより日常業務の方かも"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
+      "title": "Quoting Jack Despain Zhou",
+      "source": "Simon Willison",
+      "lang": "en",
+      "published": "2026-11-26",
+      "summary": "Simon Willison が Jack Despain Zhou の Substack 記事から引用した短い投稿。引用の趣旨は、YouTube 動画や学会発表、メールの売り込みにまで Claude の文体が聞こえ、AI によって文章の「個性の喪失」が進んでいるというもの。Simon 自身のコメントはない（要約は取得ツールの要約に依拠）。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "どこを見ても同じAIの文体になっていく問題"
+    },
+    {
+      "url": "https://janlukas.blog/posts/ai-self-hosting",
+      "title": "AI made self-hosting fun again",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "published": "2026-11-26",
+      "summary": "タイトルによると、AI の助けを借りることで、面倒だったセルフホスティング（自前でのサーバー運用）が再び楽しくなったという個人ブログの記事。本文は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "AIは面倒な作業を「楽しい作業」に戻せるか"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/11/SRE-based-training/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Building a Production-Ready Culture and Skills Through SRE-based Training",
+      "source": "InfoQ",
+      "lang": "en",
+      "published": "2026-11-26",
+      "summary": "タイトルによると、SRE の考え方に基づく研修を通じて、本番運用に耐える文化とスキルをチームに育てる取り組みを紹介する記事。本文は未確認。",
+      "topics": ["team"],
+      "neta": "A",
+      "hook": "本番に強いチームは研修で作れるか"
+    },
+    {
+      "url": "https://digital-agency-news.digital.go.jp/articles/2026-11-26",
+      "title": "デジタル庁デザインシステムをどう使うか：導入先に合わせた「ローカルデザインシステム」を作る｜デジタル庁ニュース",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-26",
+      "summary": "タイトルによると、デジタル庁デザインシステムをそのまま使うのではなく、導入先の事情に合わせた「ローカルデザインシステム」を作る使い方を解説するデジタル庁の記事。本文は未確認。",
+      "topics": ["design"],
+      "neta": "A",
+      "hook": "共通の型をそのまま使わず「自分たち版」を作る"
+    },
+    {
+      "url": "https://dev.sin5d.com/meta-muse-usage",
+      "title": "MetaのAIエージェント Museを1ヶ月使い倒してわかったこと | kinoko dev",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-25",
+      "summary": "タイトルによると、Meta の AI エージェント Muse を1か月使い込んだ筆者の体験記。本文は未確認のため、得られた知見は元記事で確認が必要。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "A",
+      "hook": "AIエージェントを1か月使い倒すと見えること"
+    },
+    {
+      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+      "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "published": "2026-11-26",
+      "summary": "タイトルによると、Google が AI エージェントに自社の MCP サーバー経由での Workspace 利用を求める方針だが、Gmail 用の MCP サーバーはメールを送信できない、と指摘する記事。本文は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "メールを送れないGmail連携、それは欠陥か安全設計か"
+    },
+    {
+      "url": "https://speakerdeck.com/azukiazusa1/slide-efc59f7e-336f-4e6c-8919-27211ebc3d07",
+      "title": "Jev で実現する Generative UI",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-26",
+      "summary": "タイトルによると、Jev というツールを使って、AI が状況に応じて UI を生成する Generative UI を実現する方法を紹介するスライド。Jev の詳細は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://bunshun.jp/articles/-/93682",
+      "title": "ニート寸前の女子大生→“ChatGPTを使い倒して”未経験で100日連続アプリ開発→国際学会で発表…年収2000万円・25歳経営者の“生成AIで激変した人生” | 文春オンライン",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-26",
+      "summary": "タイトルによると、開発未経験から ChatGPT を活用して100日連続でアプリを開発し、国際学会での発表を経て経営者になった25歳の人物を紹介するインタビュー記事。本文は未確認。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "B"
+    },
+    {
+      "url": "https://pc.watch.impress.co.jp/docs/news/2159488.html",
+      "title": "自律型AIエージェント「Claude Duet」、日本でも利用可能に",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-26",
+      "summary": "タイトルによると、自律型 AI エージェント「Claude Duet」が日本でも利用可能になったことを伝えるニュース。機能や提供条件は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/26/2000003470/",
+      "title": "Obsidian公式の「エージェント向け」スキル集が登場 Vault操作法とファイル形式をひとまとめに",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-26",
+      "summary": "タイトルによると、Obsidian が AI エージェント向けに Vault の操作方法やファイル形式をまとめた公式スキル集を公開したというニュース。本文は未確認。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "B"
+    },
+    {
+      "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
+      "title": "OpenAI may be in cost control mode",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "published": "2026-11-26",
+      "summary": "タイトルによると、OpenAI がコスト抑制に動いているのではないかと推測する個人ブログの記事。根拠は未確認で、あくまで筆者の見立て。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/11/microsoft-ignite-2026-recap/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Recap of Microsoft Ignite 2026: Copilot as the Work OS and Agent Governance",
+      "source": "InfoQ",
+      "lang": "en",
+      "published": "2026-11-26",
+      "summary": "タイトルによると、Microsoft Ignite 2026 のまとめ記事で、Copilot を仕事の基盤（Work OS）と位置づける方針と、AI エージェントのガバナンスが主要テーマだったとしている。本文は未確認。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "B"
+    }
+  ],
+  "rejected_count": 9,
+  "capped_count": 56,
+  "failures": []
+}
