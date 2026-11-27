@@ -1,0 +1,230 @@
+{
+  "date": "2026-11-28",
+  "items": [
+    {
+      "url": "https://www.ryuzee.com/contents/blog/14629",
+      "title": "【資料公開】コードを書くAI、アーキテクチャーを決める組織",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-27",
+      "summary": "吉羽龍太郎氏がアーキテクチャConference 2026の登壇資料を公開した記事。アーキテクチャーを決めているのはチームの境界の引き方であり、AIはその境界が生成物に表れる速度を上げる、と論じている。境界は文書で伝えるだけでなく越えたらビルドが落ちる仕組みで強制し、可視化・設計判断の記録・テスト・CI/CD・オブザーバビリティで変更し続けられる状態を保つべきだとしている（要約は取得ツールの要約に依拠）。",
+      "topics": ["design", "team"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「アーキテクチャーを決めているのは、設計者ではなくチームの境界線」"
+    },
+    {
+      "url": "https://speakerdeck.com/littlehands/umtp-suraido-20261125",
+      "title": "AI使って開発するなら、モデリングするんだよ - 4つの図で始めるモデリングと、AIにモデルを実装させるアーキテクチャ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-26",
+      "summary": "タイトルによると、AIを使った開発でこそモデリングが重要だと主張し、4つの図から始めるモデリングの方法と、作ったモデルをAIに実装させるためのアーキテクチャを紹介するスライド。本文は未確認のため、具体的な図の種類や手順は資料で確認が必要。",
+      "topics": ["design", "ai-dev"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「AIがコードを書く時代に、いちばん効くのは図を描くこと」"
+    },
+    {
+      "url": "https://zenn.dev/fitness_densuke/articles/2026-11-24-what-goes-into-a-harness",
+      "title": "ハーネスに何を入れるか ― 人が積み上げた開発の進め方を、AI 向けに並べ直す",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "published": "2026-11-27",
+      "summary": "AIにコードを書かせる際の検査・テスト・決まりの文書・実機での確かめ方・リリース後の警報などをまとめて「ハーネス」と呼び、入れる物を一覧化した記事。項目を「アプリの外の土台」「アプリの中の土台」「決まり」「動かし方」「見張り」の5区画に分け、それぞれ「設定する」「作る」「方針を決める」の入れ方で整理している。AIには文書より仕組みで守らせるべきで、入れない物には理由と入れる条件を書くよう勧めており、新しい考えは足していないと明記している（要約は取得ツールの要約に依拠）。",
+      "topics": ["ai-dev", "xp"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「AI向けの新しいベストプラクティスは、実は人間向けの昔のやり方の並べ直し」"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/11/uber-agent-spend-steady/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Meta Brings Code Review Auto-Approval More Mainstream with PyTorch GreenLight",
+      "source": "InfoQ",
+      "lang": "en",
+      "published": "2026-11-27",
+      "summary": "記事によると、PyTorch の GreenLight がメンテナーのプルリクエストを AI レビュアーが承認できるようにした。これは Meta の RADAR のオープンソース版で、RADAR は差分を作成者と出所で振り分け、codemod は包括ポリシーで承認、AI 生成の変更は安全性チェック・リスクスコア・LLM レビュアーを通し、どこかで失敗すれば人間に回すという。GreenLight はマージルールに名前がある作成者に限って承認し、それ以外はシャドウモードで評価するとされる（URL のスラッグは記事見出しと一致しない。本文後半は取得できず未確認）。",
+      "topics": ["ai-dev", "team"],
+      "neta": "S",
+      "hook": "逆転型で入るなら「コードレビューの承認ボタンを、AIが押し始めた」"
+    },
+    {
+      "url": "https://speakerdeck.com/anizozina/akitekucha-kanfarensu-2026-atomawashi-dekiru-sekkei-maedaoshi-subeki-sekkei",
+      "title": "後回しできる設計、 前倒しすべき設計。",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-27",
+      "summary": "Dress Code株式会社の津田薫氏による、社内共通データ基盤「CoreDB」の設計事例の発表資料。前倒しすべきは「データに何を約束させるか」（何を事実として残すか、項目の意味、データオーナー）で、後回しできるのは保存構造や Read Model の追加など「約束をどう実装するか」だと整理している。Event Sourcing、Transactional Outbox、AIが解釈しやすい項目定義の統一、後から Read Model を足した事例が含まれる（要約は取得ツールの要約に依拠）。",
+      "topics": ["design"],
+      "neta": "A",
+      "hook": "逆転型で入るなら「設計は全部先に決めなくていい。決めるべきは“約束”だけ」"
+    },
+    {
+      "url": "https://speakerdeck.com/tkyowa/kakaku-com-ai-driven-system-renewal-202611",
+      "title": "価格.comのAI駆動による全面刷新の現在地と振り返り",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-27",
+      "summary": "タイトルによると、価格.comのシステムをAI駆動で全面刷新している取り組みの現在地と振り返りをまとめたスライド。大規模な既存サービスのリプレースにAIをどう使ったかの事例と思われるが、本文は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "大規模リプレースをAI駆動でやったら何が起きたか、の生々しい振り返り"
+    },
+    {
+      "url": "https://tech.dentsusoken.com/entry/2026/11/27/133501",
+      "title": "さくさく作れる毎日を支える、AI 時代の開発環境 — 隔離・コンテキスト・ガードレール・検証の整理 - [はてなCMS] 電通総研 テックブログ",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-27",
+      "summary": "タイトルによると、AIエージェントを使った開発環境を「隔離」「コンテキスト」「ガードレール」「検証」の4観点で整理した電通総研のテックブログ記事。本文は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "AIに安心して任せる環境の4本柱、と整理して入れる"
+    },
+    {
+      "url": "https://tech.kickflow.co.jp/entry/2026/11/27/154920",
+      "title": "Devin Bot に毎朝のパフォーマンス改善を任せてみた - kickflow Tech Blog",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-27",
+      "summary": "タイトルによると、kickflow がAIエージェント Devin を使い、毎朝定期的にパフォーマンス改善を任せた取り組みの記録。本文は未確認のため、成果や運用上の課題は記事で確認が必要。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "「毎朝AIに改善を任せる」チームの日常は回るのか"
+    },
+    {
+      "url": "https://zenn.dev/rentio/articles/scrum-planning-with-claude-code",
+      "title": "スクラムのプランニングで Claude Code をどう使っているか",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "published": "2026-11-27",
+      "summary": "タイトルによると、レンティオのチームがスプリントプランニングで Claude Code をどう使っているかを紹介する記事。本文は未確認。",
+      "topics": ["scrum", "ai-dev"],
+      "neta": "A",
+      "hook": "スプリントプランニングにAIが同席すると、何が変わるか"
+    },
+    {
+      "url": "https://zenn.dev/komekomecraft/articles/dc1905ff16b916",
+      "title": "AIに作らせると、なぜ『できてない』が起きるのか——僕の受け入れ作法",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "published": "2026-11-27",
+      "summary": "タイトルによると、AIに実装させると「できました」と言いつつ実際はできていない事態がなぜ起きるのかを考察し、筆者なりの受け入れ（検収）の作法を紹介する記事。本文は未確認。",
+      "topics": ["ai-dev", "xp"],
+      "neta": "A",
+      "hook": "逆転型で入るなら「AIの“できました”は、だいたいできていない」"
+    },
+    {
+      "url": "https://github.com/convex/convex-backend-skill/issues/64",
+      "title": "Convex skills send the user's app idea to a remote server without telling them",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "published": "2026-11-27",
+      "summary": "Convex のエージェント向けスキルについて起票された GitHub Issue。起票者は、quickstart スキルが利用者のアプリのアイデアを告知なく外部ホストへ送信していること、別スキルがリモートのスクリプトを bash に直接流していること、安全分類器を避けるようにダウンロードと実行を分けて指示していることを指摘し、オプトイン化やスクリプトの同梱・ハッシュ固定を提案している（Issue は Open で、指摘は起票者の主張。要約は取得ツールの要約に依拠）。",
+      "topics": ["ai-dev"],
+      "neta": "A",
+      "hook": "便利な「スキル」を入れたら、アイデアが外に送られていた"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/11/netflix-quasar-api-impact/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Netflix Builds Quasar to Measure the Blast Radius of Library API Changes",
+      "source": "InfoQ",
+      "lang": "en",
+      "published": "2026-11-27",
+      "summary": "タイトルによると、Netflix がライブラリの API 変更が社内のどこまで影響するか（爆発半径）を測るツール Quasar を構築したことを伝える記事。本文は未確認。",
+      "topics": ["design"],
+      "neta": "A",
+      "hook": "API を変えたら誰が困るのか、を先に測るという発想"
+    },
+    {
+      "url": "https://www.nikkei.com/article/DGXZQOCD05B430V01C26A1000000/",
+      "title": "日本のものづくり、AIでカイゼンを 現場に眠る「暗黙知」は宝の山 - 日本経済新聞",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-27",
+      "summary": "タイトルによると、日本の製造現場に眠る暗黙知をAIで活用してカイゼンにつなげるべきだと論じる日経の記事。本文は未確認（有料記事の可能性あり）。",
+      "topics": ["ai-dev", "worklife"],
+      "neta": "B"
+    },
+    {
+      "url": "https://forest.watch.impress.co.jp/docs/news/2159782.html",
+      "title": "業務向け「Copilot」アプリに「Office」を統合、人とエージェントが協働する「Workspaces」も【Ignite 2026】／「Home」は一般提供、自律型の「Autopilot」はFrontier向けに展開",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-27",
+      "summary": "タイトルによると、Microsoft が Ignite 2026 で業務向け Copilot アプリへの Office 統合、人とエージェントが協働する「Workspaces」、自律型の「Autopilot」などを発表したことを伝える記事。本文は未確認。",
+      "topics": ["ai-dev", "team"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/babyjob/articles/scrum-fest-sapporo-2026-report-babyjob",
+      "title": "Scrum Fest Sapporo 2026 参加レポート",
+      "source": "Zenn(スクラム)",
+      "lang": "ja",
+      "published": "2026-11-27",
+      "summary": "タイトルによると、Scrum Fest Sapporo 2026 の参加レポート。本文は未確認。",
+      "topics": ["scrum"],
+      "neta": "B"
+    },
+    {
+      "url": "https://zenn.dev/handa_lab/articles/12-scheduled-skill-confirm",
+      "title": "Claude Code 2.1.325 で、無人の定期タスクがスキルの前で確認待ちになりうる。対象の条件と Skill(name) の書き方",
+      "source": "Zenn(AI駆動開発)",
+      "lang": "ja",
+      "published": "2026-11-27",
+      "summary": "タイトルによると、Claude Code の特定バージョンで無人の定期タスクがスキル呼び出しの前で確認待ちになりうる問題について、対象となる条件と許可設定の書き方を解説する記事。本文は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+      "title": "Claude sabotaging ML research tasks?",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "published": "2026-11-27",
+      "summary": "タイトルによると、Claude が機械学習の研究タスクを妨害しているのではないかと問題提起する X（旧Twitter）の投稿で、Hacker News で話題になった。投稿者個人の観察であり、内容は未確認。",
+      "topics": ["ai-dev"],
+      "neta": "B"
+    },
+    {
+      "url": "https://blainehansen.me/post/mainstream-verifiable-language/",
+      "title": "The need for a formally verifiable mainstream programming language",
+      "source": "Hacker News Front Page",
+      "lang": "en",
+      "published": "2026-11-27",
+      "summary": "タイトルによると、形式検証が可能な主流のプログラミング言語が必要だと論じるブログ記事。本文は未確認。",
+      "topics": ["design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/presentations/sub-100ms-latency-distributed-systems/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Presentation: From Fan-Out to Fast: Sub-100ms API Design in Distributed Systems",
+      "source": "InfoQ",
+      "lang": "en",
+      "published": "2026-11-27",
+      "summary": "タイトルによると、分散システムでファンアウトする API を100ミリ秒未満で応答させるための設計を扱う InfoQ の講演。本文は未確認。",
+      "topics": ["design"],
+      "neta": "B"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/11/mock-service-worker-v3/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "title": "Mock Service Worker Releases v3.0 with ESM-Only Build, Socket-Based Interception and GraphQL Subs",
+      "source": "InfoQ",
+      "lang": "en",
+      "published": "2026-11-26",
+      "summary": "タイトルによると、API モックライブラリ Mock Service Worker の v3.0 がリリースされ、ESM のみのビルド、ソケットベースのインターセプト、GraphQL サブスクリプション対応などが入ったことを伝える記事。本文は未確認。",
+      "topics": ["xp"],
+      "neta": "B"
+    },
+    {
+      "url": "https://gigazine.net/news/20261127-d2/",
+      "title": "シンプルな構文で美しい図を自動生成する「D2」が進化、非営利化で独自レイアウトエンジンもオープンソース化",
+      "source": "はてなブックマーク IT人気エントリ",
+      "lang": "ja",
+      "published": "2026-11-27",
+      "summary": "タイトルによると、テキストから図を生成する言語「D2」が非営利化し、独自のレイアウトエンジンもオープンソース化されたことを伝える記事。本文は未確認。",
+      "topics": ["design"],
+      "neta": "B"
+    }
+  ],
+  "rejected_count": 9,
+  "capped_count": 56,
+  "failures": []
+}
